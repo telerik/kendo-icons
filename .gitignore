@@ -11,3 +11,6 @@ debug.log
 
 # System files
 .DS_Store
+
+# npm
+*.tgz
