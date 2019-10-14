@@ -22,9 +22,8 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
+    "gulp-sass-lint": "^1.4.0",
     "node-sass": "^4.12.0"
   },
-  "dependencies": {
-    "gulp-sass-lint": "^1.4.0"
-  }
+  "dependencies": {}
 }
