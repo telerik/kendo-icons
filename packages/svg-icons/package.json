@@ -1,5 +1,5 @@
 {
-  "name": "@progress/kendo-font-icons",
+  "name": "@progress/kendo-svg-icons",
   "description": "",
   "version": "0.0.1",
   "author": "Progress",
@@ -14,7 +14,7 @@
   ],
   "keywords": [
     "Kendo UI",
-    "Font",
+    "SVG",
     "Icons"
   ],
   "publishConfig": {
