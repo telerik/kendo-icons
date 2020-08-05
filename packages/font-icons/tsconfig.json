@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/",
+        "target": "es5",
+        "module": "commonjs",
+        "lib": ["es2015", "dom"],
+        "types": [],
+
+        "declaration": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "noImplicitAny": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "removeComments": false
+    },
+    "files": [
+        "index.ts"
+    ],
+    "include": [],
+    "exclude": [
+        "node_modules"
+    ]
+}
