@@ -1,0 +1,14 @@
+{
+    "iconSets": [
+        {
+            "name": "arrows",
+            "startingPoint": "E000",
+            "icons": [
+                "arrow-45-up-right|collapse-ne|resize-ne",
+                "arrow-45-down-right|collapse-se|collapse|resize-se",
+                "arrow-45-down-left|collapse-sw|resize-sw",
+                "arrow-45-up-left|collapse-nw|resize-new"
+            ]
+        }
+    ]
+}
