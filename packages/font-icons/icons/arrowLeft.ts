@@ -1,4 +1,4 @@
-import { FontIcon } from './font-icon.interface';
+import { FontIcon } from './fontIcon.interface';
 
 export const arrowLeft: FontIcon = {
     name: 'arrow-left',

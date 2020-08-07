@@ -1,4 +1,4 @@
-import { SVGIcon } from './svg-icon.interface';
+import { SVGIcon } from './svgIcon.interface';
 
 export const arrowUp: SVGIcon = {
     name: 'arrow-up',

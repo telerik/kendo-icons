@@ -1,6 +1,6 @@
-export { arrowUp } from './icons/arrow-up';
-export { arrowRight } from './icons/arrow-right';
-export { arrowDown } from './icons/arrow-down';
-export { arrowLeft } from './icons/arrow-left';
+export { arrowUp } from './icons/arrowUp';
+export { arrowRight } from './icons/arrowRight';
+export { arrowDown } from './icons/arrowDown';
+export { arrowLeft } from './icons/arrowLeft';
 
-export { caretTr } from './icons/caret-tr';
+export { caretTr } from './icons/caretTr';
