@@ -6,12 +6,16 @@
   "repository": "telerik/kendo-icons",
   "bugs": "https://github.com/telerik/kendo-icons/issues",
   "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
   "files": [
-    "dist/",
-    "icons/",
-    "index.ts",
-    "index.d.ts"
+    "dist"
   ],
+  "scripts": {
+    "build": "rollup -c"
+  },
   "keywords": [
     "Kendo UI",
     "SVG",
@@ -19,5 +23,10 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "rollup": "^2.23.1",
+    "rollup-plugin-typescript2": "^0.27.2",
+    "typescript": "^3.9.6"
   }
 }

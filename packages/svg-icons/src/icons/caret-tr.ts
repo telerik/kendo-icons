@@ -1,4 +1,4 @@
-import { SVGIcon } from './svg-icon.interface';
+import { SVGIcon } from '../svg-icon.interface';
 
 export const caretTr: SVGIcon = {
     name: 'caret-tr',
