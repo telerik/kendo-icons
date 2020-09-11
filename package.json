@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "prepare-packages": "gulp pkg-svg && gulp pkg-font"
   },
   "devDependencies": {
     "@progress/kendo-theme-tasks": "^0.7.0",

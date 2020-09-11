@@ -230,6 +230,7 @@ gulp.task('pkg-font:update', done => {
     let content = [];
 
     fse.emptyDirSync( './packages/font-icons/dist' );
+    fse.emptyDirSync( './packages/font-icons/html' );
 
     iconsHast.icons.forEach( iconDef => {
         iconName = iconDef.name;
