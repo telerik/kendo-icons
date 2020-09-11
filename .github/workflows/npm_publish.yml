@@ -1,0 +1,40 @@
+name: Publish to npm
+
+on: [workflow_dispatch]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+    - name: Checkout branch
+      uses: actions/checkout@v2
+
+    - name: Setup node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
+
+    - name: Install
+      run: |
+        npm install
+        npx lerna bootstrap
+
+    - name: Prepare packages
+      run: |
+        gulp pkg-svg
+        gulp pkg-font
+
+
+    - name: Add token
+      env:
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      run: printf "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+
+    - name: Publish
+      run: lerna publish
