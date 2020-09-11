@@ -1,9 +1,14 @@
 name: Publish to npm
 
-on: [workflow_dispatch]
+on:
+  workflow_dispatch:
+    branches:
+      - stable
+      - develop
+
 
 jobs:
-  build:
+  publish:
 
     runs-on: ubuntu-latest
 
@@ -12,8 +17,15 @@ jobs:
         shell: bash
 
     steps:
+
     - name: Checkout branch
       uses: actions/checkout@v2
+        token: ${{ secrets.GH_TOKEN }}
+
+    - name: Setup git
+      run: |
+        git config user.name "$GITHUB_ACTOR"
+        git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
 
     - name: Setup node
       uses: actions/setup-node@v1
@@ -29,8 +41,7 @@ jobs:
       run: |
         npm run prepare-packages
 
-
-    - name: Add token
+    - name: Setup npm
       env:
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       run: printf "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
