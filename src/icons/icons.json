@@ -2283,7 +2283,7 @@
         {
             "name": "table-properties",
             "ligatures": [],
-            "aliases": [ "table-wizard" ],
+            "aliases": [],
             "unicode": "e678"
         },
         {
@@ -2491,7 +2491,7 @@
             "unicode": "e69a"
         },
         {
-            "name": "wizard-table",
+            "name": "table-wizard",
             "ligatures": [],
             "aliases": [],
             "unicode": "e69b"
@@ -2503,7 +2503,7 @@
             "unicode": "e69c"
         },
         {
-            "name": "wizard-crosstab",
+            "name": "crosstab-wizard",
             "ligatures": [],
             "aliases": [],
             "unicode": "e69d"

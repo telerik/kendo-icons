@@ -612,7 +612,6 @@
 .k-i-table-insert::before { content: "\e676"; } 
 .k-i-table::before { content: "\e677"; } 
 .k-i-table-properties::before { content: "\e678"; } 
-.k-i-table-wizard::before { content: "\e678"; } 
 .k-i-table-cell::before { content: "\e679"; } 
 .k-i-table-cell-properties::before { content: "\e67a"; } 
 .k-i-table-column-insert-left::before { content: "\e67b"; } 
@@ -652,7 +651,9 @@
 .k-i-decimal-decrease::before { content: "\e698"; } 
 .k-i-font-size::before { content: "\e699"; } 
 .k-i-image-absolute-position::before { content: "\e69a"; } 
+.k-i-table-wizard::before { content: "\e69b"; } 
 .k-i-crosstab::before { content: "\e69c"; } 
+.k-i-crosstab-wizard::before { content: "\e69d"; } 
 .k-i-table-body::before { content: "\e69e"; } 
 .k-i-table-column-groups::before { content: "\e69f"; } 
 .k-i-table-corner::before { content: "\e6a0"; } 
