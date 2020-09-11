@@ -1,0 +1,16 @@
+# Folders
+.vscode/
+.tmp/
+node_modules/
+dist/
+
+# Log files
+npm-debug.log
+lerna-debug.log
+debug.log
+
+# System files
+.DS_Store
+
+# npm
+*.tgz

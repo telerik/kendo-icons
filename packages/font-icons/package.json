@@ -1,0 +1,25 @@
+{
+  "name": "@progress/kendo-font-icons",
+  "description": "",
+  "version": "0.0.1",
+  "author": "Progress",
+  "repository": "telerik/kendo-icons",
+  "bugs": "https://github.com/telerik/kendo-icons/issues",
+  "license": "Apache-2.0",
+  "files": [
+    "dist/",
+    "scss/"
+  ],
+  "scripts": {
+    "sass:build": "node scripts/sass-build.js",
+    "serve": "npx http-server"
+  },
+  "keywords": [
+    "Kendo UI",
+    "Font",
+    "Icons"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,62 @@
+// Font icon
+.k-icon {
+    width: 1em;
+    height: 1em;
+    outline: 0;
+    font-size: $ki-icon-size;
+    font-family: "kendo-font-icons";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    speak: none;
+    text-transform: none;
+    text-decoration: none;
+    display: inline-flex;
+    vertical-align: middle;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+
+    &::before {
+        vertical-align: baseline;
+    }
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+
+// Svg icon
+.k-svg-icon {
+    width: 1em;
+    height: 1em;
+    outline: 0;
+    line-height: 1;
+    display: inline-flex;
+    vertical-align: middle;
+
+    > svg {
+        fill: currentColor;
+        flex: 1 1 auto;
+    }
+}
+
+
+.k-i-none {
+    color: transparent;
+
+    &::before {
+        content: "";
+        display: none;
+    }
+}
+
+
+// Icon sizes
+.k-icon-xs { font-size: ( $ki-icon-size * .5 ); }
+.k-icon-sm { font-size: ( $ki-icon-size * .75 ); }
+.k-icon-md { font-size: ( $ki-icon-size * 2 ); }
+.k-icon-lg { font-size: ( $ki-icon-size * 3 ); }
+.k-icon-xl { font-size: ( $ki-icon-size * 4 ); }

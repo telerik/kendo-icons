@@ -1,0 +1,12 @@
+@import "_variables.scss";
+@import "_font.scss";
+
+@font-face {
+    font-family: "kendo-font-icons";
+    font-style: normal;
+    font-weight: normal;
+    src: url( "#{$ki-font-url}" ) format( "truetype" );
+}
+
+@import "_core.scss";
+@import "_icons.scss";

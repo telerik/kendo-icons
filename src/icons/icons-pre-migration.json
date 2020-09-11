@@ -1,0 +1,3466 @@
+{
+    "icons": [
+        {
+            "name": "arrow-45-up-right",
+            "ligatures": [],
+            "aliases": [ "collapse-ne", "resize-ne" ],
+            "unicode": "e000"
+        },
+        {
+            "name": "arrow-45-down-right",
+            "ligatures": [],
+            "aliases": [ "collapse-se", "collapse", "resize-se" ],
+            "unicode": "e001"
+        },
+        {
+            "name": "arrow-45-down-left",
+            "ligatures": [],
+            "aliases": [ "collapse-sw", "resize-sw" ],
+            "unicode": "e002"
+        },
+        {
+            "name": "arrow-45-up-left",
+            "ligatures": [],
+            "aliases": [ "collapse-nw", "resize-new" ],
+            "unicode": "e003"
+        },
+        {
+            "name": "arrow-60-up",
+            "ligatures": [],
+            "aliases": [ "arrow-n", "kpi-trend-increase" ],
+            "unicode": "e004"
+        },
+        {
+            "name": "arrow-60-right",
+            "ligatures": [],
+            "aliases": [ "arrow-e", "expand" ],
+            "unicode": "e005"
+        },
+        {
+            "name": "arrow-60-down",
+            "ligatures": [],
+            "aliases": [ "arrow-s", "kpi-trend-decrease" ],
+            "unicode": "e006"
+        },
+        {
+            "name": "arrow-60-left",
+            "ligatures": [],
+            "aliases": [ "arrow-w" ],
+            "unicode": "e007"
+        },
+        {
+            "name": "arrow-end-up",
+            "ligatures": [],
+            "aliases": [ "seek-n" ],
+            "unicode": "e008"
+        },
+        {
+            "name": "arrow-end-right",
+            "ligatures": [],
+            "aliases": [ "seek-e" ],
+            "unicode": "e009"
+        },
+        {
+            "name": "arrow-end-down",
+            "ligatures": [],
+            "aliases": [ "seek-s" ],
+            "unicode": "e00a"
+        },
+        {
+            "name": "arrow-end-left",
+            "ligatures": [],
+            "aliases": [ "seek-w" ],
+            "unicode": "e00b"
+        },
+        {
+            "name": "arrow-double-60-up",
+            "ligatures": [],
+            "aliases": [ "arrow-seek-up" ],
+            "unicode": "e00c"
+        },
+        {
+            "name": "arrow-double-60-right",
+            "ligatures": [],
+            "aliases": [ "arrow-seek-right", "forward-sm" ],
+            "unicode": "e00d"
+        },
+        {
+            "name": "arrow-double-60-down",
+            "ligatures": [],
+            "aliases": [ "arrow-seek-down" ],
+            "unicode": "e00e"
+        },
+        {
+            "name": "arrow-double-60-left",
+            "ligatures": [],
+            "aliases": [ "arrow-seek-left", "rewind-sm" ],
+            "unicode": "e00f"
+        },
+        {
+            "name": "arrows-kpi",
+            "ligatures": [],
+            "aliases": [ "kpi" ],
+            "unicode": "e010"
+        },
+        {
+            "name": "arrows-no-change",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e011"
+        },
+        {
+            "name": "arrow-overflow-down",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e012"
+        },
+        {
+            "name": "arrow-chevron-up",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e013"
+        },
+        {
+            "name": "arrow-chevron-right",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e014"
+        },
+        {
+            "name": "arrow-chevron-down",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e015"
+        },
+        {
+            "name": "arrow-chevron-left",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e016"
+        },
+        {
+            "name": "arrow-up",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e017"
+        },
+        {
+            "name": "arrow-right",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e018"
+        },
+        {
+            "name": "arrow-down",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e019"
+        },
+        {
+            "name": "arrow-left",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e01a"
+        },
+        {
+            "name": "arrow-drill",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e01b"
+        },
+        {
+            "name": "arrow-parent",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e01c"
+        },
+        {
+            "name": "arrow-root",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e01d"
+        },
+        {
+            "name": "arrows-resizing",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e01e"
+        },
+        {
+            "name": "arrows-dimensions",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e01f"
+        },
+        {
+            "name": "arrows-swap",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e020"
+        },
+        {
+            "name": "drag-and-drop",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e021"
+        },
+        {
+            "name": "categorize",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e022"
+        },
+        {
+            "name": "grid",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e023"
+        },
+        {
+            "name": "grid-layout",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e024"
+        },
+        {
+            "name": "group",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e025"
+        },
+        {
+            "name": "ungroup",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e026"
+        },
+        {
+            "name": "handler-drag",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e027"
+        },
+        {
+            "name": "layout",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e028"
+        },
+        {
+            "name": "layout-1-by-4",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e029"
+        },
+        {
+            "name": "layout-2-by-2",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e02a"
+        },
+        {
+            "name": "layout-side-by-side",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e02b"
+        },
+        {
+            "name": "layout-stacked",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e02c"
+        },
+        {
+            "name": "columns",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e02d"
+        },
+        {
+            "name": "rows",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e02e"
+        },
+        {
+            "name": "reorder",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e02f"
+        },
+        {
+            "name": "menu",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e030"
+        },
+        {
+            "name": "more-vertical",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e031"
+        },
+        {
+            "name": "more-horizontal",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e032"
+        },
+        {
+            "name": "overlap",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e033"
+        },
+        {
+            "name": "home",
+            "ligatures": [],
+            "aliases": [ "root" ],
+            "unicode": "e034"
+        },
+        {
+            "name": "undo",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e100"
+        },
+        {
+            "name": "redo",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e101"
+        },
+        {
+            "name": "reset",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e102"
+        },
+        {
+            "name": "reload",
+            "ligatures": [],
+            "aliases": [ "refresh", "recurrence" ],
+            "unicode": "e103"
+        },
+        {
+            "name": "non-recurrence",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e104"
+        },
+        {
+            "name": "reset-sm",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e105"
+        },
+        {
+            "name": "reload-sm",
+            "ligatures": [],
+            "aliases": [ "refresh-sm", "recurrence-sm" ],
+            "unicode": "e106"
+        },
+        {
+            "name": "clock",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e107"
+        },
+        {
+            "name": "calendar",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e108"
+        },
+        {
+            "name": "save",
+            "ligatures": [],
+            "aliases": [ "floppy" ],
+            "unicode": "e109"
+        },
+        {
+            "name": "print",
+            "ligatures": [],
+            "aliases": [ "printer" ],
+            "unicode": "e10a"
+        },
+        {
+            "name": "edit",
+            "ligatures": [],
+            "aliases": [ "pencil" ],
+            "unicode": "e10b"
+        },
+        {
+            "name": "delete",
+            "ligatures": [],
+            "aliases": [ "trash" ],
+            "unicode": "e10c"
+        },
+        {
+            "name": "attachment",
+            "ligatures": [],
+            "aliases": [ "clip" ],
+            "unicode": "e10d"
+        },
+        {
+            "name": "attachment-45",
+            "ligatures": [],
+            "aliases": [ "clip-45" ],
+            "unicode": "e10e"
+        },
+        {
+            "name": "link-horizontal",
+            "ligatures": [],
+            "aliases": [ "hyperlink" ],
+            "unicode": "e10f"
+        },
+        {
+            "name": "unlink-horizontal",
+            "ligatures": [],
+            "aliases": [ "hyperlink-remove" ],
+            "unicode": "e110"
+        },
+        {
+            "name": "link-vertical",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e111"
+        },
+        {
+            "name": "unlink-vertical",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e112"
+        },
+        {
+            "name": "lock",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e113"
+        },
+        {
+            "name": "unlock",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e114"
+        },
+        {
+            "name": "cancel",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e115"
+        },
+        {
+            "name": "cancel-outline",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e116"
+        },
+        {
+            "name": "cancel-circle",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e117"
+        },
+        {
+            "name": "check",
+            "ligatures": [],
+            "aliases": [ "checkmark" ],
+            "unicode": "e118"
+        },
+        {
+            "name": "check-outline",
+            "ligatures": [],
+            "aliases": [ "checkmark-outline", "success" ],
+            "unicode": "e119"
+        },
+        {
+            "name": "check-circle",
+            "ligatures": [],
+            "aliases": [ "checkmark-circle" ],
+            "unicode": "e11a"
+        },
+        {
+            "name": "close",
+            "ligatures": [],
+            "aliases": [ "x" ],
+            "unicode": "e11b"
+        },
+        {
+            "name": "close-outline",
+            "ligatures": [],
+            "aliases": [ "x-outline", "error" ],
+            "unicode": "e11c"
+        },
+        {
+            "name": "close-circle",
+            "ligatures": [],
+            "aliases": [ "x-circle" ],
+            "unicode": "e11d"
+        },
+        {
+            "name": "plus",
+            "ligatures": [],
+            "aliases": [ "add" ],
+            "unicode": "e11e"
+        },
+        {
+            "name": "plus-outline",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e11f"
+        },
+        {
+            "name": "plus-circle",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e120"
+        },
+        {
+            "name": "minus",
+            "ligatures": [],
+            "aliases": [ "kpi-trend-equal" ],
+            "unicode": "e121"
+        },
+        {
+            "name": "minus-outline",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e122"
+        },
+        {
+            "name": "minus-circle",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e123"
+        },
+        {
+            "name": "sort-asc",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e124"
+        },
+        {
+            "name": "sort-desc",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e125"
+        },
+        {
+            "name": "unsort",
+            "ligatures": [],
+            "aliases": [ "sort-clear" ],
+            "unicode": "e126"
+        },
+        {
+            "name": "sort-asc-sm",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e127"
+        },
+        {
+            "name": "sort-desc-sm",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e128"
+        },
+        {
+            "name": "filter",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e129"
+        },
+        {
+            "name": "filter-clear",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e12a"
+        },
+        {
+            "name": "filter-sm",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e12b"
+        },
+        {
+            "name": "filter-sort-asc-sm",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e12c"
+        },
+        {
+            "name": "filter-sort-desc-sm",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e12d"
+        },
+        {
+            "name": "filter-add-expression",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e12e"
+        },
+        {
+            "name": "filter-add-group",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e12f"
+        },
+        {
+            "name": "login",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e130"
+        },
+        {
+            "name": "logout",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e131"
+        },
+        {
+            "name": "download",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e132"
+        },
+        {
+            "name": "upload",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e133"
+        },
+        {
+            "name": "hyperlink-open",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e134"
+        },
+        {
+            "name": "hyperlink-open-sm",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e135"
+        },
+        {
+            "name": "launch",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e136"
+        },
+        {
+            "name": "window",
+            "ligatures": [],
+            "aliases": [ "window-maximize" ],
+            "unicode": "e137"
+        },
+        {
+            "name": "windows",
+            "ligatures": [],
+            "aliases": [ "window-restore", "tiles" ],
+            "unicode": "e138"
+        },
+        {
+            "name": "window-minimize",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e139"
+        },
+        {
+            "name": "gear",
+            "ligatures": [],
+            "aliases": [ "cog", "custom" ],
+            "unicode": "e13a"
+        },
+        {
+            "name": "gears",
+            "ligatures": [],
+            "aliases": [ "cogs" ],
+            "unicode": "e13b"
+        },
+        {
+            "name": "wrench",
+            "ligatures": [],
+            "aliases": [ "settings" ],
+            "unicode": "e13c"
+        },
+        {
+            "name": "preview",
+            "ligatures": [],
+            "aliases": [ "eye" ],
+            "unicode": "e13d"
+        },
+        {
+            "name": "zoom",
+            "ligatures": [],
+            "aliases": [ "search" ],
+            "unicode": "e13e"
+        },
+        {
+            "name": "zoom-in",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e13f"
+        },
+        {
+            "name": "zoom-out",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e140"
+        },
+        {
+            "name": "pan",
+            "ligatures": [],
+            "aliases": [ "move" ],
+            "unicode": "e141"
+        },
+        {
+            "name": "calculator",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e142"
+        },
+        {
+            "name": "cart",
+            "ligatures": [],
+            "aliases": [ "shopping-cart" ],
+            "unicode": "e143"
+        },
+        {
+            "name": "connector",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e144"
+        },
+        {
+            "name": "plus-sm",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e145"
+        },
+        {
+            "name": "minus-sm",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e146"
+        },
+        {
+            "name": "kpi-status-deny",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e147"
+        },
+        {
+            "name": "kpi-status-hold",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e148"
+        },
+        {
+            "name": "kpi-status-open",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e149"
+        },
+        {
+            "name": "equal",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e14a"
+        },
+        {
+            "name": "not-equal",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e14b"
+        },
+        {
+            "name": "less-or-equal",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e14c"
+        },
+        {
+            "name": "greater-or-equal",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e14d"
+        },
+        {
+            "name": "divide",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e14e"
+        },
+        {
+            "name": "accessibility",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e14f"
+        },
+        {
+            "name": "barcode-outline",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e150"
+        },
+        {
+            "name": "barcode",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e151"
+        },
+        {
+            "name": "barcode-scanner",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e152"
+        },
+        {
+            "name": "qr-code-outline",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e153"
+        },
+        {
+            "name": "qr-code",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e154"
+        },
+        {
+            "name": "qr-code-scanner",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e155"
+        },
+        {
+            "name": "barcode-qr-code-scanner",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e156"
+        },
+        {
+            "name": "signature",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e157"
+        },
+        {
+            "name": "hand",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e158"
+        },
+        {
+            "name": "cursor",
+            "ligatures": [],
+            "aliases": [ "pointer" ],
+            "unicode": "e159"
+        },
+        {
+            "name": "stick",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e15a"
+        },
+        {
+            "name": "unstick",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e15b"
+        },
+        {
+            "name": "set-column-position",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e15c"
+        },
+        {
+            "name": "play",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e200"
+        },
+        {
+            "name": "pause",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e201"
+        },
+        {
+            "name": "stop",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e202"
+        },
+        {
+            "name": "rewind",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e203"
+        },
+        {
+            "name": "forward",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e204"
+        },
+        {
+            "name": "volume-down",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e205"
+        },
+        {
+            "name": "volume-up",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e206"
+        },
+        {
+            "name": "volume-off",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e207"
+        },
+        {
+            "name": "hd",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e208"
+        },
+        {
+            "name": "subtitles",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e209"
+        },
+        {
+            "name": "playlist",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e20a"
+        },
+        {
+            "name": "audio",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e20b"
+        },
+        {
+            "name": "play-sm",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e20c"
+        },
+        {
+            "name": "pause-sm",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e20d"
+        },
+        {
+            "name": "stop-sm",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e20e"
+        },
+        {
+            "name": "heart-outline",
+            "ligatures": [],
+            "aliases": [ "fav-outline", "favorite-outline" ],
+            "unicode": "e300"
+        },
+        {
+            "name": "heart",
+            "ligatures": [],
+            "aliases": [ "fav", "favorite" ],
+            "unicode": "e301"
+        },
+        {
+            "name": "star-outline",
+            "ligatures": [],
+            "aliases": [ "bookmark-outline" ],
+            "unicode": "e302"
+        },
+        {
+            "name": "star",
+            "ligatures": [],
+            "aliases": [ "bookmark" ],
+            "unicode": "e303"
+        },
+        {
+            "name": "checkbox",
+            "ligatures": [],
+            "aliases": [ "shape-rect" ],
+            "unicode": "e304"
+        },
+        {
+            "name": "checkbox-checked",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e305"
+        },
+        {
+            "name": "tri-state-indeterminate",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e306"
+        },
+        {
+            "name": "tri-state-null",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e307"
+        },
+        {
+            "name": "circle",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e308"
+        },
+        {
+            "name": "radiobutton",
+            "ligatures": [],
+            "aliases": [ "shape-circle" ],
+            "unicode": "e309"
+        },
+        {
+            "name": "radiobutton-checked",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e30a"
+        },
+        {
+            "name": "notification",
+            "ligatures": [],
+            "aliases": [ "bell" ],
+            "unicode": "e400"
+        },
+        {
+            "name": "information",
+            "ligatures": [],
+            "aliases": [ "info" ],
+            "unicode": "e401"
+        },
+        {
+            "name": "question",
+            "ligatures": [],
+            "aliases": [ "help" ],
+            "unicode": "e402"
+        },
+        {
+            "name": "warning",
+            "ligatures": [],
+            "aliases": [ "exception" ],
+            "unicode": "e403"
+        },
+        {
+            "name": "photo-camera",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e500"
+        },
+        {
+            "name": "image",
+            "ligatures": [],
+            "aliases": [ "photo" ],
+            "unicode": "e501"
+        },
+        {
+            "name": "image-export",
+            "ligatures": [],
+            "aliases": [ "photo-export" ],
+            "unicode": "e502"
+        },
+        {
+            "name": "zoom-actual-size",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e503"
+        },
+        {
+            "name": "zoom-best-fit",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e504"
+        },
+        {
+            "name": "image-resize",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e505"
+        },
+        {
+            "name": "crop",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e506"
+        },
+        {
+            "name": "mirror",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e507"
+        },
+        {
+            "name": "flip-horizontal",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e508"
+        },
+        {
+            "name": "flip-vertical",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e509"
+        },
+        {
+            "name": "rotate",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e50a"
+        },
+        {
+            "name": "rotate-right",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e50b"
+        },
+        {
+            "name": "rotate-left",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e50c"
+        },
+        {
+            "name": "brush",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e50d"
+        },
+        {
+            "name": "palette",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e50e"
+        },
+        {
+            "name": "paint",
+            "ligatures": [],
+            "aliases": [ "droplet", "background" ],
+            "unicode": "e50f"
+        },
+        {
+            "name": "line",
+            "ligatures": [],
+            "aliases": [ "shape-line" ],
+            "unicode": "e510"
+        },
+        {
+            "name": "brightness-contrast",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e511"
+        },
+        {
+            "name": "saturation",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e512"
+        },
+        {
+            "name": "invert-colors",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e513"
+        },
+        {
+            "name": "transperancy",
+            "ligatures": [],
+            "aliases": [ "opacity" ],
+            "unicode": "e514"
+        },
+        {
+            "name": "greyscale",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e515"
+        },
+        {
+            "name": "blur",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e516"
+        },
+        {
+            "name": "sharpen",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e517"
+        },
+        {
+            "name": "shape",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e518"
+        },
+        {
+            "name": "round-corners",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e519"
+        },
+        {
+            "name": "front-element",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e51a"
+        },
+        {
+            "name": "back-element",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e51b"
+        },
+        {
+            "name": "forward-element",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e51c"
+        },
+        {
+            "name": "backward-element",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e51d"
+        },
+        {
+            "name": "align-left-element",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e51e"
+        },
+        {
+            "name": "align-center-element",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e51f"
+        },
+        {
+            "name": "align-right-element",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e520"
+        },
+        {
+            "name": "align-top-element",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e521"
+        },
+        {
+            "name": "align-middle-element",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e522"
+        },
+        {
+            "name": "align-bottom-element",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e523"
+        },
+        {
+            "name": "thumbnails-up",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e524"
+        },
+        {
+            "name": "thumbnails-right",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e525"
+        },
+        {
+            "name": "thumbnails-down",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e526"
+        },
+        {
+            "name": "thumbnails-left",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e527"
+        },
+        {
+            "name": "full-screen",
+            "ligatures": [],
+            "aliases": [ "fullscreen" ],
+            "unicode": "e528"
+        },
+        {
+            "name": "full-screen-exit",
+            "ligatures": [],
+            "aliases": [ "fullscreen-exit" ],
+            "unicode": "e529"
+        },
+        {
+            "name": "reset-color",
+            "ligatures": [],
+            "aliases": [ "paint-remove", "background-remove" ],
+            "unicode": "e52a"
+        },
+        {
+            "name": "images",
+            "ligatures": [],
+            "aliases": [ "photos", "gallery" ],
+            "unicode": "e52b"
+        },
+        {
+            "name": "align-to-grid",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e52c"
+        },
+        {
+            "name": "size-to-grid",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e52d"
+        },
+        {
+            "name": "make-same-size",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e52e"
+        },
+        {
+            "name": "make-same-width",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e52f"
+        },
+        {
+            "name": "make-same-height",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e530"
+        },
+        {
+            "name": "make-horizontal-spacing-equal",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e531"
+        },
+        {
+            "name": "increase-horizontal-spacing",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e532"
+        },
+        {
+            "name": "decrease-horizontal-spacing",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e533"
+        },
+        {
+            "name": "remove-horizontal-spacing",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e534"
+        },
+        {
+            "name": "make-vertical-spacing-equal",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e535"
+        },
+        {
+            "name": "increase-vertical-spacing",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e536"
+        },
+        {
+            "name": "decrease-vertical-spacing",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e537"
+        },
+        {
+            "name": "remove-vertical-spacing",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e538"
+        },
+        {
+            "name": "eyedropper",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e539"
+        },
+        {
+            "name": "snap-grid",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e53a"
+        },
+        {
+            "name": "snap-to-gridlines",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e53b"
+        },
+        {
+            "name": "snap-to-snaplines",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e53c"
+        },
+        {
+            "name": "dimentions",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e53d"
+        },
+        {
+            "name": "align-stretch-element-horizontal",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e53e"
+        },
+        {
+            "name": "align-stretch-element-vertical",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e53f"
+        },
+        {
+            "name": "align-left-elements",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e540"
+        },
+        {
+            "name": "align-center-elements",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e541"
+        },
+        {
+            "name": "align-right-elements",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e542"
+        },
+        {
+            "name": "align-stretch-elements-horizontal",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e543"
+        },
+        {
+            "name": "align-baseline-horizontal",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e544"
+        },
+        {
+            "name": "align-top-elements",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e545"
+        },
+        {
+            "name": "align-middle-elements",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e546"
+        },
+        {
+            "name": "align-bottom-elements",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e547"
+        },
+        {
+            "name": "align-stretch-elements-vertical",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e548"
+        },
+        {
+            "name": "align-baseline-vertical",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e549"
+        },
+        {
+            "name": "justify-start-horizontal",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e54a"
+        },
+        {
+            "name": "justify-center-horizontal",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e54b"
+        },
+        {
+            "name": "justify-end-horizontal",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e54c"
+        },
+        {
+            "name": "justify-between-horizontal",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e54d"
+        },
+        {
+            "name": "justify-around-horizontal",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e54e"
+        },
+        {
+            "name": "justify-start-vertical",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e54f"
+        },
+        {
+            "name": "justify-center-vertical",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e550"
+        },
+        {
+            "name": "justify-end-vertical",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e551"
+        },
+        {
+            "name": "justify-between-vertical",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e552"
+        },
+        {
+            "name": "justify-around-vertical",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e553"
+        },
+        {
+            "name": "page-properties",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e600"
+        },
+        {
+            "name": "bold",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e601"
+        },
+        {
+            "name": "italic",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e602"
+        },
+        {
+            "name": "underline",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e603"
+        },
+        {
+            "name": "font-family",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e604"
+        },
+        {
+            "name": "foreground-color",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e605"
+        },
+        {
+            "name": "convert-lowercase",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e606"
+        },
+        {
+            "name": "convert-uppercase",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e607"
+        },
+        {
+            "name": "strikethrough",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e608"
+        },
+        {
+            "name": "sub-script",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e609"
+        },
+        {
+            "name": "sup-script",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e60a"
+        },
+        {
+            "name": "div",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e60b"
+        },
+        {
+            "name": "all",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e60c"
+        },
+        {
+            "name": "h1",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e60d"
+        },
+        {
+            "name": "h2",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e60e"
+        },
+        {
+            "name": "h3",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e60f"
+        },
+        {
+            "name": "h4",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e610"
+        },
+        {
+            "name": "h5",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e611"
+        },
+        {
+            "name": "h6",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e612"
+        },
+        {
+            "name": "list-ordered",
+            "ligatures": [],
+            "aliases": [ "list-numbered" ],
+            "unicode": "e613"
+        },
+        {
+            "name": "list-unordered",
+            "ligatures": [],
+            "aliases": [ "list-bulleted" ],
+            "unicode": "e614"
+        },
+        {
+            "name": "indent-increase",
+            "ligatures": [],
+            "aliases": [ "indent" ],
+            "unicode": "e615"
+        },
+        {
+            "name": "indent-decrease",
+            "ligatures": [],
+            "aliases": [ "outdent" ],
+            "unicode": "e616"
+        },
+        {
+            "name": "insert-up",
+            "ligatures": [],
+            "aliases": [ "insert-top" ],
+            "unicode": "e617"
+        },
+        {
+            "name": "insert-middle",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e618"
+        },
+        {
+            "name": "insert-down",
+            "ligatures": [],
+            "aliases": [ "insert-bottom" ],
+            "unicode": "e619"
+        },
+        {
+            "name": "align-top",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e61a"
+        },
+        {
+            "name": "align-middle",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e61b"
+        },
+        {
+            "name": "align-bottom",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e61c"
+        },
+        {
+            "name": "align-left",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e61d"
+        },
+        {
+            "name": "align-center",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e61e"
+        },
+        {
+            "name": "align-right",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e61f"
+        },
+        {
+            "name": "align-justify",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e620"
+        },
+        {
+            "name": "align-remove",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e621"
+        },
+        {
+            "name": "text-wrap",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e622"
+        },
+        {
+            "name": "rule-horizontal",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e623"
+        },
+        {
+            "name": "table-align-top-left",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e624"
+        },
+        {
+            "name": "table-align-top-center",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e625"
+        },
+        {
+            "name": "table-align-top-right",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e626"
+        },
+        {
+            "name": "table-align-middle-left",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e627"
+        },
+        {
+            "name": "table-align-middle-center",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e628"
+        },
+        {
+            "name": "table-align-middle-right",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e629"
+        },
+        {
+            "name": "table-align-bottom-left",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e62a"
+        },
+        {
+            "name": "table-align-bottom-center",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e62b"
+        },
+        {
+            "name": "table-align-bottom-right",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e62c"
+        },
+        {
+            "name": "table-align-remove",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e62d"
+        },
+        {
+            "name": "borders-all",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e62e"
+        },
+        {
+            "name": "borders-outside",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e62f"
+        },
+        {
+            "name": "borders-inside",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e630"
+        },
+        {
+            "name": "borders-inside-horizontal",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e631"
+        },
+        {
+            "name": "borders-inside-vertical",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e632"
+        },
+        {
+            "name": "border-top",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e633"
+        },
+        {
+            "name": "border-bottom",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e634"
+        },
+        {
+            "name": "border-left",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e635"
+        },
+        {
+            "name": "border-right",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e636"
+        },
+        {
+            "name": "border-no",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e637"
+        },
+        {
+            "name": "borders-show-hide",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e638"
+        },
+        {
+            "name": "form",
+            "ligatures": [],
+            "aliases": [ "border" ],
+            "unicode": "e639"
+        },
+        {
+            "name": "form-element",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e63a"
+        },
+        {
+            "name": "code-snippet",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e63b"
+        },
+        {
+            "name": "select-all",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e63c"
+        },
+        {
+            "name": "button",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e63d"
+        },
+        {
+            "name": "select-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e63e"
+        },
+        {
+            "name": "calendar-date",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e63f"
+        },
+        {
+            "name": "group-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e640"
+        },
+        {
+            "name": "textarea",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e641"
+        },
+        {
+            "name": "textbox",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e642"
+        },
+        {
+            "name": "textbox-hidden",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e643"
+        },
+        {
+            "name": "password",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e644"
+        },
+        {
+            "name": "paragraph-add",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e645"
+        },
+        {
+            "name": "edit-tools",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e646"
+        },
+        {
+            "name": "template-manager",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e647"
+        },
+        {
+            "name": "change-manually",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e648"
+        },
+        {
+            "name": "track-changes",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e649"
+        },
+        {
+            "name": "track-changes-enable",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e64a"
+        },
+        {
+            "name": "track-changes-accept",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e64b"
+        },
+        {
+            "name": "track-changes-accept-all",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e64c"
+        },
+        {
+            "name": "track-changes-reject",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e64d"
+        },
+        {
+            "name": "track-changes-reject-all",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e64e"
+        },
+        {
+            "name": "document-manager",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e64f"
+        },
+        {
+            "name": "custom-icon",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e650"
+        },
+        {
+            "name": "dictionary-add",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e651"
+        },
+        {
+            "name": "image-light-dialog",
+            "ligatures": [],
+            "aliases": [ "image-insert" ],
+            "unicode": "e652"
+        },
+        {
+            "name": "image-edit",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e653"
+        },
+        {
+            "name": "image-map-editor",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e654"
+        },
+        {
+            "name": "comment",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e655"
+        },
+        {
+            "name": "comment-remove",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e656"
+        },
+        {
+            "name": "comments-remove-all",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e657"
+        },
+        {
+            "name": "silverlight",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e658"
+        },
+        {
+            "name": "media-manager",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e659"
+        },
+        {
+            "name": "video-external",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e65a"
+        },
+        {
+            "name": "flash-manager",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e65b"
+        },
+        {
+            "name": "find-and-replace",
+            "ligatures": [],
+            "aliases": [ "find" ],
+            "unicode": "e65c"
+        },
+        {
+            "name": "copy",
+            "ligatures": [],
+            "aliases": [ "files" ],
+            "unicode": "e65d"
+        },
+        {
+            "name": "cut",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e65e"
+        },
+        {
+            "name": "paste",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e65f"
+        },
+        {
+            "name": "paste-as-html",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e660"
+        },
+        {
+            "name": "paste-from-word",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e661"
+        },
+        {
+            "name": "paste-from-word-strip-file",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e662"
+        },
+        {
+            "name": "paste-html",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e663"
+        },
+        {
+            "name": "paste-markdown",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e664"
+        },
+        {
+            "name": "paste-plain-text",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e665"
+        },
+        {
+            "name": "apply-format",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e666"
+        },
+        {
+            "name": "clear-css",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e667"
+        },
+        {
+            "name": "copy-format",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e668"
+        },
+        {
+            "name": "strip-all-formatting",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e669"
+        },
+        {
+            "name": "strip-css-format",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e66a"
+        },
+        {
+            "name": "strip-font-elements",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e66b"
+        },
+        {
+            "name": "strip-span-elements",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e66c"
+        },
+        {
+            "name": "strip-word-formatting",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e66d"
+        },
+        {
+            "name": "format-code-block",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e66e"
+        },
+        {
+            "name": "style-builder",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e66f"
+        },
+        {
+            "name": "module-manager",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e670"
+        },
+        {
+            "name": "hyperlink-light-dialog",
+            "ligatures": [],
+            "aliases": [ "hyperlink-insert" ],
+            "unicode": "e671"
+        },
+        {
+            "name": "hyperlink-globe",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e672"
+        },
+        {
+            "name": "hyperlink-globe-remove",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e673"
+        },
+        {
+            "name": "hyperlink-email",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e674"
+        },
+        {
+            "name": "anchor",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e675"
+        },
+        {
+            "name": "table-light-dialog",
+            "ligatures": [],
+            "aliases": [ "table-insert" ],
+            "unicode": "e676"
+        },
+        {
+            "name": "table",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e677"
+        },
+        {
+            "name": "table-properties",
+            "ligatures": [],
+            "aliases": [ "table-wizard" ],
+            "unicode": "e678"
+        },
+        {
+            "name": "table-cell",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e679"
+        },
+        {
+            "name": "table-cell-properties",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e67a"
+        },
+        {
+            "name": "table-column-insert-left",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e67b"
+        },
+        {
+            "name": "table-column-insert-right",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e67c"
+        },
+        {
+            "name": "table-row-insert-above",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e67d"
+        },
+        {
+            "name": "table-row-insert-below",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e67e"
+        },
+        {
+            "name": "table-column-delete",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e67f"
+        },
+        {
+            "name": "table-row-delete",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e680"
+        },
+        {
+            "name": "table-cell-delete",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e681"
+        },
+        {
+            "name": "table-delete",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e682"
+        },
+        {
+            "name": "cells-merge",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e683"
+        },
+        {
+            "name": "cells-merge-horizontally",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e684"
+        },
+        {
+            "name": "cells-merge-vertically",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e685"
+        },
+        {
+            "name": "cell-split-horizontally",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e686"
+        },
+        {
+            "name": "cell-split-vertically",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e687"
+        },
+        {
+            "name": "table-unmerge",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e688"
+        },
+        {
+            "name": "pane-freeze",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e689"
+        },
+        {
+            "name": "row-freeze",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e68a"
+        },
+        {
+            "name": "column-freeze",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e68b"
+        },
+        {
+            "name": "toolbar-float",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e68c"
+        },
+        {
+            "name": "spell-checker",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e68d"
+        },
+        {
+            "name": "validation-xhtml",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e68e"
+        },
+        {
+            "name": "validation-data",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e68f"
+        },
+        {
+            "name": "toggle-full-screen-mode",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e690"
+        },
+        {
+            "name": "formula-fx",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e691"
+        },
+        {
+            "name": "sum",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e692"
+        },
+        {
+            "name": "symbol",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e693"
+        },
+        {
+            "name": "dollar",
+            "ligatures": [],
+            "aliases": [ "currency" ],
+            "unicode": "e694"
+        },
+        {
+            "name": "percent",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e695"
+        },
+        {
+            "name": "custom-format",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e696"
+        },
+        {
+            "name": "decimal-increase",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e697"
+        },
+        {
+            "name": "decimal-decrease",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e698"
+        },
+        {
+            "name": "font-size",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e699"
+        },
+        {
+            "name": "image-absolute-position",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e69a"
+        },
+        {
+            "name": "wizard-table",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e69b"
+        },
+        {
+            "name": "crosstab",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e69c"
+        },
+        {
+            "name": "wizard-crosstab",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e69d"
+        },
+        {
+            "name": "table-body",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e69e"
+        },
+        {
+            "name": "table-column-groups",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e69f"
+        },
+        {
+            "name": "table-corner",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e6a0"
+        },
+        {
+            "name": "table-row-groups",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e6a1"
+        },
+        {
+            "name": "globe-outline",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e700"
+        },
+        {
+            "name": "globe",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e701"
+        },
+        {
+            "name": "marker-pin",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e702"
+        },
+        {
+            "name": "marker-pin-target",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e703"
+        },
+        {
+            "name": "pin",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e704"
+        },
+        {
+            "name": "unpin",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e705"
+        },
+        {
+            "name": "share",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e800"
+        },
+        {
+            "name": "user",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e801"
+        },
+        {
+            "name": "inbox",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e802"
+        },
+        {
+            "name": "blogger",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e803"
+        },
+        {
+            "name": "blogger-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e804"
+        },
+        {
+            "name": "delicious",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e805"
+        },
+        {
+            "name": "delicious-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e806"
+        },
+        {
+            "name": "digg",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e807"
+        },
+        {
+            "name": "digg-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e808"
+        },
+        {
+            "name": "email",
+            "ligatures": [],
+            "aliases": [ "envelop", "letter" ],
+            "unicode": "e809"
+        },
+        {
+            "name": "email-box",
+            "ligatures": [],
+            "aliases": [ "envelop-box", "letter-box" ],
+            "unicode": "e80a"
+        },
+        {
+            "name": "facebook",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e80b"
+        },
+        {
+            "name": "facebook-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e80c"
+        },
+        {
+            "name": "google",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e80d"
+        },
+        {
+            "name": "google-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e80e"
+        },
+        {
+            "name": "google-plus",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e80f"
+        },
+        {
+            "name": "google-plus-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e810"
+        },
+        {
+            "name": "linkedin",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e811"
+        },
+        {
+            "name": "linkedin-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e812"
+        },
+        {
+            "name": "myspace",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e813"
+        },
+        {
+            "name": "myspace-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e814"
+        },
+        {
+            "name": "pinterest",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e815"
+        },
+        {
+            "name": "pinterest-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e816"
+        },
+        {
+            "name": "reddit",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e817"
+        },
+        {
+            "name": "reddit-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e818"
+        },
+        {
+            "name": "stumble-upon",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e819"
+        },
+        {
+            "name": "stumble-upon-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e81a"
+        },
+        {
+            "name": "tell-a-friend",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e81b"
+        },
+        {
+            "name": "tell-a-friend-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e81c"
+        },
+        {
+            "name": "tumblr",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e81d"
+        },
+        {
+            "name": "tumblr-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e81e"
+        },
+        {
+            "name": "twitter",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e81f"
+        },
+        {
+            "name": "twitter-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e820"
+        },
+        {
+            "name": "yammer",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e821"
+        },
+        {
+            "name": "yammer-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e822"
+        },
+        {
+            "name": "behance",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e823"
+        },
+        {
+            "name": "behance-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e824"
+        },
+        {
+            "name": "dribbble",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e825"
+        },
+        {
+            "name": "dribbble-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e826"
+        },
+        {
+            "name": "rss",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e827"
+        },
+        {
+            "name": "rss-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e828"
+        },
+        {
+            "name": "vimeo",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e829"
+        },
+        {
+            "name": "vimeo-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e82a"
+        },
+        {
+            "name": "youtube",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e82b"
+        },
+        {
+            "name": "youtube-box",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e82c"
+        },
+        {
+            "name": "folder",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e900"
+        },
+        {
+            "name": "folder-open",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e901"
+        },
+        {
+            "name": "folder-add",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e902"
+        },
+        {
+            "name": "folder-up",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e903"
+        },
+        {
+            "name": "folder-more",
+            "ligatures": [],
+            "aliases": [ "fields-more" ],
+            "unicode": "e904"
+        },
+        {
+            "name": "aggregate-fields",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e905"
+        },
+        {
+            "name": "file",
+            "ligatures": [],
+            "aliases": [ "file-vertical", "page-portrait" ],
+            "unicode": "e906"
+        },
+        {
+            "name": "file-add",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e907"
+        },
+        {
+            "name": "file-txt",
+            "ligatures": [],
+            "aliases": [ "txt" ],
+            "unicode": "e908"
+        },
+        {
+            "name": "file-csv",
+            "ligatures": [],
+            "aliases": [ "csv" ],
+            "unicode": "e909"
+        },
+        {
+            "name": "file-excel",
+            "ligatures": [],
+            "aliases": [ "file-xls", "excel", "xls" ],
+            "unicode": "e90a"
+        },
+        {
+            "name": "file-word",
+            "ligatures": [],
+            "aliases": [ "file-doc", "word", "doc" ],
+            "unicode": "e90b"
+        },
+        {
+            "name": "file-mdb",
+            "ligatures": [],
+            "aliases": [ "mdb" ],
+            "unicode": "e90c"
+        },
+        {
+            "name": "file-ppt",
+            "ligatures": [],
+            "aliases": [ "ppt" ],
+            "unicode": "e90d"
+        },
+        {
+            "name": "file-pdf",
+            "ligatures": [],
+            "aliases": [ "pdf" ],
+            "unicode": "e90e"
+        },
+        {
+            "name": "file-psd",
+            "ligatures": [],
+            "aliases": [ "psd" ],
+            "unicode": "e90f"
+        },
+        {
+            "name": "file-flash",
+            "ligatures": [],
+            "aliases": [ "flash" ],
+            "unicode": "e910"
+        },
+        {
+            "name": "file-config",
+            "ligatures": [],
+            "aliases": [ "config" ],
+            "unicode": "e911"
+        },
+        {
+            "name": "file-ascx",
+            "ligatures": [],
+            "aliases": [ "ascx" ],
+            "unicode": "e912"
+        },
+        {
+            "name": "file-bac",
+            "ligatures": [],
+            "aliases": [ "bac" ],
+            "unicode": "e913"
+        },
+        {
+            "name": "file-zip",
+            "ligatures": [],
+            "aliases": [ "zip" ],
+            "unicode": "e914"
+        },
+        {
+            "name": "film",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e915"
+        },
+        {
+            "name": "css3",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e916"
+        },
+        {
+            "name": "html5",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e917"
+        },
+        {
+            "name": "html",
+            "ligatures": [],
+            "aliases": [ "source-code", "view-source" ],
+            "unicode": "e918"
+        },
+        {
+            "name": "css",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e919"
+        },
+        {
+            "name": "js",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e91a"
+        },
+        {
+            "name": "exe",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e91b"
+        },
+        {
+            "name": "csproj",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e91c"
+        },
+        {
+            "name": "vbproj",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e91d"
+        },
+        {
+            "name": "cs",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e91e"
+        },
+        {
+            "name": "vb",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e91f"
+        },
+        {
+            "name": "sln",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e920"
+        },
+        {
+            "name": "cloud",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e921"
+        },
+        {
+            "name": "file-horizontal",
+            "ligatures": [],
+            "aliases": [ "page-landscape" ],
+            "unicode": "e922"
+        },
+        {
+            "name": "subreport",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e923"
+        },
+        {
+            "name": "data",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e924"
+        },
+        {
+            "name": "report-header-section",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e925"
+        },
+        {
+            "name": "report-footer-section",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e926"
+        },
+        {
+            "name": "group-header-section",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e927"
+        },
+        {
+            "name": "group-footer-section",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e928"
+        },
+        {
+            "name": "page-header-section",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e929"
+        },
+        {
+            "name": "page-footer-section",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e92a"
+        },
+        {
+            "name": "detail-section",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e92b"
+        },
+        {
+            "name": "toc-section",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e92c"
+        },
+        {
+            "name": "group-section",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e92d"
+        },
+        {
+            "name": "parameters",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e92e"
+        },
+        {
+            "name": "data-csv",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e92f"
+        },
+        {
+            "name": "data-json",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e930"
+        },
+        {
+            "name": "data-sql",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e931"
+        },
+        {
+            "name": "data-web",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e932"
+        },
+        {
+            "name": "group-collection",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e933"
+        },
+        {
+            "name": "parameter-boolean",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e934"
+        },
+        {
+            "name": "parameter-date-time",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e935"
+        },
+        {
+            "name": "parameter-float",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e936"
+        },
+        {
+            "name": "parameter-integer",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e937"
+        },
+        {
+            "name": "parameter-string",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e938"
+        },
+        {
+            "name": "toc-section-level",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e939"
+        },
+        {
+            "name": "inherited",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e93a"
+        },
+        {
+            "name": "file-video",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e93b"
+        },
+        {
+            "name": "file-audio",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e93c"
+        },
+        {
+            "name": "file-image",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e93d"
+        },
+        {
+            "name": "file-presentation",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e93e"
+        },
+        {
+            "name": "file-data",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e93f"
+        },
+        {
+            "name": "file-disc-image",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e940"
+        },
+        {
+            "name": "file-programming",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e941"
+        },
+        {
+            "name": "parameters-byte-array",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e942"
+        },
+        {
+            "name": "parameters-unknown",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e943"
+        },
+        {
+            "name": "file-error",
+            "ligatures": [],
+            "aliases": [ "file-validation" ],
+            "unicode": "e944"
+        },
+        {
+            "name": "files-error",
+            "ligatures": [],
+            "aliases": [ "files-validation" ],
+            "unicode": "e945"
+        },
+        {
+            "name": "graph",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea00"
+        },
+        {
+            "name": "column-clustered",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea01"
+        },
+        {
+            "name": "column-stacked",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea02"
+        },
+        {
+            "name": "column-stacked100",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea03"
+        },
+        {
+            "name": "column-range",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea04"
+        },
+        {
+            "name": "bar-clustered",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea05"
+        },
+        {
+            "name": "bar-stacked",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea06"
+        },
+        {
+            "name": "bar-stacked100",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea07"
+        },
+        {
+            "name": "bar-range",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea08"
+        },
+        {
+            "name": "area-clustered",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea09"
+        },
+        {
+            "name": "area-stacked",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea0a"
+        },
+        {
+            "name": "area-stacked100",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea0b"
+        },
+        {
+            "name": "area-range",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea0c"
+        },
+        {
+            "name": "line1",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea0d"
+        },
+        {
+            "name": "line-stacked",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea0e"
+        },
+        {
+            "name": "line-stacked100",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea0f"
+        },
+        {
+            "name": "line-markers",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea10"
+        },
+        {
+            "name": "line-stacked-markers",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea11"
+        },
+        {
+            "name": "line-stacked100-markers",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea12"
+        },
+        {
+            "name": "pie",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea13"
+        },
+        {
+            "name": "doughnut",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea14"
+        },
+        {
+            "name": "scatter",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea15"
+        },
+        {
+            "name": "scatter-smooth-lines-markers",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea16"
+        },
+        {
+            "name": "scatter-smooth-lines",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea17"
+        },
+        {
+            "name": "scatter-straight-lines-markers",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea18"
+        },
+        {
+            "name": "scatter-straight-lines",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea19"
+        },
+        {
+            "name": "bubble",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea1a"
+        },
+        {
+            "name": "candle-stick",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea1b"
+        },
+        {
+            "name": "bar",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea1c"
+        },
+        {
+            "name": "radar",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea1d"
+        },
+        {
+            "name": "radar-markers",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea1e"
+        },
+        {
+            "name": "radar-filled",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea1f"
+        },
+        {
+            "name": "rose",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea20"
+        },
+        {
+            "name": "choropleth",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "ea21"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "es5",
+        "module": "es2015",
+        "lib": ["es2015", "dom"],
+        "types": [],
+
+        "declaration": true,
+        "importHelpers": false,
+        "noImplicitAny": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "removeComments": false
+    },
+    "include": [
+        "src/**/*.ts"
+    ]
+}
