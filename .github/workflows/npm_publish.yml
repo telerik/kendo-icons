@@ -23,12 +23,11 @@ jobs:
     - name: Install
       run: |
         npm install
-        npx lerna bootstrap
+        npm run bootstrap
 
     - name: Prepare packages
       run: |
-        gulp pkg-svg
-        gulp pkg-font
+        npm run prepare-packages
 
 
     - name: Add token
@@ -37,4 +36,8 @@ jobs:
       run: printf "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
 
     - name: Publish
-      run: lerna publish
+      run: |
+        git config user.name "kendo-bot"
+        git config user.email "kendo-bot"
+        npx lerna publish --message "chore(release): update changelogs" --conventional-commits --concurrency=1 --loglevel=verbose --yes
+        git push
