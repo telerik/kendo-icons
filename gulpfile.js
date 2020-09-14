@@ -212,6 +212,11 @@ gulp.task('pkg-svg:update', done => {
         indexTsTemplate( iconList )
     );
 
+    fse.copyFileSync(
+        'src/icons/icons-list.json',
+        'packages/svg-icons/dist/icons-list.json'
+    );
+
     done();
 });
 
@@ -259,6 +264,11 @@ gulp.task('pkg-font:update', done => {
     fse.writeFileSync(
         path.resolve( 'packages/font-icons/html/index.html' ),
         fontHtmlTemplate( iconsHast.icons )
+    );
+
+    fse.copyFileSync(
+        'src/icons/icons-list.json',
+        'packages/font-icons/dist/icons-list.json'
     );
 
     done();
