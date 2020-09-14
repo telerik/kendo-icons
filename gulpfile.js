@@ -213,8 +213,8 @@ gulp.task('pkg-svg:update', done => {
     );
 
     fse.copyFileSync(
-        'src/icons/icons-list.json',
-        'packages/svg-icons/dist/icons-list.json'
+        paths.iconsList,
+        path.resolve( 'packages/svg-icons/dist/icon-list.json' )
     );
 
     done();
@@ -267,8 +267,8 @@ gulp.task('pkg-font:update', done => {
     );
 
     fse.copyFileSync(
-        'src/icons/icons-list.json',
-        'packages/font-icons/dist/icons-list.json'
+        paths.iconsList,
+        path.resolve( 'packages/font-icons/dist/icon-list.json' )
     );
 
     done();
