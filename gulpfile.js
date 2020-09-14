@@ -169,7 +169,7 @@ gulp.task('build:ttf-font', done => {
     done();
 });
 
-const buildAll = gulp.series( 'svg:dist', 'build:hast', 'build:font-json', 'build:svg-font', 'build:ttf-font' );
+const buildAll = gulp.series( 'svg:dist', 'svg:update-list', 'build:hast', 'build:font-json', 'build:svg-font', 'build:ttf-font' );
 buildAll.displayName = 'build:all';
 gulp.task( buildAll );
 //#endregion
