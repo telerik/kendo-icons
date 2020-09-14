@@ -1,10 +1,6 @@
 name: Publish to npm
 
-on:
-  workflow_dispatch:
-    branches:
-      - stable
-      - develop
+ on: [workflow_dispatch]
 
 
 jobs:
