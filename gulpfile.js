@@ -220,7 +220,7 @@ gulp.task('pkg-svg:update', done => {
     done();
 });
 
-const pkgSvg = gulp.series( 'svg:dist', 'build:hast', 'pkg-svg:update' );
+const pkgSvg = gulp.series( 'svg:dist', 'svg:update-list', 'build:hast', 'pkg-svg:update' );
 pkgSvg.displayName = 'pkg-svg';
 gulp.task( pkgSvg );
 // #endregion
