@@ -186,6 +186,7 @@ gulp.task('pkg-svg:update', done => {
     let content;
 
     fse.emptyDirSync( './packages/svg-icons/src/icons' );
+    fse.emptyDirSync( './packages/svg-icons/dist' );
 
     iconsHast.icons.forEach(iconDef => {
         iconName = iconDef.name;
