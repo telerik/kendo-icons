@@ -52,38 +52,6 @@ gulp.task( 'svg:update-list', done => {
     done();
 });
 
-gulp.task( 'svg:migrate', done => {
-
-    const iconsJson = JSON.parse( fse.readFileSync( paths.iconsJson, 'utf-8') );
-
-    iconsJson.icons.forEach( iconDef => {
-        let iconName = iconDef.name;
-        let iconOldName = iconDef.aliases[0];
-        let iconPath = path.resolve( paths.iconsSrcPath, `${iconName}.svg` );
-        let iconOldPath;
-
-        if ( fse.existsSync( iconPath ) ) {
-            return;
-        }
-
-        if ( typeof iconOldName === 'string' ) {
-            iconOldPath = path.resolve( paths.iconsSrcPath, `${iconOldName}.svg` );
-
-            if ( fse.existsSync( iconOldPath) ) {
-                logger.info( `Renaming icon ${iconOldName} to ${iconName}` );
-                fse.moveSync( iconOldPath, iconPath );
-
-                return;
-            }
-        }
-
-        logger.warn( `${iconName}.svg does not eixst in source files.` );
-
-    });
-
-    done();
-});
-
 gulp.task( 'svg:dist', () => {
     let files = glob.sync( path.resolve( paths.iconsSrcPath, paths.svgGlob ) );
 

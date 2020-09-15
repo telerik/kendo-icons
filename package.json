@@ -1,7 +1,9 @@
 {
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "prepare-packages": "gulp pkg-svg && gulp pkg-font"
+    "migrate": "node scripts/migrate.js",
+    "prepare-packages": "gulp pkg-svg && gulp pkg-font",
+    "serve": "npx http-server"
   },
   "devDependencies": {
     "@progress/kendo-theme-tasks": "^0.7.0",
