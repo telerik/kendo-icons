@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Icons</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../packages/font-icons/dist/index.css" />
+
+    <style>
+        #test-area {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(16, min-content);
+            gap: 20px;
+            align-items: top;
+        }
+        #test-area > span {
+            width: 20px;
+            height: 20px;
+            box-sizing: border-box;
+            outline: 1px dashed rgba( 0, 0, 0, .25 );
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div id="test-area">
+    </div>
+    <script>
+        const testArea = document.getElementById('test-area');
+
+        fetch('icons-list.json')
+            .then(response => response.json())
+            .then(json => {
+                let content = json.list.map(icon => {
+                    return (icon === null ? '' : `<span><span class="k-icon k-i-${icon}"></span></span>`);
+                });
+
+                testArea.innerHTML = content.join('');
+            });
+    </script>
+
+</body>
+</html>
