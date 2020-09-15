@@ -7,14 +7,9 @@ const glob = require('glob');
 const gulp = require('gulp');
 const svg2ttf = require('svg2ttf');
 
-const { getArgs, logger, colorTheme } = require('./scripts/utils');
 const svgo = require('./scripts/svgo');
 const svgParser = require('svg-parser');
 const { svgFontTemplate, svgTsTemplate, indexTsTemplate, fontFileTemplate, fontHtmlTemplate } = require('./scripts/templates');
-
-
-const unicodeStart = parseInt('e000', 16);
-let unicodePointer;
 
 
 const paths = {
@@ -31,27 +26,6 @@ const paths = {
 
 
 // #region svg files
-gulp.task( 'svg:update-list', done => {
-    const iconsJson = JSON.parse( fse.readFileSync( paths.iconsJson, 'utf-8') );
-    const iconsList = {
-        list: [],
-        emptyIndex: -1
-    };
-
-    iconsJson.icons.forEach( ( iconDef, index ) => {
-        let unicodeDecimal = parseInt( iconDef.unicode, 16 ) - unicodeStart;
-        iconsList.list[unicodeDecimal] = iconDef.name;
-
-        if ( iconsList.emptyIndex === -1 && unicodeDecimal > index  ) {
-            iconsList.emptyIndex = index;
-        }
-    });
-
-    fse.writeFileSync( paths.iconsList, JSON.stringify( iconsList, null, 4 ) );
-
-    done();
-});
-
 gulp.task( 'svg:dist', () => {
     let files = glob.sync( path.resolve( paths.iconsSrcPath, paths.svgGlob ) );
 
@@ -137,7 +111,7 @@ gulp.task('build:ttf-font', done => {
     done();
 });
 
-const buildAll = gulp.series( 'svg:dist', 'svg:update-list', 'build:hast', 'build:font-json', 'build:svg-font', 'build:ttf-font' );
+const buildAll = gulp.series( 'svg:dist', 'build:hast', 'build:font-json', 'build:svg-font', 'build:ttf-font' );
 buildAll.displayName = 'build:all';
 gulp.task( buildAll );
 //#endregion
@@ -189,7 +163,7 @@ gulp.task('pkg-svg:update', done => {
     done();
 });
 
-const pkgSvg = gulp.series( 'svg:dist', 'svg:update-list', 'build:hast', 'pkg-svg:update' );
+const pkgSvg = gulp.series( 'svg:dist', 'build:hast', 'pkg-svg:update' );
 pkgSvg.displayName = 'pkg-svg';
 gulp.task( pkgSvg );
 // #endregion
@@ -203,8 +177,7 @@ gulp.task('pkg-font:update', done => {
     let unicode;
     let content = [];
 
-    fse.emptyDirSync( './packages/font-icons/dist' );
-    fse.emptyDirSync( './packages/font-icons/html' );
+    fse.emptyDirSync( path.resolve( 'packages/font-icons/dist' ) );
 
     iconsHast.icons.forEach( iconDef => {
         iconName = iconDef.name;
@@ -230,11 +203,6 @@ gulp.task('pkg-font:update', done => {
         fontFileTemplate( path.resolve( 'packages/font-icons/dist/kendo-font-icons.ttf' ) )
     );
 
-    fse.writeFileSync(
-        path.resolve( 'packages/font-icons/html/index.html' ),
-        fontHtmlTemplate( iconsHast.icons )
-    );
-
     fse.copyFileSync(
         paths.iconsList,
         path.resolve( 'packages/font-icons/dist/icon-list.json' )
@@ -248,11 +216,3 @@ const pkgFont = gulp.series( 'build:all', 'pkg-font:update' );
 pkgFont.displayName = 'pkg-font';
 gulp.task( pkgFont );
 // #endregion
-
-
-// Exports
-
-
-
-// exports.pkgAll = gulp.series( 'build:all', 'pkg-svg:update', 'pkg-font:update' );
-// exports.pkgAll.displayName = 'pkg-all';

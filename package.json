@@ -1,7 +1,7 @@
 {
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "migrate": "node scripts/migrate.js",
+    "migrate": "node scripts/migrate-icons.js && node scripts/update-icon-list.js",
     "prepare-packages": "gulp pkg-svg && gulp pkg-font",
     "serve": "npx http-server"
   },

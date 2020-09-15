@@ -1,6 +1,5 @@
 const fs = require('fs-extra');
 const path = require('path');
-const logger = require('gulplog');
 
 const iconsJsonPath = path.resolve( 'src/icons/icons.json' );
 const iconsSrcPath = path.resolve( 'src/icons/solid/' );
