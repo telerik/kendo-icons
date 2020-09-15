@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.0.5 (2020-09-15)
+
+
+### Bug Fixes
+
+* add missing icon aliases ([6abd292](https://github.com/telerik/kendo-icons/commit/6abd2928d22f03c82c9c7a12958f16ac78f9c073))
+
+
+
+
+
 ## 0.0.4 (2020-09-15)
 
 **Note:** Version bump only for package @progress/kendo-svg-icons
