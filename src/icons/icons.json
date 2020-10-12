@@ -3259,6 +3259,18 @@
             "unicode": "e945"
         },
         {
+            "name": "data-rest",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e946"
+        },
+        {
+            "name": "file-typescript",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e947"
+        },
+        {
             "name": "graph",
             "ligatures": [],
             "aliases": [],

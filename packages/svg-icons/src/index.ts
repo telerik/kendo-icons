@@ -544,6 +544,8 @@ export { parametersByteArray } from './icons/parameters-byte-array';
 export { parametersUnknown } from './icons/parameters-unknown';
 export { fileError } from './icons/file-error';
 export { filesError } from './icons/files-error';
+export { dataRest } from './icons/data-rest';
+export { fileTypescript } from './icons/file-typescript';
 export { graph } from './icons/graph';
 export { chartColumnClustered } from './icons/chart-column-clustered';
 export { chartColumnStacked } from './icons/chart-column-stacked';
