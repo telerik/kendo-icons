@@ -37,11 +37,11 @@ jobs:
       with:
         node-version: '10.x'
 
-      - name: Setup node cache
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+    - name: Setup node cache
+      uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
 
     - name: Add token
       run: printf "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
