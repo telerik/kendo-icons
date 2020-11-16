@@ -3271,6 +3271,48 @@
             "unicode": "e947"
         },
         {
+            "name": "table-position-start",
+            "ligatures": [],
+            "aliases": ["table-position-left"],
+            "unicode": "e948"
+        },
+        {
+            "name": "table-position-center",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e949"
+        },
+        {
+            "name": "table-position-end",
+            "ligatures": [],
+            "aliases": ["table-position-right"],
+            "unicode": "e94a"
+        },
+        {
+            "name": "list-roman-upper",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e94b"
+        },
+        {
+            "name": "list-roman-lower",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e94c"
+        },
+        {
+            "name": "import",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e94d"
+        },
+        {
+            "name": "export",
+            "ligatures": [],
+            "aliases": [],
+            "unicode": "e94e"
+        },
+        {
             "name": "graph",
             "ligatures": [],
             "aliases": [],
