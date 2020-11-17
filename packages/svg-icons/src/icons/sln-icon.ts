@@ -1,0 +1,7 @@
+import { SVGIcon } from '../svg-icon.interface';
+
+export const slnIcon: SVGIcon = {
+    name: 'sln-icon',
+    content: '<path d="M352 32L172.5 211.5 64 128l-32 32v192l32 32 108.5-83.5L352 480l128-32V64L352 32zM64 320V192l64 64-64 64zm166.4-64L352 162.5v187.1L230.4 256z" />',
+    viewBox: '0 0 512 512'
+}
