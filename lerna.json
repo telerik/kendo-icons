@@ -13,7 +13,8 @@
         "yes": true
       },
       "version": {
-        "allowBranch": ["master", "develop"]
+        "allowBranch": ["master", "develop"],
+        "noPush": true
       },
       "publish": {
         "loglevel": "verbose",
