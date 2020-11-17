@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.2 (2020-11-17)
+
+
+### Bug Fixes
+
+* **svg-icon:** rename svg icons to allow reserved names like import and export ([79083fe](https://github.com/telerik/kendo-icons/commit/79083fe37b98829e423c1530097821ed9269eb8e))
+
+
+
+
+
 ## 0.1.1 (2020-11-16)
 
 **Note:** Version bump only for package @progress/kendo-svg-icons
