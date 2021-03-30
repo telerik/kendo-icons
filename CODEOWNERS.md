@@ -1,0 +1,1 @@
+* @telerik/kendo-icons-reviewers
