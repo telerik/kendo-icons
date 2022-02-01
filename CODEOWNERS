@@ -1,1 +1,5 @@
-* @telerik/kendo-icons-reviewers
+# See GitHub documentation
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Global ownership of all assets
+* @telerik/kendo-front-end @telerik/kendo-icons-reviewers
