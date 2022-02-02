@@ -3,7 +3,8 @@
     "bootstrap": "lerna bootstrap",
     "migrate": "node scripts/migrate-icons.js && node scripts/update-icon-list.js",
     "prepare-packages": "gulp pkg-svg && gulp pkg-font",
-    "serve": "npx http-server"
+    "serve": "npx http-server",
+    "update": "npx npm-check-updates --upgrade"
   },
   "devDependencies": {
     "@progress/kendo-theme-tasks": "^0.7.0",
