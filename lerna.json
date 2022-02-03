@@ -1,25 +1,29 @@
 {
-    "lerna": "2.11.0",
-    "packages": [
-      "packages/*"
-    ],
-    "version": "independent",
-    "command": {
-      "bootstrap": {
-        "concurrency": 1,
-        "npmClientArgs": ["--no-package-lock"]
-      },
-      "clean": {
-        "yes": true
-      },
-      "version": {
-        "allowBranch": ["master", "develop"],
-        "noPush": true
-      },
-      "publish": {
-        "loglevel": "verbose",
-        "message": "chore(release): publish packages",
-        "yes": true
-      }
+  "lerna": "4.0.0",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.1.2",
+  "command": {
+    "bootstrap": {
+      "concurrency": 1,
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
+    },
+    "clean": {
+      "yes": true
+    },
+    "version": {
+      "allowBranch": ["master", "develop"],
+      "noPush": true
+    },
+    "publish": {
+      "concurrency": 1,
+      "loglevel": "silly",
+      "message": "chore(release): %s",
+      "verifyAccess": false,
+      "yes": true
     }
   }
+}

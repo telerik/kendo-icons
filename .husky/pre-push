@@ -1,0 +1,7 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm run eslint
+npm run build
+
+git diff --exit-code --quiet -- packages/ || (echo -e '\\033[0;31mERROR: Package content is out of date' && exit 1)
