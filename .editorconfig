@@ -13,6 +13,6 @@ max_line_length = off
 indent_style = space
 indent_size = 4
 
-[{package.json,.travis.yml}]
+[{package.json,lerna.json}]
 indent_style = space
 indent_size = 2
