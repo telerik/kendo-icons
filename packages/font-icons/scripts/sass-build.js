@@ -1,3 +1,8 @@
 const build = require('@progress/kendo-theme-tasks').build;
 
-build( 'scss/index.scss', 'dist/' );
+build({
+    file: 'scss/index.scss',
+    output: {
+        path: 'dist/'
+    }
+});

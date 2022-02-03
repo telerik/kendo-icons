@@ -1,6 +1,8 @@
-$ki-embed-font:     false !default;
-$ki-font-file-url:  "kendo-font-icons.ttf" !default;
-$ki-font-url:       $ki-font-file-url !default;
+$ki-font-family: "WebComponentsIcons" !default;
+$ki-icon-size: 16px !default;
 
-$ki-css-prefix:     "k-i-" !default;
-$ki-icon-size:      16px !default;
+$ki-embed-font: false !default;
+$ki-font-file-url: "kendo-font-icons.ttf" !default;
+$ki-font-url: if( $ki-embed-font == true, $ki-font-data-url, $ki-font-file-url ) !default;
+
+$ki-css-prefix: "k-i-" !default;
