@@ -1,6 +1,5 @@
 export { SVGIcon } from './svg-icon.interface';
 
-
 export { caretTrIcon } from './icons/caret-tr-icon';
 export { caretBrIcon } from './icons/caret-br-icon';
 export { caretBlIcon } from './icons/caret-bl-icon';
