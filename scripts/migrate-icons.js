@@ -20,9 +20,10 @@ iconsJson.icons.forEach( iconDef => {
     dirty = true;
 
     if ( typeof iconOldName === 'string' ) {
-        iconOldPath = path.resolve( paths.iconsSrcPath, `${iconOldName}.svg` );
+        iconOldPath = path.resolve( iconsSrcPath, `${iconOldName}.svg` );
 
         if ( fs.existsSync( iconOldPath) ) {
+            // eslint-disable-next-line no-console
             console.info( `Renaming icon ${iconOldName} to ${iconName}` );
             fs.renameSync( iconOldPath, iconPath );
 
@@ -30,10 +31,12 @@ iconsJson.icons.forEach( iconDef => {
         }
     }
 
-    console.warn( `${iconName}.svg does not eixst in source files.` );
+    // eslint-disable-next-line no-console
+    console.warn( `${iconName}.svg does not exist in source files.` );
 
 });
 
 if (dirty === false ) {
+    // eslint-disable-next-line no-console
     console.info( `No icons needed migration` );
 }

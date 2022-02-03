@@ -1,12 +1,79 @@
-@import "_variables.scss";
-@import "_font.scss";
 
-@font-face {
-    font-family: "kendo-font-icons";
-    font-style: normal;
-    font-weight: normal;
-    src: url( "#{$ki-font-url}" ) format( "truetype" );
+@import "_font.scss";
+@import "_variables.scss";
+
+// Keep this as a root selector, because it doesn't work when nested inside selector
+@at-root {
+    @font-face {
+        font-family: $ki-font-family;
+        font-style: normal;
+        font-weight: normal;
+        src: url( "#{$ki-font-url}" ) format( "truetype" );
+    }
 }
 
-@import "_core.scss";
+// Font icon
+.k-icon {
+    width: 1em;
+    height: 1em;
+    outline: 0;
+    font-size: $ki-icon-size;
+    font-family: $ki-font-family;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    speak: none;
+    text-transform: none;
+    text-decoration: none;
+    flex-shrink: 0;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    position: relative;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+
+// Svg icon
+.k-svg-icon {
+    width: 1em;
+    height: 1em;
+    outline: 0;
+    line-height: 1;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    position: relative;
+
+    > svg {
+        fill: currentColor;
+        flex: 1 1 auto;
+    }
+}
+
+
+.k-i-none::before {
+    display: none !important; // stylelint-disable-line
+}
+
+
+// Icon sizes
+.k-icon-xs { font-size: ( $ki-icon-size * .5 ); }
+.k-icon-sm { font-size: ( $ki-icon-size * .75 ); }
+.k-icon-md { font-size: ( $ki-icon-size * 2 ); }
+.k-icon-lg { font-size: ( $ki-icon-size * 3 ); }
+.k-icon-xl { font-size: ( $ki-icon-size * 4 ); }
+
+
 @import "_icons.scss";

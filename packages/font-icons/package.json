@@ -11,8 +11,9 @@
     "scss/"
   ],
   "scripts": {
-    "sass": "node scripts/sass-build.js",
-    "prepublishOnly": "npm run sass"
+    "prebuild": "node scripts/prepare-font.js",
+    "build": "node scripts/sass-build.js",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "Kendo UI",

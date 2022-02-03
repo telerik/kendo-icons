@@ -15,7 +15,7 @@ iconsJson.icons.forEach( ( iconDef, index ) => {
     let unicodeDecimal = parseInt( iconDef.unicode, 16 ) - unicodeStart;
     iconsList.list[unicodeDecimal] = iconDef.name;
 
-    if ( iconsList.emptyIndex === -1 && unicodeDecimal > index  ) {
+    if ( iconsList.emptyIndex === -1 && unicodeDecimal > index ) {
         iconsList.emptyIndex = index;
     }
 });
