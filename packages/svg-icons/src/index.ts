@@ -237,7 +237,7 @@ export { eyedropperIcon } from './icons/eyedropper-icon';
 export { snapGridIcon } from './icons/snap-grid-icon';
 export { snapToGridlinesIcon } from './icons/snap-to-gridlines-icon';
 export { snapToSnaplinesIcon } from './icons/snap-to-snaplines-icon';
-export { dimentionsIcon } from './icons/dimentions-icon';
+export { dimensionsIcon } from './icons/dimensions-icon';
 export { alignSelfStretchIcon } from './icons/align-self-stretch-icon';
 export { alignSelfStretchAltIcon } from './icons/align-self-stretch-alt-icon';
 export { alignItemsStartIcon } from './icons/align-items-start-icon';
