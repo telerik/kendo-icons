@@ -2,6 +2,6 @@
 . "$(dirname "$0")/_/husky.sh"
 
 npm run eslint
-npm run build
+npm run update-icons
 
-git diff --exit-code --quiet -- packages/ || (echo -e '\\033[0;31mERROR: Package content is out of date' && exit 1)
+git diff --exit-code --quiet -- src/icons/ || (echo -e '\\033[0;31mERROR: icons.json is updated. Please add icon groups if new icons are added.' && exit 1)
