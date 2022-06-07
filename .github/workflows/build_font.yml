@@ -1,0 +1,56 @@
+name: Build Font
+
+on:
+  push:
+    branches-ignore:
+      - 'develop'
+
+jobs:
+  build-font:
+    name: Build Font
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v2
+
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          cache: 'npm'
+          node-version: 14.x
+
+      - name: Install
+        run: |
+          npm ci
+          npm run bootstrap
+
+      - name: Build assets
+        run: |
+          npm run build
+
+      - name: Compare artifacts
+        run: |
+          HAS_CHANGES=0
+          HAS_NEW=0
+          git diff --exit-code --quiet -- packages/ || HAS_CHANGES=1
+          [[ $(git ls-files --others --exclude-standard packages/) ]] && HAS_NEW=1
+          echo "HAS_CHANGES=$HAS_CHANGES" >> $GITHUB_ENV
+          echo "HAS_NEW=$HAS_NEW" >> $GITHUB_ENV
+
+      - name: Setup git user
+        run: |
+          git config user.name "kendo-bot"
+          git config user.email "kendouiteam@progress.com"
+
+      - name: Push changes to GitHub
+        if: ${{ env.HAS_CHANGES == 1 || env.HAS_NEW == 1 }}
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          echo "Updating font."
+
+          git add packages/
+          git commit -m "chore: update font"
+
+          git push
