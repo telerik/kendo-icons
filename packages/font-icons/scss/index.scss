@@ -69,11 +69,11 @@
 
 
 // Icon sizes
-.k-icon-xs { font-size: ( $ki-icon-size * .5 ); }
-.k-icon-sm { font-size: ( $ki-icon-size * .75 ); }
-.k-icon-md { font-size: ( $ki-icon-size * 2 ); }
-.k-icon-lg { font-size: ( $ki-icon-size * 3 ); }
-.k-icon-xl { font-size: ( $ki-icon-size * 4 ); }
+.k-icon-xs { font-size: ( calc( #{$ki-icon-size} * .5 ) ); }
+.k-icon-sm { font-size: ( calc( #{$ki-icon-size} * .75 ) ); }
+.k-icon-md { font-size: ( calc( #{$ki-icon-size} * 2 ) ); }
+.k-icon-lg { font-size: ( calc( #{$ki-icon-size} * 3 ) ); }
+.k-icon-xl { font-size: ( calc( #{$ki-icon-size} * 4 ) ); }
 
 
 @import "_icons.scss";
