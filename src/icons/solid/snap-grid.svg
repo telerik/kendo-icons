@@ -3,5 +3,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
 <path d="M480,128V96h-96V0h-32v96h-96V0h-32v96h-96V0H96v96H0v32h96v96H0v32h96v96H0v32h96v96h32v-96h96v96h32v-96h96v96h32v-96h96
 	v-32h-96v-96h96v-32h-96v-96H480z M128,128h96v96h-96V128z M128,352v-96h96v96H128z M352,352h-96v-96h96V352z M352,224h-96v-96h96
-	V224z"/>
+	V224z" />
 </svg>
