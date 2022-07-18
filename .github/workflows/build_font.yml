@@ -3,6 +3,7 @@ name: Build Font
 on:
   push:
     branches-ignore:
+      - 'master'
       - 'develop'
 
 jobs:
@@ -51,6 +52,6 @@ jobs:
           echo "Updating font."
 
           git add packages/
-          git commit -m "chore: update font"
+          git commit -m "feat: add new icons"
 
           git push
