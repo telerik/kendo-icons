@@ -445,7 +445,7 @@
         "unicode": "e026"
     },
     {
-        "name": "handler-drag",
+        "name": "handle-drag",
         "ligatures": [],
         "aliases": [],
         "groups": [
@@ -5177,7 +5177,7 @@
         "unicode": "e924"
     },
     {
-        "name": "report-header-section",
+        "name": "file-header",
         "ligatures": [],
         "aliases": [],
         "groups": [
@@ -5186,7 +5186,7 @@
         "unicode": "e925"
     },
     {
-        "name": "report-footer-section",
+        "name": "file-footer",
         "ligatures": [],
         "aliases": [],
         "groups": [
