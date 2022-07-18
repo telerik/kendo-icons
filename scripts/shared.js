@@ -11,7 +11,7 @@ const paths = {
         src: resolve( root, 'src/icons/solid' ),
         temp: resolve( root, '.tmp/icons/solid' ),
         json: resolve( root, 'src/icons/icons.json' ),
-        list: resolve( root, 'src/icons/icons-list.json' ),
+        list: resolve( root, 'src/icons/icon-list.json' ),
         hast: resolve( root, '.tmp/icons/icons-hast.json' )
     },
     svgGlob: '**/*.svg'
@@ -40,7 +40,7 @@ function buildHast() {
     const output = { icons: [] };
     const iconsJson = JSON.parse( fs.readFileSync( paths.icons.json, 'utf-8') );
 
-    iconsJson.icons.forEach( iconDef => {
+    iconsJson.forEach( iconDef => {
         let iconName = iconDef.name;
         let iconFile = resolve( paths.icons.temp, `${iconName}.svg` );
 

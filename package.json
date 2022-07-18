@@ -6,7 +6,7 @@
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "eslint": "eslint \"**/*.js\"",
-    "migrate": "node scripts/migrate-icons.js && node scripts/update-icon-list.js",
+    "migrate": "node scripts/migrate-icons.js && node scripts/update-icons.js",
     "update-icons": "node scripts/update-icons.js",
     "prepare-packages": "lerna run build",
     "serve": "npx http-server",

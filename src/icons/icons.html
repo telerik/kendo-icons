@@ -32,10 +32,10 @@
     <script>
         const testArea = document.getElementById('test-area');
 
-        fetch('icons-list.json')
+        fetch('icon-list.json')
             .then(response => response.json())
             .then(json => {
-                let content = json.list.map(icon => {
+                let content = json.map(icon => {
                     return (icon === null ? '' : `<span><span class="k-icon k-i-${icon}"></span></span>`);
                 });
 
