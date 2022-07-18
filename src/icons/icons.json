@@ -583,6 +583,579 @@
         "unicode": "e034"
     },
     {
+        "name": "arrows-left-right",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "arrows"
+        ],
+        "unicode": "e035"
+    },
+    {
+        "name": "arrows-top-bottom",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "arrows"
+        ],
+        "unicode": "e036"
+    },
+    {
+        "name": "border-radius-bottom-left",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "border"
+        ],
+        "unicode": "e037"
+    },
+    {
+        "name": "border-radius-bottom-right",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "border"
+        ],
+        "unicode": "e038"
+    },
+    {
+        "name": "border-radius-top-left",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "border"
+        ],
+        "unicode": "e039"
+    },
+    {
+        "name": "border-radius-top-right",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "border"
+        ],
+        "unicode": "e03a"
+    },
+    {
+        "name": "border-radius",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "border"
+        ],
+        "unicode": "e03b"
+    },
+    {
+        "name": "border-style-bottom",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "border"
+        ],
+        "unicode": "e03c"
+    },
+    {
+        "name": "border-style-left",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "border"
+        ],
+        "unicode": "e03d"
+    },
+    {
+        "name": "border-style-right",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "border"
+        ],
+        "unicode": "e03e"
+    },
+    {
+        "name": "border-style-top",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "border"
+        ],
+        "unicode": "e03f"
+    },
+    {
+        "name": "border-style",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "border"
+        ],
+        "unicode": "e040"
+    },
+    {
+        "name": "box-sizing",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "layout"
+        ],
+        "unicode": "e041"
+    },
+    {
+        "name": "chevron-double-down",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "arrows"
+        ],
+        "unicode": "e042"
+    },
+    {
+        "name": "chevron-double-left",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "arrows"
+        ],
+        "unicode": "e043"
+    },
+    {
+        "name": "chevron-double-right",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "arrows"
+        ],
+        "unicode": "e044"
+    },
+    {
+        "name": "chevron-double-up",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "arrows"
+        ],
+        "unicode": "e045"
+    },
+    {
+        "name": "data-ods",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "data"
+        ],
+        "unicode": "e046"
+    },
+    {
+        "name": "display-Inline-block",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "layout",
+            "display"
+        ],
+        "unicode": "e047"
+    },
+    {
+        "name": "display-block",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "layout",
+            "display"
+        ],
+        "unicode": "e048"
+    },
+    {
+        "name": "display-flex",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "layout",
+            "display"
+        ],
+        "unicode": "e049"
+    },
+    {
+        "name": "display-inline-flex",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "layout",
+            "display"
+        ],
+        "unicode": "e04a"
+    },
+    {
+        "name": "droplet-slider",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "color"
+        ],
+        "unicode": "e04b"
+    },
+    {
+        "name": "file-report",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "file"
+        ],
+        "unicode": "e04c"
+    },
+    {
+        "name": "gap-column",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "layout"
+        ],
+        "unicode": "e04d"
+    },
+    {
+        "name": "gap-row",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "layout"
+        ],
+        "unicode": "e04e"
+    },
+    {
+        "name": "handle-resize-alt",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "resize"
+        ],
+        "unicode": "e04f"
+    },
+    {
+        "name": "handle-resize",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "resize"
+        ],
+        "unicode": "e050"
+    },
+    {
+        "name": "images",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "image"
+        ],
+        "unicode": "e051"
+    },
+    {
+        "name": "letter-space",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "typography"
+        ],
+        "unicode": "e052"
+    },
+    {
+        "name": "line-height",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "typography"
+        ],
+        "unicode": "e053"
+    },
+    {
+        "name": "list-latin-big",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "list"
+        ],
+        "unicode": "e054"
+    },
+    {
+        "name": "list-latin-small",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "list"
+        ],
+        "unicode": "e055"
+    },
+    {
+        "name": "list-roman-big",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "list"
+        ],
+        "unicode": "e056"
+    },
+    {
+        "name": "list-roman-small",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "list"
+        ],
+        "unicode": "e057"
+    },
+    {
+        "name": "list-unordered-outline",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "list"
+        ],
+        "unicode": "e058"
+    },
+    {
+        "name": "list-unordered-square",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "list"
+        ],
+        "unicode": "e059"
+    },
+    {
+        "name": "max-height",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "layout"
+        ],
+        "unicode": "e05a"
+    },
+    {
+        "name": "max-width",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "layout"
+        ],
+        "unicode": "e05b"
+    },
+    {
+        "name": "min-height",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "layout"
+        ],
+        "unicode": "e05c"
+    },
+    {
+        "name": "min-width",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "layout"
+        ],
+        "unicode": "e05d"
+    },
+    {
+        "name": "outline-offset",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "outline"
+        ],
+        "unicode": "e05e"
+    },
+    {
+        "name": "outline-width",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "outline"
+        ],
+        "unicode": "e05f"
+    },
+    {
+        "name": "padding-bottom",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "layout",
+            "padding"
+        ],
+        "unicode": "e060"
+    },
+    {
+        "name": "padding-left",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "layout",
+            "padding"
+        ],
+        "unicode": "e061"
+    },
+    {
+        "name": "padding-right",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "layout",
+            "padding"
+        ],
+        "unicode": "e062"
+    },
+    {
+        "name": "padding-top",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "layout",
+            "padding"
+        ],
+        "unicode": "e063"
+    },
+    {
+        "name": "padding",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "layout",
+            "padding"
+        ],
+        "unicode": "e064"
+    },
+    {
+        "name": "position-bottom",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "position"
+        ],
+        "unicode": "e065"
+    },
+    {
+        "name": "position-left",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "position"
+        ],
+        "unicode": "e066"
+    },
+    {
+        "name": "position-right",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "position"
+        ],
+        "unicode": "e067"
+    },
+    {
+        "name": "position-top",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "css",
+            "position"
+        ],
+        "unicode": "e068"
+    },
+    {
+        "name": "regular-expression",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "text"
+        ],
+        "unicode": "e069"
+    },
+    {
+        "name": "replace-all",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "text"
+        ],
+        "unicode": "e06a"
+    },
+    {
+        "name": "replace-single",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "text"
+        ],
+        "unicode": "e06b"
+    },
+    {
+        "name": "report-element",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "text"
+        ],
+        "unicode": "e06c"
+    },
+    {
+        "name": "right-double-quotes",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "text"
+        ],
+        "unicode": "e06d"
+    },
+    {
+        "name": "whole-word",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "text"
+        ],
+        "unicode": "e06e"
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
