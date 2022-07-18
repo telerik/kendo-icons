@@ -9,8 +9,8 @@
 1. Create a new branch from develop by running `git checkout -b branch-name`
 1. Copy the newly created SVG icon in `src/icons/solid` folder.
 1. Stage, commit and push the changes.
-1. Before pushing, the `icons.json` and `icons-list.json` files will be updated automatically. The newly created icon will be added at the end of the `icons.json` file.
-1. Open the `icons.json` and fill in the relevant icon group, e.g:
+1. Before pushing, the `icons.json` and `icons-list.json` files will be updated automatically.
+1. Open the `icons.json` and fill in the relevant icon group for the newly added icon, e.g:
 
 ```
         {
