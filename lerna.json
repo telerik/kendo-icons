@@ -1,22 +1,25 @@
 {
   "lerna": "4.0.0",
+  "version": "0.1.2",
   "packages": [
     "packages/*"
   ],
-  "version": "0.1.2",
   "command": {
     "bootstrap": {
       "concurrency": 1,
       "npmClientArgs": [
-        "--no-package-lock"
+        "--no-save"
       ]
     },
     "clean": {
       "yes": true
     },
     "version": {
-      "allowBranch": ["master", "develop"],
-      "noPush": true
+      "allowBranch": [
+        "master",
+        "develop"
+      ],
+      "conventionalCommits": true
     },
     "publish": {
       "concurrency": 1,
