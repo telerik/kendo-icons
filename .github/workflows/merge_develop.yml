@@ -1,0 +1,29 @@
+name: Merge develop to master
+
+defaults:
+  run:
+    shell: bash
+
+on: [workflow_dispatch]
+
+jobs:
+
+  merge:
+    name: Merge
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+          token: ${{ secrets.GH_TOKEN }}
+
+      - name: Merge develop to master
+        run: |
+          git fetch --quiet
+          git reset --hard origin/master
+          git merge --ff-only --quiet origin/develop
+          git push origin master
