@@ -7,7 +7,7 @@ const iconsJson = JSON.parse( fs.readFileSync( iconsJsonPath, 'utf-8') );
 
 let dirty = false;
 
-iconsJson.icons.forEach( iconDef => {
+iconsJson.forEach( iconDef => {
     let iconName = iconDef.name;
     let iconOldName = iconDef.aliases[0];
     let iconPath = path.resolve( iconsSrcPath, `${iconName}.svg` );

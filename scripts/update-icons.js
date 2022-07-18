@@ -1,93 +1,89 @@
 const fs = require('fs-extra');
 const path = require('path');
 
-const iconsJsonPath = path.resolve( 'src/icons/icons.json' );
-const iconListPath = path.resolve( 'src/icons/icons-list.json' );
-const iconsSrcPath = path.resolve( 'src/icons/solid/' );
-const iconsJson = JSON.parse( fs.readFileSync( iconsJsonPath, 'utf-8') );
-const iconsListJson = JSON.parse( fs.readFileSync( iconListPath, 'utf-8') );
+const unicodeStart = parseInt('e000', 16);
 
-let dirty = false;
+function updateIcons() {
+    const iconSrcPath = path.resolve( 'src/icons/solid/' );
+    const svgIcons = fs.readdirSync(iconSrcPath);
 
-const svgIcons = fs.readdirSync(iconsSrcPath);
-const svgIconsList = iconsJson.icons;
-const iconsList = iconsListJson.list;
+    const iconsJsonPath = path.resolve( 'src/icons/icons.json' );
+    const iconListPath = path.resolve( 'src/icons/icon-list.json' );
 
-// Add new icons to json
-svgIcons.forEach( svgIcon => {
-    const svgIconName = path.parse(svgIcon).name;
+    let iconsJson = JSON.parse( fs.readFileSync( iconsJsonPath, 'utf-8' ) );
+    let iconList = JSON.parse( fs.readFileSync( iconListPath, 'utf-8' ) );
 
-    if (svgIconsList.find(icon => icon.name === svgIconName)) {
-        return;
+    let dirty = false;
+
+    // Add new icons to json
+    svgIcons.forEach( svgIcon => {
+        const svgIconName = path.parse( svgIcon ).name;
+
+        if ( iconList.indexOf(svgIconName) > - 1 ) {
+            return;
+        }
+
+        dirty = true;
+
+        let emptyIndex = iconList.indexOf( null );
+
+        if ( emptyIndex === -1 ) {
+            emptyIndex = iconList.length;
+        }
+
+        let newIcon = {
+            name: svgIconName,
+            ligatures: [],
+            aliases: [],
+            groups: [],
+            unicode: (unicodeStart + emptyIndex).toString(16)
+        };
+
+        iconList[emptyIndex] = svgIconName;
+        iconsJson.push( newIcon );
+
+        // eslint-disable-next-line no-console
+        console.info( `${svgIconName} icon added to icons.json and icons-list.json` );
+    });
+
+
+    // Sort icons
+    iconsJson = iconsJson.sort( (curr, next) => parseInt(curr.unicode, 16) - parseInt(next.unicode, 16) );
+
+
+    // remove deleted icons from json
+    iconsJson = iconsJson.filter( svgIconJson => {
+        let iconPath = path.resolve( iconSrcPath, `${svgIconJson.name}.svg` );
+
+        if ( fs.existsSync(iconPath) ) {
+            return true;
+        }
+
+        dirty = true;
+
+        // eslint-disable-next-line no-console
+        console.info( `${svgIconJson.name} icon removed from icons.json and icons-list.json` );
+
+        return false;
+    });
+
+
+    iconList = [];
+    iconsJson.forEach( icon => {
+        let index = parseInt( icon.unicode, 16 ) - unicodeStart;
+        iconList[index] = icon.name;
+    });
+
+
+    fs.writeFileSync( iconListPath, JSON.stringify(iconList, null, 4) );
+    fs.writeFileSync( iconsJsonPath, JSON.stringify(iconsJson, null, 4) );
+
+
+    if ( dirty === false ) {
+        // eslint-disable-next-line no-console
+        console.info( `No icons needed update` );
     }
 
-    dirty = true;
-
-    const unicodeStart = parseInt('e000', 16);
-    const unicodeNull = iconsList.findIndex(index => index == null);
-    let iconUnicodeIndex;
-
-    if (unicodeNull) {
-        iconUnicodeIndex = unicodeNull;
-    } else {
-        iconUnicodeIndex = iconsList.length;
-    }
-
-    // Update icon-list.json
-    iconsList[iconUnicodeIndex] = svgIconName;
-    fs.writeFileSync( iconListPath, JSON.stringify( iconsListJson, null, 4 ) );
-
-    const iconUnicode = unicodeStart + iconUnicodeIndex;
-    let newIcon = {
-        name: svgIconName,
-        ligatures: [],
-        aliases: [],
-        groups: [],
-        unicode: iconUnicode.toString(16)
-    };
-
-    // Update icons.json
-    svgIconsList.push(newIcon);
-
-    fs.writeFileSync( iconsJsonPath, JSON.stringify( iconsJson, null, 4 ));
-
-    // eslint-disable-next-line no-console
-    console.info( `${svgIconName} icon added to icons.json and icons-list.json` );
-});
-
-
-// remove deleted icons from json
-let updatedIconsJson = {};
-svgIconsList.forEach( svgIconJson => {
-    let iconPath = path.resolve( iconsSrcPath, `${svgIconJson.name}.svg` );
-
-    if ( fs.existsSync( iconPath ) ) {
-        return;
-    }
-
-    dirty = true;
-
-    // Delete icon from icons.json
-    updatedIconsJson.icons = svgIconsList.filter(icon => icon.name !== svgIconJson.name);
-
-    fs.writeFileSync( iconsJsonPath, JSON.stringify( updatedIconsJson, null, 4 ));
-
-
-    // Delete icon from icons-list.json
-    const delIconIndex = iconsList.indexOf(svgIconJson.name);
-
-    if (delIconIndex !== -1) {
-        iconsList[delIconIndex] = null;
-    }
-
-    fs.writeFileSync( iconListPath, JSON.stringify( iconsListJson, null, 4 ) );
-
-
-    // eslint-disable-next-line no-console
-    console.info( `${svgIconJson.name} icon removed from icons.json and icons-list.json` );
-});
-
-if ( dirty === false ) {
-    // eslint-disable-next-line no-console
-    console.info( `No icons needed update` );
 }
+
+updateIcons();
