@@ -1156,6 +1156,15 @@
         "unicode": "e06e"
     },
     {
+        "name": "audio-camera-media-4-svgrepo-com",
+        "ligatures": [],
+        "aliases": [],
+        "groups": [
+            "media"
+        ],
+        "unicode": "e06f"
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
