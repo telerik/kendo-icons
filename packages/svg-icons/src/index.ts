@@ -111,6 +111,7 @@ export { replaceSingleIcon } from './icons/replace-single-icon';
 export { reportElementIcon } from './icons/report-element-icon';
 export { rightDoubleQuotesIcon } from './icons/right-double-quotes-icon';
 export { wholeWordIcon } from './icons/whole-word-icon';
+export { audioCameraMedia4SvgrepoComIcon } from './icons/audio-camera-media-4-svgrepo-com-icon';
 export { undoIcon } from './icons/undo-icon';
 export { redoIcon } from './icons/redo-icon';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw-icon';
