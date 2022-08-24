@@ -149,6 +149,7 @@
 .k-i-display-flex::before { content: "\e049"; } 
 .k-i-display-inline-flex::before { content: "\e04a"; } 
 .k-i-droplet-slider::before { content: "\e04b"; } 
+.k-i-color-canvas::before { content: "\e04b"; } 
 .k-i-file-report::before { content: "\e04c"; } 
 .k-i-gap-column::before { content: "\e04d"; } 
 .k-i-gap-row::before { content: "\e04e"; } 
@@ -183,6 +184,7 @@
 .k-i-replace-single::before { content: "\e06b"; } 
 .k-i-report-element::before { content: "\e06c"; } 
 .k-i-right-double-quotes::before { content: "\e06d"; } 
+.k-i-blockquote::before { content: "\e06d"; } 
 .k-i-whole-word::before { content: "\e06e"; } 
 .k-i-undo::before { content: "\e100"; } 
 .k-i-undo-large::before { content: "\e100"; } 
@@ -918,7 +920,9 @@
 .k-i-subreport::before { content: "\e923"; } 
 .k-i-data::before { content: "\e924"; } 
 .k-i-file-header::before { content: "\e925"; } 
+.k-i-report-header-section::before { content: "\e925"; } 
 .k-i-file-footer::before { content: "\e926"; } 
+.k-i-report-footer-section::before { content: "\e926"; } 
 .k-i-group-header-section::before { content: "\e927"; } 
 .k-i-group-footer-section::before { content: "\e928"; } 
 .k-i-page-header-section::before { content: "\e929"; } 
