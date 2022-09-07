@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/telerik/kendo-icons/compare/v0.2.0...v0.3.0) (2022-09-07)
+
+
+### Features
+
+* add new icons ([79754a1](https://github.com/telerik/kendo-icons/commit/79754a109f4918149ecac964b865b8c87446dfc6))
+
+
+
+
+
 # 0.2.0 (2022-07-18)
 
 
