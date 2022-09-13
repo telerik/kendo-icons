@@ -59,6 +59,11 @@ function prepareSvgIcons() {
         paths.icons.list,
         resolve( 'dist/icon-list.json' )
     );
+
+    fs.copyFileSync(
+        paths.icons.json,
+        resolve( 'dist/icons.json' )
+    );
 }
 
 prepareSvgIcons();

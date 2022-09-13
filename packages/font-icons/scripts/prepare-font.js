@@ -105,6 +105,11 @@ function prepareFontIcons() {
         resolve( 'dist/icon-list.json' )
     );
 
+    fs.copyFileSync(
+        paths.icons.json,
+        resolve( 'dist/icons.json' )
+    );
+
     return Promise.resolve();
 }
 
