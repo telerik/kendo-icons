@@ -7,7 +7,7 @@
             "collapse-ne",
             "resize-ne"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e000"
@@ -20,7 +20,7 @@
             "collapse-se",
             "resize-se"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e001"
@@ -33,7 +33,7 @@
             "collapse-sw",
             "resize-sw"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e002"
@@ -46,7 +46,7 @@
             "collapse-nw",
             "resize-nw"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e003"
@@ -61,7 +61,7 @@
             "expand-n",
             "sarrow-n"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e004"
@@ -76,7 +76,7 @@
             "expand-e",
             "sarrow-e"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e005"
@@ -92,7 +92,7 @@
             "collapse",
             "sarrow-s"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e006"
@@ -106,7 +106,7 @@
             "expand-w",
             "sarrow-w"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e007"
@@ -118,7 +118,7 @@
             "arrow-end-up",
             "seek-n"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e008"
@@ -130,7 +130,7 @@
             "arrow-end-right",
             "seek-e"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e009"
@@ -142,7 +142,7 @@
             "arrow-end-down",
             "seek-s"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e00a"
@@ -154,7 +154,7 @@
             "arrow-end-left",
             "seek-w"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e00b"
@@ -166,7 +166,7 @@
             "arrow-double-60-up",
             "arrow-seek-up"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e00c"
@@ -179,7 +179,7 @@
             "arrow-seek-right",
             "forward-sm"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e00d"
@@ -191,7 +191,7 @@
             "arrow-double-60-down",
             "arrow-seek-down"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e00e"
@@ -204,7 +204,7 @@
             "arrow-seek-left",
             "rewind-sm"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e00f"
@@ -217,7 +217,7 @@
             "kpi",
             "caret-alt-sort"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e010"
@@ -226,7 +226,7 @@
         "name": "arrows-no-change",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e011"
@@ -235,7 +235,7 @@
         "name": "arrow-overflow-down",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e012"
@@ -247,7 +247,7 @@
             "arrow-chevron-up",
             "arrowhead-n"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e013"
@@ -259,7 +259,7 @@
             "arrow-chevron-right",
             "arrowhead-e"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e014"
@@ -271,7 +271,7 @@
             "arrow-chevron-down",
             "arrowhead-s"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e015"
@@ -283,7 +283,7 @@
             "arrow-chevron-left",
             "arrowhead-w"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e016"
@@ -292,7 +292,7 @@
         "name": "arrow-up",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e017"
@@ -301,7 +301,7 @@
         "name": "arrow-right",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e018"
@@ -310,7 +310,7 @@
         "name": "arrow-down",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e019"
@@ -319,7 +319,7 @@
         "name": "arrow-left",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e01a"
@@ -330,7 +330,7 @@
         "aliases": [
             "arrow-drill"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e01b"
@@ -341,7 +341,7 @@
         "aliases": [
             "arrow-parent"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e01c"
@@ -353,7 +353,7 @@
             "arrow-root",
             "level-root"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e01d"
@@ -364,7 +364,7 @@
         "aliases": [
             "arrows-resizing"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e01e"
@@ -376,7 +376,7 @@
             "arrows-dimensions",
             "dimension"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e01f"
@@ -385,7 +385,7 @@
         "name": "arrows-swap",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e020"
@@ -394,7 +394,7 @@
         "name": "drag-and-drop",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e021"
@@ -403,7 +403,7 @@
         "name": "categorize",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e022"
@@ -412,7 +412,7 @@
         "name": "grid",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "layout"
         ],
         "unicode": "e023"
@@ -421,7 +421,7 @@
         "name": "grid-layout",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "layout"
         ],
         "unicode": "e024"
@@ -430,7 +430,7 @@
         "name": "group",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "layout"
         ],
         "unicode": "e025"
@@ -439,7 +439,7 @@
         "name": "ungroup",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "layout"
         ],
         "unicode": "e026"
@@ -448,7 +448,7 @@
         "name": "handle-drag",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "layout"
         ],
         "unicode": "e027"
@@ -457,7 +457,7 @@
         "name": "layout",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "layout"
         ],
         "unicode": "e028"
@@ -466,7 +466,7 @@
         "name": "layout-1-by-4",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "layout"
         ],
         "unicode": "e029"
@@ -477,7 +477,7 @@
         "aliases": [
             "page-layout"
         ],
-        "groups": [
+        "categories": [
             "layout"
         ],
         "unicode": "e02a"
@@ -486,7 +486,7 @@
         "name": "layout-side-by-side",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "layout"
         ],
         "unicode": "e02b"
@@ -495,7 +495,7 @@
         "name": "layout-stacked",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "layout"
         ],
         "unicode": "e02c"
@@ -504,7 +504,7 @@
         "name": "columns",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "layout"
         ],
         "unicode": "e02d"
@@ -513,7 +513,7 @@
         "name": "rows",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "layout"
         ],
         "unicode": "e02e"
@@ -522,7 +522,7 @@
         "name": "reorder",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "layout"
         ],
         "unicode": "e02f"
@@ -533,7 +533,7 @@
         "aliases": [
             "hamburger"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e030"
@@ -545,7 +545,7 @@
             "more-v",
             "vbars"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e031"
@@ -557,7 +557,7 @@
             "more-h",
             "hbars"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e032"
@@ -566,7 +566,7 @@
         "name": "overlap",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "layout"
         ],
         "unicode": "e033"
@@ -577,7 +577,7 @@
         "aliases": [
             "root"
         ],
-        "groups": [
+        "categories": [
             "navigation"
         ],
         "unicode": "e034"
@@ -586,7 +586,7 @@
         "name": "arrows-left-right",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "arrows"
         ],
         "unicode": "e035"
@@ -595,7 +595,7 @@
         "name": "arrows-top-bottom",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "arrows"
         ],
         "unicode": "e036"
@@ -604,7 +604,7 @@
         "name": "border-radius-bottom-left",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "border"
         ],
@@ -614,7 +614,7 @@
         "name": "border-radius-bottom-right",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "border"
         ],
@@ -624,7 +624,7 @@
         "name": "border-radius-top-left",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "border"
         ],
@@ -634,7 +634,7 @@
         "name": "border-radius-top-right",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "border"
         ],
@@ -644,7 +644,7 @@
         "name": "border-radius",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "border"
         ],
@@ -654,7 +654,7 @@
         "name": "border-style-bottom",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "border"
         ],
@@ -664,7 +664,7 @@
         "name": "border-style-left",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "border"
         ],
@@ -674,7 +674,7 @@
         "name": "border-style-right",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "border"
         ],
@@ -684,7 +684,7 @@
         "name": "border-style-top",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "border"
         ],
@@ -694,7 +694,7 @@
         "name": "border-style",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "border"
         ],
@@ -704,7 +704,7 @@
         "name": "box-sizing",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "layout"
         ],
@@ -714,7 +714,7 @@
         "name": "chevron-double-down",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "arrows"
         ],
         "unicode": "e042"
@@ -723,7 +723,7 @@
         "name": "chevron-double-left",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "arrows"
         ],
         "unicode": "e043"
@@ -732,7 +732,7 @@
         "name": "chevron-double-right",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "arrows"
         ],
         "unicode": "e044"
@@ -741,7 +741,7 @@
         "name": "chevron-double-up",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "arrows"
         ],
         "unicode": "e045"
@@ -750,7 +750,7 @@
         "name": "data-ods",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "data"
         ],
         "unicode": "e046"
@@ -759,7 +759,7 @@
         "name": "display-Inline-block",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "layout",
             "display"
@@ -770,7 +770,7 @@
         "name": "display-block",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "layout",
             "display"
@@ -781,7 +781,7 @@
         "name": "display-flex",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "layout",
             "display"
@@ -792,7 +792,7 @@
         "name": "display-inline-flex",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "layout",
             "display"
@@ -805,7 +805,7 @@
         "aliases": [
             "color-canvas"
         ],
-        "groups": [
+        "categories": [
             "color"
         ],
         "unicode": "e04b"
@@ -814,7 +814,7 @@
         "name": "file-report",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "file"
         ],
         "unicode": "e04c"
@@ -823,7 +823,7 @@
         "name": "gap-column",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "layout"
         ],
@@ -833,7 +833,7 @@
         "name": "gap-row",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "layout"
         ],
@@ -843,7 +843,7 @@
         "name": "handle-resize-alt",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "resize"
         ],
@@ -853,7 +853,7 @@
         "name": "handle-resize",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "resize"
         ],
@@ -863,7 +863,7 @@
         "name": "images",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "image"
         ],
         "unicode": "e051"
@@ -872,7 +872,7 @@
         "name": "letter-space",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "typography"
         ],
@@ -882,7 +882,7 @@
         "name": "line-height",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "typography"
         ],
@@ -892,7 +892,7 @@
         "name": "list-latin-big",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "list"
         ],
@@ -902,7 +902,7 @@
         "name": "list-latin-small",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "list"
         ],
@@ -912,7 +912,7 @@
         "name": "list-roman-big",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "list"
         ],
@@ -922,7 +922,7 @@
         "name": "list-roman-small",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "list"
         ],
@@ -932,7 +932,7 @@
         "name": "list-unordered-outline",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "list"
         ],
@@ -942,7 +942,7 @@
         "name": "list-unordered-square",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "list"
         ],
@@ -952,7 +952,7 @@
         "name": "max-height",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "layout"
         ],
@@ -962,7 +962,7 @@
         "name": "max-width",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "layout"
         ],
@@ -972,7 +972,7 @@
         "name": "min-height",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "layout"
         ],
@@ -982,7 +982,7 @@
         "name": "min-width",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "layout"
         ],
@@ -992,7 +992,7 @@
         "name": "outline-offset",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "outline"
         ],
@@ -1002,7 +1002,7 @@
         "name": "outline-width",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "outline"
         ],
@@ -1012,7 +1012,7 @@
         "name": "padding-bottom",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "layout",
             "padding"
@@ -1023,7 +1023,7 @@
         "name": "padding-left",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "layout",
             "padding"
@@ -1034,7 +1034,7 @@
         "name": "padding-right",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "layout",
             "padding"
@@ -1045,7 +1045,7 @@
         "name": "padding-top",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "layout",
             "padding"
@@ -1056,7 +1056,7 @@
         "name": "padding",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "layout",
             "padding"
@@ -1067,7 +1067,7 @@
         "name": "position-bottom",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "position"
         ],
@@ -1077,7 +1077,7 @@
         "name": "position-left",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "position"
         ],
@@ -1087,7 +1087,7 @@
         "name": "position-right",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "position"
         ],
@@ -1097,7 +1097,7 @@
         "name": "position-top",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "css",
             "position"
         ],
@@ -1107,7 +1107,7 @@
         "name": "regular-expression",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text"
         ],
         "unicode": "e069"
@@ -1116,7 +1116,7 @@
         "name": "replace-all",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text"
         ],
         "unicode": "e06a"
@@ -1125,7 +1125,7 @@
         "name": "replace-single",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text"
         ],
         "unicode": "e06b"
@@ -1134,7 +1134,7 @@
         "name": "report-element",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text"
         ],
         "unicode": "e06c"
@@ -1145,7 +1145,7 @@
         "aliases": [
             "blockquote"
         ],
-        "groups": [
+        "categories": [
             "text"
         ],
         "unicode": "e06d"
@@ -1154,7 +1154,7 @@
         "name": "whole-word",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text"
         ],
         "unicode": "e06e"
@@ -1165,7 +1165,7 @@
         "aliases": [
             "undo-large"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e100"
@@ -1176,7 +1176,7 @@
         "aliases": [
             "redo-large"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e101"
@@ -1187,7 +1187,7 @@
         "aliases": [
             "reset"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e102"
@@ -1201,7 +1201,7 @@
             "recurrence",
             "arrows-repeat"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e103"
@@ -1213,7 +1213,7 @@
             "non-recurrence",
             "refresh-clear"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e104"
@@ -1224,7 +1224,7 @@
         "aliases": [
             "reset-sm"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e105"
@@ -1238,7 +1238,7 @@
             "recurrence-sm",
             "arrows-repeat-sm"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e106"
@@ -1247,7 +1247,7 @@
         "name": "clock",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e107"
@@ -1256,7 +1256,7 @@
         "name": "calendar",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e108"
@@ -1267,7 +1267,7 @@
         "aliases": [
             "floppy"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e109"
@@ -1278,7 +1278,7 @@
         "aliases": [
             "printer"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e10a"
@@ -1289,7 +1289,7 @@
         "aliases": [
             "edit"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e10b"
@@ -1300,7 +1300,7 @@
         "aliases": [
             "delete"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e10c"
@@ -1312,7 +1312,7 @@
             "attachment",
             "clip"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e10d"
@@ -1324,7 +1324,7 @@
             "attachment-45",
             "clip-45"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e10e"
@@ -1337,7 +1337,7 @@
             "hyperlink",
             "link-h"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e10f"
@@ -1350,7 +1350,7 @@
             "hyperlink-remove",
             "unlink-h"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e110"
@@ -1361,7 +1361,7 @@
         "aliases": [
             "link-v"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e111"
@@ -1372,7 +1372,7 @@
         "aliases": [
             "unlink-v"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e112"
@@ -1381,7 +1381,7 @@
         "name": "lock",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e113"
@@ -1390,7 +1390,7 @@
         "name": "unlock",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e114"
@@ -1399,7 +1399,7 @@
         "name": "cancel",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e115"
@@ -1410,7 +1410,7 @@
         "aliases": [
             "deny"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e116"
@@ -1419,7 +1419,7 @@
         "name": "cancel-circle",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e117"
@@ -1431,7 +1431,7 @@
             "checkmark",
             "tick"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e118"
@@ -1443,7 +1443,7 @@
             "checkmark-outline",
             "success"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e119"
@@ -1454,7 +1454,7 @@
         "aliases": [
             "checkmark-circle"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e11a"
@@ -1468,7 +1468,7 @@
             "times",
             "group-delete"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e11b"
@@ -1482,7 +1482,7 @@
             "times-outline",
             "error"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e11c"
@@ -1495,7 +1495,7 @@
             "clear-circle",
             "times-circle"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e11d"
@@ -1506,7 +1506,7 @@
         "aliases": [
             "add"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e11e"
@@ -1517,7 +1517,7 @@
         "aliases": [
             "add-outline"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e11f"
@@ -1528,7 +1528,7 @@
         "aliases": [
             "add-circle"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e120"
@@ -1539,7 +1539,7 @@
         "aliases": [
             "kpi-trend-equal"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e121"
@@ -1548,7 +1548,7 @@
         "name": "minus-outline",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e122"
@@ -1557,7 +1557,7 @@
         "name": "minus-circle",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e123"
@@ -1566,7 +1566,7 @@
         "name": "sort-asc",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e124"
@@ -1575,7 +1575,7 @@
         "name": "sort-desc",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e125"
@@ -1586,7 +1586,7 @@
         "aliases": [
             "unsort"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e126"
@@ -1597,7 +1597,7 @@
         "aliases": [
             "sort-asc-sm"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e127"
@@ -1608,7 +1608,7 @@
         "aliases": [
             "sort-desc-sm"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e128"
@@ -1617,7 +1617,7 @@
         "name": "filter",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e129"
@@ -1626,7 +1626,7 @@
         "name": "filter-clear",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e12a"
@@ -1637,7 +1637,7 @@
         "aliases": [
             "filter-sm"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e12b"
@@ -1648,7 +1648,7 @@
         "aliases": [
             "filter-sort-asc-sm"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e12c"
@@ -1659,7 +1659,7 @@
         "aliases": [
             "filter-sort-desc-sm"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e12d"
@@ -1668,7 +1668,7 @@
         "name": "filter-add-expression",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e12e"
@@ -1677,7 +1677,7 @@
         "name": "filter-add-group",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e12f"
@@ -1688,7 +1688,7 @@
         "aliases": [
             "sign-in"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e130"
@@ -1699,7 +1699,7 @@
         "aliases": [
             "sign-out"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e131"
@@ -1708,7 +1708,7 @@
         "name": "download",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e132"
@@ -1717,7 +1717,7 @@
         "name": "upload",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e133"
@@ -1726,7 +1726,7 @@
         "name": "hyperlink-open",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e134"
@@ -1735,7 +1735,7 @@
         "name": "hyperlink-open-sm",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e135"
@@ -1744,7 +1744,7 @@
         "name": "launch",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e136"
@@ -1756,7 +1756,7 @@
             "window-maximize",
             "maximize"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e137"
@@ -1769,7 +1769,7 @@
             "tiles",
             "restore"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e138"
@@ -1780,7 +1780,7 @@
         "aliases": [
             "minimize"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e139"
@@ -1792,7 +1792,7 @@
             "cog",
             "custom"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e13a"
@@ -1803,7 +1803,7 @@
         "aliases": [
             "cogs"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e13b"
@@ -1814,7 +1814,7 @@
         "aliases": [
             "settings"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e13c"
@@ -1825,7 +1825,7 @@
         "aliases": [
             "preview"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e13d"
@@ -1836,7 +1836,7 @@
         "aliases": [
             "zoom"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e13e"
@@ -1845,7 +1845,7 @@
         "name": "zoom-in",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e13f"
@@ -1854,7 +1854,7 @@
         "name": "zoom-out",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e140"
@@ -1866,7 +1866,7 @@
             "pan",
             "move"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e141"
@@ -1875,7 +1875,7 @@
         "name": "calculator",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e142"
@@ -1886,7 +1886,7 @@
         "aliases": [
             "shopping-cart"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e143"
@@ -1895,7 +1895,7 @@
         "name": "connector",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e144"
@@ -1906,7 +1906,7 @@
         "aliases": [
             "splus"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e145"
@@ -1917,7 +1917,7 @@
         "aliases": [
             "sminus"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e146"
@@ -1926,7 +1926,7 @@
         "name": "kpi-status-deny",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e147"
@@ -1935,7 +1935,7 @@
         "name": "kpi-status-hold",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e148"
@@ -1944,7 +1944,7 @@
         "name": "kpi-status-open",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e149"
@@ -1953,7 +1953,7 @@
         "name": "equal",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e14a"
@@ -1962,7 +1962,7 @@
         "name": "not-equal",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e14b"
@@ -1971,7 +1971,7 @@
         "name": "less-or-equal",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e14c"
@@ -1980,7 +1980,7 @@
         "name": "greater-or-equal",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e14d"
@@ -1989,7 +1989,7 @@
         "name": "divide",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e14e"
@@ -1998,7 +1998,7 @@
         "name": "accessibility",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e14f"
@@ -2007,7 +2007,7 @@
         "name": "barcode-outline",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e150"
@@ -2016,7 +2016,7 @@
         "name": "barcode",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e151"
@@ -2025,7 +2025,7 @@
         "name": "barcode-scanner",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e152"
@@ -2034,7 +2034,7 @@
         "name": "qr-code-outline",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e153"
@@ -2043,7 +2043,7 @@
         "name": "qr-code",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e154"
@@ -2052,7 +2052,7 @@
         "name": "qr-code-scanner",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e155"
@@ -2061,7 +2061,7 @@
         "name": "barcode-qr-code-scanner",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e156"
@@ -2070,7 +2070,7 @@
         "name": "signature",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e157"
@@ -2079,7 +2079,7 @@
         "name": "hand",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e158"
@@ -2090,7 +2090,7 @@
         "aliases": [
             "cursor"
         ],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e159"
@@ -2099,7 +2099,7 @@
         "name": "stick",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e15a"
@@ -2108,7 +2108,7 @@
         "name": "unstick",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e15b"
@@ -2117,7 +2117,7 @@
         "name": "set-column-position",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e15c"
@@ -2126,7 +2126,7 @@
         "name": "play",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e200"
@@ -2135,7 +2135,7 @@
         "name": "pause",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e201"
@@ -2144,7 +2144,7 @@
         "name": "stop",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e202"
@@ -2153,7 +2153,7 @@
         "name": "rewind",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e203"
@@ -2162,7 +2162,7 @@
         "name": "forward",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e204"
@@ -2173,7 +2173,7 @@
         "aliases": [
             "volume-low"
         ],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e205"
@@ -2184,7 +2184,7 @@
         "aliases": [
             "volume-high"
         ],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e206"
@@ -2195,7 +2195,7 @@
         "aliases": [
             "volume-off"
         ],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e207"
@@ -2204,7 +2204,7 @@
         "name": "hd",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e208"
@@ -2215,7 +2215,7 @@
         "aliases": [
             "subtitles"
         ],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e209"
@@ -2224,7 +2224,7 @@
         "name": "playlist",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e20a"
@@ -2235,7 +2235,7 @@
         "aliases": [
             "audio"
         ],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e20b"
@@ -2244,7 +2244,7 @@
         "name": "play-sm",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e20c"
@@ -2253,7 +2253,7 @@
         "name": "pause-sm",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e20d"
@@ -2262,7 +2262,7 @@
         "name": "stop-sm",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e20e"
@@ -2274,7 +2274,7 @@
             "fav-outline",
             "favorite-outline"
         ],
-        "groups": [
+        "categories": [
             "toggle"
         ],
         "unicode": "e300"
@@ -2286,7 +2286,7 @@
             "fav",
             "favorite"
         ],
-        "groups": [
+        "categories": [
             "toggle"
         ],
         "unicode": "e301"
@@ -2297,7 +2297,7 @@
         "aliases": [
             "bookmark-outline"
         ],
-        "groups": [
+        "categories": [
             "toggle"
         ],
         "unicode": "e302"
@@ -2308,7 +2308,7 @@
         "aliases": [
             "bookmark"
         ],
-        "groups": [
+        "categories": [
             "toggle"
         ],
         "unicode": "e303"
@@ -2319,7 +2319,7 @@
         "aliases": [
             "shape-rect"
         ],
-        "groups": [
+        "categories": [
             "toggle"
         ],
         "unicode": "e304"
@@ -2328,7 +2328,7 @@
         "name": "checkbox-checked",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "toggle"
         ],
         "unicode": "e305"
@@ -2339,7 +2339,7 @@
         "aliases": [
             "tri-state-indeterminate"
         ],
-        "groups": [
+        "categories": [
             "toggle"
         ],
         "unicode": "e306"
@@ -2350,7 +2350,7 @@
         "aliases": [
             "tri-state-null"
         ],
-        "groups": [
+        "categories": [
             "toggle"
         ],
         "unicode": "e307"
@@ -2359,7 +2359,7 @@
         "name": "circle",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "toggle"
         ],
         "unicode": "e308"
@@ -2370,7 +2370,7 @@
         "aliases": [
             "shape-circle"
         ],
-        "groups": [
+        "categories": [
             "toggle"
         ],
         "unicode": "e309"
@@ -2379,7 +2379,7 @@
         "name": "radiobutton-checked",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "toggle"
         ],
         "unicode": "e30a"
@@ -2390,7 +2390,7 @@
         "aliases": [
             "notification"
         ],
-        "groups": [
+        "categories": [
             "notifications"
         ],
         "unicode": "e400"
@@ -2403,7 +2403,7 @@
             "info",
             "note"
         ],
-        "groups": [
+        "categories": [
             "notifications"
         ],
         "unicode": "e401"
@@ -2415,7 +2415,7 @@
             "question",
             "help"
         ],
-        "groups": [
+        "categories": [
             "notifications"
         ],
         "unicode": "e402"
@@ -2427,7 +2427,7 @@
             "warning",
             "exception"
         ],
-        "groups": [
+        "categories": [
             "notifications"
         ],
         "unicode": "e403"
@@ -2438,7 +2438,7 @@
         "aliases": [
             "photo-camera"
         ],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e500"
@@ -2449,7 +2449,7 @@
         "aliases": [
             "photo"
         ],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e501"
@@ -2460,7 +2460,7 @@
         "aliases": [
             "photo-export"
         ],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e502"
@@ -2469,7 +2469,7 @@
         "name": "zoom-actual-size",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e503"
@@ -2478,7 +2478,7 @@
         "name": "zoom-best-fit",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e504"
@@ -2487,7 +2487,7 @@
         "name": "image-resize",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e505"
@@ -2496,7 +2496,7 @@
         "name": "crop",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e506"
@@ -2505,7 +2505,7 @@
         "name": "mirror",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e507"
@@ -2516,7 +2516,7 @@
         "aliases": [
             "flip-h"
         ],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e508"
@@ -2527,7 +2527,7 @@
         "aliases": [
             "flip-v"
         ],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e509"
@@ -2536,7 +2536,7 @@
         "name": "rotate",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e50a"
@@ -2547,7 +2547,7 @@
         "aliases": [
             "rotate-cw"
         ],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e50b"
@@ -2558,7 +2558,7 @@
         "aliases": [
             "rotate-ccw"
         ],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e50c"
@@ -2567,7 +2567,7 @@
         "name": "brush",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e50d"
@@ -2576,7 +2576,7 @@
         "name": "palette",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e50e"
@@ -2588,7 +2588,7 @@
             "paint",
             "background"
         ],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e50f"
@@ -2599,7 +2599,7 @@
         "aliases": [
             "line"
         ],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e510"
@@ -2608,7 +2608,7 @@
         "name": "brightness-contrast",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e511"
@@ -2619,7 +2619,7 @@
         "aliases": [
             "saturation"
         ],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e512"
@@ -2628,7 +2628,7 @@
         "name": "invert-colors",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e513"
@@ -2639,7 +2639,7 @@
         "aliases": [
             "opacity"
         ],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e514"
@@ -2648,7 +2648,7 @@
         "name": "grayscale",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e515"
@@ -2657,7 +2657,7 @@
         "name": "blur",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e516"
@@ -2666,7 +2666,7 @@
         "name": "sharpen",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e517"
@@ -2677,7 +2677,7 @@
         "aliases": [
             "shape"
         ],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e518"
@@ -2686,7 +2686,7 @@
         "name": "round-corners",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e519"
@@ -2697,7 +2697,7 @@
         "aliases": [
             "front-element"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e51a"
@@ -2708,7 +2708,7 @@
         "aliases": [
             "back-element"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e51b"
@@ -2719,7 +2719,7 @@
         "aliases": [
             "forward-element"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e51c"
@@ -2730,7 +2730,7 @@
         "aliases": [
             "backward-element"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e51d"
@@ -2741,7 +2741,7 @@
         "aliases": [
             "align-left-element"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e51e"
@@ -2752,7 +2752,7 @@
         "aliases": [
             "align-center-element"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e51f"
@@ -2763,7 +2763,7 @@
         "aliases": [
             "align-right-element"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e520"
@@ -2774,7 +2774,7 @@
         "aliases": [
             "align-top-element"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e521"
@@ -2785,7 +2785,7 @@
         "aliases": [
             "align-middle-element"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e522"
@@ -2796,7 +2796,7 @@
         "aliases": [
             "align-bottom-element"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e523"
@@ -2805,7 +2805,7 @@
         "name": "thumbnails-up",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e524"
@@ -2814,7 +2814,7 @@
         "name": "thumbnails-right",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e525"
@@ -2823,7 +2823,7 @@
         "name": "thumbnails-down",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e526"
@@ -2832,7 +2832,7 @@
         "name": "thumbnails-left",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e527"
@@ -2844,7 +2844,7 @@
             "full-screen",
             "fullscreen-enter"
         ],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e528"
@@ -2855,7 +2855,7 @@
         "aliases": [
             "full-screen-exit"
         ],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e529"
@@ -2868,7 +2868,7 @@
             "paint-remove",
             "background-remove"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e52a"
@@ -2880,7 +2880,7 @@
             "images",
             "gallery"
         ],
-        "groups": [
+        "categories": [
             "images"
         ],
         "unicode": "e52b"
@@ -2889,7 +2889,7 @@
         "name": "align-to-grid",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e52c"
@@ -2898,7 +2898,7 @@
         "name": "size-to-grid",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e52d"
@@ -2907,7 +2907,7 @@
         "name": "make-same-size",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e52e"
@@ -2916,7 +2916,7 @@
         "name": "make-same-width",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e52f"
@@ -2925,7 +2925,7 @@
         "name": "make-same-height",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e530"
@@ -2934,7 +2934,7 @@
         "name": "make-horizontal-spacing-equal",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e531"
@@ -2943,7 +2943,7 @@
         "name": "increase-horizontal-spacing",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e532"
@@ -2952,7 +2952,7 @@
         "name": "decrease-horizontal-spacing",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e533"
@@ -2961,7 +2961,7 @@
         "name": "remove-horizontal-spacing",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e534"
@@ -2970,7 +2970,7 @@
         "name": "make-vertical-spacing-equal",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e535"
@@ -2979,7 +2979,7 @@
         "name": "increase-vertical-spacing",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e536"
@@ -2988,7 +2988,7 @@
         "name": "decrease-vertical-spacing",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e537"
@@ -2997,7 +2997,7 @@
         "name": "remove-vertical-spacing",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e538"
@@ -3006,7 +3006,7 @@
         "name": "eyedropper",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e539"
@@ -3015,7 +3015,7 @@
         "name": "snap-grid",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e53a"
@@ -3024,7 +3024,7 @@
         "name": "snap-to-gridlines",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e53b"
@@ -3033,7 +3033,7 @@
         "name": "snap-to-snaplines",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e53c"
@@ -3042,7 +3042,7 @@
         "name": "dimensions",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e53d"
@@ -3053,7 +3053,7 @@
         "aliases": [
             "align-stretch-element-horizontal"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e53e"
@@ -3064,7 +3064,7 @@
         "aliases": [
             "align-stretch-element-vertical"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e53f"
@@ -3075,7 +3075,7 @@
         "aliases": [
             "align-left-elements"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e540"
@@ -3086,7 +3086,7 @@
         "aliases": [
             "align-center-elements"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e541"
@@ -3097,7 +3097,7 @@
         "aliases": [
             "align-right-elements"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e542"
@@ -3108,7 +3108,7 @@
         "aliases": [
             "align-stretch-elements-horizontal"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e543"
@@ -3119,7 +3119,7 @@
         "aliases": [
             "align-baseline-horizontal"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e544"
@@ -3130,7 +3130,7 @@
         "aliases": [
             "align-top-elements"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e545"
@@ -3141,7 +3141,7 @@
         "aliases": [
             "align-middle-elements"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e546"
@@ -3152,7 +3152,7 @@
         "aliases": [
             "align-bottom-elements"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e547"
@@ -3163,7 +3163,7 @@
         "aliases": [
             "align-stretch-elements-vertical"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e548"
@@ -3174,7 +3174,7 @@
         "aliases": [
             "align-baseline-vertical"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e549"
@@ -3185,7 +3185,7 @@
         "aliases": [
             "justify-start-horizontal"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e54a"
@@ -3196,7 +3196,7 @@
         "aliases": [
             "justify-center-horizontal"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e54b"
@@ -3207,7 +3207,7 @@
         "aliases": [
             "justify-end-horizontal"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e54c"
@@ -3218,7 +3218,7 @@
         "aliases": [
             "justify-between-horizontal"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e54d"
@@ -3229,7 +3229,7 @@
         "aliases": [
             "justify-around-horizontal"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e54e"
@@ -3240,7 +3240,7 @@
         "aliases": [
             "justify-start-vertical"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e54f"
@@ -3251,7 +3251,7 @@
         "aliases": [
             "justify-center-vertical"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e550"
@@ -3262,7 +3262,7 @@
         "aliases": [
             "justify-end-vertical"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e551"
@@ -3273,7 +3273,7 @@
         "aliases": [
             "justify-between-vertical"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e552"
@@ -3284,7 +3284,7 @@
         "aliases": [
             "justify-around-vertical"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e553"
@@ -3295,7 +3295,7 @@
         "aliases": [
             "page-properties"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e600"
@@ -3304,7 +3304,7 @@
         "name": "bold",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e601"
@@ -3313,7 +3313,7 @@
         "name": "italic",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e602"
@@ -3322,7 +3322,7 @@
         "name": "underline",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e603"
@@ -3331,7 +3331,7 @@
         "name": "font-family",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e604"
@@ -3342,7 +3342,7 @@
         "aliases": [
             "text"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e605"
@@ -3351,7 +3351,7 @@
         "name": "convert-lowercase",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e606"
@@ -3360,7 +3360,7 @@
         "name": "convert-uppercase",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e607"
@@ -3371,7 +3371,7 @@
         "aliases": [
             "strike-through"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e608"
@@ -3382,7 +3382,7 @@
         "aliases": [
             "sub-script"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e609"
@@ -3394,7 +3394,7 @@
             "sup-script",
             "superscript"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e60a"
@@ -3403,7 +3403,7 @@
         "name": "div",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e60b"
@@ -3412,7 +3412,7 @@
         "name": "all",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e60c"
@@ -3421,7 +3421,7 @@
         "name": "h1",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e60d"
@@ -3430,7 +3430,7 @@
         "name": "h2",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e60e"
@@ -3439,7 +3439,7 @@
         "name": "h3",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e60f"
@@ -3448,7 +3448,7 @@
         "name": "h4",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e610"
@@ -3457,7 +3457,7 @@
         "name": "h5",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e611"
@@ -3466,7 +3466,7 @@
         "name": "h6",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e612"
@@ -3478,7 +3478,7 @@
             "list-numbered",
             "insert-ordered-list"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e613"
@@ -3490,7 +3490,7 @@
             "list-bulleted",
             "insert-unordered-list"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e614"
@@ -3501,7 +3501,7 @@
         "aliases": [
             "indent-increase"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e615"
@@ -3512,7 +3512,7 @@
         "aliases": [
             "indent-decrease"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e616"
@@ -3524,7 +3524,7 @@
             "insert-up",
             "insert-n"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e617"
@@ -3535,7 +3535,7 @@
         "aliases": [
             "insert-m"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e618"
@@ -3547,7 +3547,7 @@
             "insert-down",
             "insert-s"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e619"
@@ -3556,7 +3556,7 @@
         "name": "align-top",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e61a"
@@ -3565,7 +3565,7 @@
         "name": "align-middle",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e61b"
@@ -3574,7 +3574,7 @@
         "name": "align-bottom",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e61c"
@@ -3585,7 +3585,7 @@
         "aliases": [
             "justify-left"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e61d"
@@ -3596,7 +3596,7 @@
         "aliases": [
             "justify-center"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e61e"
@@ -3607,7 +3607,7 @@
         "aliases": [
             "justify-left"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e61f"
@@ -3618,7 +3618,7 @@
         "aliases": [
             "justify-full"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e620"
@@ -3629,7 +3629,7 @@
         "aliases": [
             "justify-clear"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e621"
@@ -3638,7 +3638,7 @@
         "name": "text-wrap",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e622"
@@ -3650,7 +3650,7 @@
             "rule-horizontal",
             "hr"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e623"
@@ -3659,7 +3659,7 @@
         "name": "table-align-top-left",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e624"
@@ -3668,7 +3668,7 @@
         "name": "table-align-top-center",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e625"
@@ -3677,7 +3677,7 @@
         "name": "table-align-top-right",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e626"
@@ -3686,7 +3686,7 @@
         "name": "table-align-middle-left",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e627"
@@ -3695,7 +3695,7 @@
         "name": "table-align-middle-center",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e628"
@@ -3704,7 +3704,7 @@
         "name": "table-align-middle-right",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e629"
@@ -3713,7 +3713,7 @@
         "name": "table-align-bottom-left",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e62a"
@@ -3722,7 +3722,7 @@
         "name": "table-align-bottom-center",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e62b"
@@ -3731,7 +3731,7 @@
         "name": "table-align-bottom-right",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e62c"
@@ -3740,7 +3740,7 @@
         "name": "table-align-remove",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e62d"
@@ -3751,7 +3751,7 @@
         "aliases": [
             "all-borders"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e62e"
@@ -3762,7 +3762,7 @@
         "aliases": [
             "outside-borders"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e62f"
@@ -3773,7 +3773,7 @@
         "aliases": [
             "inside-borders"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e630"
@@ -3785,7 +3785,7 @@
             "border-inside-h",
             "inside-horizontal-borders"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e631"
@@ -3797,7 +3797,7 @@
             "borders-inside-v",
             "inside-vertical-borders"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e632"
@@ -3808,7 +3808,7 @@
         "aliases": [
             "top-border"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e633"
@@ -3819,7 +3819,7 @@
         "aliases": [
             "bottom-border"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e634"
@@ -3830,7 +3830,7 @@
         "aliases": [
             "left-border"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e635"
@@ -3841,7 +3841,7 @@
         "aliases": [
             "right-border"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e636"
@@ -3853,7 +3853,7 @@
             "border-no",
             "no-borders"
         ],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e637"
@@ -3862,7 +3862,7 @@
         "name": "borders-show-hide",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e638"
@@ -3873,7 +3873,7 @@
         "aliases": [
             "border"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e639"
@@ -3882,7 +3882,7 @@
         "name": "form-element",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e63a"
@@ -3891,7 +3891,7 @@
         "name": "code-snippet",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e63b"
@@ -3900,7 +3900,7 @@
         "name": "select-all",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e63c"
@@ -3909,7 +3909,7 @@
         "name": "button",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e63d"
@@ -3918,7 +3918,7 @@
         "name": "select-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e63e"
@@ -3927,7 +3927,7 @@
         "name": "calendar-date",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e63f"
@@ -3936,7 +3936,7 @@
         "name": "group-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e640"
@@ -3945,7 +3945,7 @@
         "name": "textarea",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e641"
@@ -3954,7 +3954,7 @@
         "name": "textbox",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e642"
@@ -3963,7 +3963,7 @@
         "name": "textbox-hidden",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e643"
@@ -3972,7 +3972,7 @@
         "name": "password",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e644"
@@ -3981,7 +3981,7 @@
         "name": "paragraph-add",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e645"
@@ -3990,7 +3990,7 @@
         "name": "edit-tools",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e646"
@@ -3999,7 +3999,7 @@
         "name": "template-manager",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e647"
@@ -4008,7 +4008,7 @@
         "name": "change-manually",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e648"
@@ -4017,7 +4017,7 @@
         "name": "track-changes",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e649"
@@ -4026,7 +4026,7 @@
         "name": "track-changes-enable",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e64a"
@@ -4035,7 +4035,7 @@
         "name": "track-changes-accept",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e64b"
@@ -4044,7 +4044,7 @@
         "name": "track-changes-accept-all",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e64c"
@@ -4053,7 +4053,7 @@
         "name": "track-changes-reject",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e64d"
@@ -4062,7 +4062,7 @@
         "name": "track-changes-reject-all",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e64e"
@@ -4071,7 +4071,7 @@
         "name": "document-manager",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e64f"
@@ -4080,7 +4080,7 @@
         "name": "custom-icon",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e650"
@@ -4091,7 +4091,7 @@
         "aliases": [
             "dictionary-add"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e651"
@@ -4104,7 +4104,7 @@
             "image-insert",
             "insert-image"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e652"
@@ -4113,7 +4113,7 @@
         "name": "image-edit",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e653"
@@ -4122,7 +4122,7 @@
         "name": "image-map-editor",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e654"
@@ -4131,7 +4131,7 @@
         "name": "comment",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e655"
@@ -4140,7 +4140,7 @@
         "name": "comment-remove",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e656"
@@ -4151,7 +4151,7 @@
         "aliases": [
             "comments-remove-all"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e657"
@@ -4160,7 +4160,7 @@
         "name": "silverlight",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e658"
@@ -4169,7 +4169,7 @@
         "name": "media-manager",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e659"
@@ -4178,7 +4178,7 @@
         "name": "video-external",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "media"
         ],
         "unicode": "e65a"
@@ -4187,7 +4187,7 @@
         "name": "flash-manager",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e65b"
@@ -4199,7 +4199,7 @@
             "find-and-replace",
             "find"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e65c"
@@ -4210,7 +4210,7 @@
         "aliases": [
             "files"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e65d"
@@ -4219,7 +4219,7 @@
         "name": "cut",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e65e"
@@ -4230,7 +4230,7 @@
         "aliases": [
             "paste"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e65f"
@@ -4241,7 +4241,7 @@
         "aliases": [
             "paste-as-html"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e660"
@@ -4252,7 +4252,7 @@
         "aliases": [
             "paste-from-word"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e661"
@@ -4263,7 +4263,7 @@
         "aliases": [
             "paste-from-word-strip-file"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e662"
@@ -4274,7 +4274,7 @@
         "aliases": [
             "paste-html"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e663"
@@ -4285,7 +4285,7 @@
         "aliases": [
             "paste-markdown"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e664"
@@ -4296,7 +4296,7 @@
         "aliases": [
             "paste-plain-text"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e665"
@@ -4305,7 +4305,7 @@
         "name": "apply-format",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e666"
@@ -4316,7 +4316,7 @@
         "aliases": [
             "clearformat"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e667"
@@ -4325,7 +4325,7 @@
         "name": "copy-format",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e668"
@@ -4334,7 +4334,7 @@
         "name": "strip-all-formatting",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e669"
@@ -4343,7 +4343,7 @@
         "name": "strip-css-format",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e66a"
@@ -4352,7 +4352,7 @@
         "name": "strip-font-elements",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e66b"
@@ -4361,7 +4361,7 @@
         "name": "strip-span-elements",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e66c"
@@ -4370,7 +4370,7 @@
         "name": "strip-word-formatting",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e66d"
@@ -4379,7 +4379,7 @@
         "name": "format-code-block",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e66e"
@@ -4390,7 +4390,7 @@
         "aliases": [
             "style-builder"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e66f"
@@ -4402,7 +4402,7 @@
             "module-manager",
             "puzzle"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e670"
@@ -4414,7 +4414,7 @@
             "hyperlink-light-dialog",
             "hyperlink-insert"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e671"
@@ -4425,7 +4425,7 @@
         "aliases": [
             "hyperlink-globe"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e672"
@@ -4436,7 +4436,7 @@
         "aliases": [
             "hyperlink-globe-remove"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e673"
@@ -4447,7 +4447,7 @@
         "aliases": [
             "hyperlink-email"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e674"
@@ -4456,7 +4456,7 @@
         "name": "anchor",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e675"
@@ -4469,7 +4469,7 @@
             "table-insert",
             "create-table"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e676"
@@ -4478,7 +4478,7 @@
         "name": "table",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e677"
@@ -4487,7 +4487,7 @@
         "name": "table-properties",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e678"
@@ -4496,7 +4496,7 @@
         "name": "table-cell",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e679"
@@ -4505,7 +4505,7 @@
         "name": "table-cell-properties",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e67a"
@@ -4516,7 +4516,7 @@
         "aliases": [
             "add-column-left"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e67b"
@@ -4527,7 +4527,7 @@
         "aliases": [
             "add-column-right"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e67c"
@@ -4538,7 +4538,7 @@
         "aliases": [
             "add-row-above"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e67d"
@@ -4549,7 +4549,7 @@
         "aliases": [
             "add-row-below"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e67e"
@@ -4560,7 +4560,7 @@
         "aliases": [
             "delete-column"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e67f"
@@ -4571,7 +4571,7 @@
         "aliases": [
             "delete-row"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e680"
@@ -4580,7 +4580,7 @@
         "name": "table-cell-delete",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e681"
@@ -4589,7 +4589,7 @@
         "name": "table-delete",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e682"
@@ -4600,7 +4600,7 @@
         "aliases": [
             "merge-cells"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e683"
@@ -4612,7 +4612,7 @@
             "cells-merge-h",
             "merge-horizontally"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e684"
@@ -4624,7 +4624,7 @@
             "cells-merge-v",
             "merge-vertically"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e685"
@@ -4635,7 +4635,7 @@
         "aliases": [
             "cells-split-h"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e686"
@@ -4646,7 +4646,7 @@
         "aliases": [
             "cells-split-v"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e687"
@@ -4657,7 +4657,7 @@
         "aliases": [
             "normal-layout"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e688"
@@ -4668,7 +4668,7 @@
         "aliases": [
             "freeze-pane"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e689"
@@ -4679,7 +4679,7 @@
         "aliases": [
             "freeze-row"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e68a"
@@ -4691,7 +4691,7 @@
             "col-freeze",
             "freeze-col"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e68b"
@@ -4700,7 +4700,7 @@
         "name": "toolbar-float",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e68c"
@@ -4709,7 +4709,7 @@
         "name": "spell-checker",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e68d"
@@ -4718,7 +4718,7 @@
         "name": "validation-xhtml",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e68e"
@@ -4727,7 +4727,7 @@
         "name": "validation-data",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e68f"
@@ -4736,7 +4736,7 @@
         "name": "toggle-full-screen-mode",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e690"
@@ -4747,7 +4747,7 @@
         "aliases": [
             "fx"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e691"
@@ -4756,7 +4756,7 @@
         "name": "sum",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e692"
@@ -4765,7 +4765,7 @@
         "name": "symbol",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e693"
@@ -4776,7 +4776,7 @@
         "aliases": [
             "currency"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e694"
@@ -4785,7 +4785,7 @@
         "name": "percent",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e695"
@@ -4796,7 +4796,7 @@
         "aliases": [
             "format-number"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e696"
@@ -4807,7 +4807,7 @@
         "aliases": [
             "increace-decimal"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e697"
@@ -4818,7 +4818,7 @@
         "aliases": [
             "decrease-decimal"
         ],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e698"
@@ -4827,7 +4827,7 @@
         "name": "font-size",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "text-formatting"
         ],
         "unicode": "e699"
@@ -4836,7 +4836,7 @@
         "name": "image-absolute-position",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e69a"
@@ -4845,7 +4845,7 @@
         "name": "table-wizard",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e69b"
@@ -4854,7 +4854,7 @@
         "name": "crosstab",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e69c"
@@ -4863,7 +4863,7 @@
         "name": "crosstab-wizard",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e69d"
@@ -4872,7 +4872,7 @@
         "name": "table-body",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e69e"
@@ -4881,7 +4881,7 @@
         "name": "table-column-groups",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e69f"
@@ -4890,7 +4890,7 @@
         "name": "table-corner",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e6a0"
@@ -4899,7 +4899,7 @@
         "name": "table-row-groups",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "editing"
         ],
         "unicode": "e6a1"
@@ -4908,7 +4908,7 @@
         "name": "globe-outline",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "maps"
         ],
         "unicode": "e700"
@@ -4917,7 +4917,7 @@
         "name": "globe",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "maps"
         ],
         "unicode": "e701"
@@ -4928,7 +4928,7 @@
         "aliases": [
             "marker-pin"
         ],
-        "groups": [
+        "categories": [
             "maps"
         ],
         "unicode": "e702"
@@ -4939,7 +4939,7 @@
         "aliases": [
             "marker-pin-target"
         ],
-        "groups": [
+        "categories": [
             "maps"
         ],
         "unicode": "e703"
@@ -4948,7 +4948,7 @@
         "name": "pin",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "maps"
         ],
         "unicode": "e704"
@@ -4957,7 +4957,7 @@
         "name": "unpin",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "maps"
         ],
         "unicode": "e705"
@@ -4966,7 +4966,7 @@
         "name": "share",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e800"
@@ -4975,7 +4975,7 @@
         "name": "user",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e801"
@@ -4984,7 +4984,7 @@
         "name": "inbox",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e802"
@@ -4993,7 +4993,7 @@
         "name": "blogger",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e803"
@@ -5002,7 +5002,7 @@
         "name": "blogger-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e804"
@@ -5011,7 +5011,7 @@
         "name": "delicious",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e805"
@@ -5020,7 +5020,7 @@
         "name": "delicious-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e806"
@@ -5029,7 +5029,7 @@
         "name": "digg",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e807"
@@ -5038,7 +5038,7 @@
         "name": "digg-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e808"
@@ -5050,7 +5050,7 @@
             "email",
             "letter"
         ],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e809"
@@ -5062,7 +5062,7 @@
             "email-box",
             "letter-box"
         ],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e80a"
@@ -5071,7 +5071,7 @@
         "name": "facebook",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e80b"
@@ -5080,7 +5080,7 @@
         "name": "facebook-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e80c"
@@ -5089,7 +5089,7 @@
         "name": "google",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e80d"
@@ -5098,7 +5098,7 @@
         "name": "google-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e80e"
@@ -5107,7 +5107,7 @@
         "name": "google-plus",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e80f"
@@ -5116,7 +5116,7 @@
         "name": "google-plus-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e810"
@@ -5125,7 +5125,7 @@
         "name": "linkedin",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e811"
@@ -5134,7 +5134,7 @@
         "name": "linkedin-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e812"
@@ -5143,7 +5143,7 @@
         "name": "myspace",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e813"
@@ -5152,7 +5152,7 @@
         "name": "myspace-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e814"
@@ -5161,7 +5161,7 @@
         "name": "pinterest",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e815"
@@ -5170,7 +5170,7 @@
         "name": "pinterest-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e816"
@@ -5179,7 +5179,7 @@
         "name": "reddit",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e817"
@@ -5188,7 +5188,7 @@
         "name": "reddit-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e818"
@@ -5197,7 +5197,7 @@
         "name": "stumble-upon",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e819"
@@ -5206,7 +5206,7 @@
         "name": "stumble-upon-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e81a"
@@ -5215,7 +5215,7 @@
         "name": "tell-a-friend",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e81b"
@@ -5224,7 +5224,7 @@
         "name": "tell-a-friend-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e81c"
@@ -5233,7 +5233,7 @@
         "name": "tumblr",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e81d"
@@ -5242,7 +5242,7 @@
         "name": "tumblr-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e81e"
@@ -5251,7 +5251,7 @@
         "name": "twitter",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e81f"
@@ -5260,7 +5260,7 @@
         "name": "twitter-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e820"
@@ -5269,7 +5269,7 @@
         "name": "yammer",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e821"
@@ -5278,7 +5278,7 @@
         "name": "yammer-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e822"
@@ -5287,7 +5287,7 @@
         "name": "behance",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e823"
@@ -5296,7 +5296,7 @@
         "name": "behance-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e824"
@@ -5305,7 +5305,7 @@
         "name": "dribbble",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e825"
@@ -5314,7 +5314,7 @@
         "name": "dribbble-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e826"
@@ -5323,7 +5323,7 @@
         "name": "rss",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e827"
@@ -5332,7 +5332,7 @@
         "name": "rss-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e828"
@@ -5341,7 +5341,7 @@
         "name": "vimeo",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e829"
@@ -5350,7 +5350,7 @@
         "name": "vimeo-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e82a"
@@ -5359,7 +5359,7 @@
         "name": "youtube",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e82b"
@@ -5368,7 +5368,7 @@
         "name": "youtube-box",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "social"
         ],
         "unicode": "e82c"
@@ -5377,7 +5377,7 @@
         "name": "folder",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e900"
@@ -5386,7 +5386,7 @@
         "name": "folder-open",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e901"
@@ -5395,7 +5395,7 @@
         "name": "folder-add",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e902"
@@ -5404,7 +5404,7 @@
         "name": "folder-up",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e903"
@@ -5415,7 +5415,7 @@
         "aliases": [
             "fields-more"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e904"
@@ -5424,7 +5424,7 @@
         "name": "aggregate-fields",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e905"
@@ -5437,7 +5437,7 @@
             "page-portrait",
             "file-v"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e906"
@@ -5448,7 +5448,7 @@
         "aliases": [
             "insert-file"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e907"
@@ -5459,7 +5459,7 @@
         "aliases": [
             "txt"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e908"
@@ -5470,7 +5470,7 @@
         "aliases": [
             "csv"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e909"
@@ -5484,7 +5484,7 @@
             "xls",
             "xlsa"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e90a"
@@ -5497,7 +5497,7 @@
             "word",
             "doc"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e90b"
@@ -5508,7 +5508,7 @@
         "aliases": [
             "mdb"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e90c"
@@ -5519,7 +5519,7 @@
         "aliases": [
             "ppt"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e90d"
@@ -5531,7 +5531,7 @@
             "pdf",
             "pdfa"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e90e"
@@ -5542,7 +5542,7 @@
         "aliases": [
             "psd"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e90f"
@@ -5553,7 +5553,7 @@
         "aliases": [
             "flash"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e910"
@@ -5564,7 +5564,7 @@
         "aliases": [
             "config"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e911"
@@ -5575,7 +5575,7 @@
         "aliases": [
             "ascx"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e912"
@@ -5586,7 +5586,7 @@
         "aliases": [
             "bac"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e913"
@@ -5597,7 +5597,7 @@
         "aliases": [
             "zip"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e914"
@@ -5606,7 +5606,7 @@
         "name": "film",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e915"
@@ -5615,7 +5615,7 @@
         "name": "css3",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e916"
@@ -5624,7 +5624,7 @@
         "name": "html5",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e917"
@@ -5637,7 +5637,7 @@
             "source-code",
             "view-source"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e918"
@@ -5646,7 +5646,7 @@
         "name": "css",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e919"
@@ -5655,7 +5655,7 @@
         "name": "js",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e91a"
@@ -5664,7 +5664,7 @@
         "name": "exe",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e91b"
@@ -5673,7 +5673,7 @@
         "name": "csproj",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e91c"
@@ -5682,7 +5682,7 @@
         "name": "vbproj",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e91d"
@@ -5691,7 +5691,7 @@
         "name": "cs",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e91e"
@@ -5700,7 +5700,7 @@
         "name": "vb",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e91f"
@@ -5709,7 +5709,7 @@
         "name": "sln",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e920"
@@ -5718,7 +5718,7 @@
         "name": "cloud",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e921"
@@ -5730,7 +5730,7 @@
             "page-landscape",
             "file-h"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e922"
@@ -5739,7 +5739,7 @@
         "name": "subreport",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e923"
@@ -5748,7 +5748,7 @@
         "name": "data",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e924"
@@ -5759,7 +5759,7 @@
         "aliases": [
             "report-header-section"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e925"
@@ -5770,7 +5770,7 @@
         "aliases": [
             "report-footer-section"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e926"
@@ -5779,7 +5779,7 @@
         "name": "group-header-section",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e927"
@@ -5788,7 +5788,7 @@
         "name": "group-footer-section",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e928"
@@ -5797,7 +5797,7 @@
         "name": "page-header-section",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e929"
@@ -5806,7 +5806,7 @@
         "name": "page-footer-section",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e92a"
@@ -5815,7 +5815,7 @@
         "name": "detail-section",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e92b"
@@ -5824,7 +5824,7 @@
         "name": "toc-section",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e92c"
@@ -5833,7 +5833,7 @@
         "name": "group-section",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e92d"
@@ -5842,7 +5842,7 @@
         "name": "parameters",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e92e"
@@ -5851,7 +5851,7 @@
         "name": "data-csv",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e92f"
@@ -5860,7 +5860,7 @@
         "name": "data-json",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e930"
@@ -5869,7 +5869,7 @@
         "name": "data-sql",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e931"
@@ -5878,7 +5878,7 @@
         "name": "data-web",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e932"
@@ -5887,7 +5887,7 @@
         "name": "group-collection",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e933"
@@ -5896,7 +5896,7 @@
         "name": "parameter-boolean",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e934"
@@ -5905,7 +5905,7 @@
         "name": "parameter-date-time",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e935"
@@ -5914,7 +5914,7 @@
         "name": "parameter-float",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e936"
@@ -5923,7 +5923,7 @@
         "name": "parameter-integer",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e937"
@@ -5932,7 +5932,7 @@
         "name": "parameter-string",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e938"
@@ -5941,7 +5941,7 @@
         "name": "toc-section-level",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e939"
@@ -5950,7 +5950,7 @@
         "name": "inherited",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e93a"
@@ -5959,7 +5959,7 @@
         "name": "file-video",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e93b"
@@ -5968,7 +5968,7 @@
         "name": "file-audio",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e93c"
@@ -5977,7 +5977,7 @@
         "name": "file-image",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e93d"
@@ -5986,7 +5986,7 @@
         "name": "file-presentation",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e93e"
@@ -5995,7 +5995,7 @@
         "name": "file-data",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e93f"
@@ -6004,7 +6004,7 @@
         "name": "file-disc-image",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e940"
@@ -6013,7 +6013,7 @@
         "name": "file-programming",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e941"
@@ -6022,7 +6022,7 @@
         "name": "parameters-byte-array",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e942"
@@ -6031,7 +6031,7 @@
         "name": "parameters-unknown",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e943"
@@ -6042,7 +6042,7 @@
         "aliases": [
             "file-validation"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e944"
@@ -6053,7 +6053,7 @@
         "aliases": [
             "files-validation"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e945"
@@ -6062,7 +6062,7 @@
         "name": "data-rest",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e946"
@@ -6071,7 +6071,7 @@
         "name": "file-typescript",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e947"
@@ -6082,7 +6082,7 @@
         "aliases": [
             "table-position-left"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e948"
@@ -6091,7 +6091,7 @@
         "name": "table-position-center",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e949"
@@ -6102,7 +6102,7 @@
         "aliases": [
             "table-position-right"
         ],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e94a"
@@ -6111,7 +6111,7 @@
         "name": "list-roman-upper",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e94b"
@@ -6120,7 +6120,7 @@
         "name": "list-roman-lower",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "files-and-folders"
         ],
         "unicode": "e94c"
@@ -6129,7 +6129,7 @@
         "name": "import",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e94d"
@@ -6138,7 +6138,7 @@
         "name": "export",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "actions"
         ],
         "unicode": "e94e"
@@ -6147,7 +6147,7 @@
         "name": "graph",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea00"
@@ -6156,7 +6156,7 @@
         "name": "chart-column-clustered",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea01"
@@ -6165,7 +6165,7 @@
         "name": "chart-column-stacked",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea02"
@@ -6174,7 +6174,7 @@
         "name": "chart-column-stacked100",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea03"
@@ -6183,7 +6183,7 @@
         "name": "chart-column-range",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea04"
@@ -6192,7 +6192,7 @@
         "name": "chart-bar-clustered",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea05"
@@ -6201,7 +6201,7 @@
         "name": "chart-bar-stacked",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea06"
@@ -6210,7 +6210,7 @@
         "name": "chart-bar-stacked100",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea07"
@@ -6219,7 +6219,7 @@
         "name": "chart-bar-range",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea08"
@@ -6228,7 +6228,7 @@
         "name": "chart-area-clustered",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea09"
@@ -6237,7 +6237,7 @@
         "name": "chart-area-stacked",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea0a"
@@ -6246,7 +6246,7 @@
         "name": "chart-area-stacked100",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea0b"
@@ -6255,7 +6255,7 @@
         "name": "chart-area-range",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea0c"
@@ -6264,7 +6264,7 @@
         "name": "chart-line",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea0d"
@@ -6273,7 +6273,7 @@
         "name": "chart-line-stacked",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea0e"
@@ -6282,7 +6282,7 @@
         "name": "chart-line-stacked100",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea0f"
@@ -6291,7 +6291,7 @@
         "name": "chart-line-markers",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea10"
@@ -6300,7 +6300,7 @@
         "name": "chart-line-stacked-markers",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea11"
@@ -6309,7 +6309,7 @@
         "name": "chart-line-stacked100-markers",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea12"
@@ -6318,7 +6318,7 @@
         "name": "chart-pie",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea13"
@@ -6327,7 +6327,7 @@
         "name": "chart-doughnut",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea14"
@@ -6336,7 +6336,7 @@
         "name": "chart-scatter",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea15"
@@ -6345,7 +6345,7 @@
         "name": "chart-scatter-smooth-lines-markers",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea16"
@@ -6354,7 +6354,7 @@
         "name": "chart-scatter-smooth-lines",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea17"
@@ -6363,7 +6363,7 @@
         "name": "chart-scatter-straight-lines-markers",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea18"
@@ -6372,7 +6372,7 @@
         "name": "chart-scatter-straight-lines",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea19"
@@ -6381,7 +6381,7 @@
         "name": "chart-bubble",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea1a"
@@ -6390,7 +6390,7 @@
         "name": "chart-candlestick",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea1b"
@@ -6399,7 +6399,7 @@
         "name": "chart-ohlc",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea1c"
@@ -6408,7 +6408,7 @@
         "name": "chart-radar",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea1d"
@@ -6417,7 +6417,7 @@
         "name": "chart-radar-markers",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea1e"
@@ -6426,7 +6426,7 @@
         "name": "chart-radar-filled",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea1f"
@@ -6435,7 +6435,7 @@
         "name": "chart-rose",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea20"
@@ -6444,7 +6444,7 @@
         "name": "chart-choropleth",
         "ligatures": [],
         "aliases": [],
-        "groups": [
+        "categories": [
             "charts"
         ],
         "unicode": "ea21"

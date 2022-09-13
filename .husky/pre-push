@@ -4,4 +4,4 @@
 npm run eslint
 npm run update-icons
 
-git diff --exit-code --quiet -- src/icons/ || (echo -e '\\033[0;31mERROR: icons.json is updated. Please add icon groups if new icons are added.' && exit 1)
+git diff --exit-code --quiet -- src/icons/ || (echo -e '\\033[0;31mERROR: icons.json is updated. Please add icon categories if new icons are added.' && exit 1)
