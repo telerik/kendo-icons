@@ -35,7 +35,7 @@ function updateIcons() {
             name: svgIconName,
             ligatures: [],
             aliases: [],
-            groups: [],
+            categories: [],
             unicode: (unicodeStart + emptyIndex).toString(16)
         };
 

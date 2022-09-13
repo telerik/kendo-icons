@@ -10,14 +10,14 @@
 1. Copy the newly created SVG icon in `src/icons/solid` folder.
 1. Stage, commit and push the changes.
 1. Before pushing, the `icons.json` and `icons-list.json` files will be updated automatically.
-1. Open the `icons.json` and fill in the relevant icon group for the newly added icon, e.g:
+1. Open the `icons.json` and fill in the relevant icon categories for the newly added icon, e.g:
 
 ```
         {
             "name": "caret-tr",
             "ligatures": [],
             "aliases": [],
-            "groups": [ "navigation" ],
+            "categories": [ "navigation" ],
             "unicode": "e000"
         }
 ```
