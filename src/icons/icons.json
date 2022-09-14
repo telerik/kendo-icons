@@ -447,7 +447,9 @@
     {
         "name": "handle-drag",
         "ligatures": [],
-        "aliases": [],
+        "aliases": [
+            "handler-drag"
+        ],
         "categories": [
             "layout"
         ],
