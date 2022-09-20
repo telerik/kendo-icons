@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/telerik/kendo-icons/compare/v0.3.0...v0.4.0) (2022-09-20)
+
+
+### Features
+
+* add icons.json to the release package ([2f60674](https://github.com/telerik/kendo-icons/commit/2f60674bec5d81f9d142a70f7ef4fff3ce028f8d))
+
+
+
+
+
 # [0.3.0](https://github.com/telerik/kendo-icons/compare/v0.2.0...v0.3.0) (2022-09-07)
 
 **Note:** Version bump only for package @progress/kendo-svg-icons
