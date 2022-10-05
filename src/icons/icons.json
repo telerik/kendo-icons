@@ -1162,6 +1162,15 @@
         "unicode": "e06e"
     },
     {
+        "name": "clock-arrow-rotate",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e06f"
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
