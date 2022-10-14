@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/telerik/kendo-icons/compare/v0.4.0...v0.5.0) (2022-10-14)
+
+
+### Features
+
+* add clock-arrow-rotate icon ([22d0e53](https://github.com/telerik/kendo-icons/commit/22d0e53c1aa613b13f4e7c60111151181714238a))
+* add new icons ([c0fb6b3](https://github.com/telerik/kendo-icons/commit/c0fb6b3c1cb1c19d341a2788e07ddbed3b8c1380))
+* add new icons ([85b8ea9](https://github.com/telerik/kendo-icons/commit/85b8ea9dcb79992ee55b9aa1953fad9569db932d))
+
+
+
+
+
 # [0.4.0](https://github.com/telerik/kendo-icons/compare/v0.3.0...v0.4.0) (2022-09-20)
 
 
