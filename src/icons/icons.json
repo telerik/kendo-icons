@@ -1162,15 +1162,6 @@
         "unicode": "e06e"
     },
     {
-        "name": "clock-arrow-rotate",
-        "ligatures": [],
-        "aliases": [],
-        "categories": [
-            "actions"
-        ],
-        "unicode": "e06f"
-    },
-    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
@@ -2132,6 +2123,15 @@
             "actions"
         ],
         "unicode": "e15c"
+    },
+    {
+        "name": "clock-arrow-rotate",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e15d"
     },
     {
         "name": "play",
