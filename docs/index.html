@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en" class="k-no-animations">
+<head>
+    <title>Icons</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/@progress/kendo-theme-utils/dist/all.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@progress/kendo-font-icons/dist/index.css" />
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font: 1rem / 1.5 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        }
+        h2 { margin-top: 0; }
+        .k-icon { font-size: 1em; }
+
+        .icon-category {
+            padding: 20px;
+            background: #f5f5f5;
+            border-radius: 20px;
+        }
+
+        .icon-cell {
+            padding: 20px;
+            border-radius: 20px;
+            background: white;
+        }
+        .icon-wrapper { font-size: 48px }
+        .icon-name {
+            margin-top: 20px;
+            font-size: .75rem;
+        }
+    </style>
+</head>
+<body id="app" class="k-body">
+
+    <div id="test-area" class="k-d-grid k-grid-cols-1 k-gap-20">
+        <section class="icon-category" id="cat-uncategorized">
+            <h2>Uncategorized</h2>
+            <!-- <div class="icon-grid k-d-grid k-grid-cols-8 k-gap-2">
+                <div class="icon-cell k-d-flex k-flex-col k-align-items-center">
+                    <span class="icon-wrapper">
+                        <span class="k-icon k-i-plus"></span>
+                    </span>
+                    <span class="icon-name k-text-center">k-i-plus</span>
+                </div>
+            </div> -->
+        </section>
+    </div>
+
+    <script>
+        const testArea = document.getElementById('test-area');
+
+        function genIconCell(icon) {
+            const iconName = icon.name;
+            const iconUnicode = icon.unicode;
+
+            const iconCell = document.createElement('div');
+            iconCell.classList.add('icon-cell', 'k-d-flex', 'k-flex-col', 'k-align-items-center');
+
+            const iconWrapper = document.createElement('span');
+            iconWrapper.classList.add('icon-wrapper');
+
+            const iconElement = document.createElement('span');
+            iconElement.classList.add('k-icon');
+            iconElement.classList.add('k-icon', `k-i-${iconName}`);
+
+            const iconLabel = document.createElement('span');
+            iconLabel.classList.add('icon-name', 'k-text-center');
+            iconLabel.textContent = `k-${iconName}`;
+
+            iconWrapper.appendChild(iconElement);
+            iconCell.appendChild(iconWrapper);
+            iconCell.appendChild(iconLabel);
+
+            return iconCell;
+        }
+
+        fetch('https://unpkg.com/@progress/kendo-font-icons/dist/icons.json')
+        // fetch('../src/icons.json')
+            .then(response => response.json())
+            .then(json => {
+                const fragment = document.createDocumentFragment();
+                const uncategorized = document.getElementById('cat-uncategorized');
+
+
+                json.forEach(icon => {
+                    const iconName = icon.name;
+                    const iconUnicode = icon.unicode;
+                    const categories = icon.categories;
+
+                    // Icon cell
+                    const iconCell = genIconCell(icon);
+
+                    if (categories.length > 0) {
+                        categories.forEach( cat => {
+                            let catWrapper = document.getElementById(`cat-${cat}`);
+
+                            if (catWrapper === null) {
+                                catWrapper = document.createElement('section');
+                                catWrapper.id = `cat-${cat}`;
+                                catWrapper.classList.add('icon-category');
+
+                                const catLabel = document.createElement('h2');
+                                catLabel.textContent = cat;
+
+                                const iconGrid = document.createElement('div');
+                                iconGrid.classList.add('icon-grid', 'k-d-grid', 'k-grid-cols-8', 'k-gap-2');
+
+                                catWrapper.appendChild(catLabel);
+                                catWrapper.appendChild(iconGrid);
+
+                                fragment.appendChild(catWrapper);
+                            }
+
+                            catWrapper.querySelector('.icon-grid').appendChild(iconCell.cloneNode(true));
+                        });
+                    } else {
+                        uncategorized.querySelector('.icon-grid').appendChild(iconCell.cloneNode(true));
+                    }
+
+                    testArea.appendChild(fragment);
+                    testArea.appendChild(uncategorized);
+                });
+            });
+    </script>
+
+</body>
+</html>
