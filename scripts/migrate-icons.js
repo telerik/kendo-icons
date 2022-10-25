@@ -1,8 +1,8 @@
 const fs = require('fs-extra');
 const path = require('path');
 
-const iconsJsonPath = path.resolve( 'src/icons/icons.json' );
-const iconsSrcPath = path.resolve( 'src/icons/solid/' );
+const iconsJsonPath = path.resolve( 'src/telerik-icons/icons.json' );
+const iconsSrcPath = path.resolve( 'src/telerik-icons/solid/' );
 const iconsJson = JSON.parse( fs.readFileSync( iconsJsonPath, 'utf-8') );
 
 let dirty = false;

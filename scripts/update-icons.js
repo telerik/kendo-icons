@@ -4,11 +4,11 @@ const path = require('path');
 const unicodeStart = parseInt('e000', 16);
 
 function updateIcons() {
-    const iconSrcPath = path.resolve( 'src/icons/solid/' );
+    const iconSrcPath = path.resolve( 'src/telerik-icons/solid/' );
     const svgIcons = fs.readdirSync(iconSrcPath);
 
-    const iconsJsonPath = path.resolve( 'src/icons/icons.json' );
-    const iconListPath = path.resolve( 'src/icons/icon-list.json' );
+    const iconsJsonPath = path.resolve( 'src/telerik-icons/icons.json' );
+    const iconListPath = path.resolve( 'src/telerik-icons/icon-list.json' );
 
     let iconsJson = JSON.parse( fs.readFileSync( iconsJsonPath, 'utf-8' ) );
     let iconList = JSON.parse( fs.readFileSync( iconListPath, 'utf-8' ) );
