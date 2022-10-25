@@ -7,10 +7,10 @@ const { paths, prepareSvg, buildHast } = require('../../../scripts/shared');
 const { svgTsTemplate, indexTsTemplate } = require('./templates');
 
 // Prepare clean src/icons and dist dirs
-fs.rmdirSync( 'src/icons', { recursive: true, force: true } );
+fs.rmSync( 'src/icons', { recursive: true, force: true } );
 fs.mkdirSync( 'src/icons', { recursive: true } );
 
-fs.rmdirSync( 'dist', { recursive: true, force: true } );
+fs.rmSync( 'dist', { recursive: true, force: true } );
 fs.mkdirSync( 'dist' );
 
 // Prepare svg

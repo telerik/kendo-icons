@@ -13,10 +13,10 @@ const fontPaths = {
 };
 
 // Prepare clean tmp and dist dirs
-fs.rmdirSync( '.tmp', { recursive: true, force: true } );
+fs.rmSync( '.tmp', { recursive: true, force: true } );
 fs.mkdirSync( '.tmp' );
 
-fs.rmdirSync( 'dist', { recursive: true, force: true } );
+fs.rmSync( 'dist', { recursive: true, force: true } );
 fs.mkdirSync( 'dist' );
 
 // Prepare svg

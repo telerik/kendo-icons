@@ -8,10 +8,10 @@ const root = resolve(__dirname, '..');
 
 const paths = {
     icons: {
-        src: resolve( root, 'src/icons/solid' ),
+        src: resolve( root, 'src/telerik-icons/solid' ),
         temp: resolve( root, '.tmp/icons/solid' ),
-        json: resolve( root, 'src/icons/icons.json' ),
-        list: resolve( root, 'src/icons/icon-list.json' ),
+        json: resolve( root, 'src/telerik-icons/icons.json' ),
+        list: resolve( root, 'src/telerik-icons/icon-list.json' ),
         hast: resolve( root, '.tmp/icons/icons-hast.json' )
     },
     svgGlob: '**/*.svg'
