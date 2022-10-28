@@ -14,7 +14,7 @@
     "dist"
   ],
   "scripts": {
-    "prebuild": "node scripts/prepare-svg.js",
+    "prebuild": "node scripts/prepare-svg.js && node scripts/prepare-nuget.js",
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
   },
