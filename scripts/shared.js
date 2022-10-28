@@ -20,7 +20,7 @@ const paths = {
 function prepareSvg() {
     let files = glob.sync( resolve( paths.icons.src, paths.svgGlob ) );
 
-    fs.rmdirSync( paths.icons.temp, { force: true, recursive: true } );
+    fs.rmSync( paths.icons.temp, { force: true, recursive: true } );
     fs.mkdirSync( paths.icons.temp, { recursive: true } );
 
     files.forEach( file => {
