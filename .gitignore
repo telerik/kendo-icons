@@ -3,6 +3,8 @@
 .tmp/
 node_modules/
 dist/
+bin/
+obj/
 
 # Log files
 npm-debug.log
