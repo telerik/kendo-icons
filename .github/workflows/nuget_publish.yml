@@ -1,0 +1,60 @@
+name: Publish to nuget
+
+defaults:
+  run:
+    shell: bash
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - "Publish to npm"
+    types:
+      - completed
+
+jobs:
+
+  nuget-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout branch
+        uses: actions/checkout@v2
+        with:
+          ref: develop
+
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          cache: 'npm'
+          node-version: 14.x
+
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v3
+
+      - name: Setup msbuild
+        uses: microsoft/setup-msbuild@v1.1
+
+      - name: Setup nuget
+        uses: nuget/setup-nuget@v1
+
+      - name: Install
+        run: |
+          npm ci
+          npm run bootstrap
+
+      - name: Build assets
+        run: |
+          npm run build
+
+      - name: Pack nuget
+        run: |
+          npx lerna run nuget-pack
+
+      - name: Push nuget
+        run: |
+          npx lerna run nuget-push
+        env:
+          NUGET_API_KEY: ${{ secrets.GH_TOKEN_PUBLISH }}
+          NUGET_FEED: "https://nuget.pkg.github.com/telerik/index.json"
