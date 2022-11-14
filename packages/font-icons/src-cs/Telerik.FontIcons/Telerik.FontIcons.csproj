@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>Telerik.FontIcons</PackageId>
+    <Authors>Progress</Authors>
+    <Company>Progress</Company>
+    <Description>Font icons for Telerik UI.</Description>
+    <PackageTags>aspnet;icons;font;Telerik;</PackageTags>
   </PropertyGroup>
 
 </Project>
