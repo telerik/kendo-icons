@@ -12,7 +12,7 @@ function prepareNuget() {
     const telerikIconsCs = iconsCsTemplate( 'Telerik.FontIcons', iconsHast.icons );
 
     fs.writeFileSync(
-        resolve( 'src-cs/Telerik.FontIcons/Icons/FontIcons.cs' ),
+        resolve( 'src-cs/Telerik.FontIcons/Icons/FontIcon.cs' ),
         telerikIconsCs
     );
 
