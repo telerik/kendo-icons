@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.1</TargetFramework>
+    <PackageId>Telerik.SvgIcons</PackageId>
+    <Authors>Progress</Authors>
+    <Company>Progress</Company>
+    <Description>SVG icons for Telerik UI.</Description>
+    <PackageTags>aspnet;icons;svg;Telerik;</PackageTags>
   </PropertyGroup>
 
 </Project>
