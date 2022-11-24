@@ -75,5 +75,10 @@
 .k-icon-lg { font-size: ( calc( #{$ki-icon-size} * 3 ) ); }
 .k-icon-xl { font-size: ( calc( #{$ki-icon-size} * 4 ) ); }
 
+// Action icons
+.k-icon-action {
+    padding: $ki-icon-padding;
+    cursor: pointer;
+}
 
 @import "_icons.scss";
