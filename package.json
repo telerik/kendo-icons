@@ -23,7 +23,7 @@
     "glob": "^7.2.0",
     "http-server": "^14.1.0",
     "husky": "^7.0.4",
-    "lerna": "^4.0.0",
+    "lerna": "^6.0.3",
     "lodash": "^4.17.21",
     "node-sass": "^7.0.1",
     "svg-parser": "^2.0.4",
