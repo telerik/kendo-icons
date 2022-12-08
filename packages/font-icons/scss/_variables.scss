@@ -1,6 +1,14 @@
 $ki-font-family: "WebComponentsIcons" !default;
 $ki-icon-size: 16px !default;
 
+$ki-icon-size-xs: calc( #{$ki-icon-size} * .75 ) !default;
+$ki-icon-size-sm: calc( #{$ki-icon-size} * .875 ) !default;
+$ki-icon-size-md: $ki-icon-size !default;
+$ki-icon-size-lg: calc( #{$ki-icon-size} * 1.25 ) !default;
+$ki-icon-size-xl: calc( #{$ki-icon-size} * 1.5 ) !default;
+$ki-icon-size-xxl: calc( #{$ki-icon-size} * 2 ) !default;
+$ki-icon-size-xxxl: calc( #{$ki-icon-size} * 3 ) !default;
+
 $ki-embed-font: false !default;
 $ki-font-file-url: "kendo-font-icons.ttf" !default;
 $ki-font-url: if( $ki-embed-font == true, $ki-font-data-url, $ki-font-file-url ) !default;
