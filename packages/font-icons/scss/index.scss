@@ -45,8 +45,8 @@
 
 // Svg icon
 .k-svg-icon {
-    width: 1em;
-    height: 1em;
+    width: $ki-icon-size;
+    height: $ki-icon-size;
     outline: 0;
     line-height: 1;
     display: inline-flex;
@@ -69,11 +69,68 @@
 
 
 // Icon sizes
-.k-icon-xs { font-size: ( calc( #{$ki-icon-size} * .5 ) ); }
-.k-icon-sm { font-size: ( calc( #{$ki-icon-size} * .75 ) ); }
-.k-icon-md { font-size: ( calc( #{$ki-icon-size} * 2 ) ); }
-.k-icon-lg { font-size: ( calc( #{$ki-icon-size} * 3 ) ); }
-.k-icon-xl { font-size: ( calc( #{$ki-icon-size} * 4 ) ); }
+.k-icon-xs {
+    font-size: $ki-icon-size-xs;
+
+    &.k-svg-icon {
+        width: $ki-icon-size-xs;
+        height: $ki-icon-size-xs;
+    }
+}
+
+.k-icon-sm {
+    font-size: $ki-icon-size-sm;
+
+    &.k-svg-icon {
+        width: $ki-icon-size-sm;
+        height: $ki-icon-size-sm;
+    }
+ }
+
+.k-icon-md {
+    font-size: $ki-icon-size-md;
+
+    &.k-svg-icon {
+        width: $ki-icon-size-md;
+        height: $ki-icon-size-md;
+    }
+}
+
+.k-icon-lg {
+    font-size: $ki-icon-size-lg;
+
+    &.k-svg-icon {
+        width: $ki-icon-size-lg;
+        height: $ki-icon-size-lg;
+    }
+}
+
+.k-icon-xl {
+    font-size: $ki-icon-size-xl;
+
+    &.k-svg-icon {
+        width: $ki-icon-size-xl;
+        height: $ki-icon-size-xl;
+    }
+}
+
+.k-icon-xxl {
+    font-size: $ki-icon-size-xxl;
+
+    &.k-svg-icon {
+        width: $ki-icon-size-xxl;
+        height: $ki-icon-size-xxl;
+    }
+}
+
+.k-icon-xxxl {
+    font-size: $ki-icon-size-xxxl;
+
+    &.k-svg-icon {
+        width: $ki-icon-size-xxxl;
+        height: $ki-icon-size-xxxl;
+    }
+}
 
 
 @import "_icons.scss";
