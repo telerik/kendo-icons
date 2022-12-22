@@ -132,5 +132,55 @@
     }
 }
 
+// Flip
+
+.k-flip-h,
+.k-flip-v,
+.k-flip-h.k-flip-v {
+    &.k-svg-icon {
+        transform: none;
+    }
+}
+
+.k-flip-h {
+    transform: scaleX( -1 );
+
+    > svg {
+        transform: scaleX( -1 );
+    }
+}
+
+.k-flip-v {
+    transform: scaleY( -1 );
+
+    > svg {
+        transform: scaleY( -1 );
+    }
+}
+
+.k-flip-h.k-flip-v {
+    transform: scale( -1, -1 );
+
+    > svg {
+        transform: scale( -1, -1 );
+    }
+}
+
+// Rotate
+
+@each $index, $rotate in $ki-rotate-map {
+    .k-rotate-#{$index} {
+        transform: rotate( #{$rotate} );
+
+        &.k-svg-icon {
+            transform: none;
+        }
+
+        > svg {
+            transform: rotate( #{$rotate} );
+        }
+    }
+}
+
 
 @import "_icons.scss";

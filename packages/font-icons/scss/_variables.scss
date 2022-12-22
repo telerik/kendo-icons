@@ -14,3 +14,15 @@ $ki-font-file-url: "kendo-font-icons.ttf" !default;
 $ki-font-url: if( $ki-embed-font == true, $ki-font-data-url, $ki-font-file-url ) !default;
 
 $ki-css-prefix: "k-i-" !default;
+
+$ki-rotate-map: (
+    0: 0deg,
+    45: 45deg,
+    90: 90deg,
+    135: 135deg,
+    180: 180deg,
+    225: 225deg,
+    270: 270deg,
+    315: 315deg
+) !default;
+
