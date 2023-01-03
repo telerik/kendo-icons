@@ -1,7 +1,0 @@
-import { SVGIcon } from '../svg-icon.interface';
-
-export const windowMinimizeIcon: SVGIcon = {
-    name: 'window-minimize-icon',
-    content: '<path d="M416 288v64H96v-64h320z" />',
-    viewBox: '0 0 512 512'
-}

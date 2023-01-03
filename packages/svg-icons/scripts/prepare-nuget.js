@@ -22,7 +22,7 @@ function prepareNuget() {
     let content;
 
     iconsHast.icons.forEach(iconDef => {
-        iconName = `${iconDef.name}-icon`;
+        iconName = iconDef.name;
         iconCsName = _.upperFirst( _.camelCase( iconName ) );
         iconSvgContent = iconDef.hast[0].properties.d;
         filename = resolve( `src-cs/Telerik.SvgIcons/Icons/${iconCsName}.cs` );
