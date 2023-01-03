@@ -31,8 +31,8 @@ function prepareSvgIcons() {
     let content;
 
     iconsHast.icons.forEach(iconDef => {
-        iconName = `${iconDef.name}-icon`;
-        iconTsName = _.camelCase( iconName );
+        iconName = iconDef.name;
+        iconTsName = _.camelCase( `${iconName}-icon` );
         iconSvgContent = iconDef.hast[0].properties.d;
         filename = resolve( `src/icons/${iconName}.ts` );
 
