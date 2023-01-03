@@ -13,7 +13,7 @@
     "update": "npx npm-check-updates --upgrade"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.1.0",
+    "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
     "@commitlint/core": "^16.1.0",
     "@progress/kendo-theme-tasks": "^1.17.3",
