@@ -16,7 +16,7 @@ function svgFontTemplate(options) {
             <missing-glyph />
             <glyph unicode="&#x20;" d="" />
 ${glyphs.map(glyph => `
-            <glyph unicode="&#x${glyph.unicode};" d="${glyph.d ? svgpath(glyph.d).translate(0, -480).scale(2, -2).toString() : ''}" />`).join('')}
+            <glyph unicode="&#x${glyph.unicode};" glyph-name="${glyph.name}" d="${glyph.d ? svgpath(glyph.d).translate(0, -480).scale(2, -2).toString() : ''}" />`).join('')}
         </font>
     </defs>
 </svg>`;
