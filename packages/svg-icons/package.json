@@ -16,8 +16,6 @@
   "scripts": {
     "prebuild": "node scripts/prepare-svg.js && node scripts/prepare-nuget.js",
     "build": "rollup -c",
-    "nuget-pack": "jq '.version' package.json | xargs nuget pack src-cs/Telerik.SvgIcons/Telerik.SvgIcons.csproj -Version",
-    "nuget-push": "nuget push *.nupkg -ApiKey $NUGET_API_KEY -Source $NUGET_FEED -SkipDuplicate",
     "prepublishOnly": "npm run build"
   },
   "keywords": [

@@ -13,8 +13,6 @@
   "scripts": {
     "prebuild": "node scripts/prepare-font.js && node scripts/prepare-nuget.js",
     "build": "node scripts/sass-build.js",
-    "nuget-pack": "jq '.version' package.json | xargs nuget pack src-cs/Telerik.FontIcons/Telerik.FontIcons.csproj -Version",
-    "nuget-push": "nuget push *.nupkg -ApiKey $NUGET_API_KEY -Source $NUGET_FEED -SkipDuplicate",
     "prepublishOnly": "npm run build"
   },
   "keywords": [

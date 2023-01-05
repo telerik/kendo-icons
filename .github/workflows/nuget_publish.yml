@@ -15,7 +15,12 @@ on:
 jobs:
 
   nuget-publish:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
+
+    env:
+      FONT_ICONS: "packages/font-icons/src-cs/Telerik.FontIcons"
+      SVG_ICONS: "packages/svg-icons/src-cs/Telerik.SvgIcons"
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN_PUBLISH }}
 
     steps:
 
@@ -30,15 +35,6 @@ jobs:
           cache: 'npm'
           node-version: 14.x
 
-      - name: Setup dotnet
-        uses: actions/setup-dotnet@v3
-
-      - name: Setup msbuild
-        uses: microsoft/setup-msbuild@v1.1
-
-      - name: Setup nuget
-        uses: nuget/setup-nuget@v1
-
       - name: Install
         run: |
           npm ci
@@ -48,13 +44,30 @@ jobs:
         run: |
           npm run build
 
-      - name: Pack nuget
-        run: |
-          npx lerna run nuget-pack
+      - name: Setup Telerik Nuget Feed
+        uses: telerik/kendo-workflows/.github/actions/setup-nuget-feed@develop
 
-      - name: Push nuget
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 5.0.x
+
+      - name: Build projects
         run: |
-          npx lerna run nuget-push
-        env:
-          NUGET_API_KEY: ${{ secrets.GH_TOKEN_PUBLISH }}
-          NUGET_FEED: "https://nuget.pkg.github.com/telerik/index.json"
+          dotnet build -c Release ${{ env.FONT_ICONS }}/Telerik.FontIcons.csproj
+          dotnet build -c Release ${{ env.SVG_ICONS }}/Telerik.SvgIcons.csproj
+
+      - name: Pack font icons nuget
+        run: |
+          VERSION=$(jq '.version' packages/font-icons/package.json)
+          dotnet pack -c Release ${{ env.FONT_ICONS }}/Telerik.FontIcons.csproj -p:PackageVersion=$VERSION
+
+      - name: Pack svg icons nuget
+        run: |
+          VERSION=$(jq '.version' packages/svg-icons/package.json)
+          dotnet pack -c Release ${{ env.SVG_ICONS }}/Telerik.SvgIcons.csproj -p:PackageVersion=$VERSION
+
+      - name: Push nuget packages
+        run: |
+          dotnet nuget push ${{ env.FONT_ICONS }}/bin/Release/*.nupkg -s telerik-gh --skip-duplicate
+          dotnet nuget push ${{ env.SVG_ICONS }}/bin/Release/*.nupkg -s telerik-gh --skip-duplicate
