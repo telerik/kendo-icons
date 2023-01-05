@@ -15,17 +15,17 @@ on:
 jobs:
 
   nuget-publish:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
 
       - name: Checkout branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: develop
 
       - name: Setup node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           cache: 'npm'
           node-version: 14.x
