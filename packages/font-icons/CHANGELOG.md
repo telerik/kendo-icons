@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/telerik/kendo-icons/compare/v0.6.0...v0.7.0) (2023-01-05)
+
+
+### Features
+
+* add flip and rotate utils to icons ([6a89774](https://github.com/telerik/kendo-icons/commit/6a8977489948a85a93425aae8308cc12209ee5e6))
+* add glyph name to font icons ([b296d74](https://github.com/telerik/kendo-icons/commit/b296d74a2b802fd95ec145bbe9762a20c26140a1))
+* use icon-size var for svg icons sizing and revise sizing values ([e40ad5e](https://github.com/telerik/kendo-icons/commit/e40ad5e96610b05943ab2a5268ae8c5d53b4301c))
+
+
+### BREAKING CHANGES
+
+* * Icon sizes are updated as follows:
+
+XSmall (.k-icon-xs) -> 12px (0.75 * $ki-icon-size)
+Small (.k-icon-sm) -> 14px (0.875 * $ki-icon-size)
+Default, Medium (.k-icon-md) -> 16px ($ki-icon-size)
+Large (.k-icon-lg) -> 20px (1.25 * $ki-icon-size)
+XLarge (.k-icon-xl) -> 24px (1.5 * $ki-icon-size)
+XXLarge (.k-icon-xxl) -> 32px (2 * $ki-icon-size)
+XXXLarge (.k-icon-xxxl) -> 48px (3 * $ki-icon-size)
+
+
+
+
+
 # [0.6.0](https://github.com/telerik/kendo-icons/compare/v0.5.0...v0.6.0) (2022-10-17)
 
 
