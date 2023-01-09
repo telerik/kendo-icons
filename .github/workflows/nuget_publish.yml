@@ -44,13 +44,14 @@ jobs:
         run: |
           npm run build
 
-      - name: Setup Telerik Nuget Feed
-        uses: telerik/kendo-workflows/.github/actions/setup-nuget-feed@develop
-
       - name: Setup dotnet
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: 5.0.x
+          source-url: https://nuget.pkg.github.com/telerik/index.json
+        env:
+          NUGET_AUTH_TOKEN: '%GITHUB_TOKEN%'
+
 
       - name: Build projects
         run: |
@@ -69,5 +70,5 @@ jobs:
 
       - name: Push nuget packages
         run: |
-          dotnet nuget push ${{ env.FONT_ICONS }}/bin/Release/*.nupkg -s telerik-gh --skip-duplicate
-          dotnet nuget push ${{ env.SVG_ICONS }}/bin/Release/*.nupkg -s telerik-gh --skip-duplicate
+          dotnet nuget push ${{ env.FONT_ICONS }}/bin/Release/*.nupkg --skip-duplicate
+          dotnet nuget push ${{ env.SVG_ICONS }}/bin/Release/*.nupkg --skip-duplicate
