@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/telerik/kendo-icons/compare/v0.7.0...v1.0.1) (2023-01-09)
+
+
+### Bug Fixes
+
+* **ci:** associate packages with repo ([bd0611c](https://github.com/telerik/kendo-icons/commit/bd0611c404d22ba64f4a8277b8313707fda2aec0))
+
+
+
+
+
 # [1.0.0](https://github.com/telerik/kendo-icons/compare/v0.7.0...v1.0.0) (2023-01-05)
 
 **Note:** Version bump only for package @progress/kendo-svg-icons
