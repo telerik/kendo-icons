@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard1.1</TargetFramework>
@@ -8,6 +8,8 @@
     <Description>SVG icons for Telerik UI.</Description>
     <PackageTags>aspnet;icons;svg;Telerik;</PackageTags>
     <RepositoryUrl>https://github.com/telerik/kendo-icons</RepositoryUrl>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>Telerik.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
 </Project>
