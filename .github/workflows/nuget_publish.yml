@@ -20,7 +20,7 @@ jobs:
     env:
       FONT_ICONS: "packages/font-icons/src-cs/Telerik.FontIcons"
       SVG_ICONS: "packages/svg-icons/src-cs/Telerik.SvgIcons"
-      GITHUB_TOKEN: ${{ secrets.GH_TOKEN_PUBLISH }}
+      GITHUB_TOKEN: ${{ secrets.NUGET_TOKEN }}
 
     steps:
 
