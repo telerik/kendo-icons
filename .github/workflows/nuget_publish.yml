@@ -20,7 +20,6 @@ jobs:
     env:
       FONT_ICONS: "packages/font-icons/src-cs/Telerik.FontIcons"
       SVG_ICONS: "packages/svg-icons/src-cs/Telerik.SvgIcons"
-      GITHUB_TOKEN: ${{ secrets.NUGET_TOKEN }}
 
     steps:
 
@@ -48,10 +47,6 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: 5.0.x
-          source-url: https://nuget.pkg.github.com/telerik/index.json
-        env:
-          NUGET_AUTH_TOKEN: '%GITHUB_TOKEN%'
-
 
       - name: Build projects
         run: |
@@ -69,6 +64,8 @@ jobs:
           dotnet pack -c Release ${{ env.SVG_ICONS }}/Telerik.SvgIcons.csproj -p:PackageVersion=$VERSION
 
       - name: Push nuget packages
+        env:
+          NUGET_AUTH_TOKEN: ${{ secrets.NUGET_TOKEN }}
         run: |
           dotnet nuget push ${{ env.FONT_ICONS }}/bin/Release/*.nupkg --skip-duplicate
           dotnet nuget push ${{ env.SVG_ICONS }}/bin/Release/*.nupkg --skip-duplicate
