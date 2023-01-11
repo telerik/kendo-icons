@@ -68,5 +68,5 @@ jobs:
           NUGET_AUTH_TOKEN: ${{ secrets.NUGET_TOKEN }}
           NUGET_SOURCE: https://api.nuget.org/v3/index.json
         run: |
-          dotnet nuget push ${{ env.FONT_ICONS }}/bin/Release/*.nupkg -k $NUGET_AUTH_TOKEN -s ${{ env.NUGET_SOURCE }} --skip-duplicate
-          dotnet nuget push ${{ env.SVG_ICONS }}/bin/Release/*.nupkg -k $NUGET_AUTH_TOKEN -s ${{ env.NUGET_SOURCE }} --skip-duplicate
+          dotnet nuget push ${{ env.FONT_ICONS }}/bin/Release/*.nupkg -k $NUGET_AUTH_TOKEN -s ${{ env.NUGET_SOURCE }}
+          dotnet nuget push ${{ env.SVG_ICONS }}/bin/Release/*.nupkg -k $NUGET_AUTH_TOKEN -s ${{ env.NUGET_SOURCE }}
