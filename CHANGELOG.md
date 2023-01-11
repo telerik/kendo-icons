@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/telerik/kendo-icons/compare/v1.0.1...v1.0.2) (2023-01-11)
+
+
+### Bug Fixes
+
+* add snk files and sign assemblies ([8105a16](https://github.com/telerik/kendo-icons/commit/8105a16cc193853d00a0a55d2fde9124c4cb6870))
+
+
+
+
+
 ## [1.0.1](https://github.com/telerik/kendo-icons/compare/v0.7.0...v1.0.1) (2023-01-09)
 
 
