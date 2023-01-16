@@ -1162,6 +1162,15 @@
         "unicode": "e06e"
     },
     {
+        "name": "data-sds",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "files-and-folders"
+        ],
+        "unicode": "e06f"
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
