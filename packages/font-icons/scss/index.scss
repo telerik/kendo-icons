@@ -158,7 +158,8 @@
     }
 }
 
-.k-flip-h.k-flip-v {
+.k-flip-h.k-flip-v,
+.k-flip-both {
     transform: scale( -1, -1 );
 
     > svg {
