@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/telerik/kendo-icons/compare/v1.1.0...v1.1.1) (2023-01-16)
+
+
+### Bug Fixes
+
+* normalize data-sds icon ([1272cbb](https://github.com/telerik/kendo-icons/commit/1272cbbbdca02398889688d317603c9924e9edef))
+
+
+
+
+
 # [1.1.0](https://github.com/telerik/kendo-icons/compare/v1.0.2...v1.1.0) (2023-01-16)
 
 
