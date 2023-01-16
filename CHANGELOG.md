@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/telerik/kendo-icons/compare/v1.0.2...v1.1.0) (2023-01-16)
+
+
+### Features
+
+* add data-sds icon ([2d9ad03](https://github.com/telerik/kendo-icons/commit/2d9ad03afac69dc4986a2017094d4715079ab245))
+* add new icons ([0446b1b](https://github.com/telerik/kendo-icons/commit/0446b1bde221e3b5ee0a7ed00a526c5a1e2af86f))
+
+
+
+
+
 ## [1.0.2](https://github.com/telerik/kendo-icons/compare/v1.0.1...v1.0.2) (2023-01-11)
 
 
