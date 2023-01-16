@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/telerik/kendo-icons/compare/v1.1.1...v1.1.2) (2023-01-16)
+
+
+### Bug Fixes
+
+* use k-flip-both for horizontal and vertical flip ([bb3c7ce](https://github.com/telerik/kendo-icons/commit/bb3c7ce89638c486fc8e3ca8c3486cb10bcf8dd2))
+
+
+
+
+
 ## [1.1.1](https://github.com/telerik/kendo-icons/compare/v1.1.0...v1.1.1) (2023-01-16)
 
 
