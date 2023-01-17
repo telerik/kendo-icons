@@ -87,7 +87,7 @@ function prepareFontIcons() {
 
     fs.writeFileSync(
         resolve( 'scss/_icons.scss' ),
-        fileContent.join( '\n' )
+        `@mixin kendo-icon-list {\n    ${fileContent.join( '\n    ' )}\n}\n`
     );
 
     fs.copyFileSync(

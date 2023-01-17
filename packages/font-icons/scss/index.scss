@@ -1,187 +1,184 @@
-
 @import "_font.scss";
 @import "_variables.scss";
+@import "_icon-list.scss";
 
-// Keep this as a root selector, because it doesn't work when nested inside selector
-@at-root {
-    @font-face {
+@mixin kendo-icon-styles() {
+
+    // Keep this as a root selector, because it doesn't work when nested inside selector
+    @at-root {
+        @font-face {
+            font-family: $ki-font-family;
+            font-style: normal;
+            font-weight: normal;
+            src: url( "#{$ki-font-url}" ) format( "truetype" );
+        }
+    }
+
+
+    // Font icon
+    .k-icon {
+        width: 1em;
+        height: 1em;
+        outline: 0;
+        font-size: $ki-icon-size;
         font-family: $ki-font-family;
         font-style: normal;
+        font-variant: normal;
         font-weight: normal;
-        src: url( "#{$ki-font-url}" ) format( "truetype" );
-    }
-}
-
-// Font icon
-.k-icon {
-    width: 1em;
-    height: 1em;
-    outline: 0;
-    font-size: $ki-icon-size;
-    font-family: $ki-font-family;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
-    speak: none;
-    text-transform: none;
-    text-decoration: none;
-    flex-shrink: 0;
-    display: inline-flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
-    vertical-align: middle;
-    position: relative;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-
-    &:hover,
-    &:focus {
+        line-height: 1;
+        speak: none;
+        text-transform: none;
         text-decoration: none;
+        flex-shrink: 0;
+        display: inline-flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        position: relative;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+        }
     }
-}
 
 
-// Svg icon
-.k-svg-icon {
-    width: $ki-icon-size;
-    height: $ki-icon-size;
-    outline: 0;
-    line-height: 1;
-    display: inline-flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
-    vertical-align: middle;
-    position: relative;
+    // Svg icon
+    .k-svg-icon {
+        width: $ki-icon-size;
+        height: $ki-icon-size;
+        outline: 0;
+        line-height: 1;
+        display: inline-flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        position: relative;
 
-    > svg {
-        fill: currentColor;
-        flex: 1 1 auto;
+        > svg {
+            fill: currentColor;
+            flex: 1 1 auto;
+        }
     }
-}
 
 
-.k-i-none::before {
-    display: none !important; // stylelint-disable-line
-}
-
-
-// Icon sizes
-.k-icon-xs {
-    font-size: $ki-icon-size-xs;
-
-    &.k-svg-icon {
-        width: $ki-icon-size-xs;
-        height: $ki-icon-size-xs;
+    // Empty icon
+    .k-i-none::before {
+        display: none !important; // stylelint-disable-line
     }
-}
 
-.k-icon-sm {
-    font-size: $ki-icon-size-sm;
 
-    &.k-svg-icon {
-        width: $ki-icon-size-sm;
-        height: $ki-icon-size-sm;
+    // Icon sizes
+    .k-icon-xs {
+        font-size: $ki-icon-size-xs;
+
+        &.k-svg-icon {
+            width: $ki-icon-size-xs;
+            height: $ki-icon-size-xs;
+        }
     }
- }
+    .k-icon-sm {
+        font-size: $ki-icon-size-sm;
 
-.k-icon-md {
-    font-size: $ki-icon-size-md;
-
-    &.k-svg-icon {
-        width: $ki-icon-size-md;
-        height: $ki-icon-size-md;
+        &.k-svg-icon {
+            width: $ki-icon-size-sm;
+            height: $ki-icon-size-sm;
+        }
     }
-}
+    .k-icon-md {
+        font-size: $ki-icon-size-md;
 
-.k-icon-lg {
-    font-size: $ki-icon-size-lg;
-
-    &.k-svg-icon {
-        width: $ki-icon-size-lg;
-        height: $ki-icon-size-lg;
+        &.k-svg-icon {
+            width: $ki-icon-size-md;
+            height: $ki-icon-size-md;
+        }
     }
-}
+    .k-icon-lg {
+        font-size: $ki-icon-size-lg;
 
-.k-icon-xl {
-    font-size: $ki-icon-size-xl;
-
-    &.k-svg-icon {
-        width: $ki-icon-size-xl;
-        height: $ki-icon-size-xl;
+        &.k-svg-icon {
+            width: $ki-icon-size-lg;
+            height: $ki-icon-size-lg;
+        }
     }
-}
+    .k-icon-xl {
+        font-size: $ki-icon-size-xl;
 
-.k-icon-xxl {
-    font-size: $ki-icon-size-xxl;
-
-    &.k-svg-icon {
-        width: $ki-icon-size-xxl;
-        height: $ki-icon-size-xxl;
+        &.k-svg-icon {
+            width: $ki-icon-size-xl;
+            height: $ki-icon-size-xl;
+        }
     }
-}
+    .k-icon-xxl {
+        font-size: $ki-icon-size-xxl;
 
-.k-icon-xxxl {
-    font-size: $ki-icon-size-xxxl;
-
-    &.k-svg-icon {
-        width: $ki-icon-size-xxxl;
-        height: $ki-icon-size-xxxl;
+        &.k-svg-icon {
+            width: $ki-icon-size-xxl;
+            height: $ki-icon-size-xxl;
+        }
     }
-}
+    .k-icon-xxxl {
+        font-size: $ki-icon-size-xxxl;
 
-// Flip
-
-.k-flip-h,
-.k-flip-v,
-.k-flip-h.k-flip-v {
-    &.k-svg-icon {
-        transform: none;
+        &.k-svg-icon {
+            width: $ki-icon-size-xxxl;
+            height: $ki-icon-size-xxxl;
+        }
     }
-}
 
-.k-flip-h {
-    transform: scaleX( -1 );
 
-    > svg {
-        transform: scaleX( -1 );
-    }
-}
-
-.k-flip-v {
-    transform: scaleY( -1 );
-
-    > svg {
-        transform: scaleY( -1 );
-    }
-}
-
-.k-flip-h.k-flip-v,
-.k-flip-both {
-    transform: scale( -1, -1 );
-
-    > svg {
-        transform: scale( -1, -1 );
-    }
-}
-
-// Rotate
-
-@each $index, $rotate in $ki-rotate-map {
-    .k-rotate-#{$index} {
-        transform: rotate( #{$rotate} );
-
+    // Flip
+    .k-flip-h,
+    .k-flip-v,
+    .k-flip-h.k-flip-v {
         &.k-svg-icon {
             transform: none;
         }
+    }
+    .k-flip-h {
+        transform: scaleX( -1 );
 
         > svg {
-            transform: rotate( #{$rotate} );
+            transform: scaleX( -1 );
         }
     }
+    .k-flip-v {
+        transform: scaleY( -1 );
+
+        > svg {
+            transform: scaleY( -1 );
+        }
+    }
+    .k-flip-h.k-flip-v,
+    .k-flip-both {
+        transform: scale( -1, -1 );
+
+        > svg {
+            transform: scale( -1, -1 );
+        }
+    }
+
+
+    // Rotate
+    @each $index, $rotate in $ki-rotate-map {
+        .k-rotate-#{$index} {
+            transform: rotate( #{$rotate} );
+
+            &.k-svg-icon {
+                transform: none;
+            }
+
+            > svg {
+                transform: rotate( #{$rotate} );
+            }
+        }
+    }
+
+
+    @include kendo-icon-list();
+
 }
-
-
-@import "_icons.scss";
