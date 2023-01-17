@@ -1,9 +1,9 @@
 const { sassBuild } = require('@progress/kendo-theme-tasks');
 
 sassBuild({
-    file: 'scss/index.scss',
+    file: 'scss/all.scss',
     output: {
         path: 'dist/',
-        filename: '[name].css'
+        filename: 'index.css'
     }
 });
