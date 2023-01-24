@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/telerik/kendo-icons/compare/v1.2.0...v1.3.0) (2023-01-24)
+
+
+### Features
+
+* override svgicon equals to value comparison ([6bce898](https://github.com/telerik/kendo-icons/commit/6bce8986a3cc02deb9bb7f6f218e9a9c6e23262d))
+
+
+
+
+
 # [1.2.0](https://github.com/telerik/kendo-icons/compare/v1.1.2...v1.2.0) (2023-01-17)
 
 
