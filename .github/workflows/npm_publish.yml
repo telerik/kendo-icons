@@ -47,7 +47,7 @@ jobs:
 
       - name: Lerna publish
         run: |
-          npx lerna publish --conventional-commits --conventional-graduate --force --create-release github
+          npx lerna publish --conventional-commits --conventional-graduate --force-publish --create-release github
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
