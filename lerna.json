@@ -5,6 +5,10 @@
     "packages/*"
   ],
   "command": {
+    "run": {
+      "concurrency": 1,
+      "loglevel": "silly"
+    },
     "bootstrap": {
       "concurrency": 1,
       "npmClientArgs": [
@@ -15,6 +19,7 @@
       "yes": true
     },
     "version": {
+      "loglevel": "silly",
       "allowBranch": [
         "master",
         "develop"
