@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <rect x="32" y="96" width="32" height="320" />
-    <rect x="448" y="97" width="32" height="320" />
-    <rect x="96" y="32" width="320" height="32" />
-    <rect x="96" y="448" width="320" height="32" />
+    <path xmlns="http://www.w3.org/2000/svg" d="M32 96h32v320H32zM448 97h32v320h-32zM96 32h320v32H96zM96 448h320v32H96z"/>
 </svg>
