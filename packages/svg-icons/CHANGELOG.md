@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/telerik/kendo-icons/compare/v1.3.0...v1.4.0) (2023-01-25)
+
+
+### Bug Fixes
+
+* change border-style icon from using rect to path ([e373a42](https://github.com/telerik/kendo-icons/commit/e373a427e5403d973f8e93b389a68d4fcf47749e))
+
+
+
+
+
 # [1.3.0](https://github.com/telerik/kendo-icons/compare/v1.2.0...v1.3.0) (2023-01-24)
 
 

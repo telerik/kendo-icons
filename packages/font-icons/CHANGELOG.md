@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/telerik/kendo-icons/compare/v1.3.0...v1.4.0) (2023-01-25)
+
+
+### Features
+
+* add new icons ([26f84e2](https://github.com/telerik/kendo-icons/commit/26f84e21abd39b48c1542f4e3c74c7aabe813296))
+* manually generate font and styles to be included ([c4ddab7](https://github.com/telerik/kendo-icons/commit/c4ddab70a9d53d123737dd468493c2022245d2c3))
+
+
+
+
+
 # [1.2.0](https://github.com/telerik/kendo-icons/compare/v1.1.2...v1.2.0) (2023-01-17)
 
 
