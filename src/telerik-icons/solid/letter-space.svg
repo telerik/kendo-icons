@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <path d="M310,336l26,80h48L280,96h-48L128,416h48l26-80H310z M256,169.8L294.4,288h-76.8L256,169.8z" />
-    <rect x="448" y="32" width="32" height="448" />
-    <rect x="32" y="32" width="32" height="448" />
+  <path d="m310 336 26 80h48L280 96h-48L128 416h48l26-80h108zm-54-166.2L294.4 288h-76.8L256 169.8zM448 32h32v448h-32zM32 32h32v448H32z"/>
 </svg>

@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-    <polygon points="240,192 96,192 96,224 384,224 384,192" />
-    <polygon points="384,288 96,288 96,320 240,320 384,320" />
-    <polygon points="160,448 320,448 240,320" />
-    <rect x="224" y="448" width="32" height="64" />
-    <polygon points="256,64 256,0 224,0 224,64 160,64 240,192 320,64" />
+  <path d="M240 192H96v32h288v-32zm144 96H96v32h288zM160 448h160l-80-128zm64 0h32v64h-32zm32-384V0h-32v64h-64l80 128 80-128z"/>
 </svg>

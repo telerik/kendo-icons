@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-<path d="M32,0h192v480H32V0z M256,0v96h192V0H256z M256,224h192v-96H256V224z M256,352h192v-96H256V352z M256,480h192v-96H256V480z"
-	/>
+  <path d="M32 0h192v480H32V0zm224 0v96h192V0H256zm0 224h192v-96H256v96zm0 128h192v-96H256v96zm0 128h192v-96H256v96z"/>
 </svg>

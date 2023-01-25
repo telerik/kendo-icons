@@ -5,7 +5,7 @@ namespace Telerik.SvgIcons
         public MinWidth()
         {
             Name = "min-width";
-            Content = "<path d=\"M192 240v144h32V96h-32zM288 96v288h32V96zM448 320V160l-128 80zM448 224h64v32h-64zM64 224H0v32h64v64l128-80-128-80z\" />";
+            Content = "<path d=\"M192 240v144h32V96h-32zm96-144v288h32V96zm160 224V160l-128 80zm0-96h64v32h-64zm-384 0H0v32h64v64l128-80-128-80z\" />";
             ViewBox = "0 0 512 512";
         }
     }
