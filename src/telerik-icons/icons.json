@@ -248,7 +248,8 @@
             "arrowhead-n"
         ],
         "categories": [
-            "navigation"
+            "navigation",
+            "arrows"
         ],
         "unicode": "e013"
     },
@@ -260,7 +261,8 @@
             "arrowhead-e"
         ],
         "categories": [
-            "navigation"
+            "navigation",
+            "arrows"
         ],
         "unicode": "e014"
     },
@@ -272,7 +274,8 @@
             "arrowhead-s"
         ],
         "categories": [
-            "navigation"
+            "navigation",
+            "arrows"
         ],
         "unicode": "e015"
     },
@@ -284,7 +287,8 @@
             "arrowhead-w"
         ],
         "categories": [
-            "navigation"
+            "navigation",
+            "arrows"
         ],
         "unicode": "e016"
     },
@@ -293,7 +297,8 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "navigation"
+            "navigation",
+            "arrows"
         ],
         "unicode": "e017"
     },
@@ -302,7 +307,8 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "navigation"
+            "navigation",
+            "arrows"
         ],
         "unicode": "e018"
     },
@@ -311,7 +317,8 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "navigation"
+            "navigation",
+            "arrows"
         ],
         "unicode": "e019"
     },
@@ -320,7 +327,8 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "navigation"
+            "navigation",
+            "arrows"
         ],
         "unicode": "e01a"
     },
@@ -331,7 +339,8 @@
             "arrow-drill"
         ],
         "categories": [
-            "navigation"
+            "navigation",
+            "arrows"
         ],
         "unicode": "e01b"
     },
@@ -342,7 +351,8 @@
             "arrow-parent"
         ],
         "categories": [
-            "navigation"
+            "navigation",
+            "arrows"
         ],
         "unicode": "e01c"
     },
@@ -354,7 +364,8 @@
             "level-root"
         ],
         "categories": [
-            "navigation"
+            "navigation",
+            "arrows"
         ],
         "unicode": "e01d"
     },
@@ -365,7 +376,8 @@
             "arrows-resizing"
         ],
         "categories": [
-            "navigation"
+            "navigation",
+            "arrows"
         ],
         "unicode": "e01e"
     },
@@ -377,7 +389,8 @@
             "dimension"
         ],
         "categories": [
-            "navigation"
+            "navigation",
+            "arrows"
         ],
         "unicode": "e01f"
     },
@@ -386,7 +399,8 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "navigation"
+            "navigation",
+            "arrows"
         ],
         "unicode": "e020"
     },
@@ -608,7 +622,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "border"
+            "borders"
         ],
         "unicode": "e037"
     },
@@ -618,7 +632,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "border"
+            "borders"
         ],
         "unicode": "e038"
     },
@@ -628,7 +642,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "border"
+            "borders"
         ],
         "unicode": "e039"
     },
@@ -638,7 +652,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "border"
+            "borders"
         ],
         "unicode": "e03a"
     },
@@ -648,7 +662,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "border"
+            "borders"
         ],
         "unicode": "e03b"
     },
@@ -658,7 +672,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "border"
+            "borders"
         ],
         "unicode": "e03c"
     },
@@ -668,7 +682,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "border"
+            "borders"
         ],
         "unicode": "e03d"
     },
@@ -678,7 +692,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "border"
+            "borders"
         ],
         "unicode": "e03e"
     },
@@ -688,7 +702,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "border"
+            "borders"
         ],
         "unicode": "e03f"
     },
@@ -698,7 +712,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "border"
+            "borders"
         ],
         "unicode": "e040"
     },
@@ -753,7 +767,7 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "data"
+            "files-and-folders"
         ],
         "unicode": "e046"
     },
@@ -763,8 +777,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "layout",
-            "display"
+            "layout"
         ],
         "unicode": "e047"
     },
@@ -774,8 +787,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "layout",
-            "display"
+            "layout"
         ],
         "unicode": "e048"
     },
@@ -785,8 +797,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "layout",
-            "display"
+            "layout"
         ],
         "unicode": "e049"
     },
@@ -796,8 +807,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "layout",
-            "display"
+            "layout"
         ],
         "unicode": "e04a"
     },
@@ -808,7 +818,7 @@
             "color-canvas"
         ],
         "categories": [
-            "color"
+            "images"
         ],
         "unicode": "e04b"
     },
@@ -817,7 +827,7 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "file"
+            "files-and-folders"
         ],
         "unicode": "e04c"
     },
@@ -847,7 +857,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "resize"
+            "editing"
         ],
         "unicode": "e04f"
     },
@@ -857,7 +867,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "resize"
+            "editing"
         ],
         "unicode": "e050"
     },
@@ -866,7 +876,7 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "image"
+            "images"
         ],
         "unicode": "e051"
     },
@@ -876,7 +886,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "typography"
+            "text-formatting"
         ],
         "unicode": "e052"
     },
@@ -886,7 +896,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "typography"
+            "text-formatting"
         ],
         "unicode": "e053"
     },
@@ -995,8 +1005,7 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "css",
-            "outline"
+            "css"
         ],
         "unicode": "e05e"
     },
@@ -1005,8 +1014,7 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "css",
-            "outline"
+            "css"
         ],
         "unicode": "e05f"
     },
@@ -1016,8 +1024,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "layout",
-            "padding"
+            "layout"
         ],
         "unicode": "e060"
     },
@@ -1027,8 +1034,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "layout",
-            "padding"
+            "layout"
         ],
         "unicode": "e061"
     },
@@ -1038,8 +1044,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "layout",
-            "padding"
+            "layout"
         ],
         "unicode": "e062"
     },
@@ -1049,8 +1054,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "layout",
-            "padding"
+            "layout"
         ],
         "unicode": "e063"
     },
@@ -1060,8 +1064,7 @@
         "aliases": [],
         "categories": [
             "css",
-            "layout",
-            "padding"
+            "layout"
         ],
         "unicode": "e064"
     },
@@ -1070,8 +1073,7 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "css",
-            "position"
+            "css"
         ],
         "unicode": "e065"
     },
@@ -1080,8 +1082,7 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "css",
-            "position"
+            "css"
         ],
         "unicode": "e066"
     },
@@ -1090,8 +1091,7 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "css",
-            "position"
+            "css"
         ],
         "unicode": "e067"
     },
@@ -1100,8 +1100,7 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "css",
-            "position"
+            "css"
         ],
         "unicode": "e068"
     },
@@ -1110,7 +1109,7 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "text"
+            "text-formatting"
         ],
         "unicode": "e069"
     },
@@ -1119,7 +1118,7 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "text"
+            "text-formatting"
         ],
         "unicode": "e06a"
     },
@@ -1128,7 +1127,7 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "text"
+            "text-formatting"
         ],
         "unicode": "e06b"
     },
@@ -1137,7 +1136,7 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "text"
+            "text-formatting"
         ],
         "unicode": "e06c"
     },
@@ -1148,7 +1147,7 @@
             "blockquote"
         ],
         "categories": [
-            "text"
+            "text-formatting"
         ],
         "unicode": "e06d"
     },
@@ -1157,7 +1156,7 @@
         "ligatures": [],
         "aliases": [],
         "categories": [
-            "text"
+            "text-formatting"
         ],
         "unicode": "e06e"
     },
