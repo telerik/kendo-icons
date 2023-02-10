@@ -115,6 +115,7 @@ namespace Telerik.FontIcons
         RightDoubleQuotes,
         WholeWord,
         DataSds,
+        DownloadLight,
         Undo,
         Redo,
         ArrowRotateCcw,

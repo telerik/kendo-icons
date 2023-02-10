@@ -115,6 +115,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon RightDoubleQuotes => new RightDoubleQuotes();
         public static ISvgIcon WholeWord => new WholeWord();
         public static ISvgIcon DataSds => new DataSds();
+        public static ISvgIcon DownloadLight => new DownloadLight();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();

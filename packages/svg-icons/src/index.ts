@@ -112,6 +112,7 @@ export { reportElementIcon } from './icons/report-element';
 export { rightDoubleQuotesIcon } from './icons/right-double-quotes';
 export { wholeWordIcon } from './icons/whole-word';
 export { dataSdsIcon } from './icons/data-sds';
+export { downloadLightIcon } from './icons/download-light';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';
