@@ -1170,6 +1170,15 @@
         "unicode": "e06f"
     },
     {
+        "name": "download-light",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e070"
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
