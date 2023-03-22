@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.1](https://github.com/telerik/kendo-icons/compare/v1.4.0...v1.4.1) (2023-03-22)
+
+
+### Bug Fixes
+
+* manually optimize icons with svgo ([feef1ad](https://github.com/telerik/kendo-icons/commit/feef1ad770a616e8e132aaf2b543aac10cc19427))
+* update icon categories ([a4c357b](https://github.com/telerik/kendo-icons/commit/a4c357bc2cf60a4153320f6dcc98f11e5f0e2804))
+
+
+### Features
+
+* add download-light icon ([aa81882](https://github.com/telerik/kendo-icons/commit/aa818821aa504d6ff1c8369fb27ee39e17862d7a))
+
+
+
+
+
 # [1.4.0](https://github.com/telerik/kendo-icons/compare/v1.3.0...v1.4.0) (2023-01-25)
 
 
