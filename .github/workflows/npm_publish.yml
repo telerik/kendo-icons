@@ -46,9 +46,7 @@ jobs:
           npm run bootstrap
 
       - name: Lerna publish
-        run: |
-          npx lerna version --conventional-commits --conventional-graduate --force-publish --no-push
-          npx lerna publish from-package --create-release github
+        run: npx lerna publish --conventional-commits --conventional-graduate --create-release github --force-publish --exact
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
