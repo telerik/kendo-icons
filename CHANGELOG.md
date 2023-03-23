@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.2](https://github.com/telerik/kendo-icons/compare/v1.4.1...v1.4.2) (2023-03-23)
+
+
+### Features
+
+* add eye-slash icon ([c198b39](https://github.com/telerik/kendo-icons/commit/c198b3982ed684756f57892208bf17bee141e2ae))
+
+
+
+
+
 ## [1.4.1](https://github.com/telerik/kendo-icons/compare/v1.4.0...v1.4.1) (2023-03-22)
 
 
