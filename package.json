@@ -15,7 +15,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
-    "@commitlint/core": "^16.1.0",
+    "@commitlint/core": "^17.5.1",
     "@progress/kendo-theme-tasks": "^1.17.3",
     "ansi-colors": "^4.1.1",
     "eslint": "^8.8.0",
