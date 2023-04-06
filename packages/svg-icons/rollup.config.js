@@ -7,7 +7,7 @@ export default [
         output: [
             {
                 file: 'dist/index.es.js',
-                format: 'esm'
+                format: 'es'
             }
         ],
         plugins: [
