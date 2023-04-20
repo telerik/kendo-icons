@@ -772,7 +772,7 @@
         "unicode": "e046"
     },
     {
-        "name": "display-Inline-block",
+        "name": "display-inline-block",
         "ligatures": [],
         "aliases": [],
         "categories": [
@@ -1182,7 +1182,7 @@
         "name": "eye-slash",
         "ligatures": [],
         "aliases": [
-            "Preview-off"
+            "preview-off"
         ],
         "categories": [
             "actions"
