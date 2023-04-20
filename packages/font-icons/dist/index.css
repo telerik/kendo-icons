@@ -834,7 +834,7 @@
     content: "\e046";
 }
 
-.k-i-display-Inline-block::before {
+.k-i-display-inline-block::before {
     content: "\e047";
 }
 
@@ -1004,6 +1004,18 @@
 
 .k-i-data-sds::before {
     content: "\e06f";
+}
+
+.k-i-download-light::before {
+    content: "\e070";
+}
+
+.k-i-eye-slash::before {
+    content: "\e071";
+}
+
+.k-i-preview-off::before {
+    content: "\e071";
 }
 
 .k-i-undo::before {
