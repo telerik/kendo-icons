@@ -12,7 +12,7 @@ function svgFontTemplate(options) {
 <svg xmlns="http://www.w3.org/2000/svg">
     <defs>
         <font id="${fontName}" horiz-adv-x="1024" horiz-adv-y="1024">
-            <font-face units-per-em="1024" ascent="960" descent="-64" />
+            <font-face font-family="${fontName}" units-per-em="1024" ascent="960" descent="-64" />
             <missing-glyph />
             <glyph unicode="&#x20;" d="" />
 ${glyphs.map(glyph => `
