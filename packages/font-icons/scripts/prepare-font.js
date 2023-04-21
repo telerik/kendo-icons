@@ -31,6 +31,10 @@ const fontJson = {
     glyphs: []
 };
 
+const ttfOptions = {
+    description: 'Telerik and Kendo Icon Font',
+    url: 'https://www.telerik.com/',
+};
 
 function buildFontJson() {
     iconsHast.icons.forEach( iconDef => {
@@ -56,7 +60,7 @@ function buildSvgFont() {
 
 
 function buildTtfFont() {
-    const ttf = svg2ttf( fs.readFileSync( fontPaths.tmpSvg, 'utf8' ) );
+    const ttf = svg2ttf( fs.readFileSync( fontPaths.tmpSvg, 'utf8' ), ttfOptions );
     fs.writeFileSync( fontPaths.tmpTtf, new Buffer.from( ttf.buffer ) );
 
     return Promise.resolve();
