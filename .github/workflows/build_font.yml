@@ -52,6 +52,6 @@ jobs:
           echo "Updating font."
 
           git add packages/
-          git commit -m "chore: generate icons metadata"
+          git commit -m "feat: generate icons metadata"
 
           git push
