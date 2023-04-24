@@ -31,12 +31,16 @@ function updateIcons() {
             emptyIndex = iconList.length;
         }
 
+        const svgIconIDs = iconsJson.filter(i => i.id !== undefined).map(i => i.id !== undefined && i.id);
+        const newSvgIconID = Math.max(...svgIconIDs) + 1;
+
         let newIcon = {
             name: svgIconName,
             ligatures: [],
             aliases: [],
             categories: [],
-            unicode: (unicodeStart + emptyIndex).toString(16)
+            unicode: (unicodeStart + emptyIndex).toString(16),
+            id: newSvgIconID,
         };
 
         iconList[emptyIndex] = svgIconName;
