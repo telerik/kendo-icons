@@ -34,7 +34,7 @@ namespace ${namespace}
 {
     public enum FontIcon
     {${icons.map(icon => `
-        ${_.upperFirst( _.camelCase(icon.name) )}`).join(',')}
+        ${_.upperFirst( _.camelCase(icon.name) )} = ${icon.id}`).join(',')}
     }
 }\n`;
 }
