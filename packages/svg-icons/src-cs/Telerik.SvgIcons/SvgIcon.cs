@@ -74,7 +74,6 @@ namespace Telerik.SvgIcons
         public static ISvgIcon ChevronDoubleRight => new ChevronDoubleRight();
         public static ISvgIcon ChevronDoubleUp => new ChevronDoubleUp();
         public static ISvgIcon DataOds => new DataOds();
-        public static ISvgIcon DisplayInlineBlock => new DisplayInlineBlock();
         public static ISvgIcon DisplayBlock => new DisplayBlock();
         public static ISvgIcon DisplayFlex => new DisplayFlex();
         public static ISvgIcon DisplayInlineFlex => new DisplayInlineFlex();
@@ -117,6 +116,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon DataSds => new DataSds();
         public static ISvgIcon DownloadLight => new DownloadLight();
         public static ISvgIcon EyeSlash => new EyeSlash();
+        public static ISvgIcon DisplayInlineBlock => new DisplayInlineBlock();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();
