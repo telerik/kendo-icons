@@ -74,6 +74,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon ChevronDoubleRight => new ChevronDoubleRight();
         public static ISvgIcon ChevronDoubleUp => new ChevronDoubleUp();
         public static ISvgIcon DataOds => new DataOds();
+        public static ISvgIcon NonRecurrence => new NonRecurrence();
         public static ISvgIcon DisplayBlock => new DisplayBlock();
         public static ISvgIcon DisplayFlex => new DisplayFlex();
         public static ISvgIcon DisplayInlineFlex => new DisplayInlineFlex();
