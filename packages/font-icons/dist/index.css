@@ -834,6 +834,10 @@
     content: "\e046";
 }
 
+.k-i-non-recurrence::before {
+    content: "\e047";
+}
+
 .k-i-display-block::before {
     content: "\e048";
 }

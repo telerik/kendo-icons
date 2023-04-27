@@ -74,6 +74,7 @@ namespace Telerik.FontIcons
         ChevronDoubleRight = 68,
         ChevronDoubleUp = 69,
         DataOds = 70,
+        NonRecurrence = 649,
         DisplayBlock = 72,
         DisplayFlex = 73,
         DisplayInlineFlex = 74,
