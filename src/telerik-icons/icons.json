@@ -843,6 +843,16 @@
         "id": 70
     },
     {
+        "name": "non-recurrence",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e047",
+        "id": 649
+    },
+    {
         "name": "display-block",
         "ligatures": [],
         "aliases": [],
