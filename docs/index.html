@@ -38,14 +38,14 @@
     <div id="test-area" class="k-d-grid k-grid-cols-1 k-gap-20">
         <section class="icon-category" id="cat-uncategorized">
             <h2>Uncategorized</h2>
-            <!-- <div class="icon-grid k-d-grid k-grid-cols-8 k-gap-2">
-                <div class="icon-cell k-d-flex k-flex-col k-align-items-center">
+            <div class="icon-grid k-d-grid k-grid-cols-8 k-gap-2">
+                <!-- <div class="icon-cell k-d-flex k-flex-col k-align-items-center">
                     <span class="icon-wrapper">
                         <span class="k-icon k-i-plus"></span>
                     </span>
                     <span class="icon-name k-text-center">k-i-plus</span>
-                </div>
-            </div> -->
+                </div>-->
+            </div>
         </section>
     </div>
 
@@ -90,6 +90,7 @@
                     const iconUnicode = icon.unicode;
                     const categories = icon.categories;
 
+                    console.log(icon);
                     // Icon cell
                     const iconCell = genIconCell(icon);
 
