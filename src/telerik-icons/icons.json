@@ -1306,7 +1306,10 @@
         "name": "display-inline-block",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "css",
+            "layout"
+        ],
         "unicode": "e072",
         "id": 648
     },
