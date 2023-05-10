@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/telerik/kendo-icons/compare/v1.4.2...v1.5.0) (2023-04-27)
+
+
+### Bug Fixes
+
+* fix display-Inline-block icon name ([649518e](https://github.com/telerik/kendo-icons/commit/649518e3dfd2b1ffca93c41d4c87ab186b8d87a4))
+* update correct icon list file ([b7ee1b0](https://github.com/telerik/kendo-icons/commit/b7ee1b06198f7b12e3ed5064903a2a1446d98d2b))
+
+
+### Features
+
+* add non-recurrence icon ([5e58467](https://github.com/telerik/kendo-icons/commit/5e584671dca2ce27cf57a192a6d0e644a7fdfa17))
+* generate icons metadata ([b281dd8](https://github.com/telerik/kendo-icons/commit/b281dd84399f4d1975e8fb75acf52b3d6d3eeab9))
+* generate icons metadata ([392406a](https://github.com/telerik/kendo-icons/commit/392406a93fab1c0867ac3b0dcd97a968d92bd67b))
+
+
+
+
+
 ## [1.4.2](https://github.com/telerik/kendo-icons/compare/v1.4.1...v1.4.2) (2023-03-23)
 
 

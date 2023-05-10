@@ -71,6 +71,7 @@ export { chevronDoubleLeftIcon } from './icons/chevron-double-left';
 export { chevronDoubleRightIcon } from './icons/chevron-double-right';
 export { chevronDoubleUpIcon } from './icons/chevron-double-up';
 export { dataOdsIcon } from './icons/data-ods';
+export { nonRecurrenceIcon } from './icons/non-recurrence';
 export { displayBlockIcon } from './icons/display-block';
 export { displayFlexIcon } from './icons/display-flex';
 export { displayInlineFlexIcon } from './icons/display-inline-flex';
