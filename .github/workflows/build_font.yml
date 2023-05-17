@@ -47,7 +47,7 @@ jobs:
       - name: Push changes to GitHub
         if: ${{ env.HAS_CHANGES == 1 || env.HAS_NEW == 1 }}
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           echo "Updating font."
 
