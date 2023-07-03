@@ -1,14 +1,18 @@
 {
+  "name": "kendo-icons",
   "version": "0.0.0",
   "private": true,
+  "workspaces": [
+    "packages/font-icons",
+    "packages/svg-icons"
+  ],
   "scripts": {
-    "setup": "npm install && npx husky install && npm run bootstrap",
-    "bootstrap": "lerna bootstrap",
-    "build": "lerna run build",
+    "setup": "npm install && npx husky install",
+    "build": "npm run build --workspaces",
     "eslint": "eslint \"**/*.js\"",
     "migrate": "node scripts/migrate-icons.js",
     "update-icons": "node scripts/update-icons.js",
-    "prepare-packages": "lerna run build",
+    "prepare-packages": "npm run build --workspaces",
     "serve": "npx http-server",
     "update": "npx npm-check-updates --upgrade"
   },
@@ -23,7 +27,7 @@
     "glob": "^10.2.6",
     "http-server": "^14.1.0",
     "husky": "^8.0.3",
-    "lerna": "^6.0.3",
+    "lerna": "^7.1.1",
     "lodash": "^4.17.21",
     "node-sass": "^9.0.0",
     "svg-parser": "^2.0.4",
