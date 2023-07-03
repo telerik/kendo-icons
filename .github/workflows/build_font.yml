@@ -24,11 +24,10 @@ jobs:
       - name: Install
         run: |
           npm ci
-          npm run bootstrap
 
       - name: Build assets
         run: |
-          npm run build
+          npm run build --workspaces
 
       - name: Compare artifacts
         run: |
