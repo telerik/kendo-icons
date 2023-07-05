@@ -1022,6 +1022,10 @@
     content: "\e072";
 }
 
+.k-i-paper-plane::before {
+    content: "\e073";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }
