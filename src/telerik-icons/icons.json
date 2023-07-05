@@ -1314,6 +1314,16 @@
         "id": 648
     },
     {
+        "name": "paper-plane",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e073",
+        "id": 650
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
