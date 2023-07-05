@@ -118,6 +118,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon DownloadLight => new DownloadLight();
         public static ISvgIcon EyeSlash => new EyeSlash();
         public static ISvgIcon DisplayInlineBlock => new DisplayInlineBlock();
+        public static ISvgIcon PaperPlane => new PaperPlane();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();

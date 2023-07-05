@@ -115,6 +115,7 @@ export { dataSdsIcon } from './icons/data-sds';
 export { downloadLightIcon } from './icons/download-light';
 export { eyeSlashIcon } from './icons/eye-slash';
 export { displayInlineBlockIcon } from './icons/display-inline-block';
+export { paperPlaneIcon } from './icons/paper-plane';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';
