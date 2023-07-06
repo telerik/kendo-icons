@@ -4939,7 +4939,7 @@
         "id": 434
     },
     {
-        "name": "envelop-link",
+        "name": "envelope-link",
         "ligatures": [],
         "aliases": [
             "hyperlink-email"
@@ -5602,7 +5602,7 @@
         "id": 495
     },
     {
-        "name": "envelop",
+        "name": "envelope",
         "ligatures": [],
         "aliases": [
             "email",
@@ -5615,7 +5615,7 @@
         "id": 496
     },
     {
-        "name": "envelop-box",
+        "name": "envelope-box",
         "ligatures": [],
         "aliases": [
             "email-box",
