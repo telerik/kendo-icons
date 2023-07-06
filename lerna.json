@@ -1,5 +1,4 @@
 {
-  "lerna": "4.0.0",
   "version": "1.5.0",
   "packages": [
     "packages/*"
@@ -8,12 +7,6 @@
     "run": {
       "concurrency": 1,
       "loglevel": "silly"
-    },
-    "bootstrap": {
-      "concurrency": 1,
-      "npmClientArgs": [
-        "--no-save"
-      ]
     },
     "clean": {
       "yes": true
@@ -33,5 +26,6 @@
       "verifyAccess": false,
       "yes": true
     }
-  }
+  },
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json"
 }
