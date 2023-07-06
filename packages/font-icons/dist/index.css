@@ -3178,7 +3178,7 @@
     content: "\e673";
 }
 
-.k-i-envelop-link::before {
+.k-i-envelope-link::before {
     content: "\e674";
 }
 
@@ -3538,7 +3538,7 @@
     content: "\e808";
 }
 
-.k-i-envelop::before {
+.k-i-envelope::before {
     content: "\e809";
 }
 
@@ -3550,7 +3550,7 @@
     content: "\e809";
 }
 
-.k-i-envelop-box::before {
+.k-i-envelope-box::before {
     content: "\e80a";
 }
 
