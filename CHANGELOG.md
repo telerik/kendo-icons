@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/telerik/kendo-icons/compare/v1.5.0...v1.6.0) (2023-07-06)
+
+
+### Bug Fixes
+
+* add categories to display-inline-block icon ([3bb26d8](https://github.com/telerik/kendo-icons/commit/3bb26d8bc9cf867c90d2c4cb4e2a35ed6cf011e0))
+* correct misspelled icons ([8345d6b](https://github.com/telerik/kendo-icons/commit/8345d6b5d6a831304d0b3ed98b47ae1ec93a4fc7))
+* fix uncategorized icon list ([f6a737a](https://github.com/telerik/kendo-icons/commit/f6a737af5ad2fb49d56d99f5be0a5bef289f1527))
+
+
+### Features
+
+* add paper-plane icon ([b21b034](https://github.com/telerik/kendo-icons/commit/b21b034be9c455c97995d2f8469ee08b622bb922))
+* generate icons metadata ([efb4d24](https://github.com/telerik/kendo-icons/commit/efb4d243274ae334105d266ceb8490364d0e7ab2))
+* generate icons metadata ([ee2622c](https://github.com/telerik/kendo-icons/commit/ee2622c28b947b6c83c9bb8c03d362f3dd5d556a))
+
+
+
+
+
 # [1.5.0](https://github.com/telerik/kendo-icons/compare/v1.4.2...v1.5.0) (2023-04-27)
 
 
