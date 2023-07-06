@@ -443,7 +443,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon LinkAdd => new LinkAdd();
         public static ISvgIcon GlobeLink => new GlobeLink();
         public static ISvgIcon GlobeUnlink => new GlobeUnlink();
-        public static ISvgIcon EnvelopLink => new EnvelopLink();
+        public static ISvgIcon EnvelopeLink => new EnvelopeLink();
         public static ISvgIcon Anchor => new Anchor();
         public static ISvgIcon TableAdd => new TableAdd();
         public static ISvgIcon Table => new Table();
@@ -504,8 +504,8 @@ namespace Telerik.SvgIcons
         public static ISvgIcon DeliciousBox => new DeliciousBox();
         public static ISvgIcon Digg => new Digg();
         public static ISvgIcon DiggBox => new DiggBox();
-        public static ISvgIcon Envelop => new Envelop();
-        public static ISvgIcon EnvelopBox => new EnvelopBox();
+        public static ISvgIcon Envelope => new Envelope();
+        public static ISvgIcon EnvelopeBox => new EnvelopeBox();
         public static ISvgIcon Facebook => new Facebook();
         public static ISvgIcon FacebookBox => new FacebookBox();
         public static ISvgIcon Google => new Google();
