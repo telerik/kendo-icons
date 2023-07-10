@@ -1324,6 +1324,16 @@
         "id": 650
     },
     {
+        "name": "gauge-linear",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "charts"
+        ],
+        "unicode": "e074",
+        "id": 651
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
