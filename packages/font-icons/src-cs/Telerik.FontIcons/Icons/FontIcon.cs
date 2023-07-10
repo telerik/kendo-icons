@@ -119,6 +119,7 @@ namespace Telerik.FontIcons
         EyeSlash = 647,
         DisplayInlineBlock = 648,
         PaperPlane = 650,
+        GaugeLinear = 651,
         Undo = 111,
         Redo = 112,
         ArrowRotateCcw = 113,

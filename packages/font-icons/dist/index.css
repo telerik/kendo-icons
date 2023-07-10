@@ -1026,6 +1026,10 @@
     content: "\e073";
 }
 
+.k-i-gauge-linear::before {
+    content: "\e074";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }
