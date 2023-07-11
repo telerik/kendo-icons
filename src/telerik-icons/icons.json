@@ -1334,6 +1334,16 @@
         "id": 651
     },
     {
+        "name": "gauge-radial",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "charts"
+        ],
+        "unicode": "e075",
+        "id": 652
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
