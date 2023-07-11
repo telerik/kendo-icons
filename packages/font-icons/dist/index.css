@@ -1030,6 +1030,10 @@
     content: "\e074";
 }
 
+.k-i-gauge-radial::before {
+    content: "\e075";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }

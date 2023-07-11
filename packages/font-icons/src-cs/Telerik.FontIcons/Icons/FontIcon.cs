@@ -120,6 +120,7 @@ namespace Telerik.FontIcons
         DisplayInlineBlock = 648,
         PaperPlane = 650,
         GaugeLinear = 651,
+        GaugeRadial = 652,
         Undo = 111,
         Redo = 112,
         ArrowRotateCcw = 113,
