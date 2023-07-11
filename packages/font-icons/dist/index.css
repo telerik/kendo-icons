@@ -3194,6 +3194,10 @@
     content: "\e674";
 }
 
+.k-i-envelop-link::before {
+    content: "\e674";
+}
+
 .k-i-anchor::before {
     content: "\e675";
 }
@@ -3558,6 +3562,10 @@
     content: "\e809";
 }
 
+.k-i-envelop::before {
+    content: "\e809";
+}
+
 .k-i-envelope-box::before {
     content: "\e80a";
 }
@@ -3567,6 +3575,10 @@
 }
 
 .k-i-letter-box::before {
+    content: "\e80a";
+}
+
+.k-i-envelop-box::before {
     content: "\e80a";
 }
 
