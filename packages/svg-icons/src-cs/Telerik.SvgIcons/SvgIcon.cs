@@ -120,6 +120,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon DisplayInlineBlock => new DisplayInlineBlock();
         public static ISvgIcon PaperPlane => new PaperPlane();
         public static ISvgIcon GaugeLinear => new GaugeLinear();
+        public static ISvgIcon GaugeRadial => new GaugeRadial();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();
