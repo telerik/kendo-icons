@@ -1344,6 +1344,36 @@
         "id": 652
     },
     {
+        "name": "envelope-box",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e076",
+        "id": 653
+    },
+    {
+        "name": "envelope-link",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e077",
+        "id": 654
+    },
+    {
+        "name": "envelope",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e078",
+        "id": 655
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
