@@ -196,6 +196,9 @@
     .k-i-paper-plane::before { content: "\e073"; } 
     .k-i-gauge-linear::before { content: "\e074"; } 
     .k-i-gauge-radial::before { content: "\e075"; } 
+    .k-i-envelope-box::before { content: "\e076"; } 
+    .k-i-envelope-link::before { content: "\e077"; } 
+    .k-i-envelope::before { content: "\e078"; } 
     .k-i-undo::before { content: "\e100"; } 
     .k-i-undo-large::before { content: "\e100"; } 
     .k-i-redo::before { content: "\e101"; } 
@@ -734,9 +737,8 @@
     .k-i-hyperlink-globe::before { content: "\e672"; } 
     .k-i-globe-unlink::before { content: "\e673"; } 
     .k-i-hyperlink-globe-remove::before { content: "\e673"; } 
-    .k-i-envelope-link::before { content: "\e674"; } 
-    .k-i-hyperlink-email::before { content: "\e674"; } 
     .k-i-envelop-link::before { content: "\e674"; } 
+    .k-i-hyperlink-email::before { content: "\e674"; } 
     .k-i-anchor::before { content: "\e675"; } 
     .k-i-table-add::before { content: "\e676"; } 
     .k-i-table-light-dialog::before { content: "\e676"; } 
@@ -825,14 +827,12 @@
     .k-i-delicious-box::before { content: "\e806"; } 
     .k-i-digg::before { content: "\e807"; } 
     .k-i-digg-box::before { content: "\e808"; } 
-    .k-i-envelope::before { content: "\e809"; } 
+    .k-i-envelop::before { content: "\e809"; } 
     .k-i-email::before { content: "\e809"; } 
     .k-i-letter::before { content: "\e809"; } 
-    .k-i-envelop::before { content: "\e809"; } 
-    .k-i-envelope-box::before { content: "\e80a"; } 
+    .k-i-envelop-box::before { content: "\e80a"; } 
     .k-i-email-box::before { content: "\e80a"; } 
     .k-i-letter-box::before { content: "\e80a"; } 
-    .k-i-envelop-box::before { content: "\e80a"; } 
     .k-i-facebook::before { content: "\e80b"; } 
     .k-i-facebook-box::before { content: "\e80c"; } 
     .k-i-google::before { content: "\e80d"; } 

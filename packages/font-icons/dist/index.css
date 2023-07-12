@@ -1034,6 +1034,18 @@
     content: "\e075";
 }
 
+.k-i-envelope-box::before {
+    content: "\e076";
+}
+
+.k-i-envelope-link::before {
+    content: "\e077";
+}
+
+.k-i-envelope::before {
+    content: "\e078";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }
@@ -3186,15 +3198,11 @@
     content: "\e673";
 }
 
-.k-i-envelope-link::before {
+.k-i-envelop-link::before {
     content: "\e674";
 }
 
 .k-i-hyperlink-email::before {
-    content: "\e674";
-}
-
-.k-i-envelop-link::before {
     content: "\e674";
 }
 
@@ -3550,7 +3558,7 @@
     content: "\e808";
 }
 
-.k-i-envelope::before {
+.k-i-envelop::before {
     content: "\e809";
 }
 
@@ -3562,11 +3570,7 @@
     content: "\e809";
 }
 
-.k-i-envelop::before {
-    content: "\e809";
-}
-
-.k-i-envelope-box::before {
+.k-i-envelop-box::before {
     content: "\e80a";
 }
 
@@ -3575,10 +3579,6 @@
 }
 
 .k-i-letter-box::before {
-    content: "\e80a";
-}
-
-.k-i-envelop-box::before {
     content: "\e80a";
 }
 
