@@ -4959,11 +4959,10 @@
         "id": 434
     },
     {
-        "name": "envelope-link",
+        "name": "envelop-link",
         "ligatures": [],
         "aliases": [
-            "hyperlink-email",
-            "envelop-link"
+            "hyperlink-email"
         ],
         "categories": [
             "editing"
@@ -5623,12 +5622,11 @@
         "id": 495
     },
     {
-        "name": "envelope",
+        "name": "envelop",
         "ligatures": [],
         "aliases": [
             "email",
-            "letter",
-            "envelop"
+            "letter"
         ],
         "categories": [
             "social"
@@ -5637,12 +5635,11 @@
         "id": 496
     },
     {
-        "name": "envelope-box",
+        "name": "envelop-box",
         "ligatures": [],
         "aliases": [
             "email-box",
-            "letter-box",
-            "envelop-box"
+            "letter-box"
         ],
         "categories": [
             "social"
