@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/telerik/kendo-icons/compare/v1.7.0...v1.8.0) (2023-07-14)
+
+
+### Features
+
+* add envelope, envelope-link and envelope-box icons ([78af9c4](https://github.com/telerik/kendo-icons/commit/78af9c4f544b1b6dcc4346c50833dda9e43627bb))
+* generate icons metadata ([956717c](https://github.com/telerik/kendo-icons/commit/956717cb1fc5da3358000a044744538972b13be3))
+
+
+
+
+
 # [1.7.0](https://github.com/telerik/kendo-icons/compare/v1.6.0...v1.7.0) (2023-07-11)
 
 
