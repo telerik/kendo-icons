@@ -1374,6 +1374,17 @@
         "id": 655
     },
     {
+        "name": "warning-triangle",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "alerts",
+            "notifications"
+        ],
+        "unicode": "e07a",
+        "id": 657
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
