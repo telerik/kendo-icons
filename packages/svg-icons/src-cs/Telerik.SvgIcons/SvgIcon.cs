@@ -124,6 +124,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon EnvelopeBox => new EnvelopeBox();
         public static ISvgIcon EnvelopeLink => new EnvelopeLink();
         public static ISvgIcon Envelope => new Envelope();
+        public static ISvgIcon WarningTriangle => new WarningTriangle();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();
