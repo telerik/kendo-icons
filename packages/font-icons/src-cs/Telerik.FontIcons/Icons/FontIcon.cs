@@ -124,6 +124,7 @@ namespace Telerik.FontIcons
         EnvelopeBox = 653,
         EnvelopeLink = 654,
         Envelope = 655,
+        WarningCircle = 658,
         WarningTriangle = 657,
         Undo = 111,
         Redo = 112,
