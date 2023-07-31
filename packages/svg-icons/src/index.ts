@@ -121,6 +121,7 @@ export { gaugeRadialIcon } from './icons/gauge-radial';
 export { envelopeBoxIcon } from './icons/envelope-box';
 export { envelopeLinkIcon } from './icons/envelope-link';
 export { envelopeIcon } from './icons/envelope';
+export { warningCircleIcon } from './icons/warning-circle';
 export { warningTriangleIcon } from './icons/warning-triangle';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
