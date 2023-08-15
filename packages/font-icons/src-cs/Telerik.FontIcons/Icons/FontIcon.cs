@@ -129,6 +129,7 @@ namespace Telerik.FontIcons
         FontGrow = 660,
         FontShrink = 662,
         TextOverflow = 664,
+        TextWrapArrow = 666,
         Undo = 111,
         Redo = 112,
         ArrowRotateCcw = 113,
