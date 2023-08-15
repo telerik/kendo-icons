@@ -1074,6 +1074,10 @@
     content: "\e080";
 }
 
+.k-i-text-clip::before {
+    content: "\e081";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }

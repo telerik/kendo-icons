@@ -131,6 +131,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon TextOverflow => new TextOverflow();
         public static ISvgIcon TextWrapArrow => new TextWrapArrow();
         public static ISvgIcon TextTruncate => new TextTruncate();
+        public static ISvgIcon TextClip => new TextClip();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();
