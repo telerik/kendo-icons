@@ -128,7 +128,7 @@
     "text-overflow",
     "text-wrap-arrow",
     "text-truncate",
-    null,
+    "text-clip",
     null,
     null,
     null,
