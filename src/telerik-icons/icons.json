@@ -1406,6 +1406,16 @@
         "id": 660
     },
     {
+        "name": "font-shrink",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "text-formatting"
+        ],
+        "unicode": "e07d",
+        "id": 662
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
