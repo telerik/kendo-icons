@@ -1070,6 +1070,10 @@
     content: "\e07f";
 }
 
+.k-i-text-truncate::before {
+    content: "\e080";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }

@@ -127,6 +127,7 @@ export { fontGrowIcon } from './icons/font-grow';
 export { fontShrinkIcon } from './icons/font-shrink';
 export { textOverflowIcon } from './icons/text-overflow';
 export { textWrapArrowIcon } from './icons/text-wrap-arrow';
+export { textTruncateIcon } from './icons/text-truncate';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';
