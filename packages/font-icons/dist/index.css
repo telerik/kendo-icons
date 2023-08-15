@@ -1066,6 +1066,10 @@
     content: "\e07e";
 }
 
+.k-i-text-wrap-arrow::before {
+    content: "\e07f";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }
