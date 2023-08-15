@@ -128,6 +128,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon WarningTriangle => new WarningTriangle();
         public static ISvgIcon FontGrow => new FontGrow();
         public static ISvgIcon FontShrink => new FontShrink();
+        public static ISvgIcon TextOverflow => new TextOverflow();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();

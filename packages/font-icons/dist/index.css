@@ -1062,6 +1062,10 @@
     content: "\e07d";
 }
 
+.k-i-text-overflow::before {
+    content: "\e07e";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }

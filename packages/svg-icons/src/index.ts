@@ -125,6 +125,7 @@ export { warningCircleIcon } from './icons/warning-circle';
 export { warningTriangleIcon } from './icons/warning-triangle';
 export { fontGrowIcon } from './icons/font-grow';
 export { fontShrinkIcon } from './icons/font-shrink';
+export { textOverflowIcon } from './icons/text-overflow';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';
