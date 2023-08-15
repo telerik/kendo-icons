@@ -126,7 +126,7 @@
     "font-grow",
     "font-shrink",
     "text-overflow",
-    null,
+    "text-wrap-arrow",
     null,
     null,
     null,
