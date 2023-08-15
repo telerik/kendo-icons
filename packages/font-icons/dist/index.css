@@ -1058,6 +1058,10 @@
     content: "\e07c";
 }
 
+.k-i-font-shrink::before {
+    content: "\e07d";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }
