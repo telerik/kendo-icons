@@ -127,7 +127,7 @@
     "font-shrink",
     "text-overflow",
     "text-wrap-arrow",
-    null,
+    "text-truncate",
     null,
     null,
     null,
