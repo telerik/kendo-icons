@@ -1416,6 +1416,16 @@
         "id": 662
     },
     {
+        "name": "text-overflow",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "text-formatting"
+        ],
+        "unicode": "e07e",
+        "id": 664
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
