@@ -1078,6 +1078,10 @@
     content: "\e081";
 }
 
+.k-i-border-color::before {
+    content: "\e082";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }

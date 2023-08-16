@@ -132,6 +132,7 @@ namespace Telerik.FontIcons
         TextWrapArrow = 666,
         TextTruncate = 668,
         TextClip = 670,
+        BorderColor = 672,
         Undo = 111,
         Redo = 112,
         ArrowRotateCcw = 113,
