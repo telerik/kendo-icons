@@ -1082,6 +1082,10 @@
     content: "\e082";
 }
 
+.k-i-border-type::before {
+    content: "\e083";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }

@@ -130,6 +130,7 @@ export { textWrapArrowIcon } from './icons/text-wrap-arrow';
 export { textTruncateIcon } from './icons/text-truncate';
 export { textClipIcon } from './icons/text-clip';
 export { borderColorIcon } from './icons/border-color';
+export { borderTypeIcon } from './icons/border-type';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';
