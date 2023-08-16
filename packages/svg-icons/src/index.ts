@@ -129,6 +129,7 @@ export { textOverflowIcon } from './icons/text-overflow';
 export { textWrapArrowIcon } from './icons/text-wrap-arrow';
 export { textTruncateIcon } from './icons/text-truncate';
 export { textClipIcon } from './icons/text-clip';
+export { borderColorIcon } from './icons/border-color';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';
