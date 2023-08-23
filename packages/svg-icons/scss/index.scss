@@ -1,0 +1,95 @@
+@import "_variables.scss";
+
+@mixin kendo-svg-icon-styles() {
+
+    .k-svg-icon {
+        width: $ki-icon-size;
+        height: $ki-icon-size;
+        outline: 0;
+        line-height: 1;
+        display: inline-flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        position: relative;
+
+        > svg {
+            fill: currentColor;
+            flex: 1 1 auto;
+        }
+    }
+
+    // SVG Icon sizes
+    .k-svg-icon {
+        &.k-icon-xs {
+            width: $ki-icon-size-xs;
+            height: $ki-icon-size-xs;
+        }
+        &.k-icon-sm {
+            width: $ki-icon-size-sm;
+            height: $ki-icon-size-sm;
+        }
+        &.k-icon-md {
+            width: $ki-icon-size-md;
+            height: $ki-icon-size-md;
+        }
+        &.k-icon-lg {
+            width: $ki-icon-size-lg;
+            height: $ki-icon-size-lg;
+        }
+        &.k-icon-xl {
+            width: $ki-icon-size-xl;
+            height: $ki-icon-size-xl;
+        }
+        &.k-icon-xxl {
+            width: $ki-icon-size-xxl;
+            height: $ki-icon-size-xxl;
+        }
+        &.k-icon-xxxl {
+            width: $ki-icon-size-xxxl;
+            height: $ki-icon-size-xxxl;
+        }
+    }
+    
+
+    // Flip
+    .k-flip-h,
+    .k-flip-v,
+    .k-flip-h.k-flip-v {
+        &.k-svg-icon {
+            transform: none;
+        }
+    }
+    .k-flip-h {
+        > svg {
+            transform: scaleX( -1 );
+        }
+    }
+    .k-flip-v {
+        > svg {
+            transform: scaleY( -1 );
+        }
+    }
+    .k-flip-h.k-flip-v,
+    .k-flip-both {
+        > svg {
+            transform: scale( -1, -1 );
+        }
+    }
+
+
+    // Rotate
+    @each $index, $rotate in $ki-rotate-map {
+        .k-rotate-#{$index} {
+            &.k-svg-icon {
+                transform: none;
+            }
+
+            > svg {
+                transform: rotate( #{$rotate} );
+            }
+        }
+    }
+
+}

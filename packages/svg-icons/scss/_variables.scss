@@ -1,0 +1,21 @@
+$ki-icon-size: 16px !default;
+
+$ki-icon-size-xs: calc( #{$ki-icon-size} * .75 ) !default;
+$ki-icon-size-sm: calc( #{$ki-icon-size} * .875 ) !default;
+$ki-icon-size-md: $ki-icon-size !default;
+$ki-icon-size-lg: calc( #{$ki-icon-size} * 1.25 ) !default;
+$ki-icon-size-xl: calc( #{$ki-icon-size} * 1.5 ) !default;
+$ki-icon-size-xxl: calc( #{$ki-icon-size} * 2 ) !default;
+$ki-icon-size-xxxl: calc( #{$ki-icon-size} * 3 ) !default;
+
+$ki-rotate-map: (
+    0: 0deg,
+    45: 45deg,
+    90: 90deg,
+    135: 135deg,
+    180: 180deg,
+    225: 225deg,
+    270: 270deg,
+    315: 315deg
+) !default;
+
