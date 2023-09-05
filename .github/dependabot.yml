@@ -12,3 +12,7 @@ updates:
         dependency-type: "direct"
     reviewers:
       - "telerik/kendo-front-end"
+    groups:
+      dev-dependencies:
+        patterns:
+          - "*"
