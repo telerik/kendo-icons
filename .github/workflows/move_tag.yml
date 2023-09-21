@@ -1,0 +1,30 @@
+name: Move Tag
+
+on: workflow_dispatch
+
+jobs:
+  move-tag:
+    name: Move tag
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v3
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          cache: 'npm'
+          node-version: 18.x
+
+      - name: Setup git user
+        run: |
+          git config user.name "kendo-bot"
+          git config user.email "kendouiteam@progress.com"
+
+      - name: Move tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+            npm dist-tag add @progress/kendo-font-icons@1.9.0 latest
+            npm dist-tag add @progress/kendo-svg-icons@1.9.0 latest
