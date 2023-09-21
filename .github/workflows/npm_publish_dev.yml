@@ -5,10 +5,7 @@ defaults:
     shell: bash
 
 on:
-  workflow_dispatch:
-  workflow_run:
-    branches:
-      - develop
+  workflow_dispatch
 
 jobs:
   publish:
