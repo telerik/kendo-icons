@@ -26,6 +26,10 @@ jobs:
             }
           export-secrets-to-environment: false
 
+      - name: Check out develop
+        uses: actions/checkout@v3
+        with:
+          ref: develop
 
       - name: Setup node
         uses: actions/setup-node@v3
