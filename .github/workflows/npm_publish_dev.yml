@@ -56,6 +56,6 @@ jobs:
           npm ci
 
       - name: Lerna publish
-        run: npx lerna publish --conventional-commits --conventional-prerelease --create-release github --preid dev --allow-branch develop --force-publish --exact --yes --no-git-tag-version
+        run: npx lerna publish --conventional-commits --conventional-prerelease --conventional-bump-prerelease --create-release github --preid dev --allow-branch develop --force-publish --exact --yes --no-git-tag-version
         env:
           GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
