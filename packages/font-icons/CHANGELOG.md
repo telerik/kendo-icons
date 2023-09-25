@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/telerik/kendo-icons/compare/v1.9.0...v2.0.0) (2023-09-25)
+
+
+### Features
+
+* extract styles for svg icons ([2073a0d](https://github.com/telerik/kendo-icons/commit/2073a0d20a8687127f989a9826e00faed0823519))
+
+
+### BREAKING CHANGES
+
+* extract styles for svg icons, rename kendo-icon-styles mixin and k-icon selector
+
+
+
+
+
 # [1.9.0](https://github.com/telerik/kendo-icons/compare/v1.8.0...v1.9.0) (2023-08-17)
 
 
