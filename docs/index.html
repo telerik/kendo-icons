@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/@progress/kendo-theme-utils/dist/all.css" />
     <link rel="stylesheet" href="https://unpkg.com/@progress/kendo-font-icons/dist/index.css" />
+    <!--<link rel="stylesheet" href="../packages//font-icons/dist/index.css" />-->
     <style>
         body {
             margin: 0;
@@ -78,7 +79,7 @@
         }
 
         fetch('https://unpkg.com/@progress/kendo-font-icons/dist/icons.json')
-        // fetch('../src/icons.json')
+        // fetch('../src/telerik-icons/icons.json')
             .then(response => response.json())
             .then(json => {
                 const fragment = document.createDocumentFragment();
