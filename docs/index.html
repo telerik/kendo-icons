@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/@progress/kendo-theme-utils/dist/all.css" />
     <link rel="stylesheet" href="https://unpkg.com/@progress/kendo-font-icons/dist/index.css" />
+    <!--<link rel="stylesheet" href="../packages//font-icons/dist/index.css" />-->
     <style>
         body {
             margin: 0;
@@ -63,8 +64,8 @@
             iconWrapper.classList.add('icon-wrapper');
 
             const iconElement = document.createElement('span');
-            iconElement.classList.add('k-icon');
-            iconElement.classList.add('k-icon', `k-i-${iconName}`);
+            iconElement.classList.add('k-icon', 'k-font-icon');
+            iconElement.classList.add('k-icon', 'k-font-icon', `k-i-${iconName}`);
 
             const iconLabel = document.createElement('span');
             iconLabel.classList.add('icon-name', 'k-text-center');
@@ -78,7 +79,7 @@
         }
 
         fetch('https://unpkg.com/@progress/kendo-font-icons/dist/icons.json')
-        // fetch('../src/icons.json')
+        // fetch('../src/telerik-icons/icons.json')
             .then(response => response.json())
             .then(json => {
                 const fragment = document.createDocumentFragment();
