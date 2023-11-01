@@ -17,9 +17,9 @@
     "update": "npx npm-check-updates --upgrade"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.3.0",
-    "@commitlint/config-conventional": "^17.3.0",
-    "@commitlint/core": "^17.5.1",
+    "@commitlint/cli": "^18.2.0",
+    "@commitlint/config-conventional": "^18.1.0",
+    "@commitlint/core": "^18.2.0",
     "@progress/kendo-theme-tasks": "^1.17.3",
     "ansi-colors": "^4.1.1",
     "eslint": "^8.8.0",
