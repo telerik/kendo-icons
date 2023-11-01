@@ -1,7 +1,7 @@
 # Kendo UI Icons
 The **kendo-icons** is a monorepo for all Kendo UI icons that are used in the Kendo UI and Telerik UI for Blazor components. This repo contains all SVG and font icons, the related CSS, metadata and files, needed to use them in a project. The Kendo UI icons are available as NPM packages:
-    * font icons - https://www.npmjs.com/package/@progress/kendo-font-icons
-    * SVG icons - https://www.npmjs.com/package/@progress/kendo-svg-icons
+* font icons - https://www.npmjs.com/package/@progress/kendo-font-icons
+* SVG icons - https://www.npmjs.com/package/@progress/kendo-svg-icons
 
 
 ## Setting up the repo
