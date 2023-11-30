@@ -99,6 +99,11 @@ function prepareFontIcons() {
         fontPaths.distTtf
     );
 
+    fs.copyFileSync(
+        fontPaths.tmpTtf,
+        resolve( 'scss/kendo-font-icons.ttf' )
+    );
+
     fs.writeFileSync(
         resolve( 'scss/_font.scss' ),
         fontFileTemplate( fontPaths.distTtf )
