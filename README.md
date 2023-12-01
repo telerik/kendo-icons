@@ -5,7 +5,7 @@ The **kendo-icons** is a monorepo for all Kendo UI icons that are used in the Ke
 
 
 ## Setting up the repo
-To setup the `kendo-icons`repo for work, follow these steps:
+To setup the `kendo-icons` repo for work, follow these steps:
 1. Clone the repository.
 1. Run `npm run setup` in the terminal.
 
@@ -16,7 +16,12 @@ The **kendo-icons** repo is organized in the following way:
     - font-icons - contains the Kendo UI icons font, the related CSS and font files.
     - svg-icons - contains the Kendo UI SVG icons definitions and metadata.
 - scripts - various javascript files.
-- src/telerik-icons - contains all Kendo UI SVG icons, a list with all available icons, the relevant icons categories, ids and other properties. 
+- src/telerik-icons - contains all Kendo UI SVG icons, a list with all available icons, the relevant icons categories, ids and other properties.
 
-More details about the icons, their installation, usage etc. could be found in the **Progress Design System**: https://www.telerik.com/design-system/docs/foundation/iconography/font-icons/
+## Usage
+More details about the icons, their installation, usage etc. could be found in the **Progress Design System**:
+
+* Font Icons - https://www.telerik.com/design-system/docs/foundation/iconography/font-icons/
+
+* SVG Icons - https://www.telerik.com/design-system/docs/foundation/iconography/svg-icons/
 
