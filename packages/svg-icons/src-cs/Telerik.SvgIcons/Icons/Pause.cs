@@ -5,7 +5,7 @@ namespace Telerik.SvgIcons
         public Pause()
         {
             Name = "pause";
-            Content = "<path d=\"M320 0h160v512H320V0zM32 512h160V0H32v512z\" />";
+            Content = "<path d=\"M320 0h160v512H320zM32 512h160V0H32z\" />";
             ViewBox = "0 0 512 512";
         }
     }
