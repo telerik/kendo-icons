@@ -5,7 +5,7 @@ namespace Telerik.SvgIcons
         public PlaySm()
         {
             Name = "play-sm";
-            Content = "<path d=\"M96 416V96l320 160L96 416z\" />";
+            Content = "<path d=\"M96 416V96l320 160z\" />";
             ViewBox = "0 0 512 512";
         }
     }

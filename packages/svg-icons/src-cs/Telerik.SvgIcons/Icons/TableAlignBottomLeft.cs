@@ -5,7 +5,7 @@ namespace Telerik.SvgIcons
         public TableAlignBottomLeft()
         {
             Name = "table-align-bottom-left";
-            Content = "<path d=\"M32 480V0h448v480H32zM64 32v416h384V32H64zm32 256h192v-32H96v32zm0 64h320v-32H96v32zm0 64h192v-32H96v32z\" />";
+            Content = "<path d=\"M32 480V0h448v480zM64 32v416h384V32zm32 256h192v-32H96zm0 64h320v-32H96zm0 64h192v-32H96z\" />";
             ViewBox = "0 0 512 512";
         }
     }

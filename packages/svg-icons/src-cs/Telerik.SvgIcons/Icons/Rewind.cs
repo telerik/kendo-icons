@@ -5,7 +5,7 @@ namespace Telerik.SvgIcons
         public Rewind()
         {
             Name = "rewind";
-            Content = "<path d=\"M256 256 512 96v320L256 256zm0 160V96L0 256l256 160z\" />";
+            Content = "<path d=\"M256 256 512 96v320zm0 160V96L0 256z\" />";
             ViewBox = "0 0 512 512";
         }
     }

@@ -5,7 +5,7 @@ namespace Telerik.SvgIcons
         public Minus()
         {
             Name = "minus";
-            Content = "<path d=\"M96 224v64h320v-64H96z\" />";
+            Content = "<path d=\"M96 224v64h320v-64z\" />";
             ViewBox = "0 0 512 512";
         }
     }

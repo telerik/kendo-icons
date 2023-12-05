@@ -5,7 +5,7 @@ namespace Telerik.SvgIcons
         public Window()
         {
             Name = "window";
-            Content = "<path d=\"M96 96v320h320V96H96zm288 288H128V192h256v192z\" />";
+            Content = "<path d=\"M96 96v320h320V96zm288 288H128V192h256z\" />";
             ViewBox = "0 0 512 512";
         }
     }

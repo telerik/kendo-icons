@@ -5,7 +5,7 @@ namespace Telerik.SvgIcons
         public JustifyContentEndAlt()
         {
             Name = "justify-content-end-alt";
-            Content = "<path d=\"M415 257H95V129h320v128zM31 449v32h448v-32H31zm65-32h320V289H96v128z\" />";
+            Content = "<path d=\"M415 257H95V129h320zM31 449v32h448v-32zm65-32h320V289H96z\" />";
             ViewBox = "0 0 512 512";
         }
     }

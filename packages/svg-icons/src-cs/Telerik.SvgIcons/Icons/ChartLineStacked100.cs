@@ -5,7 +5,7 @@ namespace Telerik.SvgIcons
         public ChartLineStacked100()
         {
             Name = "chart-line-stacked100";
-            Content = "<path d=\"M480 448v32H32V32h32v416h416zM224 228l128 64 128-96v-36l-128 96-128-64-128 96v36l128-96zM480 32H96v32h384V32z\" />";
+            Content = "<path d=\"M480 448v32H32V32h32v416zM224 228l128 64 128-96v-36l-128 96-128-64-128 96v36zM480 32H96v32h384z\" />";
             ViewBox = "0 0 512 512";
         }
     }
