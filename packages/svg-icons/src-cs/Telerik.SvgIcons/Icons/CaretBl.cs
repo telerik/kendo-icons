@@ -5,7 +5,7 @@ namespace Telerik.SvgIcons
         public CaretBl()
         {
             Name = "caret-bl";
-            Content = "<path d=\"M160 352V160l192 192H160z\" />";
+            Content = "<path d=\"M160 352V160l192 192z\" />";
             ViewBox = "0 0 512 512";
         }
     }
