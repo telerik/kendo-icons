@@ -1396,6 +1396,16 @@
         "id": 657
     },
     {
+        "name": "info-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "notifications"
+        ],
+        "unicode": "e07b",
+        "id": 675
+    },
+    {
         "name": "font-grow",
         "ligatures": [],
         "aliases": [],
