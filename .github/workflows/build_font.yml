@@ -35,7 +35,7 @@ jobs:
         run: |
           HAS_CHANGES=0
           HAS_NEW=0
-          git diff --exit-code --quiet -- packages/ -- ":(exclude)packages/*/dist/*" || HAS_CHANGES=1
+          git diff --exit-code --quiet -- packages/ -- ":(exclude)packages/*/dist/*" ":(exclude)packages/*/scss/*.ttf" || HAS_CHANGES=1
           [[ $(git ls-files --others --exclude-standard packages/) ]] && HAS_NEW=1
           echo "HAS_CHANGES=$HAS_CHANGES" >> $GITHUB_ENV
           echo "HAS_NEW=$HAS_NEW" >> $GITHUB_ENV
