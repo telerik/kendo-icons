@@ -126,6 +126,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon Envelope => new Envelope();
         public static ISvgIcon WarningCircle => new WarningCircle();
         public static ISvgIcon WarningTriangle => new WarningTriangle();
+        public static ISvgIcon InfoSolid => new InfoSolid();
         public static ISvgIcon FontGrow => new FontGrow();
         public static ISvgIcon FontShrink => new FontShrink();
         public static ISvgIcon TextOverflow => new TextOverflow();
