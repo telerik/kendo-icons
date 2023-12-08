@@ -123,6 +123,7 @@ export { envelopeLinkIcon } from './icons/envelope-link';
 export { envelopeIcon } from './icons/envelope';
 export { warningCircleIcon } from './icons/warning-circle';
 export { warningTriangleIcon } from './icons/warning-triangle';
+export { infoSolidIcon } from './icons/info-solid';
 export { fontGrowIcon } from './icons/font-grow';
 export { fontShrinkIcon } from './icons/font-shrink';
 export { textOverflowIcon } from './icons/text-overflow';

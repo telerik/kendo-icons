@@ -126,6 +126,7 @@ namespace Telerik.FontIcons
         Envelope = 655,
         WarningCircle = 658,
         WarningTriangle = 657,
+        InfoSolid = 675,
         FontGrow = 660,
         FontShrink = 662,
         TextOverflow = 664,

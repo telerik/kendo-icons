@@ -918,6 +918,10 @@
     content: "\e07a";
 }
 
+.k-i-info-solid::before {
+    content: "\e07b";
+}
+
 .k-i-font-grow::before {
     content: "\e07c";
 }
