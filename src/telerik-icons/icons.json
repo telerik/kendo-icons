@@ -1486,6 +1486,46 @@
         "id": 674
     },
     {
+        "name": "thumb-down-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "toggle"
+        ],
+        "unicode": "e084",
+        "id": 676
+    },
+    {
+        "name": "thumb-down",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "toggle"
+        ],
+        "unicode": "e085",
+        "id": 677
+    },
+    {
+        "name": "thumb-up-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "toggle"
+        ],
+        "unicode": "e086",
+        "id": 678
+    },
+    {
+        "name": "thumb-up",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "toggle"
+        ],
+        "unicode": "e087",
+        "id": 679
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
