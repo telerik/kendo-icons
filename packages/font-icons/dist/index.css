@@ -954,6 +954,22 @@
     content: "\e083";
 }
 
+.k-i-thumb-down-outline::before {
+    content: "\e084";
+}
+
+.k-i-thumb-down::before {
+    content: "\e085";
+}
+
+.k-i-thumb-up-outline::before {
+    content: "\e086";
+}
+
+.k-i-thumb-up::before {
+    content: "\e087";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }

@@ -135,6 +135,10 @@ namespace Telerik.SvgIcons
         public static ISvgIcon TextClip => new TextClip();
         public static ISvgIcon BorderColor => new BorderColor();
         public static ISvgIcon BorderType => new BorderType();
+        public static ISvgIcon ThumbDownOutline => new ThumbDownOutline();
+        public static ISvgIcon ThumbDown => new ThumbDown();
+        public static ISvgIcon ThumbUpOutline => new ThumbUpOutline();
+        public static ISvgIcon ThumbUp => new ThumbUp();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();
