@@ -970,6 +970,10 @@
     content: "\e087";
 }
 
+.k-i-sparkles::before {
+    content: "\e088";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }

@@ -139,6 +139,7 @@ namespace Telerik.FontIcons
         ThumbDown = 677,
         ThumbUpOutline = 678,
         ThumbUp = 679,
+        Sparkles = 680,
         Undo = 111,
         Redo = 112,
         ArrowRotateCcw = 113,
