@@ -1526,6 +1526,16 @@
         "id": 679
     },
     {
+        "name": "sparkles",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e088",
+        "id": 680
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
