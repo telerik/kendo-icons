@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/telerik/kendo-icons/compare/v2.0.0...v2.1.0) (2023-12-15)
+
+
+### Bug Fixes
+
+* add revised warning-circle icon ([ff94947](https://github.com/telerik/kendo-icons/commit/ff94947b7613943d9207f5cbbd4631992dd9344c))
+* **font-icons:** resolve kendo-icons-font when importing from all.scss ([6e51b8f](https://github.com/telerik/kendo-icons/commit/6e51b8fa7b5f455e87fa751146d7b2dffc7a6375))
+* normalize warning-circle ([4a1a4f9](https://github.com/telerik/kendo-icons/commit/4a1a4f989b6532b47b792faebc87401249776987))
+
+
+### Features
+
+* add info-solid icon ([62f9576](https://github.com/telerik/kendo-icons/commit/62f9576da2a415bb0e29728d5b4615c9701fff63))
+* add sparkles icon ([5844944](https://github.com/telerik/kendo-icons/commit/584494489b29ced0c1f4fc8e63e169647eab35eb))
+* add thumb icons ([0865244](https://github.com/telerik/kendo-icons/commit/0865244c817517bff172fa39431bcfecadc8a731))
+* generate icons metadata ([16ce5b1](https://github.com/telerik/kendo-icons/commit/16ce5b182129d330c63fb2e7ec52af3cfa6a102e))
+* generate icons metadata ([b7d075e](https://github.com/telerik/kendo-icons/commit/b7d075efa4c14db5bae7c9cd62b86bce208364a7))
+* generate icons metadata ([3e23db2](https://github.com/telerik/kendo-icons/commit/3e23db205b47f5659f70cdf4b0c377a7850408fc))
+* generate icons metadata ([6d6a6e2](https://github.com/telerik/kendo-icons/commit/6d6a6e2c621a8b4b31c12c0d85dea8642ff03f74))
+* generate icons metadata ([782c11c](https://github.com/telerik/kendo-icons/commit/782c11c2c7705cb9ad197d425eca5310e77adab2))
+* generate icons metadata ([812fb38](https://github.com/telerik/kendo-icons/commit/812fb38dea11c407fd3c2e3c418f0748fcb3597f))
+* generate icons metadata ([de1c7f8](https://github.com/telerik/kendo-icons/commit/de1c7f84692601aed06fe0daabab0c6ec71e108c))
+
+
+
+
+
 # [2.0.0](https://github.com/telerik/kendo-icons/compare/v1.9.0...v2.0.0) (2023-09-25)
 
 
