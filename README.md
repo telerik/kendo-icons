@@ -25,3 +25,13 @@ More details about the icons, their installation, usage etc. could be found in t
 
 * SVG Icons - https://www.telerik.com/design-system/docs/foundation/iconography/svg-icons/
 
+## SVG creation - the design flow:
+- Create your icon in Adobe Illustrator and follow the guidelines described in https://www.telerik.com/design-system/docs/foundation/iconography/svg-icons/
+
+- The final file is saved (exported) together with the canvas and these properties: 
+<img src="https://github.com/telerik/web-components-ux/assets/52446546/ba24ed10-b2c9-408f-8299-c1d924f25396" width="460px">
+
+
+  1. When the SVG icon file is ready add (upload) it to the folder https://github.com/telerik/kendo-icons/tree/develop/src/telerik-icons/solid
+  2. Create a Branch with a meaningful name (e.g. "sparkles") and commit a message (e.g. "feat: add sparkles icon").
+  3. In the created Pull Request write an additional note about the category in which the icon should be, as well as alias names if any, and assign Reviewers from the FE team.
