@@ -1536,6 +1536,18 @@
         "id": 680
     },
     {
+        "name": "paragraph-mark",
+        "ligatures": [],
+        "aliases": [
+            "pilcrow"
+        ],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e089",
+        "id": 681
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
