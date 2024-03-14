@@ -141,6 +141,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon ThumbUp => new ThumbUp();
         public static ISvgIcon Sparkles => new Sparkles();
         public static ISvgIcon ParagraphMark => new ParagraphMark();
+        public static ISvgIcon ParagraphHeight => new ParagraphHeight();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();

@@ -982,6 +982,10 @@
     content: "\e089";
 }
 
+.k-i-paragraph-height::before {
+    content: "\e08a";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }
