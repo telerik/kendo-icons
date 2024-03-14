@@ -138,6 +138,7 @@ export { thumbUpOutlineIcon } from './icons/thumb-up-outline';
 export { thumbUpIcon } from './icons/thumb-up';
 export { sparklesIcon } from './icons/sparkles';
 export { paragraphMarkIcon } from './icons/paragraph-mark';
+export { paragraphHeightIcon } from './icons/paragraph-height';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';
