@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/telerik/kendo-icons/compare/v2.1.0...v2.2.0) (2024-03-19)
+
+
+### Features
+
+* add paragraph mark icon ([cf80bc6](https://github.com/telerik/kendo-icons/commit/cf80bc6712b1efc4b6f4ab6543b900b1467a0f52))
+* add paragraph-height icon ([71db53d](https://github.com/telerik/kendo-icons/commit/71db53db0c40060629c758c00ac1a4da5eff1ec5))
+* generate icons metadata ([c45f8e0](https://github.com/telerik/kendo-icons/commit/c45f8e0fc223818ebd6d5e443ec644b362da647c))
+* generate icons metadata ([cf046a4](https://github.com/telerik/kendo-icons/commit/cf046a4aa3c73736220750bd7bca31156ce6c557))
+* generate icons metadata ([d21067e](https://github.com/telerik/kendo-icons/commit/d21067e3e4e1a8c09d4ac8a58e45238d3131f56d))
+
+
+
+
+
 # [2.1.0](https://github.com/telerik/kendo-icons/compare/v2.0.0...v2.1.0) (2023-12-15)
 
 
