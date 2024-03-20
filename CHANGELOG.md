@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.2](https://github.com/telerik/kendo-icons/compare/v2.2.1...v2.2.2) (2024-03-20)
+
+
+### Bug Fixes
+
+* trigger svg nuget prepare ([ae4dcfc](https://github.com/telerik/kendo-icons/commit/ae4dcfc6c6414e7a7203fe570317df06dc362918))
+
+
+
+
+
 ## [2.2.1](https://github.com/telerik/kendo-icons/compare/v2.2.0...v2.2.1) (2024-03-20)
 
 
