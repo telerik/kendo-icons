@@ -1,6 +1,6 @@
 const fs = require('fs');
 const { resolve, basename } = require('path');
-const glob = require('glob');
+const { globSync } = require('glob');
 const { optimize } = require('svgo');
 const svgParser = require('svg-parser');
 
@@ -18,7 +18,7 @@ const paths = {
 };
 
 function prepareSvg() {
-    let files = glob.sync( resolve( paths.icons.src, paths.svgGlob ) );
+    let files = globSync( resolve( paths.icons.src, paths.svgGlob ), { windowsPathsNoEscape: true } );
 
     fs.rmSync( paths.icons.temp, { force: true, recursive: true } );
     fs.mkdirSync( paths.icons.temp, { recursive: true } );
