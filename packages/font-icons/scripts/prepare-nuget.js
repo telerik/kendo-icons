@@ -6,6 +6,7 @@ const { iconsCsTemplate } = require('./templates');
 
 const iconsHast = JSON.parse( fs.readFileSync( paths.icons.hast, 'utf-8' ) );
 
+
 function prepareNuget() {
 
     const telerikIconsCs = iconsCsTemplate( 'Telerik.FontIcons', iconsHast.icons );
