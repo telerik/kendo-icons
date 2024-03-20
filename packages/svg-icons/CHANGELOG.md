@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/telerik/kendo-icons/compare/v2.2.2...v2.3.0) (2024-03-20)
+
+
+### Features
+
+* bump version ([f59cab6](https://github.com/telerik/kendo-icons/commit/f59cab6ac809d6f0e9e59310917021d991e86bdf))
+
+
+
+
+
 ## [2.2.2](https://github.com/telerik/kendo-icons/compare/v2.2.1...v2.2.2) (2024-03-20)
 
 
