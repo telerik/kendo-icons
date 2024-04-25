@@ -142,6 +142,7 @@ namespace Telerik.FontIcons
         Sparkles = 680,
         ParagraphMark = 681,
         ParagraphHeight = 682,
+        UserOutline = 683,
         Undo = 111,
         Redo = 112,
         ArrowRotateCcw = 113,
