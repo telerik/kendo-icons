@@ -986,6 +986,10 @@
     content: "\e08a";
 }
 
+.k-i-user-outline::before {
+    content: "\e08b";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }
