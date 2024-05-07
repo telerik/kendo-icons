@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/telerik/kendo-icons/compare/v2.3.0...v3.0.0) (2024-05-07)
+
+
+* chore!: bump dotnet packages to netstandard 2.0 ([a7215c0](https://github.com/telerik/kendo-icons/commit/a7215c0107dcf65e467edc0c61f8853369cddc1c))
+
+
+### Features
+
+* add user-outline icon ([0368301](https://github.com/telerik/kendo-icons/commit/0368301a76f38cab6f394245914a8263d2bf387d))
+* generate icons metadata ([80e7f16](https://github.com/telerik/kendo-icons/commit/80e7f16e1e48cba1c33ca3a477281f1d73cd5f0c))
+
+
+### BREAKING CHANGES
+
+* dotnet packages now target netstandard2.0
+
+
+
+
+
 # [2.3.0](https://github.com/telerik/kendo-icons/compare/v2.2.2...v2.3.0) (2024-03-20)
 
 
