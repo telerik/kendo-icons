@@ -1558,6 +1558,16 @@
         "id": 682
     },
     {
+        "name": "user-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e08b",
+        "id": 683
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
