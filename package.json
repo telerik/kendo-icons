@@ -7,7 +7,7 @@
     "packages/svg-icons"
   ],
   "scripts": {
-    "setup": "npm install && npx husky install",
+    "setup": "npm install && npx husky",
     "build": "npm run build --workspaces",
     "eslint": "eslint \"**/*.js\"",
     "migrate": "node scripts/migrate-icons.js",
