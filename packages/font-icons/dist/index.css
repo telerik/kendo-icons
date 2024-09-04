@@ -990,6 +990,10 @@
     content: "\e08b";
 }
 
+.k-i-wallet-solid::before {
+    content: "\e08c";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }
