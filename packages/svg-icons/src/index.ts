@@ -140,6 +140,7 @@ export { sparklesIcon } from './icons/sparkles';
 export { paragraphMarkIcon } from './icons/paragraph-mark';
 export { paragraphHeightIcon } from './icons/paragraph-height';
 export { userOutlineIcon } from './icons/user-outline';
+export { walletSolidIcon } from './icons/wallet-solid';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';
