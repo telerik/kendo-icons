@@ -1568,6 +1568,14 @@
         "id": 683
     },
     {
+        "name": "wallet-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e08c",
+        "id": 684
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
