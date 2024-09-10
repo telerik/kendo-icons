@@ -1596,6 +1596,16 @@
         "id": 686
     },
     {
+        "name": "ruler-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e08f",
+        "id": 687
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
