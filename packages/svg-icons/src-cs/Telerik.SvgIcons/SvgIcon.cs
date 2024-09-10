@@ -147,6 +147,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon Stamp => new Stamp();
         public static ISvgIcon StickyNote => new StickyNote();
         public static ISvgIcon RulerOutline => new RulerOutline();
+        public static ISvgIcon EraserOutline => new EraserOutline();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();

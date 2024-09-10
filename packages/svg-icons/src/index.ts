@@ -144,6 +144,7 @@ export { walletSolidIcon } from './icons/wallet-solid';
 export { stampIcon } from './icons/stamp';
 export { stickyNoteIcon } from './icons/sticky-note';
 export { rulerOutlineIcon } from './icons/ruler-outline';
+export { eraserOutlineIcon } from './icons/eraser-outline';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';
