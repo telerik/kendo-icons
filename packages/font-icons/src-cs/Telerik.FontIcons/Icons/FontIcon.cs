@@ -145,6 +145,7 @@ namespace Telerik.FontIcons
         UserOutline = 683,
         WalletSolid = 684,
         Stamp = 685,
+        StickyNote = 686,
         Undo = 111,
         Redo = 112,
         ArrowRotateCcw = 113,

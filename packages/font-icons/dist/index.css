@@ -998,6 +998,10 @@
     content: "\e08d";
 }
 
+.k-i-sticky-note::before {
+    content: "\e08e";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }
