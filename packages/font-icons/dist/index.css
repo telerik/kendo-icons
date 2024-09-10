@@ -994,6 +994,10 @@
     content: "\e08c";
 }
 
+.k-i-stamp::before {
+    content: "\e08d";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }
