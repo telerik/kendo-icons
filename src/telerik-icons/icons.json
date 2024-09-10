@@ -1576,6 +1576,16 @@
         "id": 684
     },
     {
+        "name": "stamp",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e08d",
+        "id": 685
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
