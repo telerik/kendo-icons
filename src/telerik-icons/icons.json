@@ -1606,6 +1606,16 @@
         "id": 687
     },
     {
+        "name": "eraser-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e090",
+        "id": 688
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
