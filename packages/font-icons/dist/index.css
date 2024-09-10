@@ -1002,6 +1002,10 @@
     content: "\e08e";
 }
 
+.k-i-ruler-outline::before {
+    content: "\e08f";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }
