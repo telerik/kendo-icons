@@ -1586,6 +1586,16 @@
         "id": 685
     },
     {
+        "name": "sticky-note",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e08e",
+        "id": 686
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
