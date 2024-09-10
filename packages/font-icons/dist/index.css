@@ -1006,6 +1006,10 @@
     content: "\e08f";
 }
 
+.k-i-eraser-outline::before {
+    content: "\e090";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }
