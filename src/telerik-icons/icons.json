@@ -1626,6 +1626,16 @@
         "id": 689
     },
     {
+        "name": "highlight",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e092",
+        "id": 690
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
