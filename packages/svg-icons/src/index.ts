@@ -147,6 +147,7 @@ export { rulerOutlineIcon } from './icons/ruler-outline';
 export { eraserOutlineIcon } from './icons/eraser-outline';
 export { editAnnotationsIcon } from './icons/edit-annotations';
 export { highlightIcon } from './icons/highlight';
+export { highlightFreeIcon } from './icons/highlight-free';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';

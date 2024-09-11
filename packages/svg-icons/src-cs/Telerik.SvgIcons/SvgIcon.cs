@@ -150,6 +150,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon EraserOutline => new EraserOutline();
         public static ISvgIcon EditAnnotations => new EditAnnotations();
         public static ISvgIcon Highlight => new Highlight();
+        public static ISvgIcon HighlightFree => new HighlightFree();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();

@@ -150,6 +150,7 @@ namespace Telerik.FontIcons
         EraserOutline = 688,
         EditAnnotations = 689,
         Highlight = 690,
+        HighlightFree = 691,
         Undo = 111,
         Redo = 112,
         ArrowRotateCcw = 113,
