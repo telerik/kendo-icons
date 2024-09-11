@@ -1616,6 +1616,16 @@
         "id": 688
     },
     {
+        "name": "edit-annotations",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e091",
+        "id": 689
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
