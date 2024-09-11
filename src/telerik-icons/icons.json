@@ -1646,6 +1646,16 @@
         "id": 691
     },
     {
+        "name": "free-text",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e094",
+        "id": 692
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
