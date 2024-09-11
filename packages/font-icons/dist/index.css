@@ -1014,6 +1014,10 @@
     content: "\e091";
 }
 
+.k-i-highlight::before {
+    content: "\e092";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }
