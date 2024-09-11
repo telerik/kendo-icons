@@ -1022,6 +1022,10 @@
     content: "\e093";
 }
 
+.k-i-free-text::before {
+    content: "\e094";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }
