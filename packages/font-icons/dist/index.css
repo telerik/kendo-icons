@@ -1026,6 +1026,10 @@
     content: "\e094";
 }
 
+.k-i-x-logo::before {
+    content: "\e095";
+}
+
 .k-i-undo::before {
     content: "\e100";
 }
