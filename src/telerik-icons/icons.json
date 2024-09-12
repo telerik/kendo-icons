@@ -1656,6 +1656,16 @@
         "id": 692
     },
     {
+        "name": "x-logo",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e095",
+        "id": 693
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
