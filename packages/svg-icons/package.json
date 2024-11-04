@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "prebuild": "node scripts/prepare-svg.js && node scripts/prepare-nuget.js",
-    "build": "rollup -c --bundleConfigAsCjs && node scripts/sass-build.js",
+    "build": "rollup -c --bundleConfigAsCjs && npx sass scss/all.scss dist/index.css",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
