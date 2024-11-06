@@ -1,4 +1,5 @@
-@import "_variables.scss";
+@forward "_variables.scss";
+@use "_variables.scss" as *;
 
 @mixin kendo-svg-icon-styles() {
 
