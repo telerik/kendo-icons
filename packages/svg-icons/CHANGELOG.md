@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0](https://github.com/telerik/kendo-icons/compare/v3.3.0...v4.0.0) (2024-11-06)
+
+
+### Features
+
+* migrate kendo-icons to dart-sass module system ([961c691](https://github.com/telerik/kendo-icons/commit/961c6919616f3de07c571967de8b5f6158e5dd75))
+
+
+### BREAKING CHANGES
+
+* Starting with the R4 2024 release the Kendo Font and
+SVG icons are now migrated to the SASS module system. This breaking
+change is due to the `node-sass` package reaching its official
+end of life.
+
+For more information, please refer to the following links:
+
+* https://sass-lang.com/blog/the-module-system-is-launched/
+* https://github.com/sass/node-sass/commit/107ded9434cfca43dbd9dfbaeb5c349228bf5cee
+
+
+
+
+
 # [3.3.0](https://github.com/telerik/kendo-icons/compare/v3.2.0...v3.3.0) (2024-11-06)
 
 
