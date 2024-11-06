@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.3.0](https://github.com/telerik/kendo-icons/compare/v3.2.0...v3.3.0) (2024-11-06)
+
+
+### Features
+
+* revert to import syntax ([f15ed1a](https://github.com/telerik/kendo-icons/commit/f15ed1aabdad3991afbfe2be585327356b895e7c))
+
+
+
+
+
 # [3.2.0](https://github.com/telerik/kendo-icons/compare/v3.1.0...v3.2.0) (2024-11-06)
 
 
