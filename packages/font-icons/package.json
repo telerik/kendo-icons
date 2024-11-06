@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "prebuild": "node scripts/prepare-font.js && node scripts/prepare-nuget.js",
-    "build": "npx sass scss/all.scss dist/index.css",
+    "build": "node scripts/sass-build.js",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
