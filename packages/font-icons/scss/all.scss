@@ -1,4 +1,3 @@
-@forward "index.scss";
-@use "index.scss" as *;
+@import "index.scss";
 
 @include kendo-font-icon-styles();

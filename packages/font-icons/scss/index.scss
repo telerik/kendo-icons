@@ -1,8 +1,6 @@
-@forward "_variables.scss";
-
-@use "_font.scss" as *;
-@use "_variables.scss" as *;
-@use "_icon-list.scss" as *;
+@import "_font.scss";
+@import"_variables.scss";
+@import "_icon-list.scss";
 
 @mixin kendo-font-icon-styles() {
 
