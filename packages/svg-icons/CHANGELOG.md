@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/telerik/kendo-icons/compare/v3.1.0...v3.2.0) (2024-11-06)
+
+
+### Features
+
+* migrate kendo-icons to dart-sass module system ([813851b](https://github.com/telerik/kendo-icons/commit/813851b67c18b20eed93c01e7578e8ce1b7040a0))
+
+
+
+
+
 # [3.1.0](https://github.com/telerik/kendo-icons/compare/v3.0.0...v3.1.0) (2024-09-12)
 
 
