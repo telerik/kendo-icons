@@ -1676,6 +1676,16 @@
         "id": 694
     },
     {
+        "name": "scale",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e097",
+        "id": 695
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
