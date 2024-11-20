@@ -1032,6 +1032,10 @@
   content: "\e096";
 }
 
+.k-i-scale::before {
+  content: "\e097";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }
