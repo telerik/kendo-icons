@@ -150,6 +150,7 @@ export { highlightIcon } from './icons/highlight';
 export { highlightFreeIcon } from './icons/highlight-free';
 export { freeTextIcon } from './icons/free-text';
 export { xLogoIcon } from './icons/x-logo';
+export { inputboxIcon } from './icons/inputbox';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';

@@ -153,6 +153,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon HighlightFree => new HighlightFree();
         public static ISvgIcon FreeText => new FreeText();
         public static ISvgIcon XLogo => new XLogo();
+        public static ISvgIcon Inputbox => new Inputbox();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();
