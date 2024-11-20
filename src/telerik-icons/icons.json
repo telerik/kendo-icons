@@ -1666,6 +1666,16 @@
         "id": 693
     },
     {
+        "name": "inputbox",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e096",
+        "id": 694
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
