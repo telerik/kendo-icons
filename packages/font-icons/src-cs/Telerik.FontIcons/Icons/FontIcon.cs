@@ -153,6 +153,7 @@ namespace Telerik.FontIcons
         HighlightFree = 691,
         FreeText = 692,
         XLogo = 693,
+        Inputbox = 694,
         Undo = 111,
         Redo = 112,
         ArrowRotateCcw = 113,
