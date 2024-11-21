@@ -1694,6 +1694,14 @@
         "id": 696
     },
     {
+        "name": "truck",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e099",
+        "id": 697
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
