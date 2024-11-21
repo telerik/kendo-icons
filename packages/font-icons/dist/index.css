@@ -1036,6 +1036,10 @@
   content: "\e097";
 }
 
+.k-i-van::before {
+  content: "\e098";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }

@@ -152,6 +152,7 @@ export { freeTextIcon } from './icons/free-text';
 export { xLogoIcon } from './icons/x-logo';
 export { inputboxIcon } from './icons/inputbox';
 export { scaleIcon } from './icons/scale';
+export { vanIcon } from './icons/van';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';
