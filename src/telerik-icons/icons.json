@@ -1686,6 +1686,14 @@
         "id": 695
     },
     {
+        "name": "van",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e098",
+        "id": 696
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
