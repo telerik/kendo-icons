@@ -1040,6 +1040,10 @@
   content: "\e098";
 }
 
+.k-i-truck::before {
+  content: "\e099";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }
