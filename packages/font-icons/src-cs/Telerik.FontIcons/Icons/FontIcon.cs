@@ -157,6 +157,7 @@ namespace Telerik.FontIcons
         Scale = 695,
         Van = 696,
         Truck = 697,
+        WalletOutline = 698,
         Undo = 111,
         Redo = 112,
         ArrowRotateCcw = 113,
