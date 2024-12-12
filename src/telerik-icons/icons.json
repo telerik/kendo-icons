@@ -1710,6 +1710,14 @@
         "id": 698
     },
     {
+        "name": "transactions",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e09b",
+        "id": 699
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
