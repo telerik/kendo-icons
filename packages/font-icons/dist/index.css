@@ -36,11 +36,11 @@
 }
 
 .k-icon-xs {
-  font-size: calc( 16px * .75 );
+  font-size: calc(16px * 0.75);
 }
 
 .k-icon-sm {
-  font-size: calc( 16px * .875 );
+  font-size: calc(16px * 0.875);
 }
 
 .k-icon-md {
@@ -48,19 +48,19 @@
 }
 
 .k-icon-lg {
-  font-size: calc( 16px * 1.25 );
+  font-size: calc(16px * 1.25);
 }
 
 .k-icon-xl {
-  font-size: calc( 16px * 1.5 );
+  font-size: calc(16px * 1.5);
 }
 
 .k-icon-xxl {
-  font-size: calc( 16px * 2 );
+  font-size: calc(16px * 2);
 }
 
 .k-icon-xxxl {
-  font-size: calc( 16px * 3 );
+  font-size: calc(16px * 3);
 }
 
 .k-flip-h {
@@ -1042,6 +1042,10 @@
 
 .k-i-truck::before {
   content: "\e099";
+}
+
+.k-i-wallet-outline::before {
+  content: "\e09a";
 }
 
 .k-i-undo::before {
