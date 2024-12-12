@@ -1048,6 +1048,10 @@
   content: "\e09a";
 }
 
+.k-i-transactions::before {
+  content: "\e09b";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }
