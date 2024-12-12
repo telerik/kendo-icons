@@ -158,6 +158,7 @@ namespace Telerik.FontIcons
         Van = 696,
         Truck = 697,
         WalletOutline = 698,
+        Transactions = 699,
         Undo = 111,
         Redo = 112,
         ArrowRotateCcw = 113,
