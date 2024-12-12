@@ -1702,6 +1702,14 @@
         "id": 697
     },
     {
+        "name": "wallet-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e09a",
+        "id": 698
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
