@@ -1718,6 +1718,14 @@
         "id": 699
     },
     {
+        "name": "therapist-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e09c",
+        "id": 700
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [

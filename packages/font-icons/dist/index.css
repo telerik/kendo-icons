@@ -1052,6 +1052,10 @@
   content: "\e09b";
 }
 
+.k-i-therapist-solid::before {
+  content: "\e09c";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }
