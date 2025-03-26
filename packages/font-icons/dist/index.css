@@ -1052,6 +1052,14 @@
   content: "\e09b";
 }
 
+.k-i-arrow-down-left::before {
+  content: "\e09d";
+}
+
+.k-i-return-key::before {
+  content: "\e09d";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }
