@@ -1718,6 +1718,18 @@
         "id": 699
     },
     {
+        "name": "arrow-down-left",
+        "ligatures": [],
+        "aliases": [
+            "return-key"
+        ],
+        "categories": [
+            "arrows"
+        ],
+        "unicode": "e09d",
+        "id": 701
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
