@@ -159,6 +159,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon Truck => new Truck();
         public static ISvgIcon WalletOutline => new WalletOutline();
         public static ISvgIcon Transactions => new Transactions();
+        public static ISvgIcon HandleDragDots => new HandleDragDots();
         public static ISvgIcon ArrowDownLeft => new ArrowDownLeft();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
