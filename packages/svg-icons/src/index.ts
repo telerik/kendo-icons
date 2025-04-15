@@ -156,6 +156,7 @@ export { vanIcon } from './icons/van';
 export { truckIcon } from './icons/truck';
 export { walletOutlineIcon } from './icons/wallet-outline';
 export { transactionsIcon } from './icons/transactions';
+export { handleDragDotsIcon } from './icons/handle-drag-dots';
 export { arrowDownLeftIcon } from './icons/arrow-down-left';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';

@@ -1052,6 +1052,18 @@
   content: "\e09b";
 }
 
+.k-i-handle-drag-dots::before {
+  content: "\e09c";
+}
+
+.k-i-six-dice::before {
+  content: "\e09c";
+}
+
+.k-i-six-dots-vertical::before {
+  content: "\e09c";
+}
+
 .k-i-arrow-down-left::before {
   content: "\e09d";
 }
