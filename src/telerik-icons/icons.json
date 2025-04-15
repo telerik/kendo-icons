@@ -1718,6 +1718,19 @@
         "id": 699
     },
     {
+        "name": "handle-drag-dots",
+        "ligatures": [],
+        "aliases": [
+            "six-dice",
+            "six-dots-vertical"
+        ],
+        "categories": [
+            "layout"
+        ],
+        "unicode": "e09c",
+        "id": 702
+    },
+    {
         "name": "arrow-down-left",
         "ligatures": [],
         "aliases": [
