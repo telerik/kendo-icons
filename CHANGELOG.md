@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/telerik/kendo-icons/compare/v4.0.0...v4.1.0) (2025-04-15)
+
+
+### Features
+
+* add arrow-down-left icon ([442b7fb](https://github.com/telerik/kendo-icons/commit/442b7fb5f0fe5410d978955d46b59b7eb5d4b93b))
+* add handle-drag-dots icon ([5f6b4b1](https://github.com/telerik/kendo-icons/commit/5f6b4b181701fad11ac1ee2e6618790361c785ee))
+* add inputbox icon ([87d62eb](https://github.com/telerik/kendo-icons/commit/87d62ebb4600a570856cbd897b8227ca09402b16))
+* add scale icon ([8972847](https://github.com/telerik/kendo-icons/commit/8972847092d08b3f127a2affee4a19a57f623725))
+* add transactions icon ([26165e9](https://github.com/telerik/kendo-icons/commit/26165e9b903f276280d1d5088226142fd6b2a547))
+* add truck icon ([6420f7a](https://github.com/telerik/kendo-icons/commit/6420f7a25fa11fc94196206c12763f062d6e7a95))
+* add van icon ([d301af6](https://github.com/telerik/kendo-icons/commit/d301af665ec0a6ce4c95743b439890916bee36ed))
+* add wallet-outline icon ([84011b8](https://github.com/telerik/kendo-icons/commit/84011b86fcc9ce17bf1300e586b6180bb2d5253c))
+* generate icons metadata ([d974cd8](https://github.com/telerik/kendo-icons/commit/d974cd8ddfff9ddc1d9e3c31873eef2af7a5b507))
+* generate icons metadata ([bf467e9](https://github.com/telerik/kendo-icons/commit/bf467e938d8dcb23e9732028d1c722184091d6a8))
+* generate icons metadata ([5f02f6b](https://github.com/telerik/kendo-icons/commit/5f02f6be3274f35bc522ff37e535c6385f585a67))
+* generate icons metadata ([00ef087](https://github.com/telerik/kendo-icons/commit/00ef087404baa7439f6562e2cfae3de7c6707ac4))
+* generate icons metadata ([d60d033](https://github.com/telerik/kendo-icons/commit/d60d033aeb37585f0454b496acddbe1382b79abe))
+* generate icons metadata ([e9a834f](https://github.com/telerik/kendo-icons/commit/e9a834fb90c60965afaefee2d364e1c2bb3c99b6))
+* generate icons metadata ([1b9e6fa](https://github.com/telerik/kendo-icons/commit/1b9e6fae22f32b63c182b943fe2621660ffa8fb0))
+* generate icons metadata ([86cf510](https://github.com/telerik/kendo-icons/commit/86cf510f19aec59dc0a9e9d379e803d97905b558))
+
+
+
+
+
 # [4.0.0](https://github.com/telerik/kendo-icons/compare/v3.3.0...v4.0.0) (2024-11-06)
 
 
