@@ -158,6 +158,7 @@ export { walletOutlineIcon } from './icons/wallet-outline';
 export { transactionsIcon } from './icons/transactions';
 export { handleDragDotsIcon } from './icons/handle-drag-dots';
 export { arrowDownLeftIcon } from './icons/arrow-down-left';
+export { therapistOutlineIcon } from './icons/therapist-outline';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';
