@@ -161,6 +161,7 @@ namespace Telerik.FontIcons
         Transactions = 699,
         HandleDragDots = 702,
         ArrowDownLeft = 701,
+        TherapistOutline = 704,
         Undo = 111,
         Redo = 112,
         ArrowRotateCcw = 113,

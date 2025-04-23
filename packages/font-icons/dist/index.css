@@ -1072,6 +1072,10 @@
   content: "\e09d";
 }
 
+.k-i-therapist-outline::before {
+  content: "\e09f";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }
