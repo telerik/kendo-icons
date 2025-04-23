@@ -1743,6 +1743,14 @@
         "id": 701
     },
     {
+        "name": "therapist-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e09f",
+        "id": 704
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
