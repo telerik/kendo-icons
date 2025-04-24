@@ -1767,6 +1767,14 @@
         "id": 706
     },
     {
+        "name": "plane-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0a1",
+        "id": 707
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
