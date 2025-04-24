@@ -161,6 +161,7 @@ export { arrowDownLeftIcon } from './icons/arrow-down-left';
 export { recycleSolidIcon } from './icons/recycle-solid';
 export { therapistOutlineIcon } from './icons/therapist-outline';
 export { recycleOutlineIcon } from './icons/recycle-outline';
+export { planeSolidIcon } from './icons/plane-solid';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';
