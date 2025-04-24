@@ -161,6 +161,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon Transactions => new Transactions();
         public static ISvgIcon HandleDragDots => new HandleDragDots();
         public static ISvgIcon ArrowDownLeft => new ArrowDownLeft();
+        public static ISvgIcon RecycleSolid => new RecycleSolid();
         public static ISvgIcon TherapistOutline => new TherapistOutline();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();

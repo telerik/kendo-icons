@@ -1072,6 +1072,10 @@
   content: "\e09d";
 }
 
+.k-i-recycle-solid::before {
+  content: "\e09e";
+}
+
 .k-i-therapist-outline::before {
   content: "\e09f";
 }
