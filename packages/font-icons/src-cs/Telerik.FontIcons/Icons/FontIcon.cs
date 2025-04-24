@@ -165,6 +165,7 @@ namespace Telerik.FontIcons
         TherapistOutline = 704,
         RecycleOutline = 706,
         PlaneSolid = 707,
+        PlaneOutline = 708,
         Undo = 111,
         Redo = 112,
         ArrowRotateCcw = 113,
