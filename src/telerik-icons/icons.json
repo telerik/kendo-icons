@@ -1775,6 +1775,14 @@
         "id": 707
     },
     {
+        "name": "plane-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0a2",
+        "id": 708
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
