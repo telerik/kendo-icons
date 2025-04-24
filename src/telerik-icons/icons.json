@@ -1759,6 +1759,14 @@
         "id": 704
     },
     {
+        "name": "recycle-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0a0",
+        "id": 706
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
