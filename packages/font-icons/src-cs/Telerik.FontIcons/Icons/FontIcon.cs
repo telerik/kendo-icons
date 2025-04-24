@@ -163,6 +163,7 @@ namespace Telerik.FontIcons
         ArrowDownLeft = 701,
         RecycleSolid = 705,
         TherapistOutline = 704,
+        RecycleOutline = 706,
         Undo = 111,
         Redo = 112,
         ArrowRotateCcw = 113,

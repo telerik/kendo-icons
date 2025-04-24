@@ -1080,6 +1080,10 @@
   content: "\e09f";
 }
 
+.k-i-recycle-outline::before {
+  content: "\e0a0";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }
