@@ -1088,6 +1088,10 @@
   content: "\e0a1";
 }
 
+.k-i-plane-outline::before {
+  content: "\e0a2";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }
