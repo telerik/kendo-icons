@@ -1096,6 +1096,10 @@
   content: "\e0a4";
 }
 
+.k-i-speed::before {
+  content: "\e0a5";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }

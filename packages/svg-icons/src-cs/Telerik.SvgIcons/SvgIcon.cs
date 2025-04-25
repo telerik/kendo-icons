@@ -167,6 +167,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon PlaneSolid => new PlaneSolid();
         public static ISvgIcon PlaneOutline => new PlaneOutline();
         public static ISvgIcon Sustainability => new Sustainability();
+        public static ISvgIcon Speed => new Speed();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();
