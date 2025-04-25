@@ -1791,6 +1791,14 @@
         "id": 710
     },
     {
+        "name": "speed",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0a5",
+        "id": 712
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
