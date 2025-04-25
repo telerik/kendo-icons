@@ -167,6 +167,7 @@ namespace Telerik.FontIcons
         PlaneSolid = 707,
         PlaneOutline = 708,
         Sustainability = 710,
+        Speed = 712,
         Undo = 111,
         Redo = 112,
         ArrowRotateCcw = 113,

@@ -164,6 +164,7 @@ export { recycleOutlineIcon } from './icons/recycle-outline';
 export { planeSolidIcon } from './icons/plane-solid';
 export { planeOutlineIcon } from './icons/plane-outline';
 export { sustainabilityIcon } from './icons/sustainability';
+export { speedIcon } from './icons/speed';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';
