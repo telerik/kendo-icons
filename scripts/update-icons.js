@@ -5,7 +5,7 @@ const unicodeStart = parseInt('e000', 16);
 
 function updateIcons() {
     const iconSrcPath = path.resolve( 'src/telerik-icons/solid/' );
-    const svgIcons = fs.readdirSync(iconSrcPath);
+    const svgIcons = fs.readdirSync(iconSrcPath).filter(file => path.extname(file) === '.svg');
 
     const iconsJsonPath = path.resolve( 'src/telerik-icons/icons.json' );
     const iconListPath = path.resolve( 'src/telerik-icons/icon-list.json' );
