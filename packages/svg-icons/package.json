@@ -1,7 +1,7 @@
 {
   "name": "@progress/kendo-svg-icons",
   "description": "",
-  "version": "3.0.0",
+  "version": "4.1.0",
   "author": "Progress",
   "repository": "telerik/kendo-icons",
   "bugs": "https://github.com/telerik/kendo-icons/issues",
@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "prebuild": "node scripts/prepare-svg.js && node scripts/prepare-nuget.js",
-    "build": "rollup -c --bundleConfigAsCjs && node scripts/sass-build.js",
+    "build": "rollup -c --bundleConfigAsCjs && npx sass scss/all.scss dist/index.css",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
