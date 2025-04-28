@@ -1092,6 +1092,10 @@
   content: "\e0a2";
 }
 
+.k-i-money-exchange::before {
+  content: "\e0a3";
+}
+
 .k-i-sustainability::before {
   content: "\e0a4";
 }
