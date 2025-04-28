@@ -1807,6 +1807,186 @@
         "id": 712
     },
     {
+        "name": "devices-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0a6",
+        "id": 714
+    },
+    {
+        "name": "devices-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0a7",
+        "id": 715
+    },
+    {
+        "name": "instagram-box",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0a8",
+        "id": 716
+    },
+    {
+        "name": "instagram",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0a9",
+        "id": 717
+    },
+    {
+        "name": "laptop-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0aa",
+        "id": 718
+    },
+    {
+        "name": "laptop-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0ab",
+        "id": 719
+    },
+    {
+        "name": "mobile-outline-ringing",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0ac",
+        "id": 720
+    },
+    {
+        "name": "mobile-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0ad",
+        "id": 721
+    },
+    {
+        "name": "mobile-solid-ringing",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0ae",
+        "id": 722
+    },
+    {
+        "name": "mobile-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0af",
+        "id": 723
+    },
+    {
+        "name": "sms",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0b0",
+        "id": 724
+    },
+    {
+        "name": "tablet-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0b1",
+        "id": 725
+    },
+    {
+        "name": "tablet-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0b2",
+        "id": 726
+    },
+    {
+        "name": "users-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0b3",
+        "id": 727
+    },
+    {
+        "name": "users-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0b4",
+        "id": 728
+    },
+    {
+        "name": "whatsapp-box",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0b5",
+        "id": 729
+    },
+    {
+        "name": "whatsapp",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0b6",
+        "id": 730
+    },
+    {
+        "name": "x-logo-box",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0b7",
+        "id": 731
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
