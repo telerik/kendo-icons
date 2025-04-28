@@ -163,6 +163,7 @@ export { therapistOutlineIcon } from './icons/therapist-outline';
 export { recycleOutlineIcon } from './icons/recycle-outline';
 export { planeSolidIcon } from './icons/plane-solid';
 export { planeOutlineIcon } from './icons/plane-outline';
+export { moneyExchangeIcon } from './icons/money-exchange';
 export { sustainabilityIcon } from './icons/sustainability';
 export { speedIcon } from './icons/speed';
 export { undoIcon } from './icons/undo';

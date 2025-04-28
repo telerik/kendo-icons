@@ -166,6 +166,7 @@ namespace Telerik.FontIcons
         RecycleOutline = 706,
         PlaneSolid = 707,
         PlaneOutline = 708,
+        MoneyExchange = 713,
         Sustainability = 710,
         Speed = 712,
         Undo = 111,
