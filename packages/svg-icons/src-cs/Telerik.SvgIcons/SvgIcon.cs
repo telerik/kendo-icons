@@ -179,7 +179,6 @@ namespace Telerik.SvgIcons
         public static ISvgIcon MobileOutline => new MobileOutline();
         public static ISvgIcon MobileSolidRinging => new MobileSolidRinging();
         public static ISvgIcon MobileSolid => new MobileSolid();
-        public static ISvgIcon Sms => new Sms();
         public static ISvgIcon TabletOutline => new TabletOutline();
         public static ISvgIcon TabletSolid => new TabletSolid();
         public static ISvgIcon UsersOutline => new UsersOutline();
@@ -187,6 +186,8 @@ namespace Telerik.SvgIcons
         public static ISvgIcon WhatsappBox => new WhatsappBox();
         public static ISvgIcon Whatsapp => new Whatsapp();
         public static ISvgIcon XLogoBox => new XLogoBox();
+        public static ISvgIcon SmsOutline => new SmsOutline();
+        public static ISvgIcon SmsSolid => new SmsSolid();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();

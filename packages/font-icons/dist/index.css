@@ -1144,10 +1144,6 @@
   content: "\e0af";
 }
 
-.k-i-sms::before {
-  content: "\e0b0";
-}
-
 .k-i-tablet-outline::before {
   content: "\e0b1";
 }
@@ -1174,6 +1170,14 @@
 
 .k-i-x-logo-box::before {
   content: "\e0b7";
+}
+
+.k-i-sms-outline::before {
+  content: "\e0b8";
+}
+
+.k-i-sms-solid::before {
+  content: "\e0b9";
 }
 
 .k-i-undo::before {
