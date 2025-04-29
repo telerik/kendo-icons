@@ -1907,16 +1907,6 @@
         "id": 723
     },
     {
-        "name": "sms",
-        "ligatures": [],
-        "aliases": [],
-        "categories": [
-            "social"
-        ],
-        "unicode": "e0b0",
-        "id": 724
-    },
-    {
         "name": "tablet-outline",
         "ligatures": [],
         "aliases": [],
@@ -1985,6 +1975,26 @@
         ],
         "unicode": "e0b7",
         "id": 731
+    },
+    {
+        "name": "sms-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0b8",
+        "id": 732
+    },
+    {
+        "name": "sms-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "social"
+        ],
+        "unicode": "e0b9",
+        "id": 733
     },
     {
         "name": "undo",
