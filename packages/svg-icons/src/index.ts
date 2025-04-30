@@ -187,6 +187,7 @@ export { xLogoBoxIcon } from './icons/x-logo-box';
 export { smsOutlineIcon } from './icons/sms-outline';
 export { smsSolidIcon } from './icons/sms-solid';
 export { therapistOutlineIcon } from './icons/therapist-outline';
+export { therapistSolidIcon } from './icons/therapist-solid';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';

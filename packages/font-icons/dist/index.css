@@ -1188,6 +1188,10 @@
   content: "\e0ba";
 }
 
+.k-i-therapist-solid::before {
+  content: "\e0bb";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }
