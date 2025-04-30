@@ -1751,12 +1751,12 @@
         "id": 705
     },
     {
-        "name": "therapist-outline",
+        "name": "industrial-vehicle",
         "ligatures": [],
         "aliases": [],
         "categories": [],
         "unicode": "e09f",
-        "id": 704
+        "id": 735
     },
     {
         "name": "recycle-outline",
@@ -2005,6 +2005,14 @@
         ],
         "unicode": "e0b9",
         "id": 733
+    },
+    {
+        "name": "therapist-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0ba",
+        "id": 736
     },
     {
         "name": "undo",
