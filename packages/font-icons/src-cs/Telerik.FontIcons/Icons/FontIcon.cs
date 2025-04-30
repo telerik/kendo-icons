@@ -179,6 +179,7 @@ namespace Telerik.FontIcons
         MobileOutline = 721,
         MobileSolidRinging = 722,
         MobileSolid = 723,
+        Locations = 734,
         TabletOutline = 725,
         TabletSolid = 726,
         UsersOutline = 727,

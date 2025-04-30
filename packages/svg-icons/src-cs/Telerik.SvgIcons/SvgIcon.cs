@@ -179,6 +179,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon MobileOutline => new MobileOutline();
         public static ISvgIcon MobileSolidRinging => new MobileSolidRinging();
         public static ISvgIcon MobileSolid => new MobileSolid();
+        public static ISvgIcon Locations => new Locations();
         public static ISvgIcon TabletOutline => new TabletOutline();
         public static ISvgIcon TabletSolid => new TabletSolid();
         public static ISvgIcon UsersOutline => new UsersOutline();
