@@ -1907,6 +1907,16 @@
         "id": 723
     },
     {
+        "name": "locations",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "maps"
+        ],
+        "unicode": "e0b0",
+        "id": 734
+    },
+    {
         "name": "tablet-outline",
         "ligatures": [],
         "aliases": [],
