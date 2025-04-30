@@ -1144,6 +1144,10 @@
   content: "\e0af";
 }
 
+.k-i-locations::before {
+  content: "\e0b0";
+}
+
 .k-i-tablet-outline::before {
   content: "\e0b1";
 }

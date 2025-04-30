@@ -176,6 +176,7 @@ export { mobileOutlineRingingIcon } from './icons/mobile-outline-ringing';
 export { mobileOutlineIcon } from './icons/mobile-outline';
 export { mobileSolidRingingIcon } from './icons/mobile-solid-ringing';
 export { mobileSolidIcon } from './icons/mobile-solid';
+export { locationsIcon } from './icons/locations';
 export { tabletOutlineIcon } from './icons/tablet-outline';
 export { tabletSolidIcon } from './icons/tablet-solid';
 export { usersOutlineIcon } from './icons/users-outline';
