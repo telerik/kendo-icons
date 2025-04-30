@@ -190,6 +190,7 @@ namespace Telerik.FontIcons
         SmsOutline = 732,
         SmsSolid = 733,
         TherapistOutline = 736,
+        TherapistSolid = 737,
         Undo = 111,
         Redo = 112,
         ArrowRotateCcw = 113,
