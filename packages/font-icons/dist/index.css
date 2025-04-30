@@ -1076,7 +1076,7 @@
   content: "\e09e";
 }
 
-.k-i-therapist-outline::before {
+.k-i-industrial-vehicle::before {
   content: "\e09f";
 }
 
@@ -1182,6 +1182,10 @@
 
 .k-i-sms-solid::before {
   content: "\e0b9";
+}
+
+.k-i-therapist-outline::before {
+  content: "\e0ba";
 }
 
 .k-i-undo::before {

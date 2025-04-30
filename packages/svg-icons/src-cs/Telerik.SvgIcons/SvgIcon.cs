@@ -162,7 +162,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon HandleDragDots => new HandleDragDots();
         public static ISvgIcon ArrowDownLeft => new ArrowDownLeft();
         public static ISvgIcon RecycleSolid => new RecycleSolid();
-        public static ISvgIcon TherapistOutline => new TherapistOutline();
+        public static ISvgIcon IndustrialVehicle => new IndustrialVehicle();
         public static ISvgIcon RecycleOutline => new RecycleOutline();
         public static ISvgIcon PlaneSolid => new PlaneSolid();
         public static ISvgIcon PlaneOutline => new PlaneOutline();
@@ -189,6 +189,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon XLogoBox => new XLogoBox();
         public static ISvgIcon SmsOutline => new SmsOutline();
         public static ISvgIcon SmsSolid => new SmsSolid();
+        public static ISvgIcon TherapistOutline => new TherapistOutline();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();
