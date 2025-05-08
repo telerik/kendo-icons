@@ -1204,6 +1204,10 @@
   content: "\e0be";
 }
 
+.k-i-nurse-outline::before {
+  content: "\e0bf";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }
