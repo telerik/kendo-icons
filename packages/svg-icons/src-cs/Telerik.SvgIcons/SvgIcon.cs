@@ -191,6 +191,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon SmsSolid => new SmsSolid();
         public static ISvgIcon TherapistOutline => new TherapistOutline();
         public static ISvgIcon TherapistSolid => new TherapistSolid();
+        public static ISvgIcon PatientSolid => new PatientSolid();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();
