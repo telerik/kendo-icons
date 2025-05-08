@@ -2031,6 +2031,14 @@
         "id": 738
     },
     {
+        "name": "patient-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0bd",
+        "id": 739
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
