@@ -1200,6 +1200,10 @@
   content: "\e0bd";
 }
 
+.k-i-nurse-solid::before {
+  content: "\e0be";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }
