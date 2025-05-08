@@ -1192,6 +1192,10 @@
   content: "\e0bb";
 }
 
+.k-i-patient-solid::before {
+  content: "\e0bc";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }
