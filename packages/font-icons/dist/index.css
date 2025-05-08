@@ -1196,6 +1196,10 @@
   content: "\e0bc";
 }
 
+.k-i-patient-outline::before {
+  content: "\e0bd";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }
