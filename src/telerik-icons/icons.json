@@ -2055,6 +2055,86 @@
         "id": 741
     },
     {
+        "name": "optimization",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e0c0",
+        "id": 742
+    },
+    {
+        "name": "security-check-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e0c1",
+        "id": 743
+    },
+    {
+        "name": "security-check-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e0c2",
+        "id": 744
+    },
+    {
+        "name": "security-lock-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e0c3",
+        "id": 745
+    },
+    {
+        "name": "security-lock-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e0c4",
+        "id": 746
+    },
+    {
+        "name": "upgrade-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e0c5",
+        "id": 747
+    },
+    {
+        "name": "upgrade-reload",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e0c6",
+        "id": 748
+    },
+    {
+        "name": "upgrade-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e0c7",
+        "id": 749
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
