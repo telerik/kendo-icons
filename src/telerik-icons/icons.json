@@ -2023,6 +2023,14 @@
         "id": 737
     },
     {
+        "name": "patient-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0bc",
+        "id": 738
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
