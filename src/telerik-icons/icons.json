@@ -2039,6 +2039,14 @@
         "id": 739
     },
     {
+        "name": "nurse-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0be",
+        "id": 740
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
