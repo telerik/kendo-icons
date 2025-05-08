@@ -191,6 +191,7 @@ export { therapistSolidIcon } from './icons/therapist-solid';
 export { patientSolidIcon } from './icons/patient-solid';
 export { patientOutlineIcon } from './icons/patient-outline';
 export { nurseSolidIcon } from './icons/nurse-solid';
+export { nurseOutlineIcon } from './icons/nurse-outline';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';
