@@ -193,6 +193,7 @@ namespace Telerik.FontIcons
         TherapistSolid = 737,
         PatientSolid = 738,
         PatientOutline = 739,
+        NurseSolid = 740,
         Undo = 111,
         Redo = 112,
         ArrowRotateCcw = 113,
