@@ -195,6 +195,14 @@ namespace Telerik.SvgIcons
         public static ISvgIcon PatientOutline => new PatientOutline();
         public static ISvgIcon NurseSolid => new NurseSolid();
         public static ISvgIcon NurseOutline => new NurseOutline();
+        public static ISvgIcon Optimization => new Optimization();
+        public static ISvgIcon SecurityCheckOutline => new SecurityCheckOutline();
+        public static ISvgIcon SecurityCheckSolid => new SecurityCheckSolid();
+        public static ISvgIcon SecurityLockOutline => new SecurityLockOutline();
+        public static ISvgIcon SecurityLockSolid => new SecurityLockSolid();
+        public static ISvgIcon UpgradeOutline => new UpgradeOutline();
+        public static ISvgIcon UpgradeReload => new UpgradeReload();
+        public static ISvgIcon UpgradeSolid => new UpgradeSolid();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();
