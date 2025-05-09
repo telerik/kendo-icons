@@ -2135,6 +2135,14 @@
         "id": 749
     },
     {
+        "name": "food-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0c8",
+        "id": 750
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
