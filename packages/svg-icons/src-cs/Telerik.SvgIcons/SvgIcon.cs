@@ -203,6 +203,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon UpgradeOutline => new UpgradeOutline();
         public static ISvgIcon UpgradeReload => new UpgradeReload();
         public static ISvgIcon UpgradeSolid => new UpgradeSolid();
+        public static ISvgIcon FoodSolid => new FoodSolid();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();

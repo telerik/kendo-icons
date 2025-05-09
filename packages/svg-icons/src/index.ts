@@ -200,6 +200,7 @@ export { securityLockSolidIcon } from './icons/security-lock-solid';
 export { upgradeOutlineIcon } from './icons/upgrade-outline';
 export { upgradeReloadIcon } from './icons/upgrade-reload';
 export { upgradeSolidIcon } from './icons/upgrade-solid';
+export { foodSolidIcon } from './icons/food-solid';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';
