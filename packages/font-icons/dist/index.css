@@ -1244,6 +1244,10 @@
   content: "\e0c8";
 }
 
+.k-i-food-outline::before {
+  content: "\e0c9";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }

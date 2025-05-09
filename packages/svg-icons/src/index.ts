@@ -201,6 +201,7 @@ export { upgradeOutlineIcon } from './icons/upgrade-outline';
 export { upgradeReloadIcon } from './icons/upgrade-reload';
 export { upgradeSolidIcon } from './icons/upgrade-solid';
 export { foodSolidIcon } from './icons/food-solid';
+export { foodOutlineIcon } from './icons/food-outline';
 export { undoIcon } from './icons/undo';
 export { redoIcon } from './icons/redo';
 export { arrowRotateCcwIcon } from './icons/arrow-rotate-ccw';
