@@ -2143,6 +2143,14 @@
         "id": 750
     },
     {
+        "name": "food-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0c9",
+        "id": 751
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
