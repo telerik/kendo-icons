@@ -203,6 +203,7 @@ namespace Telerik.FontIcons
         UpgradeOutline = 747,
         UpgradeReload = 748,
         UpgradeSolid = 749,
+        FoodSolid = 750,
         Undo = 111,
         Redo = 112,
         ArrowRotateCcw = 113,

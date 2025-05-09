@@ -1240,6 +1240,10 @@
   content: "\e0c7";
 }
 
+.k-i-food-solid::before {
+  content: "\e0c8";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }
