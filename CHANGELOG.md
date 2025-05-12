@@ -3,6 +3,63 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.2.0](https://github.com/telerik/kendo-icons/compare/v4.1.0...v4.2.0) (2025-05-12)
+
+
+### Bug Fixes
+
+* update van icon svg source ([d37f0eb](https://github.com/telerik/kendo-icons/commit/d37f0eb6fef05c7b696d809703941878fb7e3a23))
+
+
+### Features
+
+* add actions icons ([5ad7bbe](https://github.com/telerik/kendo-icons/commit/5ad7bbe926be841f08a9bbe59f9ad8f76cefb17c))
+* add editing icons ([3b08656](https://github.com/telerik/kendo-icons/commit/3b08656ad380b6adabd7f3dda8c648fb9e22f260))
+* add food-outline icon ([95633a3](https://github.com/telerik/kendo-icons/commit/95633a3cab88a2cf186184176b9049dd20ca1f97))
+* add food-solid icon ([53494ba](https://github.com/telerik/kendo-icons/commit/53494ba75d3c42db544020d8e84a172ca895dbd5))
+* add industrial-vehicle icon ([4f91b6a](https://github.com/telerik/kendo-icons/commit/4f91b6a35895182b3f00f6dcafae3a53c58a02a5))
+* add locations icon ([b6287f1](https://github.com/telerik/kendo-icons/commit/b6287f1a5661c7412c11a65054b931b4fae1bda6))
+* add money-exchange icon ([acfc402](https://github.com/telerik/kendo-icons/commit/acfc402b65632de4149427a527f0948041aa36a3))
+* add nurse-outline icon ([b771a6d](https://github.com/telerik/kendo-icons/commit/b771a6d4673c7530061708063596f4aac8b3f9a7))
+* add nurse-solid icon ([97ab296](https://github.com/telerik/kendo-icons/commit/97ab296c1739046a8a739b8a4d747102b9ac84b8))
+* add patient-outline icon ([09cc563](https://github.com/telerik/kendo-icons/commit/09cc563db2082fc125da71e4bcced17a101957a4))
+* add patient-solid icon ([3ecfd08](https://github.com/telerik/kendo-icons/commit/3ecfd08edf42c7a986e24727367d4d02c071c5c3))
+* add plane-outline icon ([6728e94](https://github.com/telerik/kendo-icons/commit/6728e9492be648f7e9033e4544f22beba7f08d63))
+* add plane-solid icon ([7572f97](https://github.com/telerik/kendo-icons/commit/7572f97bc879c23abe5a61fcc3b0a722cd43bac8))
+* add recycle-outline icon ([ca8e6e7](https://github.com/telerik/kendo-icons/commit/ca8e6e770fa8902fd37dbdf8f3331765b432936a))
+* add recycle-solid icon ([4315a84](https://github.com/telerik/kendo-icons/commit/4315a847784b2bc15cbf55688fe7922fe3f44d43))
+* add sms-solid and sms-outline icon ([f106480](https://github.com/telerik/kendo-icons/commit/f1064806a0fd6c66cec214f70b0afbf85328d07b))
+* add social icons ([bbc2d7b](https://github.com/telerik/kendo-icons/commit/bbc2d7bd250895ae4881db34585449673d550820))
+* add speed icon ([a3dd91c](https://github.com/telerik/kendo-icons/commit/a3dd91c99ce4a516387b5c2278f0c833faf2f8dc))
+* add sustainability icon ([d4d9985](https://github.com/telerik/kendo-icons/commit/d4d9985cc6923c26fc9cdd203109bd60d8d84d25))
+* add therapist-solid icon ([2e9fd78](https://github.com/telerik/kendo-icons/commit/2e9fd78d9b381c7a33480ff32ace127a9cabaeff))
+* generate icons metadata ([de4cf83](https://github.com/telerik/kendo-icons/commit/de4cf83af32ac5e49ed364893c15eb4478d54e5a))
+* generate icons metadata ([0289821](https://github.com/telerik/kendo-icons/commit/028982199e4cc9c15395965e052cade2fc4c6183))
+* generate icons metadata ([d86aaa6](https://github.com/telerik/kendo-icons/commit/d86aaa6907e23712a5a8e37a85f9065aea3721d8))
+* generate icons metadata ([39e0508](https://github.com/telerik/kendo-icons/commit/39e0508be9c333aec9894d6fb319a20509957cec))
+* generate icons metadata ([70b3cf2](https://github.com/telerik/kendo-icons/commit/70b3cf28d74770134caada45ad173372a1661dd6))
+* generate icons metadata ([026d77d](https://github.com/telerik/kendo-icons/commit/026d77d96bf3e55424847222bd394e77fe2cd19e))
+* generate icons metadata ([7c61188](https://github.com/telerik/kendo-icons/commit/7c611886d4fd5921eda0108a8e599f93930deb2a))
+* generate icons metadata ([4795f22](https://github.com/telerik/kendo-icons/commit/4795f22349b17c75afc3e52a7911958572f76342))
+* generate icons metadata ([f951002](https://github.com/telerik/kendo-icons/commit/f95100248f6a4f77bf80f3b9c37a67959ba2af6b))
+* generate icons metadata ([80b5bfa](https://github.com/telerik/kendo-icons/commit/80b5bfaf22668eb68866297de3353c76954e447b))
+* generate icons metadata ([6f9b38d](https://github.com/telerik/kendo-icons/commit/6f9b38d99a9a82fc4f465eebf407701808218ae7))
+* generate icons metadata ([228cd40](https://github.com/telerik/kendo-icons/commit/228cd4074374db49c89568653f0bc77bfc2476f2))
+* generate icons metadata ([61e28ef](https://github.com/telerik/kendo-icons/commit/61e28efd2a0d0c9e699a99e55de8c4eb991d4b0b))
+* generate icons metadata ([b66f12f](https://github.com/telerik/kendo-icons/commit/b66f12f93f46ea19a83c69b89c7c860435148682))
+* generate icons metadata ([0c76ec3](https://github.com/telerik/kendo-icons/commit/0c76ec32a8b373474d6a8e81a24bdd5fbc546f44))
+* generate icons metadata ([8987a61](https://github.com/telerik/kendo-icons/commit/8987a6103e96145ee4be63833c2416b33b2fb9e1))
+* generate icons metadata ([0ccb2e1](https://github.com/telerik/kendo-icons/commit/0ccb2e13bd5fc82042408e431a88959c6aeec58e))
+* generate icons metadata ([832f266](https://github.com/telerik/kendo-icons/commit/832f266ee86a4d95d291498c1f115bd583548f6d))
+* generate icons metadata ([ee9a5e0](https://github.com/telerik/kendo-icons/commit/ee9a5e06be6048f4d46c624501945d90a2c85789))
+* generate icons metadata ([401fed9](https://github.com/telerik/kendo-icons/commit/401fed90c7a339ba202fd5ffd2453045de83e155))
+* generate icons metadata ([b98c27a](https://github.com/telerik/kendo-icons/commit/b98c27aceadaf0c51bd609ecb508c83bf4f61c89))
+* generate icons metadata ([13611d7](https://github.com/telerik/kendo-icons/commit/13611d79d6375a74c9ba0e75f1c36a8bf57e379e))
+
+
+
+
+
 # [4.1.0](https://github.com/telerik/kendo-icons/compare/v4.0.0...v4.1.0) (2025-04-15)
 
 
