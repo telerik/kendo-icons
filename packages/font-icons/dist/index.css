@@ -1248,6 +1248,98 @@
   content: "\e0c9";
 }
 
+.k-i-area::before {
+  content: "\e0ca";
+}
+
+.k-i-arrow-shape::before {
+  content: "\e0cb";
+}
+
+.k-i-border-radius-undefined::before {
+  content: "\e0cc";
+}
+
+.k-i-border-width::before {
+  content: "\e0cd";
+}
+
+.k-i-circle-shape::before {
+  content: "\e0ce";
+}
+
+.k-i-combobox::before {
+  content: "\e0cf";
+}
+
+.k-i-cube::before {
+  content: "\e0d0";
+}
+
+.k-i-distance::before {
+  content: "\e0d1";
+}
+
+.k-i-draw-free::before {
+  content: "\e0d2";
+}
+
+.k-i-dropdown::before {
+  content: "\e0d3";
+}
+
+.k-i-eraser-solid::before {
+  content: "\e0d4";
+}
+
+.k-i-hexagon-shape::before {
+  content: "\e0d5";
+}
+
+.k-i-insert-free-text::before {
+  content: "\e0d6";
+}
+
+.k-i-line-shape::before {
+  content: "\e0d7";
+}
+
+.k-i-password-box::before {
+  content: "\e0d8";
+}
+
+.k-i-perimeter::before {
+  content: "\e0d9";
+}
+
+.k-i-rectangle-shape::before {
+  content: "\e0da";
+}
+
+.k-i-replace-free-text::before {
+  content: "\e0db";
+}
+
+.k-i-ruler-outline-alt::before {
+  content: "\e0dc";
+}
+
+.k-i-ruler-solid-alt::before {
+  content: "\e0dd";
+}
+
+.k-i-ruler-solid::before {
+  content: "\e0de";
+}
+
+.k-i-ruler-triangle-outline::before {
+  content: "\e0df";
+}
+
+.k-i-ruler-triangle-solid::before {
+  content: "\e0e0";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }
