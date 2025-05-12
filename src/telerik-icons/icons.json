@@ -2151,6 +2151,236 @@
         "id": 751
     },
     {
+        "name": "area",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0ca",
+        "id": 752
+    },
+    {
+        "name": "arrow-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0cb",
+        "id": 753
+    },
+    {
+        "name": "border-radius-undefined",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0cc",
+        "id": 754
+    },
+    {
+        "name": "border-width",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0cd",
+        "id": 755
+    },
+    {
+        "name": "circle-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0ce",
+        "id": 756
+    },
+    {
+        "name": "combobox",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0cf",
+        "id": 757
+    },
+    {
+        "name": "cube",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0d0",
+        "id": 758
+    },
+    {
+        "name": "distance",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0d1",
+        "id": 759
+    },
+    {
+        "name": "draw-free",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0d2",
+        "id": 760
+    },
+    {
+        "name": "dropdown",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0d3",
+        "id": 761
+    },
+    {
+        "name": "eraser-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0d4",
+        "id": 762
+    },
+    {
+        "name": "hexagon-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0d5",
+        "id": 763
+    },
+    {
+        "name": "insert-free-text",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0d6",
+        "id": 764
+    },
+    {
+        "name": "line-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0d7",
+        "id": 765
+    },
+    {
+        "name": "password-box",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0d8",
+        "id": 766
+    },
+    {
+        "name": "perimeter",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0d9",
+        "id": 767
+    },
+    {
+        "name": "rectangle-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0da",
+        "id": 768
+    },
+    {
+        "name": "replace-free-text",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0db",
+        "id": 769
+    },
+    {
+        "name": "ruler-outline-alt",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0dc",
+        "id": 770
+    },
+    {
+        "name": "ruler-solid-alt",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0dd",
+        "id": 771
+    },
+    {
+        "name": "ruler-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0de",
+        "id": 772
+    },
+    {
+        "name": "ruler-triangle-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0df",
+        "id": 773
+    },
+    {
+        "name": "ruler-triangle-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e0e0",
+        "id": 774
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
