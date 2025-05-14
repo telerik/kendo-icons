@@ -2493,6 +2493,30 @@
         "id": 788
     },
     {
+        "name": "bicycle",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0ef",
+        "id": 789
+    },
+    {
+        "name": "bus",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0f0",
+        "id": 790
+    },
+    {
+        "name": "car",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0f1",
+        "id": 791
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
