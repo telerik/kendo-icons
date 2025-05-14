@@ -2381,6 +2381,118 @@
         "id": 774
     },
     {
+        "name": "award-number-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0e1",
+        "id": 775
+    },
+    {
+        "name": "award-number-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0e2",
+        "id": 776
+    },
+    {
+        "name": "award-star-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0e3",
+        "id": 777
+    },
+    {
+        "name": "award-star-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0e4",
+        "id": 778
+    },
+    {
+        "name": "banknote-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0e5",
+        "id": 779
+    },
+    {
+        "name": "banknote-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0e6",
+        "id": 780
+    },
+    {
+        "name": "bathtube-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0e7",
+        "id": 781
+    },
+    {
+        "name": "bathtube-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0e8",
+        "id": 782
+    },
+    {
+        "name": "bed-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0e9",
+        "id": 783
+    },
+    {
+        "name": "bed-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0ea",
+        "id": 784
+    },
+    {
+        "name": "bug-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0eb",
+        "id": 785
+    },
+    {
+        "name": "bug-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0ec",
+        "id": 786
+    },
+    {
+        "name": "buildings-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0ed",
+        "id": 787
+    },
+    {
+        "name": "buildings-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e0ee",
+        "id": 788
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
