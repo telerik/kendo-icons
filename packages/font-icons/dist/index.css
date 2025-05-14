@@ -1396,6 +1396,18 @@
   content: "\e0ee";
 }
 
+.k-i-bicycle::before {
+  content: "\e0ef";
+}
+
+.k-i-bus::before {
+  content: "\e0f0";
+}
+
+.k-i-car::before {
+  content: "\e0f1";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }

@@ -242,6 +242,9 @@ namespace Telerik.SvgIcons
         public static ISvgIcon BugSolid => new BugSolid();
         public static ISvgIcon BuildingsOutline => new BuildingsOutline();
         public static ISvgIcon BuildingsSolid => new BuildingsSolid();
+        public static ISvgIcon Bicycle => new Bicycle();
+        public static ISvgIcon Bus => new Bus();
+        public static ISvgIcon Car => new Car();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();
