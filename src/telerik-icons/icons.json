@@ -1571,7 +1571,9 @@
         "name": "wallet-solid",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e08c",
         "id": 684
     },
@@ -1689,7 +1691,9 @@
         "name": "van",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e098",
         "id": 696
     },
@@ -1697,7 +1701,9 @@
         "name": "truck",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e099",
         "id": 697
     },
@@ -1705,7 +1711,9 @@
         "name": "wallet-outline",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e09a",
         "id": 698
     },
@@ -1713,7 +1721,9 @@
         "name": "transactions",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e09b",
         "id": 699
     },
@@ -1746,7 +1756,9 @@
         "name": "recycle-solid",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e09e",
         "id": 705
     },
@@ -1754,7 +1766,9 @@
         "name": "industrial-vehicle",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e09f",
         "id": 735
     },
@@ -1762,7 +1776,9 @@
         "name": "recycle-outline",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0a0",
         "id": 706
     },
@@ -1770,7 +1786,9 @@
         "name": "plane-solid",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0a1",
         "id": 707
     },
@@ -1778,7 +1796,9 @@
         "name": "plane-outline",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0a2",
         "id": 708
     },
@@ -1786,7 +1806,9 @@
         "name": "money-exchange",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0a3",
         "id": 713
     },
@@ -1794,7 +1816,9 @@
         "name": "sustainability",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0a4",
         "id": 710
     },
@@ -1802,7 +1826,9 @@
         "name": "speed",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0a5",
         "id": 712
     },
@@ -2010,7 +2036,9 @@
         "name": "therapist-outline",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0ba",
         "id": 736
     },
@@ -2018,7 +2046,9 @@
         "name": "therapist-solid",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0bb",
         "id": 737
     },
@@ -2026,7 +2056,9 @@
         "name": "patient-solid",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0bc",
         "id": 738
     },
@@ -2034,7 +2066,9 @@
         "name": "patient-outline",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0bd",
         "id": 739
     },
@@ -2042,7 +2076,9 @@
         "name": "nurse-solid",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0be",
         "id": 740
     },
@@ -2050,7 +2086,9 @@
         "name": "nurse-outline",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0bf",
         "id": 741
     },
@@ -2138,7 +2176,9 @@
         "name": "food-solid",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0c8",
         "id": 750
     },
@@ -2146,7 +2186,9 @@
         "name": "food-outline",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0c9",
         "id": 751
     },
@@ -2384,7 +2426,9 @@
         "name": "award-number-outline",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0e1",
         "id": 775
     },
@@ -2392,7 +2436,9 @@
         "name": "award-number-solid",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0e2",
         "id": 776
     },
@@ -2400,7 +2446,9 @@
         "name": "award-star-outline",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0e3",
         "id": 777
     },
@@ -2408,7 +2456,9 @@
         "name": "award-star-solid",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0e4",
         "id": 778
     },
@@ -2416,7 +2466,9 @@
         "name": "banknote-outline",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0e5",
         "id": 779
     },
@@ -2424,7 +2476,9 @@
         "name": "banknote-solid",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0e6",
         "id": 780
     },
@@ -2432,7 +2486,9 @@
         "name": "bathtube-outline",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0e7",
         "id": 781
     },
@@ -2440,7 +2496,9 @@
         "name": "bathtube-solid",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0e8",
         "id": 782
     },
@@ -2448,7 +2506,9 @@
         "name": "bed-outline",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0e9",
         "id": 783
     },
@@ -2456,7 +2516,9 @@
         "name": "bed-solid",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0ea",
         "id": 784
     },
@@ -2464,7 +2526,9 @@
         "name": "bug-outline",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0eb",
         "id": 785
     },
@@ -2472,7 +2536,9 @@
         "name": "bug-solid",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0ec",
         "id": 786
     },
@@ -2480,7 +2546,9 @@
         "name": "buildings-outline",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0ed",
         "id": 787
     },
@@ -2488,7 +2556,9 @@
         "name": "buildings-solid",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0ee",
         "id": 788
     },
@@ -2496,7 +2566,9 @@
         "name": "bicycle",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0ef",
         "id": 789
     },
@@ -2504,7 +2576,9 @@
         "name": "bus",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0f0",
         "id": 790
     },
@@ -2512,9 +2586,141 @@
         "name": "car",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "misc"
+        ],
         "unicode": "e0f1",
         "id": 791
+    },
+    {
+        "name": "dashboard-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e0f2",
+        "id": 792
+    },
+    {
+        "name": "dashboard-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e0f3",
+        "id": 793
+    },
+    {
+        "name": "decision",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e0f4",
+        "id": 794
+    },
+    {
+        "name": "directions",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e0f5",
+        "id": 795
+    },
+    {
+        "name": "education-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e0f6",
+        "id": 796
+    },
+    {
+        "name": "education-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e0f7",
+        "id": 797
+    },
+    {
+        "name": "headset",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e0f8",
+        "id": 798
+    },
+    {
+        "name": "luggage-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e0f9",
+        "id": 799
+    },
+    {
+        "name": "luggage-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e0fa",
+        "id": 800
+    },
+    {
+        "name": "non-stop-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e0fb",
+        "id": 801
+    },
+    {
+        "name": "non-stop-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e0fc",
+        "id": 802
+    },
+    {
+        "name": "pills-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e0fd",
+        "id": 803
+    },
+    {
+        "name": "pills-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e0fe",
+        "id": 804
     },
     {
         "name": "undo",
