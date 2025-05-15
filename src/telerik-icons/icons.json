@@ -3809,6 +3809,126 @@
         "id": 806
     },
     {
+        "name": "clean-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e15f",
+        "id": 807
+    },
+    {
+        "name": "clean-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e160",
+        "id": 808
+    },
+    {
+        "name": "concrete-truck",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e161",
+        "id": 809
+    },
+    {
+        "name": "discount-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e162",
+        "id": 810
+    },
+    {
+        "name": "discount-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e163",
+        "id": 811
+    },
+    {
+        "name": "doctor-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e164",
+        "id": 812
+    },
+    {
+        "name": "doctor-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e165",
+        "id": 813
+    },
+    {
+        "name": "lab-technician-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e166",
+        "id": 814
+    },
+    {
+        "name": "lab-technician-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e167",
+        "id": 815
+    },
+    {
+        "name": "sweeper-vehicle",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e168",
+        "id": 816
+    },
+    {
+        "name": "weight-scale-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e169",
+        "id": 817
+    },
+    {
+        "name": "weight-scale-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e16a",
+        "id": 818
+    },
+    {
         "name": "play",
         "ligatures": [],
         "aliases": [],
