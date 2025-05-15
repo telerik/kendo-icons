@@ -2723,6 +2723,16 @@
         "id": 804
     },
     {
+        "name": "plan",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "files-and-folders"
+        ],
+        "unicode": "e0ff",
+        "id": 805
+    },
+    {
         "name": "undo",
         "ligatures": [],
         "aliases": [
