@@ -2152,6 +2152,54 @@
   content: "\e15e";
 }
 
+.k-i-clean-outline::before {
+  content: "\e15f";
+}
+
+.k-i-clean-solid::before {
+  content: "\e160";
+}
+
+.k-i-concrete-truck::before {
+  content: "\e161";
+}
+
+.k-i-discount-outline::before {
+  content: "\e162";
+}
+
+.k-i-discount-solid::before {
+  content: "\e163";
+}
+
+.k-i-doctor-outline::before {
+  content: "\e164";
+}
+
+.k-i-doctor-solid::before {
+  content: "\e165";
+}
+
+.k-i-lab-technician-outline::before {
+  content: "\e166";
+}
+
+.k-i-lab-technician-solid::before {
+  content: "\e167";
+}
+
+.k-i-sweeper-vehicle::before {
+  content: "\e168";
+}
+
+.k-i-weight-scale-outline::before {
+  content: "\e169";
+}
+
+.k-i-weight-scale-solid::before {
+  content: "\e16a";
+}
+
 .k-i-play::before {
   content: "\e200";
 }
