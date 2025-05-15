@@ -3799,6 +3799,16 @@
         "id": 204
     },
     {
+        "name": "question-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "notifications"
+        ],
+        "unicode": "e15e",
+        "id": 806
+    },
+    {
         "name": "play",
         "ligatures": [],
         "aliases": [],
