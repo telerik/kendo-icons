@@ -258,6 +258,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon NonStopSolid => new NonStopSolid();
         public static ISvgIcon PillsOutline => new PillsOutline();
         public static ISvgIcon PillsSolid => new PillsSolid();
+        public static ISvgIcon Plan => new Plan();
         public static ISvgIcon Undo => new Undo();
         public static ISvgIcon Redo => new Redo();
         public static ISvgIcon ArrowRotateCcw => new ArrowRotateCcw();
@@ -352,6 +353,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon Unstick => new Unstick();
         public static ISvgIcon SetColumnPosition => new SetColumnPosition();
         public static ISvgIcon ClockArrowRotate => new ClockArrowRotate();
+        public static ISvgIcon QuestionSolid => new QuestionSolid();
         public static ISvgIcon Play => new Play();
         public static ISvgIcon Pause => new Pause();
         public static ISvgIcon Stop => new Stop();

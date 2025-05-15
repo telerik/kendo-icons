@@ -1460,6 +1460,10 @@
   content: "\e0fe";
 }
 
+.k-i-plan::before {
+  content: "\e0ff";
+}
+
 .k-i-undo::before {
   content: "\e100";
 }
@@ -2142,6 +2146,10 @@
 
 .k-i-clock-arrow-rotate::before {
   content: "\e15d";
+}
+
+.k-i-question-solid::before {
+  content: "\e15e";
 }
 
 .k-i-play::before {
