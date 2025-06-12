@@ -367,6 +367,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon WeightScaleOutline => new WeightScaleOutline();
         public static ISvgIcon WeightScaleSolid => new WeightScaleSolid();
         public static ISvgIcon MicrophoneSolid => new MicrophoneSolid();
+        public static ISvgIcon MicrophoneOutline => new MicrophoneOutline();
         public static ISvgIcon Play => new Play();
         public static ISvgIcon Pause => new Pause();
         public static ISvgIcon Stop => new Stop();

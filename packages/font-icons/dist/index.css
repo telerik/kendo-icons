@@ -2204,6 +2204,10 @@
   content: "\e16b";
 }
 
+.k-i-microphone-outline::before {
+  content: "\e16c";
+}
+
 .k-i-play::before {
   content: "\e200";
 }

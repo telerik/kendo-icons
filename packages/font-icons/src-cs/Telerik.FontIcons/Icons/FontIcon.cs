@@ -367,6 +367,7 @@ namespace Telerik.FontIcons
         WeightScaleOutline = 817,
         WeightScaleSolid = 818,
         MicrophoneSolid = 819,
+        MicrophoneOutline = 820,
         Play = 205,
         Pause = 206,
         Stop = 207,
