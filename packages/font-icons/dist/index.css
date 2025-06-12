@@ -2200,6 +2200,10 @@
   content: "\e16a";
 }
 
+.k-i-microphone-solid::before {
+  content: "\e16b";
+}
+
 .k-i-play::before {
   content: "\e200";
 }

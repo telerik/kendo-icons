@@ -366,6 +366,7 @@ namespace Telerik.FontIcons
         SweeperVehicle = 816,
         WeightScaleOutline = 817,
         WeightScaleSolid = 818,
+        MicrophoneSolid = 819,
         Play = 205,
         Pause = 206,
         Stop = 207,
