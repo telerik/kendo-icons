@@ -3939,6 +3939,16 @@
         "id": 819
     },
     {
+        "name": "microphone-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "media"
+        ],
+        "unicode": "e16c",
+        "id": 820
+    },
+    {
         "name": "play",
         "ligatures": [],
         "aliases": [],
