@@ -3929,6 +3929,16 @@
         "id": 818
     },
     {
+        "name": "microphone-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "media"
+        ],
+        "unicode": "e16b",
+        "id": 819
+    },
+    {
         "name": "play",
         "ligatures": [],
         "aliases": [],
