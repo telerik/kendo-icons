@@ -2208,6 +2208,10 @@
   content: "\e16c";
 }
 
+.k-i-row-expand::before {
+  content: "\e16d";
+}
+
 .k-i-play::before {
   content: "\e200";
 }

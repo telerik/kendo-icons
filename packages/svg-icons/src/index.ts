@@ -365,6 +365,7 @@ export { weightScaleOutlineIcon } from './icons/weight-scale-outline';
 export { weightScaleSolidIcon } from './icons/weight-scale-solid';
 export { microphoneSolidIcon } from './icons/microphone-solid';
 export { microphoneOutlineIcon } from './icons/microphone-outline';
+export { rowExpandIcon } from './icons/row-expand';
 export { playIcon } from './icons/play';
 export { pauseIcon } from './icons/pause';
 export { stopIcon } from './icons/stop';
