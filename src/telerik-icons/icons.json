@@ -3959,6 +3959,16 @@
         "id": 821
     },
     {
+        "name": "row-collapse",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e16e",
+        "id": 822
+    },
+    {
         "name": "play",
         "ligatures": [],
         "aliases": [],
