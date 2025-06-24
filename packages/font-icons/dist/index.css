@@ -2212,6 +2212,10 @@
   content: "\e16d";
 }
 
+.k-i-row-collapse::before {
+  content: "\e16e";
+}
+
 .k-i-play::before {
   content: "\e200";
 }
