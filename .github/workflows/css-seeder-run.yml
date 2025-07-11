@@ -1,0 +1,49 @@
+name: Run css-seeder-job
+on:
+  push:
+    branches:
+      - develop
+    paths:
+      - src/icons/icons.json
+
+jobs:
+  run-css-seeder:
+    runs-on: ubuntu-latest
+    env:
+      KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_PROD }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set job name env
+        run: echo "JOB_NAME=css-seeder-job-$(date +%s)" >> $GITHUB_ENV
+
+      - name: Create Kubernetes Job (argument: icons)
+        uses: actions-hub/kubectl@master
+        env:
+          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_PROD }}
+        with:
+          args: create job $JOB_NAME --image=netcorereplcr.azurecr.io/css-seeder:latest -- icons
+
+      - name: Wait for job to complete
+        uses: actions-hub/kubectl@master
+        env:
+          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_PROD }}
+        with:
+          args: wait --for=condition=complete --timeout=600s job/$JOB_NAME
+
+      - name: Show job logs
+        uses: actions-hub/kubectl@master
+        env:
+          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_PROD }}
+        run: |
+          POD=$(kubectl get pods --selector=job-name=$JOB_NAME -o jsonpath='{.items[0].metadata.name}')
+          kubectl logs $POD
+
+      - name: Clean up job and pods
+        uses: actions-hub/kubectl@master
+        env:
+          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_PROD }}
+        with:
+          args: delete job $JOB_NAME
