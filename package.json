@@ -4,7 +4,8 @@
   "private": true,
   "workspaces": [
     "packages/font-icons",
-    "packages/svg-icons"
+    "packages/svg-icons",
+    "packages/icon-generator"
   ],
   "scripts": {
     "prepare": "husky",
@@ -14,12 +15,16 @@
     "update-icons": "node scripts/update-icons.js",
     "prepare-packages": "npm run build --workspaces",
     "serve": "npx http-server",
-    "update": "npx npm-check-updates --upgrade"
+    "update": "npx npm-check-updates --upgrade",
+    "icon-gen": "cd packages/icon-generator && npm run generate --",
+    "icon-gen:build": "cd packages/icon-generator && npm run build",
+    "icon-gen:install": "cd packages/icon-generator && bash scripts/install.sh",
+    "icon-gen:test": "cd packages/icon-generator && npm run generate test"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.0.3",
-    "@commitlint/config-conventional": "^19.0.3",
-    "@commitlint/core": "^19.0.3",
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "@commitlint/core": "^20.1.0",
     "ansi-colors": "^4.1.1",
     "eslint": "^9.2.0",
     "fs-extra": "^11.1.1",

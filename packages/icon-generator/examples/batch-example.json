@@ -1,0 +1,9 @@
+{
+  "icons": [
+    { "iconName": "home", "variants": ["solid"] },
+    { "iconName": "star", "variants": ["solid"] },
+    { "iconName": "check", "variants": ["solid"] },
+    { "iconName": "heart", "variants": ["solid"] },
+    { "iconName": "settings", "variants": ["solid"] }
+  ]
+}
