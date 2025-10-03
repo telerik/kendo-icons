@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Background layer (40% opacity) -->
+    <path d="M480 64v32H32V64h448z" fill="currentColor" opacity="0.4"/>
+    <path d="m-192 96h192v-32H288v32z" fill="currentColor" opacity="0.4"/>
+    <path d="m0 128h192v-64H288v64z" fill="currentColor" opacity="0.4"/>
+  <!-- Foreground layer (100% opacity) -->
+    <path d="m0 96h192v-32H288v32z" fill="currentColor"/>
+    <path d="m0 64h192v-32H288v32z" fill="currentColor"/>
+    <path d="M96 352h64v-64h64v-64h-64v-64H96v64H32v64h64v64z" fill="currentColor"/>
+</svg>

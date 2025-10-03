@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Background layer (40% opacity) -->
+    <path d="M0 352h96l128 128V32L96 160H0v192z" fill="currentColor" opacity="0.4"/>
+  <!-- Foreground layer (100% opacity) -->
+    <path d="m288 28V132c55.2 14.2 96 64.3 96 124s-40.8 109.8-96 124z" fill="currentColor"/>
+</svg>

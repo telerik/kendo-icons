@@ -1,0 +1,340 @@
+{
+  "timestamp": "2025-10-03T14:23:20.365Z",
+  "total": 30,
+  "categories": {
+    "simple": [
+      "file",
+      "upload",
+      "home",
+      "menu",
+      "plus",
+      "save",
+      "star",
+      "all",
+      "bell",
+      "padding-left"
+    ],
+    "medium": [
+      "download",
+      "image-add",
+      "image-edit",
+      "volume-down",
+      "volume-up",
+      "download-light",
+      "file-add",
+      "folder-add",
+      "folder-up",
+      "file-error",
+      "files-error",
+      "cancel-circle",
+      "file-audio",
+      "file-image",
+      "file-video"
+    ],
+    "complex": [
+      "filter-add-group",
+      "filter-add-expression",
+      "image-map-editor",
+      "file-disc-image",
+      "padding-right"
+    ]
+  },
+  "allIcons": [
+    "file",
+    "upload",
+    "home",
+    "menu",
+    "plus",
+    "save",
+    "star",
+    "all",
+    "bell",
+    "padding-left",
+    "download",
+    "image-add",
+    "image-edit",
+    "volume-down",
+    "volume-up",
+    "download-light",
+    "file-add",
+    "folder-add",
+    "folder-up",
+    "file-error",
+    "files-error",
+    "cancel-circle",
+    "file-audio",
+    "file-image",
+    "file-video",
+    "filter-add-group",
+    "filter-add-expression",
+    "image-map-editor",
+    "file-disc-image",
+    "padding-right"
+  ],
+  "fullList": [
+    {
+      "name": "filter-add-group",
+      "score": 29,
+      "categories": [
+        "navigation",
+        "actions",
+        "search"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "name": "file",
+      "score": 21,
+      "categories": [
+        "files",
+        "user"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "name": "upload",
+      "score": 21,
+      "categories": [
+        "navigation",
+        "files"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "name": "padding-left",
+      "score": 20,
+      "categories": [
+        "navigation",
+        "actions"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "name": "padding-right",
+      "score": 20,
+      "categories": [
+        "navigation",
+        "actions"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "name": "download",
+      "score": 19,
+      "categories": [
+        "navigation",
+        "files"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "name": "filter-add-expression",
+      "score": 19,
+      "categories": [
+        "actions",
+        "search"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "name": "image-add",
+      "score": 18,
+      "categories": [
+        "actions",
+        "media"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "name": "image-edit",
+      "score": 18,
+      "categories": [
+        "actions",
+        "media"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "name": "image-map-editor",
+      "score": 18,
+      "categories": [
+        "actions",
+        "media"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "name": "volume-down",
+      "score": 18,
+      "categories": [
+        "navigation",
+        "media"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "name": "volume-up",
+      "score": 18,
+      "categories": [
+        "navigation",
+        "media"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "name": "download-light",
+      "score": 17,
+      "categories": [
+        "navigation",
+        "files"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "name": "file-add",
+      "score": 17,
+      "categories": [
+        "actions",
+        "files"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "name": "folder-add",
+      "score": 17,
+      "categories": [
+        "actions",
+        "files"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "name": "folder-up",
+      "score": 17,
+      "categories": [
+        "navigation",
+        "files"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "name": "home",
+      "score": 17,
+      "categories": [
+        "navigation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "name": "menu",
+      "score": 17,
+      "categories": [
+        "navigation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "name": "plus",
+      "score": 17,
+      "categories": [
+        "actions"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "name": "save",
+      "score": 17,
+      "categories": [
+        "actions"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "name": "file-error",
+      "score": 16,
+      "categories": [
+        "status",
+        "files"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "name": "files-error",
+      "score": 16,
+      "categories": [
+        "status",
+        "files"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "name": "star",
+      "score": 16,
+      "categories": [
+        "status"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "name": "all",
+      "score": 15,
+      "categories": [
+        "communication"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "name": "bell",
+      "score": 15,
+      "categories": [
+        "communication"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "name": "cancel-circle",
+      "score": 15,
+      "categories": [
+        "actions",
+        "basic_shapes"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "name": "file-audio",
+      "score": 15,
+      "categories": [
+        "media",
+        "files"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "name": "file-disc-image",
+      "score": 15,
+      "categories": [
+        "media",
+        "files"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "name": "file-image",
+      "score": 15,
+      "categories": [
+        "media",
+        "files"
+      ],
+      "complexity": "medium"
+    },
+    {
+      "name": "file-video",
+      "score": 15,
+      "categories": [
+        "media",
+        "files"
+      ],
+      "complexity": "medium"
+    }
+  ]
+}

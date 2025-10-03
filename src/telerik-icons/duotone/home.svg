@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Background house (40% opacity) -->
+  <path d="M80 240L256 80 432 240v192H80V240z" fill="currentColor" opacity="0.4"/>
+  <!-- Foreground door (100% opacity) -->
+  <rect x="208" y="320" width="96" height="112" fill="currentColor"/>
+</svg>
