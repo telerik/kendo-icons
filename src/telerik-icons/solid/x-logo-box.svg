@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
 <path d="M448 32H64C46.34 32 32 46.34 32 64V448C32 465.66 46.34 480 64 480H448C465.66 480 480 465.66 480 448V64C480 46.34 465.66 32 448 32ZM448 448H312.04L224.02 307L95.06 448H64.04L210.02 290L64 64H199.05L288.02 204L416 64H448L302.55 222.49L448 448ZM270.45 226.89L185.08 96H119.03L241.02 285L325.91 416H392.01L283.42 247.48L270.45 226.89Z" fill="black"/>
 </svg>

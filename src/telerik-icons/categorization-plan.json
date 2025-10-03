@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-10-03T14:16:43.986Z",
+  "summary": {
+    "total": 807,
+    "solid": 807,
+    "outline": 0,
+    "duotone": 0,
+    "mixed": 0
+  },
+  "actions": {
+    "moveToOutline": [],
+    "moveToDuotone": [],
+    "reviewMixed": [],
+    "normalizeDimensions": [
+      "non-recurrence"
+    ]
+  },
+  "recommendations": [
+    "Create /outline and /duotone directories",
+    "Move outline icons to /outline",
+    "Move duotone icons to /duotone",
+    "Review mixed style icons manually",
+    "Normalize all icons to 512x512 viewBox",
+    "Generate missing variants using icon-generator"
+  ]
+}

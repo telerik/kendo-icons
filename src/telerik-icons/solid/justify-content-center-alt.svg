@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <path d="M415 192H95V64h320v128zM31 224v32h448v-32H31zm65 192h320V288H96v128z"/>
+<path d="M415 192H95V64h320v128zM31 224v32h448v-32H31zm65 192h320V288H96v128z"/>
 </svg>

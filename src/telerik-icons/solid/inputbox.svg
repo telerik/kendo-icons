@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
-  <path d="M32 160V352C45 351.93 480 352 480 352V160H32ZM448 320H64V192H448V320ZM96 240H368V272H96V240ZM416 208V304H400V208H416Z" fill="black"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<path d="M32 160V352C45 351.93 480 352 480 352V160H32ZM448 320H64V192H448V320ZM96 240H368V272H96V240ZM416 208V304H400V208H416Z" fill="black"/>
 </svg>
