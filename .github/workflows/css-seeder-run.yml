@@ -19,7 +19,7 @@ jobs:
       - name: Set job name env
         run: echo "JOB_NAME=css-seeder-job-$(date +%s)" >> $GITHUB_ENV
 
-      - name: Create Kubernetes Job (argument: icons)
+      - name: Create Kubernetes Job
         uses: actions-hub/kubectl@master
         env:
           KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_PROD }}
@@ -33,13 +33,20 @@ jobs:
         with:
           args: wait --for=condition=complete --timeout=600s job/$JOB_NAME
 
+      - name: Get pod name
+        id: get-pod
+        uses: actions-hub/kubectl@master
+        env:
+          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_PROD }}
+        with:
+          args: get pods --selector=job-name=$JOB_NAME -o jsonpath='{.items[0].metadata.name}'
+
       - name: Show job logs
         uses: actions-hub/kubectl@master
         env:
           KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_PROD }}
-        run: |
-          POD=$(kubectl get pods --selector=job-name=$JOB_NAME -o jsonpath='{.items[0].metadata.name}')
-          kubectl logs $POD
+        with:
+          args: logs ${{ steps.get-pod.outputs.stdout }}
 
       - name: Clean up job and pods
         uses: actions-hub/kubectl@master
