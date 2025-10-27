@@ -7,12 +7,17 @@ updates:
     schedule:
       interval: "monthly"
     target-branch: "develop"
-    allow:
-      - dependency-name: "*"
-        dependency-type: "direct"
     reviewers:
       - "telerik/kendo-front-end"
     groups:
       dev-dependencies:
+        patterns:
+          - "*"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    groups:
+      all-actions:
         patterns:
           - "*"

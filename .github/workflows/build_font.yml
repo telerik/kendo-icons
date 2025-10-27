@@ -13,23 +13,21 @@ jobs:
 
     steps:
       - name: Checkout branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           token: ${{ github.token }}
 
       - name: Setup node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           cache: 'npm'
-          node-version: 20.x
+          node-version: 24.x
 
       - name: Install
-        run: |
-          npm ci
+        run: npm ci --no-audit --no-fund
 
       - name: Build assets
-        run: |
-          npm run build --workspaces
+        run: npm run build --workspaces
 
       - name: Compare artifacts
         run: |
