@@ -19,7 +19,7 @@ jobs:
       - name: Set job name env
         run: echo "JOB_NAME=css-seeder-job-$(date +%s)" >> $GITHUB_ENV
 
-      - name: Create Kubernetes Job (argument: icons)
+      - name: Create Kubernetes Job
         uses: actions-hub/kubectl@master
         env:
           KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_PROD }}
