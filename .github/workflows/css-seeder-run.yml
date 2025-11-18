@@ -4,53 +4,127 @@ on:
     branches:
       - develop
     paths:
-      - src/icons/icons.json
+      - src/telerik-icons/icons.json
+  workflow_dispatch:
 
 jobs:
   run-css-seeder:
-    runs-on: ubuntu-latest
-    env:
-      KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_PROD }}
+    runs-on: ai-first-acr
+    container:
+      image: ghcr.io/telerik/cloud-deploy:dev
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ github.token }}
+      options: >-
+        --user 1000
+        -v /var/run/docker.sock:/var/run/docker.sock
+      env:
+        DOCKER_HOST: unix:///var/run/docker.sock
+        KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_PROD }}  
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
 
+      - name: 'Set Docker socket permissions'
+        run: sudo chmod 666 /var/run/docker.sock
+
       - name: Set job name env
         run: echo "JOB_NAME=css-seeder-job-$(date +%s)" >> $GITHUB_ENV
 
-      - name: Create Kubernetes Job
-        uses: actions-hub/kubectl@master
-        env:
-          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_PROD }}
+      - name: 'Login via Azure CLI'
+        uses: azure/login@v2
         with:
-          args: create job $JOB_NAME --image=netcorereplcr.azurecr.io/css-seeder:latest -- icons
+          creds: ${{ secrets.PROD_AZURE_CREDENTIALS }}
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Get AKS Private Endpoint IP
+        id: get-aks-ip
+        run: |
+          RG_NAME='MC_ai-builder_ai-builder-aks-prod_eastus'
+          DNS_RECORD_NAME='ai-builder-aks-prod-dns-15m4i29v'
+          DNS_ZONE='01a245c9-a025-4abc-9d83-c07ba06894c7.privatelink.eastus.azmk8s.io'
+
+          IP=$(az network private-dns record-set a show \
+            -g "$RG_NAME" \
+            -n "$DNS_RECORD_NAME" \
+            -z "$DNS_ZONE" \
+            | jq -r '.aRecords[0].ipv4Address')
+
+          if [ -z "$IP" ] || [ "$IP" = "null" ]; then
+            echo "❌ Could not retrieve Private IP address from DNS record '$DNS_RECORD_NAME' in zone '$DNS_ZONE'"
+            exit 1
+          fi
+
+          echo "✅ AKS Private Endpoint IP: $IP"
+          echo "ip=$IP" >> $GITHUB_OUTPUT
+
+      - name: Update hosts file with AKS Private Endpoint
+        run: |
+          AKS_IP="${{ steps.get-aks-ip.outputs.ip }}"
+          AKS_FQDN='ai-builder-aks-prod-dns-15m4i29v.01a245c9-a025-4abc-9d83-c07ba06894c7.privatelink.eastus.azmk8s.io'
+          
+          echo "$AKS_IP $AKS_FQDN" | sudo tee -a /etc/hosts
+          
+          if [ -f /etc/hosts_host ]; then
+            echo "$AKS_IP $AKS_FQDN" | sudo tee -a /etc/hosts_host
+          fi
+          
+          echo "=== Updated /etc/hosts ==="
+          cat /etc/hosts | tail -n 5
+
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v4
+
+      - name: Create Kubernetes Job with secrets
+        run: |
+          echo "$KUBE_CONFIG" | base64 -d > /tmp/kubeconfig
+          export KUBECONFIG=/tmp/kubeconfig
+                    
+          cat <<EOF | kubectl apply -f -
+          apiVersion: batch/v1
+          kind: Job
+          metadata:
+            name: $JOB_NAME
+          spec:
+            template:
+              spec:
+                containers:
+                - name: css-seeder
+                  image: aifirst.azurecr.io/css-seeder:latest
+                  args: ["icons"]
+                  envFrom:
+                  - secretRef:
+                      name: ai-builder-app-secrets
+                restartPolicy: Never
+            backoffLimit: 1
+          EOF
 
       - name: Wait for job to complete
-        uses: actions-hub/kubectl@master
-        env:
-          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_PROD }}
-        with:
-          args: wait --for=condition=complete --timeout=600s job/$JOB_NAME
+        run: |
+          export KUBECONFIG=/tmp/kubeconfig
+          kubectl wait --for=condition=complete --timeout=600s job/$JOB_NAME
 
       - name: Get pod name
         id: get-pod
-        uses: actions-hub/kubectl@master
-        env:
-          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_PROD }}
-        with:
-          args: get pods --selector=job-name=$JOB_NAME -o jsonpath='{.items[0].metadata.name}'
+        run: |
+          export KUBECONFIG=/tmp/kubeconfig
+          POD_NAME=$(kubectl get pods --selector=job-name=$JOB_NAME -o jsonpath='{.items[0].metadata.name}')
+          echo "pod_name=$POD_NAME" >> $GITHUB_OUTPUT
 
       - name: Show job logs
-        uses: actions-hub/kubectl@master
-        env:
-          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_PROD }}
-        with:
-          args: logs ${{ steps.get-pod.outputs.stdout }}
+        run: |
+          export KUBECONFIG=/tmp/kubeconfig
+          kubectl logs ${{ steps.get-pod.outputs.pod_name }}
 
       - name: Clean up job and pods
-        uses: actions-hub/kubectl@master
-        env:
-          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_PROD }}
-        with:
-          args: delete job $JOB_NAME
+        if: always()
+        run: |
+          if [ -f /tmp/kubeconfig ]; then
+            export KUBECONFIG=/tmp/kubeconfig
+            kubectl delete job $JOB_NAME || true
+          else
+            echo "Kubeconfig not found, skipping cleanup"
+          fi
