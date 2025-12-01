@@ -31,7 +31,7 @@ jobs:
           export-secrets-to-environment: false
 
       - name: Check out branch
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: develop
           fetch-depth: 0 # Fetch all branches

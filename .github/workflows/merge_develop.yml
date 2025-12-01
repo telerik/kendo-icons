@@ -27,7 +27,7 @@ jobs:
           export-secrets-to-environment: false
 
       - name: Check out master
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: master
           fetch-depth: 0 # Fetch all branches
