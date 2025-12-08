@@ -3969,6 +3969,16 @@
         "id": 822
     },
     {
+        "name": "menu-filter",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e16f",
+        "id": 823
+    },
+    {
         "name": "play",
         "ligatures": [],
         "aliases": [],
