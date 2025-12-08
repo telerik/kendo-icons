@@ -368,6 +368,7 @@ export { microphoneOutlineIcon } from './icons/microphone-outline';
 export { rowExpandIcon } from './icons/row-expand';
 export { rowCollapseIcon } from './icons/row-collapse';
 export { menuFilterIcon } from './icons/menu-filter';
+export { menuSortAscIcon } from './icons/menu-sort-asc';
 export { playIcon } from './icons/play';
 export { pauseIcon } from './icons/pause';
 export { stopIcon } from './icons/stop';
