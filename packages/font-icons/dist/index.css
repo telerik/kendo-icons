@@ -2216,6 +2216,10 @@
   content: "\e16e";
 }
 
+.k-i-menu-filter::before {
+  content: "\e16f";
+}
+
 .k-i-play::before {
   content: "\e200";
 }
