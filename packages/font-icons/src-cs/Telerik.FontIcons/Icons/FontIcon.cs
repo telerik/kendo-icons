@@ -370,6 +370,7 @@ namespace Telerik.FontIcons
         MicrophoneOutline = 820,
         RowExpand = 821,
         RowCollapse = 822,
+        MenuFilter = 823,
         Play = 205,
         Pause = 206,
         Stop = 207,
