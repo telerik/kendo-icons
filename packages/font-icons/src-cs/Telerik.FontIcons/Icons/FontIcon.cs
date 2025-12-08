@@ -372,6 +372,7 @@ namespace Telerik.FontIcons
         RowCollapse = 822,
         MenuFilter = 823,
         MenuSortAsc = 824,
+        MenuSortDesc = 825,
         Play = 205,
         Pause = 206,
         Stop = 207,
