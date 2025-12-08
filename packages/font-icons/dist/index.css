@@ -2224,6 +2224,10 @@
   content: "\e170";
 }
 
+.k-i-menu-sort-desc::before {
+  content: "\e171";
+}
+
 .k-i-play::before {
   content: "\e200";
 }
