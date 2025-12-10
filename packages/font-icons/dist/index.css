@@ -2216,6 +2216,18 @@
   content: "\e16e";
 }
 
+.k-i-menu-filter::before {
+  content: "\e16f";
+}
+
+.k-i-menu-sort-asc::before {
+  content: "\e170";
+}
+
+.k-i-menu-sort-desc::before {
+  content: "\e171";
+}
+
 .k-i-play::before {
   content: "\e200";
 }
