@@ -370,6 +370,9 @@ namespace Telerik.SvgIcons
         public static ISvgIcon MicrophoneOutline => new MicrophoneOutline();
         public static ISvgIcon RowExpand => new RowExpand();
         public static ISvgIcon RowCollapse => new RowCollapse();
+        public static ISvgIcon MenuFilter => new MenuFilter();
+        public static ISvgIcon MenuSortAsc => new MenuSortAsc();
+        public static ISvgIcon MenuSortDesc => new MenuSortDesc();
         public static ISvgIcon Play => new Play();
         public static ISvgIcon Pause => new Pause();
         public static ISvgIcon Stop => new Stop();
