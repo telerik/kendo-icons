@@ -3999,6 +3999,16 @@
         "id": 825
     },
     {
+        "name": "paste-sparkle",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "editing"
+        ],
+        "unicode": "e172",
+        "id": 826
+    },
+    {
         "name": "play",
         "ligatures": [],
         "aliases": [],
