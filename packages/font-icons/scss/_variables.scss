@@ -15,7 +15,7 @@ $ki-icon-size-xxxl: calc( #{$ki-icon-size} * 3 ) !default;
 
 $ki-embed-font: false !default;
 $ki-font-file-url: "kendo-font-icons.ttf" !default;
-$ki-font-url: if( $ki-embed-font == true, $ki-font-data-url, $ki-font-file-url ) !default;
+$ki-font-url: if(sass($ki-embed-font): $ki-font-data-url; else: $ki-font-file-url) !default;
 
 $ki-css-prefix: "k-i-" !default;
 
