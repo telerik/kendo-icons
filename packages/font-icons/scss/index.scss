@@ -47,7 +47,7 @@
 
         // SVG Icon sizes
         @each $size, $value in $ki-icon-sizes {
-            #{if($ki-icon-default-size == $size, "&,", null)}
+            #{if(sass($ki-icon-default-size == $size): "&,"; else: null)}
             &.k-icon-#{$size} {
                 font-size: $value;
             }
