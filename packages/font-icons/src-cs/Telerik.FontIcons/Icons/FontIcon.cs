@@ -377,6 +377,7 @@ namespace Telerik.FontIcons
         PinSolid = 827,
         PinOutline = 828,
         UnpinSolid = 829,
+        UnpinOutline = 830,
         Play = 205,
         Pause = 206,
         Stop = 207,
