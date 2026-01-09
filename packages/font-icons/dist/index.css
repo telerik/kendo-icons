@@ -2252,6 +2252,10 @@
   content: "\e177";
 }
 
+.k-i-pin-outline-bottom::before {
+  content: "\e178";
+}
+
 .k-i-play::before {
   content: "\e200";
 }
