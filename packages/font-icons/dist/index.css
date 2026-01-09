@@ -2240,6 +2240,10 @@
   content: "\e174";
 }
 
+.k-i-unpin-solid::before {
+  content: "\e175";
+}
+
 .k-i-play::before {
   content: "\e200";
 }
