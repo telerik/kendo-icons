@@ -379,6 +379,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon UnpinSolid => new UnpinSolid();
         public static ISvgIcon UnpinOutline => new UnpinOutline();
         public static ISvgIcon PinOutlineTop => new PinOutlineTop();
+        public static ISvgIcon PinOutlineBottom => new PinOutlineBottom();
         public static ISvgIcon Play => new Play();
         public static ISvgIcon Pause => new Pause();
         public static ISvgIcon Stop => new Stop();
