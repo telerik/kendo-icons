@@ -375,6 +375,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon MenuSortDesc => new MenuSortDesc();
         public static ISvgIcon PasteSparkle => new PasteSparkle();
         public static ISvgIcon PinSolid => new PinSolid();
+        public static ISvgIcon PinOutline => new PinOutline();
         public static ISvgIcon Play => new Play();
         public static ISvgIcon Pause => new Pause();
         public static ISvgIcon Stop => new Stop();
