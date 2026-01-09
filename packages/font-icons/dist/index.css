@@ -2232,6 +2232,10 @@
   content: "\e172";
 }
 
+.k-i-pin-solid::before {
+  content: "\e173";
+}
+
 .k-i-play::before {
   content: "\e200";
 }

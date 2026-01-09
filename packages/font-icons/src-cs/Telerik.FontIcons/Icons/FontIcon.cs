@@ -374,6 +374,7 @@ namespace Telerik.FontIcons
         MenuSortAsc = 824,
         MenuSortDesc = 825,
         PasteSparkle = 826,
+        PinSolid = 827,
         Play = 205,
         Pause = 206,
         Stop = 207,
