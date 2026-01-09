@@ -4009,6 +4009,16 @@
         "id": 826
     },
     {
+        "name": "pin-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e173",
+        "id": 827
+    },
+    {
         "name": "play",
         "ligatures": [],
         "aliases": [],
