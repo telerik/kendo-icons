@@ -1,3 +1,5 @@
+$ki-icon-default-size: md !default;
+
 $ki-icon-size: 16px !default;
 
 $ki-icon-size-xs: calc( #{$ki-icon-size} * .75 ) !default;
@@ -7,6 +9,16 @@ $ki-icon-size-lg: calc( #{$ki-icon-size} * 1.25 ) !default;
 $ki-icon-size-xl: calc( #{$ki-icon-size} * 1.5 ) !default;
 $ki-icon-size-xxl: calc( #{$ki-icon-size} * 2 ) !default;
 $ki-icon-size-xxxl: calc( #{$ki-icon-size} * 3 ) !default;
+
+$ki-icon-sizes: (
+    xs: $ki-icon-size-xs,
+    sm: $ki-icon-size-sm,
+    md: $ki-icon-size-md,
+    lg: $ki-icon-size-lg,
+    xl: $ki-icon-size-xl,
+    xxl: $ki-icon-size-xxl,
+    xxxl: $ki-icon-size-xxxl
+) !default;
 
 $ki-rotate-map: (
     0: 0deg,

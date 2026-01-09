@@ -22,7 +22,6 @@
         width: 1em;
         height: 1em;
         outline: 0;
-        font-size: $ki-icon-size;
         font-family: $ki-font-family;
         font-style: normal;
         font-variant: normal;
@@ -45,37 +44,20 @@
         &:focus {
             text-decoration: none;
         }
+
+        // SVG Icon sizes
+        @each $size, $value in $ki-icon-sizes {
+            #{if($ki-icon-default-size == $size, "&,", null)}
+            &.k-icon-#{$size} {
+                font-size: $value;
+            }
+        }
     }
 
     // Empty icon
     .k-i-none::before {
         display: none !important; // stylelint-disable-line
     }
-
-
-    // Icon sizes
-    .k-icon-xs {
-        font-size: $ki-icon-size-xs;
-    }
-    .k-icon-sm {
-        font-size: $ki-icon-size-sm;
-    }
-    .k-icon-md {
-        font-size: $ki-icon-size-md;
-    }
-    .k-icon-lg {
-        font-size: $ki-icon-size-lg;
-    }
-    .k-icon-xl {
-        font-size: $ki-icon-size-xl;
-    }
-    .k-icon-xxl {
-        font-size: $ki-icon-size-xxl;
-    }
-    .k-icon-xxxl {
-        font-size: $ki-icon-size-xxxl;
-    }
-
 
     // Flip
     .k-flip-h {
