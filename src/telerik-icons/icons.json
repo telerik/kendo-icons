@@ -4029,6 +4029,16 @@
         "id": 828
     },
     {
+        "name": "unpin-solid",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e175",
+        "id": 829
+    },
+    {
         "name": "play",
         "ligatures": [],
         "aliases": [],
