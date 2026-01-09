@@ -2248,6 +2248,10 @@
   content: "\e176";
 }
 
+.k-i-pin-outline-top::before {
+  content: "\e177";
+}
+
 .k-i-play::before {
   content: "\e200";
 }
