@@ -373,6 +373,7 @@ export { menuSortDescIcon } from './icons/menu-sort-desc';
 export { pasteSparkleIcon } from './icons/paste-sparkle';
 export { pinSolidIcon } from './icons/pin-solid';
 export { pinOutlineIcon } from './icons/pin-outline';
+export { unpinSolidIcon } from './icons/unpin-solid';
 export { playIcon } from './icons/play';
 export { pauseIcon } from './icons/pause';
 export { stopIcon } from './icons/stop';
