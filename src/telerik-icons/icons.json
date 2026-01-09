@@ -4019,6 +4019,16 @@
         "id": 827
     },
     {
+        "name": "pin-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e174",
+        "id": 828
+    },
+    {
         "name": "play",
         "ligatures": [],
         "aliases": [],
