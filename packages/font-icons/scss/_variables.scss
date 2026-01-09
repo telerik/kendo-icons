@@ -1,5 +1,7 @@
 @use "./_font.scss" as *;
 
+$ki-icon-default-size: md !default;
+
 $ki-font-family: "WebComponentsIcons" !default;
 $ki-icon-size: 16px !default;
 
@@ -16,6 +18,16 @@ $ki-font-file-url: "kendo-font-icons.ttf" !default;
 $ki-font-url: if( $ki-embed-font == true, $ki-font-data-url, $ki-font-file-url ) !default;
 
 $ki-css-prefix: "k-i-" !default;
+
+$ki-icon-sizes: (
+    xs: $ki-icon-size-xs,
+    sm: $ki-icon-size-sm,
+    md: $ki-icon-size-md,
+    lg: $ki-icon-size-lg,
+    xl: $ki-icon-size-xl,
+    xxl: $ki-icon-size-xxl,
+    xxxl: $ki-icon-size-xxxl
+) !default;
 
 $ki-rotate-map: (
     0: 0deg,
