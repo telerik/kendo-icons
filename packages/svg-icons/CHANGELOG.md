@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.6.0](https://github.com/telerik/kendo-icons/compare/v4.5.0...v4.6.0) (2026-01-13)
+
+
+### Features
+
+* add default options ([e0e4e75](https://github.com/telerik/kendo-icons/commit/e0e4e752109b2fb29fd25c1bfddb5ae65a501376))
+* generate icons metadata ([ef7470f](https://github.com/telerik/kendo-icons/commit/ef7470f40c0642475af59804269f17180f63dd4e))
+* generate icons metadata ([de67c8d](https://github.com/telerik/kendo-icons/commit/de67c8d88e24bfb82d23a0505ae548eb94c5deb9))
+* generate icons metadata ([da3c73e](https://github.com/telerik/kendo-icons/commit/da3c73ed6c4259ef47ec2043f7cc9be86be88c86))
+* generate icons metadata ([ea5ba26](https://github.com/telerik/kendo-icons/commit/ea5ba268f4bf5781eec34de67eb47ef12068ed6e))
+* generate icons metadata ([f58452e](https://github.com/telerik/kendo-icons/commit/f58452eab716ee4d54dfd8ee0ff7be3a9a80f821))
+* generate icons metadata ([6de1865](https://github.com/telerik/kendo-icons/commit/6de1865805b08aba3ac9469b10de98382dfd44a7))
+* generate icons metadata ([692c28b](https://github.com/telerik/kendo-icons/commit/692c28b4ab552415cdd1c11bbcb0a9f4848ba0e5))
+* generate icons metadata ([32c4edf](https://github.com/telerik/kendo-icons/commit/32c4edfadcd30057c0753c50edf361ebc6eb48ee))
+* generate icons metadata ([9ce527f](https://github.com/telerik/kendo-icons/commit/9ce527f816ffa6cecf77467b89e37cef30b4b8a7))
+* generate icons metadata ([c21466b](https://github.com/telerik/kendo-icons/commit/c21466b0f8dbd7c2b21aa4c28a6a5643b35c8e41))
+
+
+
+
+
 # [4.5.0](https://github.com/telerik/kendo-icons/compare/v4.4.0...v4.5.0) (2025-06-24)
 
 

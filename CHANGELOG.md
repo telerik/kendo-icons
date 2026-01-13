@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.6.0](https://github.com/telerik/kendo-icons/compare/v4.5.0...v4.6.0) (2026-01-13)
+
+
+### Features
+
+* add default options ([e0e4e75](https://github.com/telerik/kendo-icons/commit/e0e4e752109b2fb29fd25c1bfddb5ae65a501376))
+* add menu-filter icon ([597cf8f](https://github.com/telerik/kendo-icons/commit/597cf8fbd84f41049ff23477050090d16b01faa8))
+* add menu-sort-asc icon ([6342b9c](https://github.com/telerik/kendo-icons/commit/6342b9ce8abe6279207d8901d9d91b3b5af18685))
+* add menu-sort-desc icon ([1bc8a5e](https://github.com/telerik/kendo-icons/commit/1bc8a5e0a2bd961820f199c1491d36d949188611))
+* add paste-sparkle icon ([90c775f](https://github.com/telerik/kendo-icons/commit/90c775f98191cc9cfa7d8efad489fd267a750ab0))
+* add pin-outline icon ([c14e75d](https://github.com/telerik/kendo-icons/commit/c14e75d8647071f901faf60462428c4894b747b3))
+* add pin-outline-bottom icon ([7eae441](https://github.com/telerik/kendo-icons/commit/7eae4413e85e0d2fea3f06ab73a1a83200957ca5))
+* add pin-outline-top icon ([f6a1154](https://github.com/telerik/kendo-icons/commit/f6a11546384b08a2f228e1c93133fa6619967166))
+* add pin-solid icon ([af6fda4](https://github.com/telerik/kendo-icons/commit/af6fda46de6dbdbe17e4b3ffcac2b8cd6a3f4bb0))
+* add unpin-outline icon ([c5a94a6](https://github.com/telerik/kendo-icons/commit/c5a94a68c2d2b7d81fa20baf43770d182d67a121))
+* add unpin-solid icon ([6b7eb0d](https://github.com/telerik/kendo-icons/commit/6b7eb0dcd001d4031e9f580f918971713e98d6b8))
+* generate icons metadata ([ef7470f](https://github.com/telerik/kendo-icons/commit/ef7470f40c0642475af59804269f17180f63dd4e))
+* generate icons metadata ([de67c8d](https://github.com/telerik/kendo-icons/commit/de67c8d88e24bfb82d23a0505ae548eb94c5deb9))
+* generate icons metadata ([da3c73e](https://github.com/telerik/kendo-icons/commit/da3c73ed6c4259ef47ec2043f7cc9be86be88c86))
+* generate icons metadata ([ea5ba26](https://github.com/telerik/kendo-icons/commit/ea5ba268f4bf5781eec34de67eb47ef12068ed6e))
+* generate icons metadata ([f58452e](https://github.com/telerik/kendo-icons/commit/f58452eab716ee4d54dfd8ee0ff7be3a9a80f821))
+* generate icons metadata ([6de1865](https://github.com/telerik/kendo-icons/commit/6de1865805b08aba3ac9469b10de98382dfd44a7))
+* generate icons metadata ([692c28b](https://github.com/telerik/kendo-icons/commit/692c28b4ab552415cdd1c11bbcb0a9f4848ba0e5))
+* generate icons metadata ([32c4edf](https://github.com/telerik/kendo-icons/commit/32c4edfadcd30057c0753c50edf361ebc6eb48ee))
+* generate icons metadata ([9ce527f](https://github.com/telerik/kendo-icons/commit/9ce527f816ffa6cecf77467b89e37cef30b4b8a7))
+* generate icons metadata ([c21466b](https://github.com/telerik/kendo-icons/commit/c21466b0f8dbd7c2b21aa4c28a6a5643b35c8e41))
+
+
+
+
+
 # [4.5.0](https://github.com/telerik/kendo-icons/compare/v4.4.0...v4.5.0) (2025-06-24)
 
 
