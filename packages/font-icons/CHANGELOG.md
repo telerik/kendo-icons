@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.6.2](https://github.com/telerik/kendo-icons/compare/v4.6.1...v4.6.2) (2026-01-16)
+
+
+### Bug Fixes
+
+* revert sass if() syntax to restore compatibility ([5158865](https://github.com/telerik/kendo-icons/commit/5158865e1b5b4855674bef47a6eae125f496e280))
+
+
+
+
+
 ## [4.6.1](https://github.com/telerik/kendo-icons/compare/v4.6.0...v4.6.1) (2026-01-15)
 
 
