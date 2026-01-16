@@ -31,5 +31,8 @@
     "rollup": "^4.2.0",
     "rollup-plugin-typescript2": "^0.36.0",
     "typescript": "^5.0.3"
+  },
+  "peerDependencies": {
+    "sass": "^1.97.1"
   }
 }

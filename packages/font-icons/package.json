@@ -22,5 +22,8 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "peerDependencies": {
+    "sass": "^1.97.1"
   }
 }
