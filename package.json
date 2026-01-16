@@ -16,6 +16,9 @@
     "serve": "npx http-server",
     "update": "npx npm-check-updates --upgrade"
   },
+  "peerDependencies": {
+    "sass": "^1.97.1"
+  },
   "devDependencies": {
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
