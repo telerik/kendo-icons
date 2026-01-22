@@ -380,6 +380,17 @@ namespace Telerik.SvgIcons
         public static ISvgIcon UnpinOutline => new UnpinOutline();
         public static ISvgIcon PinOutlineTop => new PinOutlineTop();
         public static ISvgIcon PinOutlineBottom => new PinOutlineBottom();
+        public static ISvgIcon ArrowDownOutline => new ArrowDownOutline();
+        public static ISvgIcon ArrowRotateCwOutline => new ArrowRotateCwOutline();
+        public static ISvgIcon ArrowUpOutline => new ArrowUpOutline();
+        public static ISvgIcon ArrowsRotateOutline => new ArrowsRotateOutline();
+        public static ISvgIcon FileClockOutline => new FileClockOutline();
+        public static ISvgIcon LightbulbOutline => new LightbulbOutline();
+        public static ISvgIcon PaperclipOutlineAltRight => new PaperclipOutlineAltRight();
+        public static ISvgIcon PaperclipOutline => new PaperclipOutline();
+        public static ISvgIcon XMarkOutline => new XMarkOutline();
+        public static ISvgIcon XMarkSmOutline => new XMarkSmOutline();
+        public static ISvgIcon ZoomSparkle => new ZoomSparkle();
         public static ISvgIcon Play => new Play();
         public static ISvgIcon Pause => new Pause();
         public static ISvgIcon Stop => new Stop();
