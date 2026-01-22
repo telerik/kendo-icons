@@ -4069,6 +4069,116 @@
         "id": 832
     },
     {
+        "name": "arrow-down-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "arrows"
+        ],
+        "unicode": "e179",
+        "id": 833
+    },
+    {
+        "name": "arrow-rotate-cw-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e17a",
+        "id": 834
+    },
+    {
+        "name": "arrow-up-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "arrows"
+        ],
+        "unicode": "e17b",
+        "id": 835
+    },
+    {
+        "name": "arrows-rotate-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e17c",
+        "id": 836
+    },
+    {
+        "name": "file-clock-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "files-and-folders"
+        ],
+        "unicode": "e17d",
+        "id": 837
+    },
+    {
+        "name": "lightbulb-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "misc"
+        ],
+        "unicode": "e17e",
+        "id": 838
+    },
+    {
+        "name": "paperclip-outline-alt-right",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e17f",
+        "id": 839
+    },
+    {
+        "name": "paperclip-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e180",
+        "id": 840
+    },
+    {
+        "name": "x-mark-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e181",
+        "id": 841
+    },
+    {
+        "name": "x-mark-sm-outline",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e182",
+        "id": 842
+    },
+    {
+        "name": "zoom-sparkle",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "actions"
+        ],
+        "unicode": "e183",
+        "id": 843
+    },
+    {
         "name": "play",
         "ligatures": [],
         "aliases": [],
