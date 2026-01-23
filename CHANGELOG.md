@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.7.0](https://github.com/telerik/kendo-icons/compare/v4.6.2...v4.7.0) (2026-01-23)
+
+
+### Features
+
+* add arrow-down-outline icon ([d370a1b](https://github.com/telerik/kendo-icons/commit/d370a1b62ca9d4e7b065c302ac83b4d34735050f))
+* add arrow-rotate-cw-outline icon ([0e0fbe5](https://github.com/telerik/kendo-icons/commit/0e0fbe54f0f055200f9b8d789f3cc91f9fc5b0d5))
+* add arrow-up-outline icon ([136f7e9](https://github.com/telerik/kendo-icons/commit/136f7e92728fef25792d8129c41abfb1f644b575))
+* add arrows-rotate-outline icon ([2d52ccc](https://github.com/telerik/kendo-icons/commit/2d52ccc922313b3bdad7ee9a69eeec6f1b6f1d89))
+* add file-clock-outline icon ([5197a10](https://github.com/telerik/kendo-icons/commit/5197a10b665c7899ed78d541c2e4f81343d0a57d))
+* add lightbulb-outline icon ([12d4781](https://github.com/telerik/kendo-icons/commit/12d47818c05f14b9a759e1cfa93dec58cdb0b9b7))
+* add paperclip-outline icon ([c8f1f5a](https://github.com/telerik/kendo-icons/commit/c8f1f5acd2353d2fe63974c28345c39eaee11b68))
+* add paperclip-outline-alt-right icon ([24ba619](https://github.com/telerik/kendo-icons/commit/24ba61949d6e37e82c9c154e5016ebebca168c49))
+* add x-mark-outline icon ([1e270de](https://github.com/telerik/kendo-icons/commit/1e270de4894fb3f010f02d2792c4fae1d59cd7c9))
+* add x-mark-sm-outline icon ([271e28c](https://github.com/telerik/kendo-icons/commit/271e28cd888b29ccac3e00aa7e208e02524149b6))
+* add zoom-sparkle icon ([69da213](https://github.com/telerik/kendo-icons/commit/69da213eb8e48a25c8fac43df2f2977f30a59e66))
+* generate icons metadata ([1dfe3f1](https://github.com/telerik/kendo-icons/commit/1dfe3f11296ce6e59bd0e5fc684c80502d40d75f))
+
+
+
+
+
 ## [4.6.2](https://github.com/telerik/kendo-icons/compare/v4.6.1...v4.6.2) (2026-01-16)
 
 
