@@ -4,48 +4,42 @@ defaults:
   run:
     shell: bash
 
-on: [workflow_dispatch]
+on:
+  workflow_dispatch:
+    inputs:
+      release-type:
+        description: 'Type of release to publish'
+        required: true
+        default: 'dev'
+        type: choice
+        options:
+          - dev
+          - stable
+
+env:
+  TARGET_BRANCH: ${{ github.event.inputs.release-type == 'dev' && 'develop' || 'master' }}
 
 jobs:
   publish:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     environment: upload
 
     permissions:
-        id-token: write # Required by Akeyless
-        contents: read
-        packages: read
+      id-token: write # Required for OIDC authentication
+      contents: write # Required to create releases and push changes
+      packages: read
 
     steps:
-      - name: Import Secrets
-        id: import-secrets
-        uses: LanceMcCarthy/akeyless-action@v5
-        with:
-          access-id: ${{ secrets.GH_AKEYLESS_ACCESS_ID }}
-          static-secrets: |
-            {
-              "/WebComponents/prod/tokens/GH_TOKEN": "GH_TOKEN",
-              "/WebComponents/prod/tokens/PROGRESS_NPM_REGISTRY_TOKEN": "NPM_TOKEN"
-            }
-          export-secrets-to-environment: false
-
-      - name: Check out master
+      - name: Check out ${{ env.TARGET_BRANCH }}
         uses: actions/checkout@v6
         with:
-          ref: master
+          ref: ${{ env.TARGET_BRANCH }}
           fetch-depth: 0 # Fetch all branches
-          token: ${{ steps.import-secrets.outputs.GH_TOKEN }}
 
       - name: Setup git
         run: |
           git config user.name "kendo-bot"
           git config user.email "kendouiteam@progress.com"
-
-      - name: Merge develop to master
-        run: |
-          git fetch --quiet
-          git reset --hard origin/master
-          git merge --ff-only --quiet origin/develop
 
       - name: Setup node
         uses: actions/setup-node@v6
@@ -53,19 +47,39 @@ jobs:
           cache: 'npm'
           node-version: 24.x
           registry-url: 'https://registry.npmjs.org'
-        env:
-          NODE_AUTH_TOKEN: ${{ steps.import-secrets.outputs.NPM_TOKEN }}
 
       - name: Install
         run: |
           npm ci
 
-      - name: Lerna publish
-        run: npx lerna publish --conventional-commits --conventional-graduate --create-release github --force-publish --exact
+      - name: Publish dev release
+        if: ${{ github.event.inputs.release-type == 'dev' }}
+        run: |
+          npx lerna publish \
+            --conventional-commits --conventional-prerelease \
+            --create-release github --preid dev --dist-tag dev \
+            --allow-branch develop --force-publish --exact --yes
         env:
-          GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Merge develop to master
+        if: ${{ github.event.inputs.release-type == 'stable' }}
+        run: |
+          git fetch --quiet
+          git reset --hard origin/master
+          git merge --ff-only --quiet origin/develop
+
+      - name: Publish stable release
+        if: ${{ github.event.inputs.release-type == 'stable' }}
+        run: |
+          npx lerna publish \
+            --conventional-commits --conventional-graduate \
+            --create-release github --force-publish --exact
+        env:
+          GH_TOKEN: ${{ github.token }}
 
       - name: Push to GitHub
+        if: ${{ github.event.inputs.release-type == 'stable' }}
         run: |
           git push origin master --tags --quiet > /dev/null 2>&1
           git push origin master:develop --quiet > /dev/null 2>&1
