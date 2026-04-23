@@ -12,7 +12,22 @@ const paths = {
         temp: resolve( root, '.tmp/icons/solid' ),
         json: resolve( root, 'src/telerik-icons/icons.json' ),
         list: resolve( root, 'src/telerik-icons/icon-list.json' ),
-        hast: resolve( root, '.tmp/icons/icons-hast.json' )
+        hast: resolve( root, '.tmp/icons/icons-hast.json' ),
+        aliases: resolve( root, 'src/telerik-icons/aliases.json' )
+    },
+    variants: {
+        solid: {
+            src: resolve( root, 'src/telerik-icons/solid' ),
+            temp: resolve( root, '.tmp/icons/solid' )
+        },
+        outline: {
+            src: resolve( root, 'src/telerik-icons/outline' ),
+            temp: resolve( root, '.tmp/icons/outline' )
+        },
+        duotone: {
+            src: resolve( root, 'src/telerik-icons/duotone' ),
+            temp: resolve( root, '.tmp/icons/duotone' )
+        }
     },
     svgGlob: '**/*.svg'
 };
@@ -29,6 +44,36 @@ function prepareSvg() {
         svgPath = optimize( svgPath ).data;
 
         fs.writeFileSync( resolve( paths.icons.temp, basename( file ) ), svgPath );
+    });
+
+    // Prepare variant SVGs (outline, duotone — solid is already prepared above)
+    Object.entries( paths.variants ).forEach( ([ , variant ]) => {
+        // Skip variants whose temp dir is handled by the base icon pipeline
+        if ( variant.temp === paths.icons.temp ) {
+            return;
+        }
+
+        fs.rmSync( variant.temp, { force: true, recursive: true } );
+
+        if ( !fs.existsSync( variant.src ) ) {
+            return;
+        }
+
+        let variantFiles = globSync( resolve( variant.src, paths.svgGlob ), { windowsPathsNoEscape: true } );
+
+        if ( variantFiles.length === 0 ) {
+            return;
+        }
+
+        fs.mkdirSync( variant.temp, { recursive: true } );
+
+        variantFiles.forEach( file => {
+            let svgContent = fs.readFileSync( file, 'utf-8' );
+
+            svgContent = optimize( svgContent ).data;
+
+            fs.writeFileSync( resolve( variant.temp, basename( file ) ), svgContent );
+        });
     });
 
     return Promise.resolve();
@@ -52,10 +97,35 @@ function buildHast() {
         let content = fs.readFileSync( iconFile, 'utf-8' );
         let parsed = svgParser.parse( content );
 
-        output.icons.push({
+        // Collect variant data
+        let variantHast = {};
+        Object.entries( paths.variants ).forEach( ([ variantName, variant ]) => {
+            let variantFile = resolve( variant.temp, `${iconName}.svg` );
+
+            if ( !fs.existsSync( variantFile ) ) {
+                return;
+            }
+
+            let variantContent = fs.readFileSync( variantFile, 'utf-8' );
+            let variantParsed = svgParser.parse( variantContent );
+            let svgNode = variantParsed.children[0];
+
+            variantHast[ variantName ] = {
+                hast: svgNode.children,
+                viewBox: svgNode.properties.viewBox || '0 0 512 512'
+            };
+        });
+
+        let iconEntry = {
             ...iconDef,
             hast: parsed.children[0].children
-        });
+        };
+
+        if ( Object.keys( variantHast ).length ) {
+            iconEntry.variantHast = variantHast;
+        }
+
+        output.icons.push( iconEntry );
     });
 
     fs.writeFileSync(paths.icons.hast, JSON.stringify(output, null, 4));
