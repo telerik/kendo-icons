@@ -1,4 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <path d="m128 128 192 128-192 128V128zm224 256V128h-32v256h32z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M14.194 11.426a0.81 0.81 0 0 1 0 1.146l-8.1 8.1a0.81 0.81 0 0 1-1.384-0.573v-16.2a0.81 0.81 0 0 1 1.384-0.574z m3.476-8.336a0.81 0.81 0 0 0-0.81 0.81v16.2a0.81 0.81 0 0 0 1.62 0V3.9a0.81 0.81 0 0 0-0.81-0.81"/></svg>

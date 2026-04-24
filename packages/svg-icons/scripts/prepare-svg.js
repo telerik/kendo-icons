@@ -22,12 +22,6 @@ buildHast();
 const iconsHast = JSON.parse( fs.readFileSync( paths.icons.hast, 'utf-8' ) );
 const aliasesMap = JSON.parse( fs.readFileSync( paths.icons.aliases, 'utf-8' ) );
 
-// Load deprecation map (icon-name -> replacement or null)
-const deprecatedIconsPath = resolve( __dirname, '../../../v4-v5-migration-assets/deprecated-icons.json' );
-const deprecatedIcons = fs.existsSync( deprecatedIconsPath )
-    ? JSON.parse( fs.readFileSync( deprecatedIconsPath, 'utf-8' ) )
-    : {};
-
 
 function prepareSvgIcons() {
     const iconList = [];
@@ -40,31 +34,31 @@ function prepareSvgIcons() {
     iconsHast.icons.forEach(iconDef => {
         iconName = iconDef.name;
         iconTsName = _.camelCase( `${iconName}-icon` );
-        iconSvgContent = iconDef.hast[0].properties.d;
+        iconSvgContent = iconDef.svgContent;
         filename = resolve( `src/icons/${iconName}.ts` );
 
-        // Build variant data. Always emit solid, outline, and duotone.
-        // All variants are empty placeholders for v4.
-        // TODO (v5): Populate variant SVG content from iconDef.variantHast.
-        const variants = { 'solid': '', 'outline': '', 'duotone': '' };
+        // Collect tags from categories
+        const tags = iconDef.categories && iconDef.categories.length ? iconDef.categories : undefined;
 
-        // Check deprecation status
-        const deprecated = iconName in deprecatedIcons
-            ? { replacement: deprecatedIcons[iconName] || null }
-            : undefined;
+        // Populate variant SVG content from variantHast when available.
+        const variantHast = iconDef.variantHast || {};
+        const variants = {
+            'solid': variantHast.solid ? variantHast.solid.svgContent : '',
+            'outline': variantHast.outline ? variantHast.outline.svgContent : '',
+            'duotone': variantHast.duotone ? variantHast.duotone.svgContent : ''
+        };
 
         iconList.push({
             iconName,
-            iconTsName,
-            deprecated
+            iconTsName
         });
 
         content = svgTsTemplate({
             iconName,
             iconTsName,
             iconSvgContent,
-            variants,
-            deprecated
+            tags,
+            variants
         });
 
         fs.writeFileSync( filename, content );

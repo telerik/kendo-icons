@@ -5,6 +5,7 @@ node_modules/
 dist/
 bin/
 obj/
+solid-old/
 
 # Log files
 npm-debug.log
