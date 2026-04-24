@@ -3,5 +3,11 @@ import { SVGIcon } from '../svg-icon.interface';
 export const thumbnailsUpIcon: SVGIcon = {
     name: 'thumbnails-up',
     content: '<path d="M352 32h96v96h-96zm-160 0h96v96h-96zM32 32h96v96H32zm0 160h416v256H32z" />',
-    viewBox: '0 0 512 512'
+    viewBox: '0 0 512 512',
+    tags: ["editing"],
+    variants: {
+        'solid': '',
+        'outline': '',
+        'duotone': ''
+    }
 }

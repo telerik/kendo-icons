@@ -3,5 +3,11 @@ import { SVGIcon } from '../svg-icon.interface';
 export const positionBottomIcon: SVGIcon = {
     name: 'position-bottom',
     content: '<path d="M32 64v416h448V32H32zm416 0v384H64V64zM96 320h320v96H96z" />',
-    viewBox: '0 0 512 512'
+    viewBox: '0 0 512 512',
+    tags: ["css"],
+    variants: {
+        'solid': '',
+        'outline': '',
+        'duotone': ''
+    }
 }

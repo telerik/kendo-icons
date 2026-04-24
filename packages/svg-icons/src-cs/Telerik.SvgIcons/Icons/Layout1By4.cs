@@ -7,6 +7,13 @@ namespace Telerik.SvgIcons
             Name = "layout-1-by-4";
             Content = "<path d=\"M32 0h192v480H32zm224 0v96h192V0zm0 224h192v-96H256zm0 128h192v-96H256zm0 128h192v-96H256z\" />";
             ViewBox = "0 0 512 512";
+            Tags = new string[] { "layout" };
+            Variants = new System.Collections.Generic.Dictionary<string, string>
+            {
+                { "solid", "" },
+                { "outline", "" },
+                { "duotone", "" }
+            };
         }
     }
 }

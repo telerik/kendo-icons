@@ -831,5 +831,48 @@ namespace Telerik.SvgIcons
         public static ISvgIcon ChartRadarFilled => new ChartRadarFilled();
         public static ISvgIcon ChartRose => new ChartRose();
         public static ISvgIcon ChartChoropleth => new ChartChoropleth();
+
+        // Alias re-exports: unsuffixed names pointing to -outline icons
+        public static ISvgIcon ArrowsRotate => ArrowsRotateOutline;
+        public static ISvgIcon AwardNumber => AwardNumberOutline;
+        public static ISvgIcon AwardStar => AwardStarOutline;
+        public static ISvgIcon Banknote => BanknoteOutline;
+        public static ISvgIcon Bathtub => BathtubeOutline;
+        public static ISvgIcon Bed => BedOutline;
+        public static ISvgIcon Bug => BugOutline;
+        public static ISvgIcon Buildings => BuildingsOutline;
+        public static ISvgIcon Clean => CleanOutline;
+        public static ISvgIcon Dashboard => DashboardOutline;
+        public static ISvgIcon Devices => DevicesOutline;
+        public static ISvgIcon Discount => DiscountOutline;
+        public static ISvgIcon Doctor => DoctorOutline;
+        public static ISvgIcon Education => EducationOutline;
+        public static ISvgIcon Eraser => EraserOutline;
+        public static ISvgIcon FileClock => FileClockOutline;
+        public static ISvgIcon Food => FoodOutline;
+        public static ISvgIcon LabTechnician => LabTechnicianOutline;
+        public static ISvgIcon Laptop => LaptopOutline;
+        public static ISvgIcon Lightbulb => LightbulbOutline;
+        public static ISvgIcon Luggage => LuggageOutline;
+        public static ISvgIcon Microphone => MicrophoneOutline;
+        public static ISvgIcon Mobile => MobileOutline;
+        public static ISvgIcon NonStop => NonStopOutline;
+        public static ISvgIcon Nurse => NurseOutline;
+        public static ISvgIcon Patient => PatientOutline;
+        public static ISvgIcon Pills => PillsOutline;
+        public static ISvgIcon Plane => PlaneOutline;
+        public static ISvgIcon Recycle => RecycleOutline;
+        public static ISvgIcon Ruler => RulerOutline;
+        public static ISvgIcon RulerTriangle => RulerTriangleOutline;
+        public static ISvgIcon SecurityCheck => SecurityCheckOutline;
+        public static ISvgIcon SecurityLock => SecurityLockOutline;
+        public static ISvgIcon Sms => SmsOutline;
+        public static ISvgIcon Tablet => TabletOutline;
+        public static ISvgIcon Therapist => TherapistOutline;
+        public static ISvgIcon Upgrade => UpgradeOutline;
+        public static ISvgIcon Users => UsersOutline;
+        public static ISvgIcon Wallet => WalletOutline;
+        public static ISvgIcon WeightScale => WeightScaleOutline;
+        public static ISvgIcon XMark => XMarkOutline;
     }
 }

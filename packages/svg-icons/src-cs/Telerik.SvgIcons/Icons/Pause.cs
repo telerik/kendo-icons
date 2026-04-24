@@ -7,6 +7,13 @@ namespace Telerik.SvgIcons
             Name = "pause";
             Content = "<path d=\"M320 0h160v512H320zM32 512h160V0H32z\" />";
             ViewBox = "0 0 512 512";
+            Tags = new string[] { "media" };
+            Variants = new System.Collections.Generic.Dictionary<string, string>
+            {
+                { "solid", "" },
+                { "outline", "" },
+                { "duotone", "" }
+            };
         }
     }
 }

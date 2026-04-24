@@ -3,5 +3,11 @@ import { SVGIcon } from '../svg-icon.interface';
 export const borderTopIcon: SVGIcon = {
     name: 'border-top',
     content: '<path d="M448 32v32H32V32zM64 96H32v32h32zm0 96H32v-32h32zm0 64H32v-32h32zm0 64H32v-32h32zm0 64H32v-32h32zm384-192h-32v-32h32zm0 64h-32v-32h32zm0 64h-32v-32h32zm0 64h-32v-32h32zM128 256H96v-32h32zm64 0h-32v-32h32zm64-128h-32V96h32zm0 64h-32v-32h32zm0 64h-32v-32h32zm0 64h-32v-32h32zm0 64h-32v-32h32zm0 64h-32v-32h32zM64 416H32v32h32zm64 32H96v-32h32zm64 0h-32v-32h32zm128-32h-32v32h32zm64 32h-32v-32h32zm64 0h-32v-32h32zM320 224h-32v32h32zm64 32h-32v-32h32zm64-128h-32V96h32z" />',
-    viewBox: '0 0 512 512'
+    viewBox: '0 0 512 512',
+    tags: ["text-formatting"],
+    variants: {
+        'solid': '',
+        'outline': '',
+        'duotone': ''
+    }
 }

@@ -7,6 +7,13 @@ namespace Telerik.SvgIcons
             Name = "plus-sm";
             Content = "<path d=\"M352 224v64h-64v64h-64v-64h-64v-64h64v-64h64v64z\" />";
             ViewBox = "0 0 512 512";
+            Tags = new string[] { "actions" };
+            Variants = new System.Collections.Generic.Dictionary<string, string>
+            {
+                { "solid", "" },
+                { "outline", "" },
+                { "duotone", "" }
+            };
         }
     }
 }
