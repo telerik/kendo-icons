@@ -3,16 +3,18 @@ const _ = require('lodash');
 function svgTsTemplate( options ) {
     const { iconName, iconTsName, iconSvgContent, variants, deprecated } = options;
 
+    const escapedContent = iconSvgContent ? iconSvgContent.replace(/'/g, "\\'") : '';
+
     const lines = [
         `    name: '${iconName}'`,
-        `    content: '<path d="${iconSvgContent}" />'`,
-        `    viewBox: '0 0 512 512'`
+        `    content: '${escapedContent}'`,
+        `    viewBox: '0 0 24 24'`
     ];
 
     if (variants && Object.keys(variants).length) {
         const variantEntries = Object.entries(variants).map(([ key, val ]) => {
-            const escapedContent = val ? val.replace(/'/g, "\\'") : '';
-            return `        '${key}': '${escapedContent}'`;
+            const escapedVal = val ? val.replace(/'/g, "\\'") : '';
+            return `        '${key}': '${escapedVal}'`;
         }).join(',\n');
         lines.push(`    variants: {\n${variantEntries}\n    }`);
     }
@@ -72,16 +74,18 @@ function svgCsTemplate( options ) {
     const { iconName, iconCsName, iconSvgContent, variants, deprecated } = options;
     const obsolete = obsoleteAttribute(deprecated, replacement => _.upperFirst( _.camelCase( replacement ) ));
 
+    const escapedContent = iconSvgContent ? iconSvgContent.replace(/"/g, '\\"') : '';
+
     const lines = [
         `            Name = "${iconName}";`,
-        `            Content = "<path d=\\"${iconSvgContent}\\" />";`,
-        `            ViewBox = "0 0 512 512";`
+        `            Content = "${escapedContent}";`,
+        `            ViewBox = "0 0 24 24";`
     ];
 
     if (variants && Object.keys(variants).length) {
         const variantEntries = Object.entries(variants).map(([ key, val ]) => {
-            const escapedContent = val ? val.replace(/"/g, '\\"') : '';
-            return `                { "${key}", "${escapedContent}" }`;
+            const escapedVal = val ? val.replace(/"/g, '\\"') : '';
+            return `                { "${key}", "${escapedVal}" }`;
         }).join(',\n');
         lines.push(`            Variants = new System.Collections.Generic.Dictionary<string, string>\n            {\n${variantEntries}\n            };`);
     }
