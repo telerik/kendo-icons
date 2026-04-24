@@ -3,5 +3,11 @@ import { SVGIcon } from '../svg-icon.interface';
 export const formIcon: SVGIcon = {
     name: 'form',
     content: '<path d="M416 32V0h-32v32h-32V0h-32v32h-32V0h-32v32h-32V0h-32v32h-32V0h-32v32H96V0H64v32H32v32H0v32h32v32H0v32h32v32H0v32h32v32H0v32h32v32H0v32h32v32H0v32h32v32h32v32h32v-32h32v32h32v-32h32v32h32v-32h32v32h32v-32h32v32h32v-32h32v32h32v-32h32v-32h32v-32h-32v-32h32v-32h-32v-32h32v-32h-32v-32h32v-32h-32v-32h32v-32h-32V96h32V64h-32V32zm0 384H64V64h352zm32 64v-32h32v32zm32-448h-32V0h32zM0 448h32v32H0zM32 0v32H0V0z" />',
-    viewBox: '0 0 512 512'
+    viewBox: '0 0 512 512',
+    tags: ["editing"],
+    variants: {
+        'solid': '',
+        'outline': '',
+        'duotone': ''
+    }
 }

@@ -7,6 +7,13 @@ namespace Telerik.SvgIcons
             Name = "chart-candlestick";
             Content = "<path d=\"M480 448v32H32V32h32v416zm-192-96h-64v64h-32v-64h-64V96h64V32h32v64h64zm-32-224h-96v192h96zm224 64h-64V64h-32v128h-64v128h64v64h32v-64h64z\" />";
             ViewBox = "0 0 512 512";
+            Tags = new string[] { "charts" };
+            Variants = new System.Collections.Generic.Dictionary<string, string>
+            {
+                { "solid", "" },
+                { "outline", "" },
+                { "duotone", "" }
+            };
         }
     }
 }

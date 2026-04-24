@@ -7,6 +7,13 @@ namespace Telerik.SvgIcons
             Name = "chevron-up";
             Content = "<path d=\"m129.941 353.941 126.06-126.06 126.061 126.06L416 320 256.001 160 96 320z\" />";
             ViewBox = "0 0 512 512";
+            Tags = new string[] { "navigation", "arrows" };
+            Variants = new System.Collections.Generic.Dictionary<string, string>
+            {
+                { "solid", "" },
+                { "outline", "" },
+                { "duotone", "" }
+            };
         }
     }
 }

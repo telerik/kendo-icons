@@ -7,6 +7,13 @@ namespace Telerik.SvgIcons
             Name = "window-minimize";
             Content = "<path d=\"M416 288v64H96v-64z\" />";
             ViewBox = "0 0 512 512";
+            Tags = new string[] { "actions" };
+            Variants = new System.Collections.Generic.Dictionary<string, string>
+            {
+                { "solid", "" },
+                { "outline", "" },
+                { "duotone", "" }
+            };
         }
     }
 }

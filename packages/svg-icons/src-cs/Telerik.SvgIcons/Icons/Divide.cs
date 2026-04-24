@@ -7,6 +7,13 @@ namespace Telerik.SvgIcons
             Name = "divide";
             Content = "<path d=\"M416 64 192 448h-64L352 64z\" />";
             ViewBox = "0 0 512 512";
+            Tags = new string[] { "actions" };
+            Variants = new System.Collections.Generic.Dictionary<string, string>
+            {
+                { "solid", "" },
+                { "outline", "" },
+                { "duotone", "" }
+            };
         }
     }
 }

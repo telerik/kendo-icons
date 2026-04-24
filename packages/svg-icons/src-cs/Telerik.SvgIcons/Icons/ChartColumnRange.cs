@@ -7,6 +7,13 @@ namespace Telerik.SvgIcons
             Name = "chart-column-range";
             Content = "<path d=\"M480 448v32H32V32h32v416zM256 128h-96v224h96zm32-32v288H128V96zm192-64H320v224h160z\" />";
             ViewBox = "0 0 512 512";
+            Tags = new string[] { "charts" };
+            Variants = new System.Collections.Generic.Dictionary<string, string>
+            {
+                { "solid", "" },
+                { "outline", "" },
+                { "duotone", "" }
+            };
         }
     }
 }

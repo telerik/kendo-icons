@@ -7,6 +7,13 @@ namespace Telerik.SvgIcons
             Name = "align-top";
             Content = "<path d=\"M480 64H32V32h448zm-64 32H96v32h320zm64 64H32v32h448z\" />";
             ViewBox = "0 0 512 512";
+            Tags = new string[] { "text-formatting" };
+            Variants = new System.Collections.Generic.Dictionary<string, string>
+            {
+                { "solid", "" },
+                { "outline", "" },
+                { "duotone", "" }
+            };
         }
     }
 }
