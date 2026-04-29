@@ -27,11 +27,21 @@ ${lines.join(',\n')}
 }
 
 function indexTsTemplate( options, aliasReExports ) {
-    const iconExports = options.map(icon => `export { ${icon.iconTsName} } from './icons/${icon.iconName}';`).join('\n');
+    // Build a set of TS names that aliases will provide
+    const aliasedTsNames = new Set(
+        (aliasReExports || []).map(a => a.aliasTsName)
+    );
+
+    const iconExports = options.map(icon => {
+        if (aliasedTsNames.has(icon.iconTsName)) {
+            return `// export { ${icon.iconTsName} } from './icons/${icon.iconName}'; // superseded by alias`;
+        }
+        return `export { ${icon.iconTsName} } from './icons/${icon.iconName}';`;
+    }).join('\n');
 
     let aliasExports = '';
     if (aliasReExports && aliasReExports.length) {
-        aliasExports = '\n\n// Alias re-exports: unsuffixed names pointing to -outline icons\n' +
+        aliasExports = '\n\n// Alias re-exports: unsuffixed names pointing to -outline icons\n// TODO: remove alias with v5\n' +
             aliasReExports.map(a => `export { ${a.sourceTsName} as ${a.aliasTsName} } from './icons/${a.sourceIconName}';`).join('\n');
     }
 
