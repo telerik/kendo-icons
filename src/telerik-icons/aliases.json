@@ -1,5 +1,6 @@
 {
   "arrows-rotate": "arrows-rotate-outline",
+  "arrow-down": "arrow-down-outline",
   "award-number": "award-number-outline",
   "award-star": "award-star-outline",
   "banknote": "banknote-outline",
@@ -24,11 +25,12 @@
   "mobile": "mobile-outline",
   "non-stop": "non-stop-outline",
   "nurse": "nurse-outline",
+  "paperclip": "paperclip-outline-alt-right",
   "patient": "patient-outline",
   "pills": "pills-outline",
   "plane": "plane-outline",
   "recycle": "recycle-outline",
-  "ruler": "ruler-outline",
+  "ruler": "ruler-outline-alt",
   "ruler-triangle": "ruler-triangle-outline",
   "security-check": "security-check-outline",
   "security-lock": "security-lock-outline",
@@ -39,5 +41,11 @@
   "users": "users-outline",
   "wallet": "wallet-outline",
   "weight-scale": "weight-scale-outline",
-  "x-mark": "x-mark-outline"
+  "x-mark": "x-mark-outline",
+  "list-roman-upper": "list-roman-big",
+  "mobile-ringing": "mobile-outline-ringing",
+  "text-wrap-arrow": "text-wrap",
+  "bathtube": "bathtube-outline",
+  "filter-sort-asc": "filter-sort-asc-small",
+  "filter-sort-desc": "filter-sort-desc-small"
 }
