@@ -4,7 +4,6 @@ export const checkboxIcon: SVGIcon = {
     name: 'checkbox',
     content: '<path d="M64 64v384h384V64zm352 352H96V96h320z" />',
     viewBox: '0 0 512 512',
-    tags: ["toggle"],
     variants: {
         'solid': '',
         'outline': '',

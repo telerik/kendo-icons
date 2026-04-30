@@ -7,7 +7,6 @@ namespace Telerik.SvgIcons
             Name = "flip-horizontal";
             Content = "<path d=\"M448 448H288V64zm-384 0L224 64v384zm128-224-80 192h80z\" />";
             ViewBox = "0 0 512 512";
-            Tags = new string[] { "images" };
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "" },

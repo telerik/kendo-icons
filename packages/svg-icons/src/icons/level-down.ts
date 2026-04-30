@@ -4,7 +4,6 @@ export const levelDownIcon: SVGIcon = {
     name: 'level-down',
     content: '<path d="M288 192v64h64l-80 128-80-128h64v-64H128v-32h288v32z" />',
     viewBox: '0 0 512 512',
-    tags: ["navigation","arrows"],
     variants: {
         'solid': '',
         'outline': '',

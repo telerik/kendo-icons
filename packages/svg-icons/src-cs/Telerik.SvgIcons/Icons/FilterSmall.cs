@@ -7,7 +7,6 @@ namespace Telerik.SvgIcons
             Name = "filter-small";
             Content = "<path d=\"M128 128h256v32l-96 96v96l-64 64V256l-96-96z\" />";
             ViewBox = "0 0 512 512";
-            Tags = new string[] { "actions" };
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "" },

@@ -7,7 +7,6 @@ namespace Telerik.SvgIcons
             Name = "chevron-left";
             Content = "<path d=\"m353.941 382.059-126.06-126.06 126.06-126.061L320 96 160 255.999 320 416z\" />";
             ViewBox = "0 0 512 512";
-            Tags = new string[] { "navigation", "arrows" };
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "" },

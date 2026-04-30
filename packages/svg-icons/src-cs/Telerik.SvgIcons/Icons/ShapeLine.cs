@@ -7,7 +7,6 @@ namespace Telerik.SvgIcons
             Name = "shape-line";
             Content = "<path d=\"M480 54.6 54.6 480 32 457.4 457.4 32z\" />";
             ViewBox = "0 0 512 512";
-            Tags = new string[] { "images" };
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "" },

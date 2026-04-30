@@ -7,7 +7,6 @@ namespace Telerik.SvgIcons
             Name = "sharpen";
             Content = "<path d=\"M256 32 128 480h256zm0 116.5L341.6 448H170.4z\" />";
             ViewBox = "0 0 512 512";
-            Tags = new string[] { "images" };
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "" },

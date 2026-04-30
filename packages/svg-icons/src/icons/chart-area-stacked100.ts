@@ -4,7 +4,6 @@ export const chartAreaStacked100Icon: SVGIcon = {
     name: 'chart-area-stacked100',
     content: '<path d="M32 32v448h448V32zm416 108.8L320 320 192 192 64 345.6V64h384z" />',
     viewBox: '0 0 512 512',
-    tags: ["charts"],
     variants: {
         'solid': '',
         'outline': '',

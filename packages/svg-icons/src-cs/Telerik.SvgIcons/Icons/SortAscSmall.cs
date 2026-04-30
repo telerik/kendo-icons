@@ -7,7 +7,6 @@ namespace Telerik.SvgIcons
             Name = "sort-asc-small";
             Content = "<path d=\"M256 192v224h-32V192h-96L240 64l112 128z\" />";
             ViewBox = "0 0 512 512";
-            Tags = new string[] { "actions" };
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "" },
