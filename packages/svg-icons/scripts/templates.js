@@ -1,3 +1,5 @@
+const _ = require('lodash');
+
 function svgTsTemplate( options ) {
     const { iconName, iconTsName, iconSvgContent, variants, deprecated } = options;
 
@@ -53,8 +55,22 @@ function indexTsTemplate( options, aliasReExports ) {
 ${iconExports}${aliasExports}\n`;
 }
 
+function obsoleteAttribute( deprecated, replacementNameFormatter = replacement => replacement ) {
+    if ( !deprecated ) {
+        return '';
+    }
+
+    const reason = deprecated.replacement
+        ? `Use ${replacementNameFormatter(deprecated.replacement)} instead.`
+        : 'This icon will be removed without a replacement.';
+    const message = `since v4. Will be removed in v5. ${reason}`.replace(/"/g, '\\"');
+
+    return `[System.Obsolete("${message}", false)]`;
+}
+
 function svgCsTemplate( options ) {
-    const { iconName, iconCsName, iconSvgContent, variants } = options;
+    const { iconName, iconCsName, iconSvgContent, variants, deprecated } = options;
+    const obsolete = obsoleteAttribute(deprecated, replacement => _.upperFirst( _.camelCase( replacement ) ));
 
     const lines = [
         `            Name = "${iconName}";`,
@@ -72,7 +88,7 @@ function svgCsTemplate( options ) {
 
     return `namespace Telerik.SvgIcons
 {
-    public class ${iconCsName} : SvgIconBase
+    ${obsolete ? `${obsolete}\n    ` : ''}public class ${iconCsName} : SvgIconBase
     {
         public ${iconCsName}()
         {
@@ -83,8 +99,11 @@ ${lines.join('\n')}
 }
 
 function indexCsTemplate( options, aliasReExports ) {
-    const iconProps = options.map(icon => `
-        public static ISvgIcon ${icon.iconCsName} => new ${icon.iconCsName}();`).join('');
+    const iconProps = options.map(icon => {
+        const obsolete = obsoleteAttribute( icon.deprecated, replacement => `SvgIcon.${_.upperFirst( _.camelCase( replacement ) )}` );
+        return `
+        ${obsolete ? `${obsolete}\n        ` : ''}public static ISvgIcon ${icon.iconCsName} => new ${icon.iconCsName}();`;
+    }).join('');
 
     let aliasProps = '';
     if (aliasReExports && aliasReExports.length) {
