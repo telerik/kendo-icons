@@ -1,5 +1,6 @@
 namespace Telerik.SvgIcons
 {
+    [System.Obsolete("since v4. Will be removed in v5. Use StumbleUpon instead.", false)]
     public class StumbleUponBox : SvgIconBase
     {
         public StumbleUponBox()

@@ -1,5 +1,6 @@
 namespace Telerik.SvgIcons
 {
+    [System.Obsolete("since v4. Will be removed in v5. This icon will be removed without a replacement.", false)]
     public class Blogger : SvgIconBase
     {
         public Blogger()

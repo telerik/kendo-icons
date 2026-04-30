@@ -1,5 +1,6 @@
 namespace Telerik.SvgIcons
 {
+    [System.Obsolete("since v4. Will be removed in v5. Use Discount instead.", false)]
     public class DiscountSolid : SvgIconBase
     {
         public DiscountSolid()

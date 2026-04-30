@@ -1,5 +1,6 @@
 namespace Telerik.SvgIcons
 {
+    [System.Obsolete("since v4. Will be removed in v5. Use Whatsapp instead.", false)]
     public class WhatsappBox : SvgIconBase
     {
         public WhatsappBox()
