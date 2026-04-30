@@ -1,0 +1,922 @@
+[
+  {
+    "exportName": "arrow-down-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrow-rotate-ccw-small",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrow-rotate-cw-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrow-rotate-cw-small",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrow-up-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "award-number-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "award-star-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "banknote-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "barcode-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "barcode-qr-code-scanner",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "bathtube-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "bed-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "behance-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "blogger",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "blogger-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "bug-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "buildings-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "cancel-circle",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "cancel-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "chart-radar-filled",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "check-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "clean-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "dashboard-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "delicious-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "devices-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "digg-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "discount-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "doctor-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "download-light",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "dribbble-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "education-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "envelop",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "envelop-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "envelope-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "eraser-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "facebook-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "file-flash",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "filter-small",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "flash-manager",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "food-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "globe-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "google-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "google-plus-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "heart-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "hyperlink-open-sm",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "info-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "instagram-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "lab-technician-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "laptop-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "linkedin-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "list-roman-big",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "list-roman-small",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "list-unordered-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "luggage-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "microphone-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "minus-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "minus-sm",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "mobile-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "mobile-solid-ringing",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "myspace-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "non-stop-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "nurse-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "paperclip-alt",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "paperclip-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "paperclip-outline-alt-right",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "patient-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "pause-sm",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "pills-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "pin-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "pin-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "pinterest-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "plane-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "play-sm",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "plus-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "plus-sm",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "qr-code-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "question-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "recycle-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "reddit-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "rss-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "ruler-outline-alt",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "ruler-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "ruler-solid-alt",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "ruler-triangle-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "security-check-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "security-lock-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "silverlight",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "sms-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "star-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "stop-sm",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "stumble-upon-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "tablet-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "tell-a-friend-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "text-wrap",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "therapist-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "thumb-down-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "thumb-up-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "tumblr-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "twitter",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "twitter-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "unpin-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "unpin-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "upgrade-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "user-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "users-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "vimeo-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "wallet-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "weight-scale-solid",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "whatsapp-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "x-logo-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "x-mark-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "x-mark-sm-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "x-outline",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "yammer-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "youtube-box",
+    "bucket": "deleted",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  }
+]
