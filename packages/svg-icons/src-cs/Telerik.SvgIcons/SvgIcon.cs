@@ -837,8 +837,8 @@ namespace Telerik.SvgIcons
         public static ISvgIcon ArrowDown => ArrowDownOutline;
         public static ISvgIcon AwardNumber => AwardNumberOutline;
         public static ISvgIcon AwardStar => AwardStarOutline;
+        public static ISvgIcon AwardTrophy => AwardStarSolid;
         public static ISvgIcon Banknote => BanknoteOutline;
-        public static ISvgIcon Bathtub => BathtubeOutline;
         public static ISvgIcon Bed => BedOutline;
         public static ISvgIcon Bug => BugOutline;
         public static ISvgIcon Buildings => BuildingsOutline;
@@ -862,6 +862,8 @@ namespace Telerik.SvgIcons
         public static ISvgIcon Paperclip => PaperclipOutlineAltRight;
         public static ISvgIcon Patient => PatientOutline;
         public static ISvgIcon Pills => PillsOutline;
+        public static ISvgIcon PinBottom => PinOutlineBottom;
+        public static ISvgIcon PinTop => PinOutlineTop;
         public static ISvgIcon Plane => PlaneOutline;
         public static ISvgIcon Recycle => RecycleOutline;
         public static ISvgIcon Ruler => RulerOutlineAlt;
@@ -879,8 +881,9 @@ namespace Telerik.SvgIcons
         public static ISvgIcon ListRomanUpper => ListRomanBig;
         public static ISvgIcon MobileRinging => MobileOutlineRinging;
         public static ISvgIcon TextWrapArrow => TextWrap;
-        public static ISvgIcon Bathtube => BathtubeOutline;
+        public static ISvgIcon Bathtub => BathtubeOutline;
         public static ISvgIcon FilterSortAsc => FilterSortAscSmall;
         public static ISvgIcon FilterSortDesc => FilterSortDescSmall;
+        public static ISvgIcon Superscript => Supscript;
     }
 }

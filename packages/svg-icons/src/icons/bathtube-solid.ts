@@ -1,7 +1,7 @@
 import { SVGIcon } from '../svg-icon.interface';
 
 /**
- * @deprecated since v4. Will be removed in v5. Use `bathtube` instead.
+ * @deprecated since v4. Will be removed in v5. Use `bathtub` instead.
  */
 export const bathtubeSolidIcon: SVGIcon = {
     name: 'bathtube-solid',

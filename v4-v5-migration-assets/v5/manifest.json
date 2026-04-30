@@ -579,7 +579,7 @@
     ]
   },
   {
-    "exportName": "bathtube",
+    "exportName": "bathtub",
     "bucket": "for-redesign",
     "sourceType": "kendo-original",
     "exportedVariants": [
@@ -2680,16 +2680,6 @@
     ]
   },
   {
-    "exportName": "envelop-link",
-    "bucket": "for-redesign",
-    "sourceType": "unknown",
-    "exportedVariants": [
-      "outline",
-      "solid",
-      "duotone"
-    ]
-  },
-  {
     "exportName": "equal",
     "bucket": "for-redesign",
     "sourceType": "kendo-original",
@@ -2832,7 +2822,7 @@
     ]
   },
   {
-    "exportName": "file-clock-outline",
+    "exportName": "file-clock",
     "bucket": "for-redesign",
     "sourceType": "unknown",
     "exportedVariants": [
@@ -4249,7 +4239,7 @@
     ]
   },
   {
-    "exportName": "lightbulb-outline",
+    "exportName": "lightbulb",
     "bucket": "for-redesign",
     "sourceType": "kendo-original",
     "exportedVariants": [
@@ -5204,7 +5194,7 @@
     ]
   },
   {
-    "exportName": "pin-outline-bottom",
+    "exportName": "pin-bottom",
     "bucket": "for-redesign",
     "sourceType": "unknown",
     "exportedVariants": [
@@ -5214,7 +5204,7 @@
     ]
   },
   {
-    "exportName": "pin-outline-top",
+    "exportName": "pin-top",
     "bucket": "for-redesign",
     "sourceType": "unknown",
     "exportedVariants": [
@@ -6129,7 +6119,7 @@
     ]
   },
   {
-    "exportName": "supscript",
+    "exportName": "superscript",
     "bucket": "for-redesign",
     "sourceType": "kendo-original",
     "exportedVariants": [

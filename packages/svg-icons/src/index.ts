@@ -269,7 +269,7 @@ export { banknoteOutlineIcon } from './icons/banknote-outline';
 /** @deprecated since v4. Will be removed in v5. Use `banknote` instead. */
 export { banknoteSolidIcon } from './icons/banknote-solid';
 export { bathtubeOutlineIcon } from './icons/bathtube-outline';
-/** @deprecated since v4. Will be removed in v5. Use `bathtube` instead. */
+/** @deprecated since v4. Will be removed in v5. Use `bathtub` instead. */
 export { bathtubeSolidIcon } from './icons/bathtube-solid';
 export { bedOutlineIcon } from './icons/bed-outline';
 /** @deprecated since v4. Will be removed in v5. Use `bed` instead. */
@@ -448,7 +448,9 @@ export { pinOutlineIcon } from './icons/pin-outline';
 export { unpinSolidIcon } from './icons/unpin-solid';
 /** @deprecated since v4. Will be removed in v5. Use `unpin` instead. */
 export { unpinOutlineIcon } from './icons/unpin-outline';
+/** @deprecated since v4. Will be removed in v5. Use `pin-top` instead. */
 export { pinOutlineTopIcon } from './icons/pin-outline-top';
+/** @deprecated since v4. Will be removed in v5. Use `pin-bottom` instead. */
 export { pinOutlineBottomIcon } from './icons/pin-outline-bottom';
 /** @deprecated since v4. Will be removed in v5. Use `arrow-down` instead. */
 export { arrowDownOutlineIcon } from './icons/arrow-down-outline';
@@ -457,7 +459,9 @@ export { arrowRotateCwOutlineIcon } from './icons/arrow-rotate-cw-outline';
 /** @deprecated since v4. Will be removed in v5. Use `arrow-up` instead. */
 export { arrowUpOutlineIcon } from './icons/arrow-up-outline';
 export { arrowsRotateOutlineIcon } from './icons/arrows-rotate-outline';
+/** @deprecated since v4. Will be removed in v5. Use `file-clock` instead. */
 export { fileClockOutlineIcon } from './icons/file-clock-outline';
+/** @deprecated since v4. Will be removed in v5. Use `lightbulb` instead. */
 export { lightbulbOutlineIcon } from './icons/lightbulb-outline';
 /** @deprecated since v4. Will be removed in v5. Use `paperclip` instead. */
 export { paperclipOutlineAltRightIcon } from './icons/paperclip-outline-alt-right';
@@ -597,6 +601,7 @@ export { convertLowercaseIcon } from './icons/convert-lowercase';
 export { convertUppercaseIcon } from './icons/convert-uppercase';
 export { strikethroughIcon } from './icons/strikethrough';
 export { subscriptIcon } from './icons/subscript';
+/** @deprecated since v4. Will be removed in v5. Use `superscript` instead. */
 export { supscriptIcon } from './icons/supscript';
 export { divIcon } from './icons/div';
 export { allIcon } from './icons/all';
@@ -706,6 +711,7 @@ export { puzzlePieceIcon } from './icons/puzzle-piece';
 export { linkAddIcon } from './icons/link-add';
 export { globeLinkIcon } from './icons/globe-link';
 export { globeUnlinkIcon } from './icons/globe-unlink';
+/** @deprecated since v4. Will be removed in v5. Use `envelope-link` instead. */
 export { envelopLinkIcon } from './icons/envelop-link';
 export { anchorIcon } from './icons/anchor';
 export { tableAddIcon } from './icons/table-add';
@@ -950,8 +956,8 @@ export { arrowsRotateOutlineIcon as arrowsRotateIcon } from './icons/arrows-rota
 export { arrowDownOutlineIcon as arrowDownIcon } from './icons/arrow-down-outline';
 export { awardNumberOutlineIcon as awardNumberIcon } from './icons/award-number-outline';
 export { awardStarOutlineIcon as awardStarIcon } from './icons/award-star-outline';
+export { awardStarSolidIcon as awardTrophyIcon } from './icons/award-star-solid';
 export { banknoteOutlineIcon as banknoteIcon } from './icons/banknote-outline';
-export { bathtubeOutlineIcon as bathtubIcon } from './icons/bathtube-outline';
 export { bedOutlineIcon as bedIcon } from './icons/bed-outline';
 export { bugOutlineIcon as bugIcon } from './icons/bug-outline';
 export { buildingsOutlineIcon as buildingsIcon } from './icons/buildings-outline';
@@ -975,6 +981,8 @@ export { nurseOutlineIcon as nurseIcon } from './icons/nurse-outline';
 export { paperclipOutlineAltRightIcon as paperclipIcon } from './icons/paperclip-outline-alt-right';
 export { patientOutlineIcon as patientIcon } from './icons/patient-outline';
 export { pillsOutlineIcon as pillsIcon } from './icons/pills-outline';
+export { pinOutlineBottomIcon as pinBottomIcon } from './icons/pin-outline-bottom';
+export { pinOutlineTopIcon as pinTopIcon } from './icons/pin-outline-top';
 export { planeOutlineIcon as planeIcon } from './icons/plane-outline';
 export { recycleOutlineIcon as recycleIcon } from './icons/recycle-outline';
 export { rulerOutlineAltIcon as rulerIcon } from './icons/ruler-outline-alt';
@@ -992,6 +1000,7 @@ export { xMarkOutlineIcon as xMarkIcon } from './icons/x-mark-outline';
 export { listRomanBigIcon as listRomanUpperIcon } from './icons/list-roman-big';
 export { mobileOutlineRingingIcon as mobileRingingIcon } from './icons/mobile-outline-ringing';
 export { textWrapIcon as textWrapArrowIcon } from './icons/text-wrap';
-export { bathtubeOutlineIcon as bathtubeIcon } from './icons/bathtube-outline';
+export { bathtubeOutlineIcon as bathtubIcon } from './icons/bathtube-outline';
 export { filterSortAscSmallIcon as filterSortAscIcon } from './icons/filter-sort-asc-small';
 export { filterSortDescSmallIcon as filterSortDescIcon } from './icons/filter-sort-desc-small';
+export { supscriptIcon as superscriptIcon } from './icons/supscript';
