@@ -834,7 +834,6 @@ namespace Telerik.SvgIcons
 
         // Alias re-exports: unsuffixed names pointing to -outline icons
         public static ISvgIcon ArrowsRotate => ArrowsRotateOutline;
-        public static ISvgIcon ArrowDown => ArrowDownOutline;
         public static ISvgIcon AwardNumber => AwardNumberOutline;
         public static ISvgIcon AwardStar => AwardStarOutline;
         public static ISvgIcon AwardTrophy => AwardStarSolid;
@@ -859,7 +858,6 @@ namespace Telerik.SvgIcons
         public static ISvgIcon Mobile => MobileOutline;
         public static ISvgIcon NonStop => NonStopOutline;
         public static ISvgIcon Nurse => NurseOutline;
-        public static ISvgIcon Paperclip => PaperclipOutlineAltRight;
         public static ISvgIcon Patient => PatientOutline;
         public static ISvgIcon Pills => PillsOutline;
         public static ISvgIcon PinBottom => PinOutlineBottom;
@@ -878,9 +876,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon Wallet => WalletOutline;
         public static ISvgIcon WeightScale => WeightScaleOutline;
         public static ISvgIcon XMark => XMarkOutline;
-        public static ISvgIcon ListRomanUpper => ListRomanBig;
         public static ISvgIcon MobileRinging => MobileOutlineRinging;
-        public static ISvgIcon TextWrapArrow => TextWrap;
         public static ISvgIcon Bathtub => BathtubeOutline;
         public static ISvgIcon FilterSortAsc => FilterSortAscSmall;
         public static ISvgIcon FilterSortDesc => FilterSortDescSmall;

@@ -25,7 +25,7 @@ export { chevronDownIcon } from './icons/chevron-down';
 export { chevronLeftIcon } from './icons/chevron-left';
 export { arrowUpIcon } from './icons/arrow-up';
 export { arrowRightIcon } from './icons/arrow-right';
-// export { arrowDownIcon } from './icons/arrow-down'; // superseded by alias
+export { arrowDownIcon } from './icons/arrow-down';
 export { arrowLeftIcon } from './icons/arrow-left';
 export { levelDownIcon } from './icons/level-down';
 export { levelUpIcon } from './icons/level-up';
@@ -133,7 +133,7 @@ export { infoSolidIcon } from './icons/info-solid';
 export { fontGrowIcon } from './icons/font-grow';
 export { fontShrinkIcon } from './icons/font-shrink';
 export { textOverflowIcon } from './icons/text-overflow';
-// export { textWrapArrowIcon } from './icons/text-wrap-arrow'; // superseded by alias
+export { textWrapArrowIcon } from './icons/text-wrap-arrow';
 export { textTruncateIcon } from './icons/text-truncate';
 export { textClipIcon } from './icons/text-clip';
 export { borderColorIcon } from './icons/border-color';
@@ -317,7 +317,7 @@ export { saveIcon } from './icons/save';
 export { printIcon } from './icons/print';
 export { pencilIcon } from './icons/pencil';
 export { trashIcon } from './icons/trash';
-// export { paperclipIcon } from './icons/paperclip'; // superseded by alias
+export { paperclipIcon } from './icons/paperclip';
 /** @deprecated since v4. Will be removed in v5. Use `paperclip` instead. */
 export { paperclipAltIcon } from './icons/paperclip-alt';
 export { linkIcon } from './icons/link';
@@ -910,7 +910,7 @@ export { fileTypescriptIcon } from './icons/file-typescript';
 export { tablePositionStartIcon } from './icons/table-position-start';
 export { tablePositionCenterIcon } from './icons/table-position-center';
 export { tablePositionEndIcon } from './icons/table-position-end';
-// export { listRomanUpperIcon } from './icons/list-roman-upper'; // superseded by alias
+export { listRomanUpperIcon } from './icons/list-roman-upper';
 export { listRomanLowerIcon } from './icons/list-roman-lower';
 export { importIcon } from './icons/import';
 export { exportIcon } from './icons/export';
@@ -953,7 +953,6 @@ export { chartChoroplethIcon } from './icons/chart-choropleth';
 // Alias re-exports: unsuffixed names pointing to -outline icons
 // TODO: remove alias with v5
 export { arrowsRotateOutlineIcon as arrowsRotateIcon } from './icons/arrows-rotate-outline';
-export { arrowDownOutlineIcon as arrowDownIcon } from './icons/arrow-down-outline';
 export { awardNumberOutlineIcon as awardNumberIcon } from './icons/award-number-outline';
 export { awardStarOutlineIcon as awardStarIcon } from './icons/award-star-outline';
 export { awardStarSolidIcon as awardTrophyIcon } from './icons/award-star-solid';
@@ -978,7 +977,6 @@ export { microphoneOutlineIcon as microphoneIcon } from './icons/microphone-outl
 export { mobileOutlineIcon as mobileIcon } from './icons/mobile-outline';
 export { nonStopOutlineIcon as nonStopIcon } from './icons/non-stop-outline';
 export { nurseOutlineIcon as nurseIcon } from './icons/nurse-outline';
-export { paperclipOutlineAltRightIcon as paperclipIcon } from './icons/paperclip-outline-alt-right';
 export { patientOutlineIcon as patientIcon } from './icons/patient-outline';
 export { pillsOutlineIcon as pillsIcon } from './icons/pills-outline';
 export { pinOutlineBottomIcon as pinBottomIcon } from './icons/pin-outline-bottom';
@@ -997,9 +995,7 @@ export { usersOutlineIcon as usersIcon } from './icons/users-outline';
 export { walletOutlineIcon as walletIcon } from './icons/wallet-outline';
 export { weightScaleOutlineIcon as weightScaleIcon } from './icons/weight-scale-outline';
 export { xMarkOutlineIcon as xMarkIcon } from './icons/x-mark-outline';
-export { listRomanBigIcon as listRomanUpperIcon } from './icons/list-roman-big';
 export { mobileOutlineRingingIcon as mobileRingingIcon } from './icons/mobile-outline-ringing';
-export { textWrapIcon as textWrapArrowIcon } from './icons/text-wrap';
 export { bathtubeOutlineIcon as bathtubIcon } from './icons/bathtube-outline';
 export { filterSortAscSmallIcon as filterSortAscIcon } from './icons/filter-sort-asc-small';
 export { filterSortDescSmallIcon as filterSortDescIcon } from './icons/filter-sort-desc-small';
