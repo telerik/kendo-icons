@@ -12,6 +12,10 @@ fs.mkdirSync( 'src-cs/Telerik.SvgIcons/Icons', { recursive: true } );
 
 const iconsHast = JSON.parse( fs.readFileSync( paths.icons.hast, 'utf-8' ) );
 const aliasesMap = JSON.parse( fs.readFileSync( paths.icons.aliases, 'utf-8' ) );
+const deprecatedIconsPath = resolve( __dirname, '../../../v4-v5-migration-assets/deprecated-icons.json' );
+const deprecatedIcons = fs.existsSync( deprecatedIconsPath )
+    ? JSON.parse( fs.readFileSync( deprecatedIconsPath, 'utf-8' ) )
+    : {};
 
 
 function prepareNuget() {
@@ -32,17 +36,22 @@ function prepareNuget() {
         // All variants are empty placeholders for v4.
         // TODO (v5): Populate variant SVG content from iconDef.variantHast.
         const variants = { 'solid': '', 'outline': '', 'duotone': '' };
+        const deprecated = iconName in deprecatedIcons
+            ? { replacement: deprecatedIcons[iconName] || null }
+            : undefined;
 
         iconList.push({
             iconName: iconName,
-            iconCsName: iconCsName
+            iconCsName: iconCsName,
+            deprecated
         });
 
         content = svgCsTemplate({
             iconName: iconName,
             iconCsName: iconCsName,
             iconSvgContent: iconSvgContent,
-            variants
+            variants,
+            deprecated
         });
 
         fs.writeFileSync( filename, content );
