@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.9.0-dev.1](https://github.com/telerik/kendo-icons/compare/v4.9.0-dev.0...v4.9.0-dev.1) (2026-04-30)
+
+
+### Bug Fixes
+
+* **svg-icons:** preserve original icon exports ([39e8f20](https://github.com/telerik/kendo-icons/commit/39e8f2091cb4c70a398fcb05ca7be8ad43260a02))
+
+
+### Features
+
+* generate icons metadata ([4c58a73](https://github.com/telerik/kendo-icons/commit/4c58a73389f02137aae91e008348e250edafb3f1))
+
+
+
+
+
 # [4.9.0-dev.0](https://github.com/telerik/kendo-icons/compare/v4.8.0...v4.9.0-dev.0) (2026-04-30)
 
 
