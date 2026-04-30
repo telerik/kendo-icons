@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.9.0-dev.2](https://github.com/telerik/kendo-icons/compare/v4.9.0-dev.1...v4.9.0-dev.2) (2026-04-30)
+
+
+### Features
+
+* generate icons metadata ([e6d7e6e](https://github.com/telerik/kendo-icons/commit/e6d7e6ed0c421f2b5c8967924d71876cddb39cc9))
+
+
+
+
+
 # [4.9.0-dev.1](https://github.com/telerik/kendo-icons/compare/v4.9.0-dev.0...v4.9.0-dev.1) (2026-04-30)
 
 
