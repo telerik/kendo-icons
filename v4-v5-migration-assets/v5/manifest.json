@@ -1,0 +1,7269 @@
+[
+  {
+    "exportName": "accessibility",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "address-book",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "address-book-tabs",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "aggregate-fields",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "align-bottom",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-center",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "align-items-baseline",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-items-baseline-alt",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-items-center",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "align-items-center-alt",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "align-items-end",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "align-items-end-alt",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "AlignBottom",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-items-start",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "align-items-start-alt",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "AlignTop",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-items-stretch",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-items-stretch-alt",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-justify",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "align-left",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "align-middle",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "align-remove",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-right",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "align-self-center",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-self-center-alt",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-self-end",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-self-end-alt",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-self-start",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-self-start-alt",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-self-stretch",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-self-stretch-alt",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-to-grid",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-top",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "all",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "anchor",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "apply-format",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "area",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrow-down",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrow-down-left",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrow-left",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrow-overflow-down",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrow-right",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrow-rotate-ccw",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrow-rotate-cw",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrows-clockwise",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "arrows-counter-clockwise",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "arrows-out-line-horizontal",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "arrows-out-line-vertical",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "arrows-out-simple",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "arrows-split",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "arrows-axes",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrow-shape",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrows-left-right",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrows-move",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrows-no-change",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrows-no-repeat",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "arrows-rotate",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrows-swap",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrows-top-bottom",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "arrow-up",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "award-number",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "award-trophy",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "bank",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "banknote",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Money",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "barcode",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "barcode-scanner",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "bathtube",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "bed",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "behance",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "bell",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "bicycle",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "binoculars",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "blur",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "bold",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "book",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "book-open",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "book-open-text",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "book-open-user",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "books",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-bottom",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-color",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "border-left",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-radius",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-radius-bottom-left",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-radius-bottom-right",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-radius-top-left",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-radius-top-right",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-radius-undefined",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-right",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "borders-all",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "borders-inside",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "borders-inside-horizontal",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "borders-inside-vertical",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "borders-none",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "borders-outside",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "borders-show-hide",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-style",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-style-bottom",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-style-left",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-style-right",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-style-top",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-top",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-type",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-width",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "box-arrow-down",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "box-sizing",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "BoundingBox",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "brain",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "brightness-contrast",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "bring-backward",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "bring-forward",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "bring-to-back",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "bring-to-front",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "brush",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "bug",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "building-blocks",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "buildings",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "bus",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "button",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CursorClick",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "calculator",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "calendar",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "calendar-date",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "camera",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "cancel",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "car",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "caret-alt-down",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "caret-alt-expand",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "caret-alt-left",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "caret-alt-right",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "caret-alt-to-bottom",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "caret-alt-to-left",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "caret-alt-to-right",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "caret-alt-to-top",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "caret-alt-up",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "caret-bl",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "caret-br",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "caret-double-alt-down",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "caret-double-alt-left",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "caret-double-alt-right",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "caret-double-alt-up",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "caret-tl",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowLineUpLeft",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "caret-tr",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowLineUpRight",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "cart",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "categorize",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "cell-tower",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "cells-merge",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "cells-merge-horizontally",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "cells-merge-vertically",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "cell-split-horizontally",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "cell-split-vertically",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "change-manually",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-line-down",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-area-clustered",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-area-range",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-area-stacked",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-area-stacked100",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-bar-clustered",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-bar-range",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-bar-stacked",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-bar-stacked100",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-bubble",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-candlestick",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-choropleth",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-column-clustered",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-column-range",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-column-stacked",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-column-stacked100",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-doughnut",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "chart-line",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-line-markers",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-line-stacked",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-line-stacked100",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-line-stacked100-markers",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-line-stacked-markers",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-ohlc",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-pie",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "chart-radar",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ChartPolar",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-radar-markers",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-rose",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-scatter",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "chart-scatter-smooth-lines",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-scatter-smooth-lines-markers",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-scatter-straight-lines",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-scatter-straight-lines-markers",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "check",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "checkbox",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Square",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "checkbox-checked",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "checkbox-indeterminate",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "MinusSquare",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "checkbox-null",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "check-circle",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "chevron-double-down",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "chevron-double-left",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "chevron-double-right",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "chevron-double-up",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "chevron-down",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "chevron-left",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "chevron-right",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "chevron-up",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "circle",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "circle-shape",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "circuitry",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "clean",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "clear-css",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "clipboard",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "clipboard-code",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "clipboard-html",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "clipboard-markdown",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "clipboard-text",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "clipboard-word",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "clipboard-word-alt",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "clock",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "clock-arrow-rotate",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "closed-captions",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "cloud",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "cloud-arrow-up",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "cloud-lightning",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "code",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "code-snippet",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "col-resize",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "column-freeze",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "columns",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Columns",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "combobox",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "comment",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "comment-remove",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "comments-remove",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "computer-tower",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "concrete-truck",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "connector",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "convert-lowercase",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextAa",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "convert-uppercase",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "copy",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Copy",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "copy-format",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "corners-out",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "cpu",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "crop",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "crosshair-simple",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "crosstab",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "crosstab-wizard",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "cs",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "csproj",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "css",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "css3",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "cube",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "cube-focus",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "cube-transparent",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "custom-format",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "custom-icon",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Star",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "cut",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "dashboard-outline",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "data",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "data-csv",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "data-json",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "data-ods",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "data-rest",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "data-sds",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "data-sql",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "data-web",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "decimal-decrease",
+    "bucket": "for-redesign",
+    "sourceType": "customSvg",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "decimal-increase",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "decision",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "decrease-horizontal-spacing",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "decrease-vertical-spacing",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "delicious",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Checkerboard",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "desktop",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "desktop-tower",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "detail-section",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "devices",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "digg",
+    "bucket": "modified-kendo",
+    "sourceType": "customSvg",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "dimensions",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "directions",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "disc",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "discount",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "display-block",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "display-flex",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "display-inline-block",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "display-inline-flex",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "distance",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "div",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Code",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "divide",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "doctor",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "document-manager",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "dollar",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "download",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "drag-and-drop",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "draw-free",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "dribbble",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "dropdown",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "droplet",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "droplet-slash",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "droplet-slider",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "edit-annotations",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "edit-tools",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "education",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "envelope",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "envelope-link",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "envelop-link",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "equal",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "eraser",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "exclamation-circle",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "exe",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "export",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "eye",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "eyedropper",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "eye-slash",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "facebook",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "faders",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "faders-horizontal",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "file-arrow-up",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-add",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "file-ascx",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "file-audio",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "file-bac",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "file-clock-outline",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-config",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-csv",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "file-data",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-disc-image",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-error",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "file-excel",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "file-footer",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-header",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-horizontal",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-image",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "file-mdb",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-pdf",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "file-ppt",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "file-presentation",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-programming",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileCode",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-psd",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-report",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "files",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "files-error",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-txt",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "file-typescript",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "file-video",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "file-word",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "file-wrench",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-zip",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "film",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "filter",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "filter-add-expression",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "filter-add-group",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "filter-clear",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "filter-sort-asc",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "filter-sort-desc",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "flashlight",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "flip-horizontal",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "flip-vertical",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "folder",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "folder-add",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "folder-more",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "folder-open",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "folder-up",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "font-family",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "font-grow",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "font-shrink",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "font-size",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextAa",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "food",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "foreground-color",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "form",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "format-code-block",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "CodeBlock",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "form-element",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "formula-fx",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "forward",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "free-text",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "fullscreen",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "fullscreen-exit",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "gap-column",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "gap-row",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "gauge-linear",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "gauge-radial",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "gear",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "gear-fine",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "gears",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "git-diff",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "git-fork",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "git-merge",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "globe",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "globe-link",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "globe-unlink",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "google",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "google-plus",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "graph",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "grayscale",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "greater-or-equal",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "grid",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "grid-layout",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "group",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "group-box",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "group-collection",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "group-footer-section",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "group-header-section",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "group-section",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "h1",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "h2",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "h3",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "h4",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "h5",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "h6",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "hand",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "handle-drag",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "handle-drag-dots",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "handle-resize",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "handle-resize-alt",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "hard-drive",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "hard-drives",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "hd",
+    "bucket": "for-redesign",
+    "sourceType": "customSvg",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "head-circuit",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "headset",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "heart",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "hexagon-shape",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "highlight",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "highlight-free",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "home",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "horizontal-rule",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "html5",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "hyperlink-open",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "image",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "image-absolute-position",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "image-add",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "image-edit",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "image-export",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "image-map-editor",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "image-resize",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "images",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "import",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "inbox",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "increase-horizontal-spacing",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "increase-vertical-spacing",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "indent",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "industrial-vehicle",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "info-circle",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "inherited",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "inputbox",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "insert-bottom",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "insert-free-text",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "insert-middle",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "insert-top",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "instagram",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "invert-colors",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CircleHalf",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "italic",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "js",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "justify-content-around",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "justify-content-around-alt",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "justify-content-between",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "justify-content-between-alt",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "justify-content-center",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "justify-content-center-alt",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "justify-content-end",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "justify-content-end-alt",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "justify-content-start",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "justify-content-start-alt",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "kpi-status-deny",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "kpi-status-hold",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "kpi-status-open",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "lab-technician",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "laptop",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "launch",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "layout",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "layout-1-by-4",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "layout-2-by-2",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "layout-side-by-side",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "layout-stacked",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "less-or-equal",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "letter-space",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "level-down",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "level-to-top",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "level-up",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "lightbulb-outline",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "lightning",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "line-vertical",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "line-height",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "line-shape",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "link",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "link-add",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "linkedin",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "link-vertical",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "LinkSimple",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "list-bullets",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "list-numbers",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "list-latin-big",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "list-latin-small",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "list-ordered",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ListNumbers",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "list-roman-lower",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "list-roman-upper",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "list-unordered",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "list-unordered-square",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "locations",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "lock",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "login",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "logout",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "SignOut",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "luggage",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "make-horizontal-spacing-equal",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "make-same-height",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "make-same-size",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "make-same-width",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "make-vertical-spacing-equal",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "map-pin",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "map-pin-area",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "map-pin-simple-line",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "map-marker",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "map-marker-target",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "max-height",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "max-width",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "media-manager",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "memory",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "menu",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "menu-filter",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FunnelSimple",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "menu-sort-asc",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "menu-sort-desc",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "microphone",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "min-height",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "minus",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "minus-circle",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "min-width",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "mirror",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "mobile",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "mobile-ringing",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "money-exchange",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "monitor",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "monitor-arrow-up",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "monitor-play",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "more-horizontal",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "more-vertical",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "mouse-scroll",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "music-notes",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "myspace",
+    "bucket": "modified-kendo",
+    "sourceType": "customSvg",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "non-recurrence",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "non-stop",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "not-equal",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "nurse",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "nut",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "optimization",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "outdent",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "outline-offset",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "outline-width",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "overlap",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "package",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "padding",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "padding-bottom",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "padding-left",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "padding-right",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "padding-top",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "page-footer-section",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "page-header-section",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "palette",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "pane-freeze",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "paperclip",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "paper-plane",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "paragraph-add",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "paragraph-height",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "paragraph-mark",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "parameter-boolean",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "parameter-date-time",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "parameter-float",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "parameter-integer",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "parameters",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "parameters-byte-array",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "parameter-string",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "parameters-unknown",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "password",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "password-box",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Password",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "paste-sparkle",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "path",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "patient",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "pause",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "pencil",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "percent",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "perimeter",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "photos",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "piggy-bank",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "pills",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "pin",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "pin-outline-bottom",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "pin-outline-top",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "pinterest",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "plan",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "plane",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "play",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "playlist",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "plus",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "plus-circle",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "pointer",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "position-bottom",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "position-left",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "position-right",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "position-top",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "print",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "puzzle-piece",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "qr-code",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "qr-code-scanner",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "question-circle",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "radiobutton",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "radiobutton-checked",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "rectangle-shape",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "recycle",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "reddit",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "redo",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "regular-expression",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Asterisk",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "remove-horizontal-spacing",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "remove-vertical-spacing",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "reorder",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "repeat",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "repeat-once",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "replace-all",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "replace-free-text",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "replace-single",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "report-element",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "rewind",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "right-double-quotes",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "robot",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "rocket",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "rocket-launch",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "rotate",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "rotate-left",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "rotate-right",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "round-corners",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "row-collapse",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "row-expand",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "row-freeze",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "rows",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Rows",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "rss",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "ruler",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "ruler-triangle",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "save",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "scale",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "scroll",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "search",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "security-check",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "security-lock",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "select-all",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "select-box",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "set-column-position",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "shape-line",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "shapes",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "share",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "sharpen",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "shopping-bag-open",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "shopping-cart",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "signature",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "size-to-grid",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "sliders",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "sliders-horizontal",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "sln",
+    "bucket": "modified-kendo",
+    "sourceType": "customSvg",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "sms",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "snap-grid",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "snap-to-gridlines",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "snap-to-snaplines",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "sort-asc",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "sort-asc-small",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "sort-clear",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "sort-desc",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "sort-desc-small",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "sparkles",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "speed",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Speedometer",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "spell-checker",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "split-horizontal",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "split-vertical",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "square-split-horizontal",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "square-split-vertical",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "stamp",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "star",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "stick",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "sticky-note",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Note",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "stop",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "strikethrough",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextStrikethrough",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "strip-all-formatting",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "strip-css-format",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "strip-font-elements",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "strip-span-elements",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "strip-word-formatting",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "stumble-upon",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "subreport",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "subscript",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "sum",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "supscript",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "sustainability",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "sweeper-vehicle",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "symbol",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "table",
+    "bucket": "for-redesign",
+    "sourceType": "customSvg",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-add",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-align-bottom-center",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-align-bottom-left",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-align-bottom-right",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-align-middle-center",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-align-middle-left",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-align-middle-right",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-align-remove",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-align-top-center",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-align-top-left",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-align-top-right",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-body",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-cell",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-cell-delete",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-cell-properties",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-column-delete",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-column-groups",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-column-insert-left",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-column-insert-right",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-corner",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-delete",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-position-center",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-position-end",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-position-start",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-properties",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-row-delete",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-row-groups",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-row-insert-above",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-row-insert-below",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "tablet",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "table-unmerge",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "table-wizard",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "tag-chevron",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "tag-simple",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "target",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "tell-a-friend",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "template-manager",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "textarea",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "textbox",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Textbox",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "textbox-hidden",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "text-clip",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "text-overflow",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "text-truncate",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "text-wrap-arrow",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "therapist",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "thumb-down",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "thumbnails-down",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "thumbnails-left",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "thumbnails-right",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "thumbnails-up",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "thumb-up",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "toc-section",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "toc-section-level",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "toggle-full-screen-mode",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "toolbar-float",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "track-changes",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "track-changes-accept",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "track-changes-accept-all",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "track-changes-enable",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "track-changes-reject",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "track-changes-reject-all",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "transactions",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "transparency",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "trash",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "tray-arrow-up",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "tree-structure",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "tree-view",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "trend-up",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "truck",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "tumblr",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "underline",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "undo",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "ungroup",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "SelectionSlash",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "unlink",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "unlink-vertical",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "unlock",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "unpin",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "unstick",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "upgrade",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "upgrade-reload",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "upload",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "upload-simple",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "user",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "users-four",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "users-three",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "users",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "validation-data",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "validation-xhtml",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "van",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "vault",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "vb",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "vbproj",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "video-external",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "vimeo",
+    "bucket": "modified-kendo",
+    "sourceType": "customSvg",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "volume-down",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "volume-mute",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "volume-up",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "wallet",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "warning-circle",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "warning-triangle",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "weight-scale",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "whatsapp",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "whole-word",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "window",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "window-minimize",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "window-restore",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "wrench",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "x",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "x-circle",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "x-logo",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "yammer",
+    "bucket": "remapped",
+    "sourceType": "customSvg",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "youtube",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "zoom-actual-size",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "zoom-best-fit",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "zoom-in",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "zoom-out",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "zoom-sparkle",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  }
+]
