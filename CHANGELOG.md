@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.9.0-dev.0](https://github.com/telerik/kendo-icons/compare/v4.8.0...v4.9.0-dev.0) (2026-04-30)
+
+
+### Features
+
+* add forward aliases for v5 icon names ([f4f8529](https://github.com/telerik/kendo-icons/commit/f4f852946d5b114198970ad7b9b9f0d0be794bb1))
+* generate icons metadata ([f8f10bd](https://github.com/telerik/kendo-icons/commit/f8f10bd3d94b8038618603ffed444a907b5fe8ce))
+* generate icons metadata ([b99f676](https://github.com/telerik/kendo-icons/commit/b99f67643c09167829ba98b50b5e9d7b6411ad43))
+* **svg-icons:** mark v5 removed icons as deprecated ([5e94997](https://github.com/telerik/kendo-icons/commit/5e94997d0b05c9884f5c14a730859961bdee5031))
+* **svg-icons:** refine v5 migration aliases ([4ebdd4d](https://github.com/telerik/kendo-icons/commit/4ebdd4d8a50e226e37613758daa1d413c23bcf44))
+* **svg-icons:** support tags, aliases and icon variants ([0303b8b](https://github.com/telerik/kendo-icons/commit/0303b8b3a2a96206fe1646318c8e08447e944470))
+
+
+
+
+
 # [4.8.0](https://github.com/telerik/kendo-icons/compare/v4.7.0...v4.8.0) (2026-01-23)
 
 
