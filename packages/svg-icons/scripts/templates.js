@@ -31,15 +31,7 @@ ${lines.join(',\n')}
 }
 
 function indexTsTemplate( options, aliasReExports ) {
-    // Build a set of TS names that aliases will provide
-    const aliasedTsNames = new Set(
-        (aliasReExports || []).map(a => a.aliasTsName)
-    );
-
     const iconExports = options.map(icon => {
-        if (aliasedTsNames.has(icon.iconTsName)) {
-            return `// export { ${icon.iconTsName} } from './icons/${icon.iconName}'; // superseded by alias`;
-        }
         const exportLine = `export { ${icon.iconTsName} } from './icons/${icon.iconName}';`;
         if (icon.deprecated) {
             const reason = icon.deprecated.replacement
