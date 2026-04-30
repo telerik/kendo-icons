@@ -10,8 +10,6 @@ namespace Telerik.SvgIcons
 
         string ViewBox { get; set; }
 
-        string[] Tags { get; set; }
-
         Dictionary<string, string> Variants { get; set; }
     }
 }

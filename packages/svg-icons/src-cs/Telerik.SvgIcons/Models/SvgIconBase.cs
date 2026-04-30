@@ -10,8 +10,6 @@ namespace Telerik.SvgIcons
 
         public string ViewBox { get; set; }
 
-        public string[] Tags { get; set; }
-
         public Dictionary<string, string> Variants { get; set; }
 
         public override bool Equals(object obj)

@@ -43,9 +43,6 @@ function prepareSvgIcons() {
         iconSvgContent = iconDef.hast[0].properties.d;
         filename = resolve( `src/icons/${iconName}.ts` );
 
-        // Collect tags from categories
-        const tags = iconDef.categories && iconDef.categories.length ? iconDef.categories : undefined;
-
         // Build variant data. Always emit solid, outline, and duotone.
         // All variants are empty placeholders for v4.
         // TODO (v5): Populate variant SVG content from iconDef.variantHast.
@@ -66,7 +63,6 @@ function prepareSvgIcons() {
             iconName,
             iconTsName,
             iconSvgContent,
-            tags,
             variants,
             deprecated
         });
