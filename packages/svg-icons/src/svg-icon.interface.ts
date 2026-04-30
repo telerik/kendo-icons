@@ -22,10 +22,6 @@ export interface SVGIcon {
      */
     viewBox: string;
     /**
-     * Searchable tags associated with the icon.
-     */
-    tags?: string[];
-    /**
      * Style variants of the icon (e.g. outline, duotone),
      * keyed by variant name.
      */

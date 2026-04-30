@@ -28,9 +28,6 @@ function prepareNuget() {
         iconSvgContent = iconDef.hast[0].properties.d;
         filename = resolve( `src-cs/Telerik.SvgIcons/Icons/${iconCsName}.cs` );
 
-        // Collect tags from categories
-        const tags = iconDef.categories && iconDef.categories.length ? iconDef.categories : undefined;
-
         // Build variant data. Always emit solid, outline, and duotone.
         // All variants are empty placeholders for v4.
         // TODO (v5): Populate variant SVG content from iconDef.variantHast.
@@ -45,7 +42,6 @@ function prepareNuget() {
             iconName: iconName,
             iconCsName: iconCsName,
             iconSvgContent: iconSvgContent,
-            tags,
             variants
         });
 

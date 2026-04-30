@@ -1,15 +1,11 @@
 function svgTsTemplate( options ) {
-    const { iconName, iconTsName, iconSvgContent, tags, variants, deprecated } = options;
+    const { iconName, iconTsName, iconSvgContent, variants, deprecated } = options;
 
     const lines = [
         `    name: '${iconName}'`,
         `    content: '<path d="${iconSvgContent}" />'`,
         `    viewBox: '0 0 512 512'`
     ];
-
-    if (tags && tags.length) {
-        lines.push(`    tags: ${JSON.stringify(tags)}`);
-    }
 
     if (variants && Object.keys(variants).length) {
         const variantEntries = Object.entries(variants).map(([ key, val ]) => {
@@ -66,17 +62,13 @@ ${iconExports}${aliasExports}\n`;
 }
 
 function svgCsTemplate( options ) {
-    const { iconName, iconCsName, iconSvgContent, tags, variants } = options;
+    const { iconName, iconCsName, iconSvgContent, variants } = options;
 
     const lines = [
         `            Name = "${iconName}";`,
         `            Content = "<path d=\\"${iconSvgContent}\\" />";`,
         `            ViewBox = "0 0 512 512";`
     ];
-
-    if (tags && tags.length) {
-        lines.push(`            Tags = new string[] { ${tags.map(t => `"${t}"`).join(', ')} };`);
-    }
 
     if (variants && Object.keys(variants).length) {
         const variantEntries = Object.entries(variants).map(([ key, val ]) => {
