@@ -3,8 +3,8 @@
   "arrow-down": "arrow-down-outline",
   "award-number": "award-number-outline",
   "award-star": "award-star-outline",
+  "award-trophy": "award-star-solid",
   "banknote": "banknote-outline",
-  "bathtub": "bathtube-outline",
   "bed": "bed-outline",
   "bug": "bug-outline",
   "buildings": "buildings-outline",
@@ -28,6 +28,8 @@
   "paperclip": "paperclip-outline-alt-right",
   "patient": "patient-outline",
   "pills": "pills-outline",
+  "pin-bottom": "pin-outline-bottom",
+  "pin-top": "pin-outline-top",
   "plane": "plane-outline",
   "recycle": "recycle-outline",
   "ruler": "ruler-outline-alt",
@@ -45,7 +47,8 @@
   "list-roman-upper": "list-roman-big",
   "mobile-ringing": "mobile-outline-ringing",
   "text-wrap-arrow": "text-wrap",
-  "bathtube": "bathtube-outline",
+  "bathtub": "bathtube-outline",
   "filter-sort-asc": "filter-sort-asc-small",
-  "filter-sort-desc": "filter-sort-desc-small"
+  "filter-sort-desc": "filter-sort-desc-small",
+  "superscript": "supscript"
 }

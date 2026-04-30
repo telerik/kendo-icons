@@ -16,7 +16,7 @@ The following icons are being removed in v5. Use the suggested replacements belo
 | `banknote-solid` | `banknote` |
 | `barcode-outline` | `barcode` |
 | `barcode-qr-code-scanner` | `barcode-scanner` |
-| `bathtube-solid` | `bathtube` |
+| `bathtube-solid` | `bathtub` |
 | `bed-solid` | `bed` |
 | `behance-box` | `behance` |
 | `bug-solid` | `bug` |
@@ -37,9 +37,11 @@ The following icons are being removed in v5. Use the suggested replacements belo
 | `education-solid` | `education` |
 | `envelop` | `envelope` |
 | `envelop-box` | `envelope` |
+| `envelop-link` | `envelope-link` |
 | `envelope-box` | `envelope` |
 | `eraser-solid` | `eraser` |
 | `facebook-box` | `facebook` |
+| `file-clock-outline` | `file-clock` |
 | `file-flash` | `file` |
 | `filter-small` | `filter` |
 | `food-solid` | `food` |
@@ -53,6 +55,7 @@ The following icons are being removed in v5. Use the suggested replacements belo
 | `lab-technician-solid` | `lab-technician` |
 | `laptop-solid` | `laptop` |
 | `linkedin-box` | `linkedin` |
+| `lightbulb-outline` | `lightbulb` |
 | `list-roman-big` | `list-roman-upper` |
 | `list-roman-small` | `list-roman-lower` |
 | `list-unordered-outline` | `list-unordered` |
@@ -72,6 +75,8 @@ The following icons are being removed in v5. Use the suggested replacements belo
 | `pause-sm` | `pause` |
 | `pills-solid` | `pills` |
 | `pin-outline` | `pin` |
+| `pin-outline-bottom` | `pin-bottom` |
+| `pin-outline-top` | `pin-top` |
 | `pin-solid` | `pin` |
 | `pinterest-box` | `pinterest` |
 | `plane-solid` | `plane` |
@@ -92,6 +97,7 @@ The following icons are being removed in v5. Use the suggested replacements belo
 | `sms-solid` | `sms` |
 | `star-outline` | `star` |
 | `stop-sm` | `stop` |
+| `supscript` | `superscript` |
 | `stumble-upon-box` | `stumble-upon` |
 | `tablet-solid` | `tablet` |
 | `tell-a-friend-box` | `tell-a-friend` |
@@ -126,5 +132,3 @@ These icons are removed entirely in v5. Remove usage or find a custom alternativ
 - `blogger-box`
 - `flash-manager`
 - `silverlight`
-
-

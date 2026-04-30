@@ -1938,7 +1938,7 @@
     ]
   },
   {
-    "exportName": "supscript",
+    "exportName": "superscript",
     "bucket": "original-mapping",
     "sourceType": "phosphor",
     "phosphorSource": "TextSuperscript",
