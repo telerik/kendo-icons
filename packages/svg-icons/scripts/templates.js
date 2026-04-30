@@ -1,5 +1,5 @@
 function svgTsTemplate( options ) {
-    const { iconName, iconTsName, iconSvgContent, tags, variants } = options;
+    const { iconName, iconTsName, iconSvgContent, tags, variants, deprecated } = options;
 
     const lines = [
         `    name: '${iconName}'`,
@@ -19,9 +19,17 @@ function svgTsTemplate( options ) {
         lines.push(`    variants: {\n${variantEntries}\n    }`);
     }
 
+    let jsdoc = '';
+    if (deprecated) {
+        const reason = deprecated.replacement
+            ? `Use \`${deprecated.replacement}\` instead.`
+            : 'This icon will be removed without a replacement.';
+        jsdoc = `/**\n * @deprecated since v4. Will be removed in v5. ${reason}\n */\n`;
+    }
+
     return `import { SVGIcon } from '../svg-icon.interface';
 
-export const ${iconTsName}: SVGIcon = {
+${jsdoc}export const ${iconTsName}: SVGIcon = {
 ${lines.join(',\n')}
 }\n`;
 }
@@ -36,7 +44,14 @@ function indexTsTemplate( options, aliasReExports ) {
         if (aliasedTsNames.has(icon.iconTsName)) {
             return `// export { ${icon.iconTsName} } from './icons/${icon.iconName}'; // superseded by alias`;
         }
-        return `export { ${icon.iconTsName} } from './icons/${icon.iconName}';`;
+        const exportLine = `export { ${icon.iconTsName} } from './icons/${icon.iconName}';`;
+        if (icon.deprecated) {
+            const reason = icon.deprecated.replacement
+                ? `Use \`${icon.deprecated.replacement}\` instead.`
+                : 'This icon will be removed without a replacement.';
+            return `/** @deprecated since v4. Will be removed in v5. ${reason} */\n${exportLine}`;
+        }
+        return exportLine;
     }).join('\n');
 
     let aliasExports = '';
