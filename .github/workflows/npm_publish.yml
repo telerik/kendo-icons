@@ -26,15 +26,27 @@ jobs:
 
     permissions:
       id-token: write # Required for OIDC authentication
-      contents: write # Required to create releases and push changes
+      contents: read
       packages: read
 
     steps:
+      - name: Import Secrets
+        id: import-secrets
+        uses: LanceMcCarthy/akeyless-action@v5
+        with:
+          access-id: ${{ secrets.GH_AKEYLESS_ACCESS_ID }}
+          static-secrets: |
+            {
+              "/WebComponents/prod/tokens/GH_TOKEN": "GH_TOKEN"
+            }
+          export-secrets-to-environment: false
+
       - name: Check out ${{ env.TARGET_BRANCH }}
         uses: actions/checkout@v6
         with:
           ref: ${{ env.TARGET_BRANCH }}
           fetch-depth: 0 # Fetch all branches
+          token: ${{ steps.import-secrets.outputs.GH_TOKEN }}
 
       - name: Setup git
         run: |
@@ -60,7 +72,7 @@ jobs:
             --create-release github --preid dev --dist-tag dev \
             --allow-branch develop --force-publish --exact --yes
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
 
       - name: Merge develop to master
         if: ${{ github.event.inputs.release-type == 'stable' }}
@@ -76,7 +88,7 @@ jobs:
             --conventional-commits --conventional-graduate \
             --create-release github --force-publish --exact
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
 
       - name: Push to GitHub
         if: ${{ github.event.inputs.release-type == 'stable' }}
