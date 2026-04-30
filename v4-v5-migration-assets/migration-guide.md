@@ -124,6 +124,22 @@ The following icons are being removed in v5. Use the suggested replacements belo
 | `yammer-box` | `yammer` |
 | `youtube-box` | `youtube` |
 
+## Expected changes
+
+After following the migration guide minor visual diffs are expected in the following components:
+- `text-wrap` -> `text-wrap-arrow`:
+    - editor-table-wizard
+    - spreadsheet-header
+    - spreadsheet-tools
+    - toolbar
+- `arrow-down-outline` -> `arrow-down`
+    - chat
+- `paperclip-outline-alt-right` -> `paperclip`
+    - grid-assistant
+    - prompt-box
+
+Those changes are minor and should be considered as 'fixes' in order to maintain a smooth upgrade path and least disturbance.
+
 ## Icons Removed Without Replacement (4)
 
 These icons are removed entirely in v5. Remove usage or find a custom alternative.
