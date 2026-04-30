@@ -7,7 +7,6 @@ namespace Telerik.SvgIcons
             Name = "arrow-left";
             Content = "<path d=\"M288 128v96h128v64l-128 .001V384L96 256.001z\" />";
             ViewBox = "0 0 512 512";
-            Tags = new string[] { "navigation", "arrows" };
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "" },

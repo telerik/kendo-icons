@@ -7,7 +7,6 @@ namespace Telerik.SvgIcons
             Name = "align-left";
             Content = "<path d=\"M448 96H64V64h384zm-96 32H64v32h288zm96 64H64v32h384zm-96 64H64v32h288zm96 64H64v32h384zm-96 64H64v32h288z\" />";
             ViewBox = "0 0 512 512";
-            Tags = new string[] { "text-formatting" };
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "" },

@@ -7,7 +7,6 @@ namespace Telerik.SvgIcons
             Name = "play-sm";
             Content = "<path d=\"M96 416V96l320 160z\" />";
             ViewBox = "0 0 512 512";
-            Tags = new string[] { "media" };
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "" },

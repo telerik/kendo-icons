@@ -7,7 +7,6 @@ namespace Telerik.SvgIcons
             Name = "chart-area-stacked100";
             Content = "<path d=\"M32 32v448h448V32zm416 108.8L320 320 192 192 64 345.6V64h384z\" />";
             ViewBox = "0 0 512 512";
-            Tags = new string[] { "charts" };
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "" },

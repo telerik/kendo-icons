@@ -7,7 +7,6 @@ namespace Telerik.SvgIcons
             Name = "kpi-status-hold";
             Content = "<path d=\"M256 64 32 448h448z\" />";
             ViewBox = "0 0 512 512";
-            Tags = new string[] { "actions" };
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "" },

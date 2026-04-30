@@ -7,7 +7,6 @@ namespace Telerik.SvgIcons
             Name = "forward";
             Content = "<path d=\"M0 416V96l256 160zm512-160L256 96v320z\" />";
             ViewBox = "0 0 512 512";
-            Tags = new string[] { "media" };
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "" },

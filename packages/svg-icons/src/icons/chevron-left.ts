@@ -4,7 +4,6 @@ export const chevronLeftIcon: SVGIcon = {
     name: 'chevron-left',
     content: '<path d="m353.941 382.059-126.06-126.06 126.06-126.061L320 96 160 255.999 320 416z" />',
     viewBox: '0 0 512 512',
-    tags: ["navigation","arrows"],
     variants: {
         'solid': '',
         'outline': '',

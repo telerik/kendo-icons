@@ -7,7 +7,6 @@ namespace Telerik.SvgIcons
             Name = "insert-bottom";
             Content = "<path d=\"M192 224h192v32H192zm0 128h288v-32H192zm192-192H192v32h192zM32 224v224l96-112z\" />";
             ViewBox = "0 0 512 512";
-            Tags = new string[] { "text-formatting" };
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "" },

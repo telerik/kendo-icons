@@ -7,7 +7,6 @@ namespace Telerik.SvgIcons
             Name = "justify-content-center";
             Content = "<path d=\"M63 96h128v320H63zm160 384h32V32h-32zm64-385v320h128V95z\" />";
             ViewBox = "0 0 512 512";
-            Tags = new string[] { "editing" };
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "" },

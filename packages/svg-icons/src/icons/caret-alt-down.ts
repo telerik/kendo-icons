@@ -4,7 +4,6 @@ export const caretAltDownIcon: SVGIcon = {
     name: 'caret-alt-down',
     content: '<path d="M256 352 128 160h256z" />',
     viewBox: '0 0 512 512',
-    tags: ["navigation"],
     variants: {
         'solid': '',
         'outline': '',

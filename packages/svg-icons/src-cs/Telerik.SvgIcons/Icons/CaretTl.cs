@@ -7,7 +7,6 @@ namespace Telerik.SvgIcons
             Name = "caret-tl";
             Content = "<path d=\"M160 160h192L160 352z\" />";
             ViewBox = "0 0 512 512";
-            Tags = new string[] { "navigation" };
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "" },

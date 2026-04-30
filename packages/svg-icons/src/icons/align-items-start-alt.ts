@@ -4,7 +4,6 @@ export const alignItemsStartAltIcon: SVGIcon = {
     name: 'align-items-start-alt',
     content: '<path d="M96 96h128v224H96zM32 32v32h448V32zm256 416h128V96H288z" />',
     viewBox: '0 0 512 512',
-    tags: ["editing"],
     variants: {
         'solid': '',
         'outline': '',

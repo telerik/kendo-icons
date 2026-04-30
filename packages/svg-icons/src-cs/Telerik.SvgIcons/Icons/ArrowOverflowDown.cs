@@ -7,7 +7,6 @@ namespace Telerik.SvgIcons
             Name = "arrow-overflow-down";
             Content = "<path d=\"M384 160 256 352 128 160zM128 96v32h256V96z\" />";
             ViewBox = "0 0 512 512";
-            Tags = new string[] { "navigation" };
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "" },
