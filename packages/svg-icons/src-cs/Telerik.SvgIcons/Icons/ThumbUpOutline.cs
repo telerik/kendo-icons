@@ -1,5 +1,6 @@
 namespace Telerik.SvgIcons
 {
+    [System.Obsolete("since v4. Will be removed in v5. Use ThumbUp instead.", false)]
     public class ThumbUpOutline : SvgIconBase
     {
         public ThumbUpOutline()

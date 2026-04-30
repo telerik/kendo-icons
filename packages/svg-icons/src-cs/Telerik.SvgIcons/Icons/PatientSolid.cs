@@ -1,5 +1,6 @@
 namespace Telerik.SvgIcons
 {
+    [System.Obsolete("since v4. Will be removed in v5. Use Patient instead.", false)]
     public class PatientSolid : SvgIconBase
     {
         public PatientSolid()

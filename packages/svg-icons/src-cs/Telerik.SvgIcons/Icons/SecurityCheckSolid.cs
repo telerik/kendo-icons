@@ -1,5 +1,6 @@
 namespace Telerik.SvgIcons
 {
+    [System.Obsolete("since v4. Will be removed in v5. Use SecurityCheck instead.", false)]
     public class SecurityCheckSolid : SvgIconBase
     {
         public SecurityCheckSolid()

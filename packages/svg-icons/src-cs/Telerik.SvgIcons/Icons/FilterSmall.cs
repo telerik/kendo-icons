@@ -1,5 +1,6 @@
 namespace Telerik.SvgIcons
 {
+    [System.Obsolete("since v4. Will be removed in v5. Use Filter instead.", false)]
     public class FilterSmall : SvgIconBase
     {
         public FilterSmall()
