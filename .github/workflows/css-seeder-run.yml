@@ -33,7 +33,7 @@ jobs:
         run: echo "JOB_NAME=css-seeder-job-$(date +%s)" >> $GITHUB_ENV
 
       - name: 'Login via Azure CLI'
-        uses: azure/login@v2
+        uses: azure/login@v3
         with:
           creds: ${{ secrets.PROD_AZURE_CREDENTIALS }}
 
@@ -76,7 +76,7 @@ jobs:
           cat /etc/hosts | tail -n 5
 
       - name: Setup kubectl
-        uses: azure/setup-kubectl@v4
+        uses: azure/setup-kubectl@v5
 
       - name: Create Kubernetes Job with secrets
         run: |
