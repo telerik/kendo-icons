@@ -844,8 +844,9 @@ export { pinterestBoxIcon } from './icons/pinterest-box';
 export { redditIcon } from './icons/reddit';
 /** @deprecated since v4. Will be removed in v5. Use `reddit` instead. */
 export { redditBoxIcon } from './icons/reddit-box';
+/** @deprecated since v4. Will be removed in v5. This icon will be removed without a replacement. */
 export { stumbleUponIcon } from './icons/stumble-upon';
-/** @deprecated since v4. Will be removed in v5. Use `stumble-upon` instead. */
+/** @deprecated since v4. Will be removed in v5. This icon will be removed without a replacement. */
 export { stumbleUponBoxIcon } from './icons/stumble-upon-box';
 export { tellAFriendIcon } from './icons/tell-a-friend';
 /** @deprecated since v4. Will be removed in v5. Use `tell-a-friend` instead. */

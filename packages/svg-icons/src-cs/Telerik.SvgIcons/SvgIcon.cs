@@ -847,8 +847,9 @@ namespace Telerik.SvgIcons
         public static ISvgIcon Reddit => new Reddit();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Reddit instead.", false)]
         public static ISvgIcon RedditBox => new RedditBox();
+        [System.Obsolete("since v4. Will be removed in v5. This icon will be removed without a replacement.", false)]
         public static ISvgIcon StumbleUpon => new StumbleUpon();
-        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.StumbleUpon instead.", false)]
+        [System.Obsolete("since v4. Will be removed in v5. This icon will be removed without a replacement.", false)]
         public static ISvgIcon StumbleUponBox => new StumbleUponBox();
         public static ISvgIcon TellAFriend => new TellAFriend();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.TellAFriend instead.", false)]

@@ -1,7 +1,7 @@
 import { SVGIcon } from '../svg-icon.interface';
 
 /**
- * @deprecated since v4. Will be removed in v5. Use `stumble-upon` instead.
+ * @deprecated since v4. Will be removed in v5. This icon will be removed without a replacement.
  */
 export const stumbleUponBoxIcon: SVGIcon = {
     name: 'stumble-upon-box',
