@@ -1,5 +1,21 @@
 [
     {
+        "name": "banknote",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e000",
+        "id": 970
+    },
+    {
+        "name": "globe",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e001",
+        "id": 971
+    },
+    {
         "name": "drag-and-drop",
         "ligatures": [],
         "aliases": [],
