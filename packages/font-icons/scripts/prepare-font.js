@@ -38,11 +38,23 @@ const ttfOptions = {
 
 function buildFontJson() {
     iconsHast.icons.forEach( iconDef => {
+        // Merge all foreground path d values into a single glyph path.
+        // Skip paths with white/background fill (e.g. #fff, white)
+        // as they represent cutouts that don't translate to font glyphs.
+        const mergedD = iconDef.hast
+            .filter( node => node.tagName === 'path' && node.properties && node.properties.d )
+            .filter( node => {
+                const fill = (node.properties.fill || '').toLowerCase();
+                return fill !== '#fff' && fill !== '#ffffff' && fill !== 'white';
+            })
+            .map( node => node.properties.d )
+            .join(' ');
+
         fontJson.glyphs.push({
             name: iconDef.name,
             ligatures: [],
             unicode: iconDef.unicode,
-            d: iconDef.hast[0].properties.d
+            d: mergedD
         });
     });
 
