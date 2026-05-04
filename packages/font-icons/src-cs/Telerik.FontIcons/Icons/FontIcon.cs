@@ -156,7 +156,9 @@ namespace Telerik.FontIcons
         WalletSolid = 684,
         Stamp = 685,
         StickyNote = 686,
+        [System.Obsolete("since v4. Will be removed in v5. Use Ruler instead.", false)]
         RulerOutline = 687,
+        [System.Obsolete("since v4. Will be removed in v5. Use Eraser instead.", false)]
         EraserOutline = 688,
         EditAnnotations = 689,
         Highlight = 690,
@@ -167,6 +169,7 @@ namespace Telerik.FontIcons
         Scale = 695,
         Van = 696,
         Truck = 697,
+        [System.Obsolete("since v4. Will be removed in v5. Use Wallet instead.", false)]
         WalletOutline = 698,
         Transactions = 699,
         HandleDragDots = 702,
@@ -174,32 +177,40 @@ namespace Telerik.FontIcons
         [System.Obsolete("since v4. Will be removed in v5. Use Recycle instead.", false)]
         RecycleSolid = 705,
         IndustrialVehicle = 735,
+        [System.Obsolete("since v4. Will be removed in v5. Use Recycle instead.", false)]
         RecycleOutline = 706,
         [System.Obsolete("since v4. Will be removed in v5. Use Plane instead.", false)]
         PlaneSolid = 707,
+        [System.Obsolete("since v4. Will be removed in v5. Use Plane instead.", false)]
         PlaneOutline = 708,
         MoneyExchange = 713,
         Sustainability = 710,
         Speed = 712,
+        [System.Obsolete("since v4. Will be removed in v5. Use Devices instead.", false)]
         DevicesOutline = 714,
         [System.Obsolete("since v4. Will be removed in v5. Use Devices instead.", false)]
         DevicesSolid = 715,
         [System.Obsolete("since v4. Will be removed in v5. Use Instagram instead.", false)]
         InstagramBox = 716,
         Instagram = 717,
+        [System.Obsolete("since v4. Will be removed in v5. Use Laptop instead.", false)]
         LaptopOutline = 718,
         [System.Obsolete("since v4. Will be removed in v5. Use Laptop instead.", false)]
         LaptopSolid = 719,
+        [System.Obsolete("since v4. Will be removed in v5. Use MobileRinging instead.", false)]
         MobileOutlineRinging = 720,
+        [System.Obsolete("since v4. Will be removed in v5. Use Mobile instead.", false)]
         MobileOutline = 721,
         [System.Obsolete("since v4. Will be removed in v5. Use MobileRinging instead.", false)]
         MobileSolidRinging = 722,
         [System.Obsolete("since v4. Will be removed in v5. Use Mobile instead.", false)]
         MobileSolid = 723,
         Locations = 734,
+        [System.Obsolete("since v4. Will be removed in v5. Use Tablet instead.", false)]
         TabletOutline = 725,
         [System.Obsolete("since v4. Will be removed in v5. Use Tablet instead.", false)]
         TabletSolid = 726,
+        [System.Obsolete("since v4. Will be removed in v5. Use Users instead.", false)]
         UsersOutline = 727,
         [System.Obsolete("since v4. Will be removed in v5. Use Users instead.", false)]
         UsersSolid = 728,
@@ -208,31 +219,39 @@ namespace Telerik.FontIcons
         Whatsapp = 730,
         [System.Obsolete("since v4. Will be removed in v5. Use XLogo instead.", false)]
         XLogoBox = 731,
+        [System.Obsolete("since v4. Will be removed in v5. Use Sms instead.", false)]
         SmsOutline = 732,
         [System.Obsolete("since v4. Will be removed in v5. Use Sms instead.", false)]
         SmsSolid = 733,
+        [System.Obsolete("since v4. Will be removed in v5. Use Therapist instead.", false)]
         TherapistOutline = 736,
         [System.Obsolete("since v4. Will be removed in v5. Use Therapist instead.", false)]
         TherapistSolid = 737,
         [System.Obsolete("since v4. Will be removed in v5. Use Patient instead.", false)]
         PatientSolid = 738,
+        [System.Obsolete("since v4. Will be removed in v5. Use Patient instead.", false)]
         PatientOutline = 739,
         [System.Obsolete("since v4. Will be removed in v5. Use Nurse instead.", false)]
         NurseSolid = 740,
+        [System.Obsolete("since v4. Will be removed in v5. Use Nurse instead.", false)]
         NurseOutline = 741,
         Optimization = 742,
+        [System.Obsolete("since v4. Will be removed in v5. Use SecurityCheck instead.", false)]
         SecurityCheckOutline = 743,
         [System.Obsolete("since v4. Will be removed in v5. Use SecurityCheck instead.", false)]
         SecurityCheckSolid = 744,
+        [System.Obsolete("since v4. Will be removed in v5. Use SecurityLock instead.", false)]
         SecurityLockOutline = 745,
         [System.Obsolete("since v4. Will be removed in v5. Use SecurityLock instead.", false)]
         SecurityLockSolid = 746,
+        [System.Obsolete("since v4. Will be removed in v5. Use Upgrade instead.", false)]
         UpgradeOutline = 747,
         UpgradeReload = 748,
         [System.Obsolete("since v4. Will be removed in v5. Use Upgrade instead.", false)]
         UpgradeSolid = 749,
         [System.Obsolete("since v4. Will be removed in v5. Use Food instead.", false)]
         FoodSolid = 750,
+        [System.Obsolete("since v4. Will be removed in v5. Use Food instead.", false)]
         FoodOutline = 751,
         Area = 752,
         ArrowShape = 753,
@@ -259,48 +278,61 @@ namespace Telerik.FontIcons
         RulerSolidAlt = 771,
         [System.Obsolete("since v4. Will be removed in v5. Use Ruler instead.", false)]
         RulerSolid = 772,
+        [System.Obsolete("since v4. Will be removed in v5. Use RulerTriangle instead.", false)]
         RulerTriangleOutline = 773,
         [System.Obsolete("since v4. Will be removed in v5. Use RulerTriangle instead.", false)]
         RulerTriangleSolid = 774,
+        [System.Obsolete("since v4. Will be removed in v5. Use AwardNumber instead.", false)]
         AwardNumberOutline = 775,
         [System.Obsolete("since v4. Will be removed in v5. Use AwardNumber instead.", false)]
         AwardNumberSolid = 776,
+        [System.Obsolete("since v4. Will be removed in v5. Use AwardTrophy instead.", false)]
         AwardStarOutline = 777,
         [System.Obsolete("since v4. Will be removed in v5. Use AwardTrophy instead.", false)]
         AwardStarSolid = 778,
+        [System.Obsolete("since v4. Will be removed in v5. Use Banknote instead.", false)]
         BanknoteOutline = 779,
         [System.Obsolete("since v4. Will be removed in v5. Use Banknote instead.", false)]
         BanknoteSolid = 780,
+        [System.Obsolete("since v4. Will be removed in v5. Use Bathtub instead.", false)]
         BathtubeOutline = 781,
         [System.Obsolete("since v4. Will be removed in v5. Use Bathtub instead.", false)]
         BathtubeSolid = 782,
+        [System.Obsolete("since v4. Will be removed in v5. Use Bed instead.", false)]
         BedOutline = 783,
         [System.Obsolete("since v4. Will be removed in v5. Use Bed instead.", false)]
         BedSolid = 784,
+        [System.Obsolete("since v4. Will be removed in v5. Use Bug instead.", false)]
         BugOutline = 785,
         [System.Obsolete("since v4. Will be removed in v5. Use Bug instead.", false)]
         BugSolid = 786,
+        [System.Obsolete("since v4. Will be removed in v5. Use Buildings instead.", false)]
         BuildingsOutline = 787,
         [System.Obsolete("since v4. Will be removed in v5. Use Buildings instead.", false)]
         BuildingsSolid = 788,
         Bicycle = 789,
         Bus = 790,
         Car = 791,
+        [System.Obsolete("since v4. Will be removed in v5. Use Dashboard instead.", false)]
         DashboardOutline = 792,
         [System.Obsolete("since v4. Will be removed in v5. Use Dashboard instead.", false)]
         DashboardSolid = 793,
         Decision = 794,
         Directions = 795,
+        [System.Obsolete("since v4. Will be removed in v5. Use Education instead.", false)]
         EducationOutline = 796,
         [System.Obsolete("since v4. Will be removed in v5. Use Education instead.", false)]
         EducationSolid = 797,
         Headset = 798,
+        [System.Obsolete("since v4. Will be removed in v5. Use Luggage instead.", false)]
         LuggageOutline = 799,
         [System.Obsolete("since v4. Will be removed in v5. Use Luggage instead.", false)]
         LuggageSolid = 800,
+        [System.Obsolete("since v4. Will be removed in v5. Use NonStop instead.", false)]
         NonStopOutline = 801,
         [System.Obsolete("since v4. Will be removed in v5. Use NonStop instead.", false)]
         NonStopSolid = 802,
+        [System.Obsolete("since v4. Will be removed in v5. Use Pills instead.", false)]
         PillsOutline = 803,
         [System.Obsolete("since v4. Will be removed in v5. Use Pills instead.", false)]
         PillsSolid = 804,
@@ -359,7 +391,9 @@ namespace Telerik.FontIcons
         FilterClear = 153,
         [System.Obsolete("since v4. Will be removed in v5. Use Filter instead.", false)]
         FilterSmall = 154,
+        [System.Obsolete("since v4. Will be removed in v5. Use FilterSortAsc instead.", false)]
         FilterSortAscSmall = 155,
+        [System.Obsolete("since v4. Will be removed in v5. Use FilterSortDesc instead.", false)]
         FilterSortDescSmall = 156,
         FilterAddExpression = 157,
         FilterAddGroup = 158,
@@ -417,25 +451,31 @@ namespace Telerik.FontIcons
         ClockArrowRotate = 204,
         [System.Obsolete("since v4. Will be removed in v5. Use QuestionCircle instead.", false)]
         QuestionSolid = 806,
+        [System.Obsolete("since v4. Will be removed in v5. Use Clean instead.", false)]
         CleanOutline = 807,
         [System.Obsolete("since v4. Will be removed in v5. Use Clean instead.", false)]
         CleanSolid = 808,
         ConcreteTruck = 809,
+        [System.Obsolete("since v4. Will be removed in v5. Use Discount instead.", false)]
         DiscountOutline = 810,
         [System.Obsolete("since v4. Will be removed in v5. Use Discount instead.", false)]
         DiscountSolid = 811,
+        [System.Obsolete("since v4. Will be removed in v5. Use Doctor instead.", false)]
         DoctorOutline = 812,
         [System.Obsolete("since v4. Will be removed in v5. Use Doctor instead.", false)]
         DoctorSolid = 813,
+        [System.Obsolete("since v4. Will be removed in v5. Use LabTechnician instead.", false)]
         LabTechnicianOutline = 814,
         [System.Obsolete("since v4. Will be removed in v5. Use LabTechnician instead.", false)]
         LabTechnicianSolid = 815,
         SweeperVehicle = 816,
+        [System.Obsolete("since v4. Will be removed in v5. Use WeightScale instead.", false)]
         WeightScaleOutline = 817,
         [System.Obsolete("since v4. Will be removed in v5. Use WeightScale instead.", false)]
         WeightScaleSolid = 818,
         [System.Obsolete("since v4. Will be removed in v5. Use Microphone instead.", false)]
         MicrophoneSolid = 819,
+        [System.Obsolete("since v4. Will be removed in v5. Use Microphone instead.", false)]
         MicrophoneOutline = 820,
         RowExpand = 821,
         RowCollapse = 822,
@@ -461,6 +501,7 @@ namespace Telerik.FontIcons
         ArrowRotateCwOutline = 834,
         [System.Obsolete("since v4. Will be removed in v5. Use ArrowUp instead.", false)]
         ArrowUpOutline = 835,
+        [System.Obsolete("since v4. Will be removed in v5. Use ArrowsRotate instead.", false)]
         ArrowsRotateOutline = 836,
         [System.Obsolete("since v4. Will be removed in v5. Use FileClock instead.", false)]
         FileClockOutline = 837,
