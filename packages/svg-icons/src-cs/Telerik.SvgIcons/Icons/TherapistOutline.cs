@@ -1,5 +1,6 @@
 namespace Telerik.SvgIcons
 {
+    [System.Obsolete("since v4. Will be removed in v5. Use Therapist instead.", false)]
     public class TherapistOutline : SvgIconBase
     {
         public TherapistOutline()

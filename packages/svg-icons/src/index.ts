@@ -153,7 +153,9 @@ export { userOutlineIcon } from './icons/user-outline';
 export { walletSolidIcon } from './icons/wallet-solid';
 export { stampIcon } from './icons/stamp';
 export { stickyNoteIcon } from './icons/sticky-note';
+/** @deprecated since v4. Will be removed in v5. Use `ruler` instead. */
 export { rulerOutlineIcon } from './icons/ruler-outline';
+/** @deprecated since v4. Will be removed in v5. Use `eraser` instead. */
 export { eraserOutlineIcon } from './icons/eraser-outline';
 export { editAnnotationsIcon } from './icons/edit-annotations';
 export { highlightIcon } from './icons/highlight';
@@ -164,6 +166,7 @@ export { inputboxIcon } from './icons/inputbox';
 export { scaleIcon } from './icons/scale';
 export { vanIcon } from './icons/van';
 export { truckIcon } from './icons/truck';
+/** @deprecated since v4. Will be removed in v5. Use `wallet` instead. */
 export { walletOutlineIcon } from './icons/wallet-outline';
 export { transactionsIcon } from './icons/transactions';
 export { handleDragDotsIcon } from './icons/handle-drag-dots';
@@ -171,32 +174,40 @@ export { arrowDownLeftIcon } from './icons/arrow-down-left';
 /** @deprecated since v4. Will be removed in v5. Use `recycle` instead. */
 export { recycleSolidIcon } from './icons/recycle-solid';
 export { industrialVehicleIcon } from './icons/industrial-vehicle';
+/** @deprecated since v4. Will be removed in v5. Use `recycle` instead. */
 export { recycleOutlineIcon } from './icons/recycle-outline';
 /** @deprecated since v4. Will be removed in v5. Use `plane` instead. */
 export { planeSolidIcon } from './icons/plane-solid';
+/** @deprecated since v4. Will be removed in v5. Use `plane` instead. */
 export { planeOutlineIcon } from './icons/plane-outline';
 export { moneyExchangeIcon } from './icons/money-exchange';
 export { sustainabilityIcon } from './icons/sustainability';
 export { speedIcon } from './icons/speed';
+/** @deprecated since v4. Will be removed in v5. Use `devices` instead. */
 export { devicesOutlineIcon } from './icons/devices-outline';
 /** @deprecated since v4. Will be removed in v5. Use `devices` instead. */
 export { devicesSolidIcon } from './icons/devices-solid';
 /** @deprecated since v4. Will be removed in v5. Use `instagram` instead. */
 export { instagramBoxIcon } from './icons/instagram-box';
 export { instagramIcon } from './icons/instagram';
+/** @deprecated since v4. Will be removed in v5. Use `laptop` instead. */
 export { laptopOutlineIcon } from './icons/laptop-outline';
 /** @deprecated since v4. Will be removed in v5. Use `laptop` instead. */
 export { laptopSolidIcon } from './icons/laptop-solid';
+/** @deprecated since v4. Will be removed in v5. Use `mobile-ringing` instead. */
 export { mobileOutlineRingingIcon } from './icons/mobile-outline-ringing';
+/** @deprecated since v4. Will be removed in v5. Use `mobile` instead. */
 export { mobileOutlineIcon } from './icons/mobile-outline';
 /** @deprecated since v4. Will be removed in v5. Use `mobile-ringing` instead. */
 export { mobileSolidRingingIcon } from './icons/mobile-solid-ringing';
 /** @deprecated since v4. Will be removed in v5. Use `mobile` instead. */
 export { mobileSolidIcon } from './icons/mobile-solid';
 export { locationsIcon } from './icons/locations';
+/** @deprecated since v4. Will be removed in v5. Use `tablet` instead. */
 export { tabletOutlineIcon } from './icons/tablet-outline';
 /** @deprecated since v4. Will be removed in v5. Use `tablet` instead. */
 export { tabletSolidIcon } from './icons/tablet-solid';
+/** @deprecated since v4. Will be removed in v5. Use `users` instead. */
 export { usersOutlineIcon } from './icons/users-outline';
 /** @deprecated since v4. Will be removed in v5. Use `users` instead. */
 export { usersSolidIcon } from './icons/users-solid';
@@ -205,31 +216,39 @@ export { whatsappBoxIcon } from './icons/whatsapp-box';
 export { whatsappIcon } from './icons/whatsapp';
 /** @deprecated since v4. Will be removed in v5. Use `x-logo` instead. */
 export { xLogoBoxIcon } from './icons/x-logo-box';
+/** @deprecated since v4. Will be removed in v5. Use `sms` instead. */
 export { smsOutlineIcon } from './icons/sms-outline';
 /** @deprecated since v4. Will be removed in v5. Use `sms` instead. */
 export { smsSolidIcon } from './icons/sms-solid';
+/** @deprecated since v4. Will be removed in v5. Use `therapist` instead. */
 export { therapistOutlineIcon } from './icons/therapist-outline';
 /** @deprecated since v4. Will be removed in v5. Use `therapist` instead. */
 export { therapistSolidIcon } from './icons/therapist-solid';
 /** @deprecated since v4. Will be removed in v5. Use `patient` instead. */
 export { patientSolidIcon } from './icons/patient-solid';
+/** @deprecated since v4. Will be removed in v5. Use `patient` instead. */
 export { patientOutlineIcon } from './icons/patient-outline';
 /** @deprecated since v4. Will be removed in v5. Use `nurse` instead. */
 export { nurseSolidIcon } from './icons/nurse-solid';
+/** @deprecated since v4. Will be removed in v5. Use `nurse` instead. */
 export { nurseOutlineIcon } from './icons/nurse-outline';
 export { optimizationIcon } from './icons/optimization';
+/** @deprecated since v4. Will be removed in v5. Use `security-check` instead. */
 export { securityCheckOutlineIcon } from './icons/security-check-outline';
 /** @deprecated since v4. Will be removed in v5. Use `security-check` instead. */
 export { securityCheckSolidIcon } from './icons/security-check-solid';
+/** @deprecated since v4. Will be removed in v5. Use `security-lock` instead. */
 export { securityLockOutlineIcon } from './icons/security-lock-outline';
 /** @deprecated since v4. Will be removed in v5. Use `security-lock` instead. */
 export { securityLockSolidIcon } from './icons/security-lock-solid';
+/** @deprecated since v4. Will be removed in v5. Use `upgrade` instead. */
 export { upgradeOutlineIcon } from './icons/upgrade-outline';
 export { upgradeReloadIcon } from './icons/upgrade-reload';
 /** @deprecated since v4. Will be removed in v5. Use `upgrade` instead. */
 export { upgradeSolidIcon } from './icons/upgrade-solid';
 /** @deprecated since v4. Will be removed in v5. Use `food` instead. */
 export { foodSolidIcon } from './icons/food-solid';
+/** @deprecated since v4. Will be removed in v5. Use `food` instead. */
 export { foodOutlineIcon } from './icons/food-outline';
 export { areaIcon } from './icons/area';
 export { arrowShapeIcon } from './icons/arrow-shape';
@@ -256,48 +275,61 @@ export { rulerOutlineAltIcon } from './icons/ruler-outline-alt';
 export { rulerSolidAltIcon } from './icons/ruler-solid-alt';
 /** @deprecated since v4. Will be removed in v5. Use `ruler` instead. */
 export { rulerSolidIcon } from './icons/ruler-solid';
+/** @deprecated since v4. Will be removed in v5. Use `ruler-triangle` instead. */
 export { rulerTriangleOutlineIcon } from './icons/ruler-triangle-outline';
 /** @deprecated since v4. Will be removed in v5. Use `ruler-triangle` instead. */
 export { rulerTriangleSolidIcon } from './icons/ruler-triangle-solid';
+/** @deprecated since v4. Will be removed in v5. Use `award-number` instead. */
 export { awardNumberOutlineIcon } from './icons/award-number-outline';
 /** @deprecated since v4. Will be removed in v5. Use `award-number` instead. */
 export { awardNumberSolidIcon } from './icons/award-number-solid';
+/** @deprecated since v4. Will be removed in v5. Use `award-trophy` instead. */
 export { awardStarOutlineIcon } from './icons/award-star-outline';
 /** @deprecated since v4. Will be removed in v5. Use `award-trophy` instead. */
 export { awardStarSolidIcon } from './icons/award-star-solid';
+/** @deprecated since v4. Will be removed in v5. Use `banknote` instead. */
 export { banknoteOutlineIcon } from './icons/banknote-outline';
 /** @deprecated since v4. Will be removed in v5. Use `banknote` instead. */
 export { banknoteSolidIcon } from './icons/banknote-solid';
+/** @deprecated since v4. Will be removed in v5. Use `bathtub` instead. */
 export { bathtubeOutlineIcon } from './icons/bathtube-outline';
 /** @deprecated since v4. Will be removed in v5. Use `bathtub` instead. */
 export { bathtubeSolidIcon } from './icons/bathtube-solid';
+/** @deprecated since v4. Will be removed in v5. Use `bed` instead. */
 export { bedOutlineIcon } from './icons/bed-outline';
 /** @deprecated since v4. Will be removed in v5. Use `bed` instead. */
 export { bedSolidIcon } from './icons/bed-solid';
+/** @deprecated since v4. Will be removed in v5. Use `bug` instead. */
 export { bugOutlineIcon } from './icons/bug-outline';
 /** @deprecated since v4. Will be removed in v5. Use `bug` instead. */
 export { bugSolidIcon } from './icons/bug-solid';
+/** @deprecated since v4. Will be removed in v5. Use `buildings` instead. */
 export { buildingsOutlineIcon } from './icons/buildings-outline';
 /** @deprecated since v4. Will be removed in v5. Use `buildings` instead. */
 export { buildingsSolidIcon } from './icons/buildings-solid';
 export { bicycleIcon } from './icons/bicycle';
 export { busIcon } from './icons/bus';
 export { carIcon } from './icons/car';
+/** @deprecated since v4. Will be removed in v5. Use `dashboard` instead. */
 export { dashboardOutlineIcon } from './icons/dashboard-outline';
 /** @deprecated since v4. Will be removed in v5. Use `dashboard` instead. */
 export { dashboardSolidIcon } from './icons/dashboard-solid';
 export { decisionIcon } from './icons/decision';
 export { directionsIcon } from './icons/directions';
+/** @deprecated since v4. Will be removed in v5. Use `education` instead. */
 export { educationOutlineIcon } from './icons/education-outline';
 /** @deprecated since v4. Will be removed in v5. Use `education` instead. */
 export { educationSolidIcon } from './icons/education-solid';
 export { headsetIcon } from './icons/headset';
+/** @deprecated since v4. Will be removed in v5. Use `luggage` instead. */
 export { luggageOutlineIcon } from './icons/luggage-outline';
 /** @deprecated since v4. Will be removed in v5. Use `luggage` instead. */
 export { luggageSolidIcon } from './icons/luggage-solid';
+/** @deprecated since v4. Will be removed in v5. Use `non-stop` instead. */
 export { nonStopOutlineIcon } from './icons/non-stop-outline';
 /** @deprecated since v4. Will be removed in v5. Use `non-stop` instead. */
 export { nonStopSolidIcon } from './icons/non-stop-solid';
+/** @deprecated since v4. Will be removed in v5. Use `pills` instead. */
 export { pillsOutlineIcon } from './icons/pills-outline';
 /** @deprecated since v4. Will be removed in v5. Use `pills` instead. */
 export { pillsSolidIcon } from './icons/pills-solid';
@@ -356,7 +388,9 @@ export { filterIcon } from './icons/filter';
 export { filterClearIcon } from './icons/filter-clear';
 /** @deprecated since v4. Will be removed in v5. Use `filter` instead. */
 export { filterSmallIcon } from './icons/filter-small';
+/** @deprecated since v4. Will be removed in v5. Use `filter-sort-asc` instead. */
 export { filterSortAscSmallIcon } from './icons/filter-sort-asc-small';
+/** @deprecated since v4. Will be removed in v5. Use `filter-sort-desc` instead. */
 export { filterSortDescSmallIcon } from './icons/filter-sort-desc-small';
 export { filterAddExpressionIcon } from './icons/filter-add-expression';
 export { filterAddGroupIcon } from './icons/filter-add-group';
@@ -414,25 +448,31 @@ export { setColumnPositionIcon } from './icons/set-column-position';
 export { clockArrowRotateIcon } from './icons/clock-arrow-rotate';
 /** @deprecated since v4. Will be removed in v5. Use `question-circle` instead. */
 export { questionSolidIcon } from './icons/question-solid';
+/** @deprecated since v4. Will be removed in v5. Use `clean` instead. */
 export { cleanOutlineIcon } from './icons/clean-outline';
 /** @deprecated since v4. Will be removed in v5. Use `clean` instead. */
 export { cleanSolidIcon } from './icons/clean-solid';
 export { concreteTruckIcon } from './icons/concrete-truck';
+/** @deprecated since v4. Will be removed in v5. Use `discount` instead. */
 export { discountOutlineIcon } from './icons/discount-outline';
 /** @deprecated since v4. Will be removed in v5. Use `discount` instead. */
 export { discountSolidIcon } from './icons/discount-solid';
+/** @deprecated since v4. Will be removed in v5. Use `doctor` instead. */
 export { doctorOutlineIcon } from './icons/doctor-outline';
 /** @deprecated since v4. Will be removed in v5. Use `doctor` instead. */
 export { doctorSolidIcon } from './icons/doctor-solid';
+/** @deprecated since v4. Will be removed in v5. Use `lab-technician` instead. */
 export { labTechnicianOutlineIcon } from './icons/lab-technician-outline';
 /** @deprecated since v4. Will be removed in v5. Use `lab-technician` instead. */
 export { labTechnicianSolidIcon } from './icons/lab-technician-solid';
 export { sweeperVehicleIcon } from './icons/sweeper-vehicle';
+/** @deprecated since v4. Will be removed in v5. Use `weight-scale` instead. */
 export { weightScaleOutlineIcon } from './icons/weight-scale-outline';
 /** @deprecated since v4. Will be removed in v5. Use `weight-scale` instead. */
 export { weightScaleSolidIcon } from './icons/weight-scale-solid';
 /** @deprecated since v4. Will be removed in v5. Use `microphone` instead. */
 export { microphoneSolidIcon } from './icons/microphone-solid';
+/** @deprecated since v4. Will be removed in v5. Use `microphone` instead. */
 export { microphoneOutlineIcon } from './icons/microphone-outline';
 export { rowExpandIcon } from './icons/row-expand';
 export { rowCollapseIcon } from './icons/row-collapse';
@@ -458,6 +498,7 @@ export { arrowDownOutlineIcon } from './icons/arrow-down-outline';
 export { arrowRotateCwOutlineIcon } from './icons/arrow-rotate-cw-outline';
 /** @deprecated since v4. Will be removed in v5. Use `arrow-up` instead. */
 export { arrowUpOutlineIcon } from './icons/arrow-up-outline';
+/** @deprecated since v4. Will be removed in v5. Use `arrows-rotate` instead. */
 export { arrowsRotateOutlineIcon } from './icons/arrows-rotate-outline';
 /** @deprecated since v4. Will be removed in v5. Use `file-clock` instead. */
 export { fileClockOutlineIcon } from './icons/file-clock-outline';

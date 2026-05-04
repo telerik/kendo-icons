@@ -156,7 +156,9 @@ namespace Telerik.SvgIcons
         public static ISvgIcon WalletSolid => new WalletSolid();
         public static ISvgIcon Stamp => new Stamp();
         public static ISvgIcon StickyNote => new StickyNote();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Ruler instead.", false)]
         public static ISvgIcon RulerOutline => new RulerOutline();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Eraser instead.", false)]
         public static ISvgIcon EraserOutline => new EraserOutline();
         public static ISvgIcon EditAnnotations => new EditAnnotations();
         public static ISvgIcon Highlight => new Highlight();
@@ -167,6 +169,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon Scale => new Scale();
         public static ISvgIcon Van => new Van();
         public static ISvgIcon Truck => new Truck();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Wallet instead.", false)]
         public static ISvgIcon WalletOutline => new WalletOutline();
         public static ISvgIcon Transactions => new Transactions();
         public static ISvgIcon HandleDragDots => new HandleDragDots();
@@ -174,32 +177,40 @@ namespace Telerik.SvgIcons
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Recycle instead.", false)]
         public static ISvgIcon RecycleSolid => new RecycleSolid();
         public static ISvgIcon IndustrialVehicle => new IndustrialVehicle();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Recycle instead.", false)]
         public static ISvgIcon RecycleOutline => new RecycleOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Plane instead.", false)]
         public static ISvgIcon PlaneSolid => new PlaneSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Plane instead.", false)]
         public static ISvgIcon PlaneOutline => new PlaneOutline();
         public static ISvgIcon MoneyExchange => new MoneyExchange();
         public static ISvgIcon Sustainability => new Sustainability();
         public static ISvgIcon Speed => new Speed();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Devices instead.", false)]
         public static ISvgIcon DevicesOutline => new DevicesOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Devices instead.", false)]
         public static ISvgIcon DevicesSolid => new DevicesSolid();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Instagram instead.", false)]
         public static ISvgIcon InstagramBox => new InstagramBox();
         public static ISvgIcon Instagram => new Instagram();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Laptop instead.", false)]
         public static ISvgIcon LaptopOutline => new LaptopOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Laptop instead.", false)]
         public static ISvgIcon LaptopSolid => new LaptopSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.MobileRinging instead.", false)]
         public static ISvgIcon MobileOutlineRinging => new MobileOutlineRinging();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Mobile instead.", false)]
         public static ISvgIcon MobileOutline => new MobileOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.MobileRinging instead.", false)]
         public static ISvgIcon MobileSolidRinging => new MobileSolidRinging();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Mobile instead.", false)]
         public static ISvgIcon MobileSolid => new MobileSolid();
         public static ISvgIcon Locations => new Locations();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Tablet instead.", false)]
         public static ISvgIcon TabletOutline => new TabletOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Tablet instead.", false)]
         public static ISvgIcon TabletSolid => new TabletSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Users instead.", false)]
         public static ISvgIcon UsersOutline => new UsersOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Users instead.", false)]
         public static ISvgIcon UsersSolid => new UsersSolid();
@@ -208,31 +219,39 @@ namespace Telerik.SvgIcons
         public static ISvgIcon Whatsapp => new Whatsapp();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.XLogo instead.", false)]
         public static ISvgIcon XLogoBox => new XLogoBox();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Sms instead.", false)]
         public static ISvgIcon SmsOutline => new SmsOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Sms instead.", false)]
         public static ISvgIcon SmsSolid => new SmsSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Therapist instead.", false)]
         public static ISvgIcon TherapistOutline => new TherapistOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Therapist instead.", false)]
         public static ISvgIcon TherapistSolid => new TherapistSolid();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Patient instead.", false)]
         public static ISvgIcon PatientSolid => new PatientSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Patient instead.", false)]
         public static ISvgIcon PatientOutline => new PatientOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Nurse instead.", false)]
         public static ISvgIcon NurseSolid => new NurseSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Nurse instead.", false)]
         public static ISvgIcon NurseOutline => new NurseOutline();
         public static ISvgIcon Optimization => new Optimization();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.SecurityCheck instead.", false)]
         public static ISvgIcon SecurityCheckOutline => new SecurityCheckOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.SecurityCheck instead.", false)]
         public static ISvgIcon SecurityCheckSolid => new SecurityCheckSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.SecurityLock instead.", false)]
         public static ISvgIcon SecurityLockOutline => new SecurityLockOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.SecurityLock instead.", false)]
         public static ISvgIcon SecurityLockSolid => new SecurityLockSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Upgrade instead.", false)]
         public static ISvgIcon UpgradeOutline => new UpgradeOutline();
         public static ISvgIcon UpgradeReload => new UpgradeReload();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Upgrade instead.", false)]
         public static ISvgIcon UpgradeSolid => new UpgradeSolid();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Food instead.", false)]
         public static ISvgIcon FoodSolid => new FoodSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Food instead.", false)]
         public static ISvgIcon FoodOutline => new FoodOutline();
         public static ISvgIcon Area => new Area();
         public static ISvgIcon ArrowShape => new ArrowShape();
@@ -259,48 +278,61 @@ namespace Telerik.SvgIcons
         public static ISvgIcon RulerSolidAlt => new RulerSolidAlt();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Ruler instead.", false)]
         public static ISvgIcon RulerSolid => new RulerSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.RulerTriangle instead.", false)]
         public static ISvgIcon RulerTriangleOutline => new RulerTriangleOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.RulerTriangle instead.", false)]
         public static ISvgIcon RulerTriangleSolid => new RulerTriangleSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.AwardNumber instead.", false)]
         public static ISvgIcon AwardNumberOutline => new AwardNumberOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.AwardNumber instead.", false)]
         public static ISvgIcon AwardNumberSolid => new AwardNumberSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.AwardTrophy instead.", false)]
         public static ISvgIcon AwardStarOutline => new AwardStarOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.AwardTrophy instead.", false)]
         public static ISvgIcon AwardStarSolid => new AwardStarSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Banknote instead.", false)]
         public static ISvgIcon BanknoteOutline => new BanknoteOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Banknote instead.", false)]
         public static ISvgIcon BanknoteSolid => new BanknoteSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Bathtub instead.", false)]
         public static ISvgIcon BathtubeOutline => new BathtubeOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Bathtub instead.", false)]
         public static ISvgIcon BathtubeSolid => new BathtubeSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Bed instead.", false)]
         public static ISvgIcon BedOutline => new BedOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Bed instead.", false)]
         public static ISvgIcon BedSolid => new BedSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Bug instead.", false)]
         public static ISvgIcon BugOutline => new BugOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Bug instead.", false)]
         public static ISvgIcon BugSolid => new BugSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Buildings instead.", false)]
         public static ISvgIcon BuildingsOutline => new BuildingsOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Buildings instead.", false)]
         public static ISvgIcon BuildingsSolid => new BuildingsSolid();
         public static ISvgIcon Bicycle => new Bicycle();
         public static ISvgIcon Bus => new Bus();
         public static ISvgIcon Car => new Car();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Dashboard instead.", false)]
         public static ISvgIcon DashboardOutline => new DashboardOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Dashboard instead.", false)]
         public static ISvgIcon DashboardSolid => new DashboardSolid();
         public static ISvgIcon Decision => new Decision();
         public static ISvgIcon Directions => new Directions();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Education instead.", false)]
         public static ISvgIcon EducationOutline => new EducationOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Education instead.", false)]
         public static ISvgIcon EducationSolid => new EducationSolid();
         public static ISvgIcon Headset => new Headset();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Luggage instead.", false)]
         public static ISvgIcon LuggageOutline => new LuggageOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Luggage instead.", false)]
         public static ISvgIcon LuggageSolid => new LuggageSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.NonStop instead.", false)]
         public static ISvgIcon NonStopOutline => new NonStopOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.NonStop instead.", false)]
         public static ISvgIcon NonStopSolid => new NonStopSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Pills instead.", false)]
         public static ISvgIcon PillsOutline => new PillsOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Pills instead.", false)]
         public static ISvgIcon PillsSolid => new PillsSolid();
@@ -359,7 +391,9 @@ namespace Telerik.SvgIcons
         public static ISvgIcon FilterClear => new FilterClear();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Filter instead.", false)]
         public static ISvgIcon FilterSmall => new FilterSmall();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.FilterSortAsc instead.", false)]
         public static ISvgIcon FilterSortAscSmall => new FilterSortAscSmall();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.FilterSortDesc instead.", false)]
         public static ISvgIcon FilterSortDescSmall => new FilterSortDescSmall();
         public static ISvgIcon FilterAddExpression => new FilterAddExpression();
         public static ISvgIcon FilterAddGroup => new FilterAddGroup();
@@ -417,25 +451,31 @@ namespace Telerik.SvgIcons
         public static ISvgIcon ClockArrowRotate => new ClockArrowRotate();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.QuestionCircle instead.", false)]
         public static ISvgIcon QuestionSolid => new QuestionSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Clean instead.", false)]
         public static ISvgIcon CleanOutline => new CleanOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Clean instead.", false)]
         public static ISvgIcon CleanSolid => new CleanSolid();
         public static ISvgIcon ConcreteTruck => new ConcreteTruck();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Discount instead.", false)]
         public static ISvgIcon DiscountOutline => new DiscountOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Discount instead.", false)]
         public static ISvgIcon DiscountSolid => new DiscountSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Doctor instead.", false)]
         public static ISvgIcon DoctorOutline => new DoctorOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Doctor instead.", false)]
         public static ISvgIcon DoctorSolid => new DoctorSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.LabTechnician instead.", false)]
         public static ISvgIcon LabTechnicianOutline => new LabTechnicianOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.LabTechnician instead.", false)]
         public static ISvgIcon LabTechnicianSolid => new LabTechnicianSolid();
         public static ISvgIcon SweeperVehicle => new SweeperVehicle();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.WeightScale instead.", false)]
         public static ISvgIcon WeightScaleOutline => new WeightScaleOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.WeightScale instead.", false)]
         public static ISvgIcon WeightScaleSolid => new WeightScaleSolid();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Microphone instead.", false)]
         public static ISvgIcon MicrophoneSolid => new MicrophoneSolid();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.Microphone instead.", false)]
         public static ISvgIcon MicrophoneOutline => new MicrophoneOutline();
         public static ISvgIcon RowExpand => new RowExpand();
         public static ISvgIcon RowCollapse => new RowCollapse();
@@ -461,6 +501,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon ArrowRotateCwOutline => new ArrowRotateCwOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.ArrowUp instead.", false)]
         public static ISvgIcon ArrowUpOutline => new ArrowUpOutline();
+        [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.ArrowsRotate instead.", false)]
         public static ISvgIcon ArrowsRotateOutline => new ArrowsRotateOutline();
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.FileClock instead.", false)]
         public static ISvgIcon FileClockOutline => new FileClockOutline();
