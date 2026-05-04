@@ -847,8 +847,9 @@ namespace Telerik.FontIcons
         Reddit = 510,
         [System.Obsolete("since v4. Will be removed in v5. Use Reddit instead.", false)]
         RedditBox = 511,
+        [System.Obsolete("since v4. Will be removed in v5. This icon will be removed without a replacement.", false)]
         StumbleUpon = 512,
-        [System.Obsolete("since v4. Will be removed in v5. Use StumbleUpon instead.", false)]
+        [System.Obsolete("since v4. Will be removed in v5. This icon will be removed without a replacement.", false)]
         StumbleUponBox = 513,
         TellAFriend = 514,
         [System.Obsolete("since v4. Will be removed in v5. Use TellAFriend instead.", false)]
