@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0-dev.0](https://github.com/telerik/kendo-icons/compare/v4.9.0...v5.0.0-dev.0) (2026-05-05)
+
+
+### Features
+
+* generate icons metadata ([3a65057](https://github.com/telerik/kendo-icons/commit/3a65057b3a8270b610c6ef95c1cb1d58b671eff8))
+* update icon set and introduce variants ([474711b](https://github.com/telerik/kendo-icons/commit/474711bc12095a3177c75a0bd3e4a3ee39052fd0))
+
+
+### BREAKING CHANGES
+
+* The icon set has been streamlined and updated.
+This includes the addition of new icons and variants. With this update the default icon
+variant is changed to outline. The change also includes removal and renaming of some icons.
+Please refer to the migration guide for more details:
+https://github.com/telerik/kendo-icons/blob/develop/v4-v5-migration-assets/migration-guide.md
+
+
+
+
+
 # [4.9.0](https://github.com/telerik/kendo-icons/compare/v4.9.0-dev.4...v4.9.0) (2026-05-04)
 
 **Note:** Version bump only for package @progress/kendo-font-icons
