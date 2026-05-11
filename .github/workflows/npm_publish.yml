@@ -45,8 +45,7 @@ jobs:
           access-id: ${{ secrets.GH_AKEYLESS_ACCESS_ID }}
           static-secrets: |
             {
-              "/WebComponents/prod/tokens/GH_TOKEN": "GH_TOKEN",
-              "/WebComponents/prod/tokens/PROGRESS_NPM_REGISTRY_TOKEN": "NPM_TOKEN"
+              "/WebComponents/prod/tokens/GH_TOKEN": "GH_TOKEN"
             }
           export-secrets-to-environment: false
 
@@ -146,7 +145,5 @@ jobs:
 
       - name: Publish font-icons only
         if: ${{ github.event.inputs.release-type == 'hotfix-font-icons-only' }}
-        run: npm publish --no-provenance --tag v4
+        run: npm publish --provenance --tag v4
         working-directory: packages/font-icons
-        env:
-          NODE_AUTH_TOKEN: ${{ steps.import-secrets.outputs.NPM_TOKEN }}
