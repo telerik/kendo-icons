@@ -12,7 +12,8 @@
   "sideEffects": false,
   "files": [
     "dist",
-    "scss"
+    "scss",
+    "NOTICE.txt"
   ],
   "scripts": {
     "prebuild": "node scripts/prepare-svg.js && node scripts/prepare-nuget.js",
