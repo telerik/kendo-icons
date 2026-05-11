@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.9.1-dev.0](https://github.com/telerik/kendo-icons/compare/v4.9.0...v4.9.1-dev.0) (2026-05-11)
+
+**Note:** Version bump only for package @progress/kendo-font-icons
+
+
+
+
+
 # [4.9.0](https://github.com/telerik/kendo-icons/compare/v4.9.0-dev.4...v4.9.0) (2026-05-04)
 
 **Note:** Version bump only for package @progress/kendo-font-icons

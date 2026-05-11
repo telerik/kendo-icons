@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.9.1-dev.0](https://github.com/telerik/kendo-icons/compare/v4.9.0...v4.9.1-dev.0) (2026-05-11)
+
+
+### Bug Fixes
+
+* remove [@deprecated](https://github.com/deprecated) JSDoc from individual icon files ([58d6925](https://github.com/telerik/kendo-icons/commit/58d692529563bd5abdbb9a5a117434ddb2fb2217))
+
+
+
+
+
 # [4.9.0](https://github.com/telerik/kendo-icons/compare/v4.9.0-dev.4...v4.9.0) (2026-05-04)
 
 **Note:** Version bump only for package @progress/kendo-svg-icons
