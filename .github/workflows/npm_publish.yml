@@ -16,6 +16,7 @@ on:
           - dev
           - stable
           - hotfix
+          - hotfix-font-icons-only
       dry-run:
         description: 'Dry run (skip actual publish and push)'
         required: false
@@ -23,7 +24,7 @@ on:
         type: boolean
 
 env:
-  TARGET_BRANCH: ${{ github.event.inputs.release-type == 'dev' && 'develop' || github.event.inputs.release-type == 'hotfix' && 'release-v4.x' || 'master' }}
+  TARGET_BRANCH: ${{ github.event.inputs.release-type == 'dev' && 'develop' || contains(github.event.inputs.release-type, 'hotfix') && 'release-v4.x' || 'master' }}
   DRY_RUN: ${{ github.event.inputs.dry-run == 'true' }}
 
 jobs:
@@ -44,7 +45,8 @@ jobs:
           access-id: ${{ secrets.GH_AKEYLESS_ACCESS_ID }}
           static-secrets: |
             {
-              "/WebComponents/prod/tokens/GH_TOKEN": "GH_TOKEN"
+              "/WebComponents/prod/tokens/GH_TOKEN": "GH_TOKEN",
+              "/WebComponents/prod/tokens/PROGRESS_NPM_REGISTRY_TOKEN": "NPM_TOKEN"
             }
           export-secrets-to-environment: false
 
@@ -141,3 +143,10 @@ jobs:
         if: ${{ github.event.inputs.release-type == 'hotfix' && github.event.inputs.dry-run != 'true' }}
         run: |
           git push origin release-v4.x --tags --quiet > /dev/null 2>&1
+
+      - name: Publish font-icons only
+        if: ${{ github.event.inputs.release-type == 'hotfix-font-icons-only' }}
+        run: npm publish --no-provenance --tag v4
+        working-directory: packages/font-icons
+        env:
+          NODE_AUTH_TOKEN: ${{ steps.import-secrets.outputs.NPM_TOKEN }}
