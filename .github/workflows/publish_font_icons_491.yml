@@ -1,0 +1,48 @@
+name: "One-off: publish font-icons 4.9.1"
+
+on: workflow_dispatch
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    environment: upload
+
+    permissions:
+      id-token: write
+      contents: read
+      packages: read
+
+    steps:
+      - name: Import Secrets
+        id: import-secrets
+        uses: LanceMcCarthy/akeyless-action@v5
+        with:
+          access-id: ${{ secrets.GH_AKEYLESS_ACCESS_ID }}
+          static-secrets: |
+            {
+              "/WebComponents/prod/tokens/GH_TOKEN": "GH_TOKEN",
+              "/WebComponents/prod/tokens/PROGRESS_NPM_REGISTRY_TOKEN": "NPM_TOKEN"
+            }
+          export-secrets-to-environment: false
+
+      - name: Check out release-v4.x
+        uses: actions/checkout@v6
+        with:
+          ref: release-v4.x
+          token: ${{ steps.import-secrets.outputs.GH_TOKEN }}
+
+      - name: Setup node
+        uses: actions/setup-node@v6
+        with:
+          cache: 'npm'
+          node-version: 24.x
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install
+        run: npm ci
+
+      - name: Publish font-icons
+        run: npm publish --no-provenance --tag v4
+        working-directory: packages/font-icons
+        env:
+          NODE_AUTH_TOKEN: ${{ steps.import-secrets.outputs.NPM_TOKEN }}
