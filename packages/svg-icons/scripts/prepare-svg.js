@@ -4,7 +4,7 @@ const { resolve } = require('path');
 const _ = require('lodash');
 
 const { paths, prepareSvg, buildHast } = require('../../../scripts/shared');
-const { svgTsTemplate, indexTsTemplate } = require('./templates');
+const { svgTsTemplate, indexTsTemplate, aliasTsTemplate } = require('./templates');
 
 // Prepare clean src/icons and dist dirs
 fs.rmSync( 'src/icons', { recursive: true, force: true } );
@@ -77,10 +77,19 @@ function prepareSvgIcons() {
             if ( !iconNames.has( sourceIconName ) ) {
                 throw new Error( `aliases.json: alias "${aliasName}" references unknown icon "${sourceIconName}"` );
             }
+
+            const aliasIconName = aliasName;
+            const aliasTsName = _.camelCase( `${aliasName}-icon` );
+
+            // Generate a separate file for each alias so it doesn't inherit @deprecated from the source
+            const aliasContent = aliasTsTemplate({ aliasIconName, aliasTsName, sourceIconName });
+            fs.writeFileSync( resolve( `src/icons/${aliasIconName}.ts` ), aliasContent );
+
             return {
                 sourceIconName,
+                aliasIconName,
                 sourceTsName: _.camelCase( `${sourceIconName}-icon` ),
-                aliasTsName: _.camelCase( `${aliasName}-icon` )
+                aliasTsName
             };
         });
 

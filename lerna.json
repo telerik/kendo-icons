@@ -16,7 +16,7 @@
       "allowBranch": [
         "master",
         "develop",
-        "release/v4.x"
+        "release-v4.x"
       ],
       "conventionalCommits": true
     },
