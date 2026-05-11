@@ -8,7 +8,8 @@
   "license": "Apache-2.0",
   "files": [
     "dist/",
-    "scss/"
+    "scss/",
+    "NOTICE.txt"
   ],
   "scripts": {
     "prebuild": "node scripts/prepare-font.js && node scripts/prepare-nuget.js",
