@@ -124,7 +124,8 @@ jobs:
           npx lerna publish \
             --conventional-commits --conventional-graduate \
             --create-release github --force-publish --exact \
-            --allow-branch release-v4.x --dist-tag v4
+            --allow-branch release-v4.x --dist-tag v4 \
+            --no-provenance
         env:
           GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
 
