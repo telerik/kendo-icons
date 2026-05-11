@@ -15,9 +15,16 @@ on:
         options:
           - dev
           - stable
+          - hotfix
+      dry-run:
+        description: 'Dry run (skip actual publish and push)'
+        required: false
+        default: false
+        type: boolean
 
 env:
-  TARGET_BRANCH: ${{ github.event.inputs.release-type == 'dev' && 'develop' || 'master' }}
+  TARGET_BRANCH: ${{ github.event.inputs.release-type == 'dev' && 'develop' || github.event.inputs.release-type == 'hotfix' && 'release/v4.x' || 'master' }}
+  DRY_RUN: ${{ github.event.inputs.dry-run == 'true' }}
 
 jobs:
   publish:
@@ -65,7 +72,7 @@ jobs:
           npm ci
 
       - name: Publish dev release
-        if: ${{ github.event.inputs.release-type == 'dev' }}
+        if: ${{ github.event.inputs.release-type == 'dev' && env.DRY_RUN != 'true' }}
         run: |
           npx lerna publish \
             --conventional-commits --conventional-prerelease \
@@ -74,15 +81,23 @@ jobs:
         env:
           GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
 
+      - name: Dry run dev release
+        if: ${{ github.event.inputs.release-type == 'dev' && env.DRY_RUN == 'true' }}
+        run: |
+          npx lerna version \
+            --conventional-commits --conventional-prerelease \
+            --preid dev --allow-branch develop \
+            --force-publish --exact --yes --no-push
+
       - name: Merge develop to master
-        if: ${{ github.event.inputs.release-type == 'stable' }}
+        if: ${{ github.event.inputs.release-type == 'stable' && github.event.inputs.dry-run != 'true' }}
         run: |
           git fetch --quiet
           git reset --hard origin/master
           git merge --ff-only --quiet origin/develop
 
       - name: Publish stable release
-        if: ${{ github.event.inputs.release-type == 'stable' }}
+        if: ${{ github.event.inputs.release-type == 'stable' && env.DRY_RUN != 'true' }}
         run: |
           npx lerna publish \
             --conventional-commits --conventional-graduate \
@@ -90,8 +105,38 @@ jobs:
         env:
           GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
 
+      - name: Dry run stable release
+        if: ${{ github.event.inputs.release-type == 'stable' && env.DRY_RUN == 'true' }}
+        run: |
+          npx lerna version \
+            --conventional-commits --conventional-graduate \
+            --force-publish --exact --yes --no-push
+
       - name: Push to GitHub
-        if: ${{ github.event.inputs.release-type == 'stable' }}
+        if: ${{ github.event.inputs.release-type == 'stable' && github.event.inputs.dry-run != 'true' }}
         run: |
           git push origin master --tags --quiet > /dev/null 2>&1
           git push origin master:develop --quiet > /dev/null 2>&1
+
+      - name: Publish hotfix release
+        if: ${{ github.event.inputs.release-type == 'hotfix' && env.DRY_RUN != 'true' }}
+        run: |
+          npx lerna publish \
+            --conventional-commits --conventional-graduate \
+            --create-release github --force-publish --exact \
+            --allow-branch release/v4.x --dist-tag v4-latest
+        env:
+          GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
+
+      - name: Dry run hotfix release
+        if: ${{ github.event.inputs.release-type == 'hotfix' && env.DRY_RUN == 'true' }}
+        run: |
+          npx lerna version \
+            --conventional-commits --conventional-graduate \
+            --allow-branch release/v4.x \
+            --force-publish --exact --yes --no-push
+
+      - name: Push hotfix to GitHub
+        if: ${{ github.event.inputs.release-type == 'hotfix' && github.event.inputs.dry-run != 'true' }}
+        run: |
+          git push origin release/v4.x --tags --quiet > /dev/null 2>&1

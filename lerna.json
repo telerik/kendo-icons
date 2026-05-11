@@ -15,7 +15,8 @@
       "loglevel": "silly",
       "allowBranch": [
         "master",
-        "develop"
+        "develop",
+        "release/v4.x"
       ],
       "conventionalCommits": true
     },
