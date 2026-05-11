@@ -122,7 +122,7 @@ jobs:
         if: ${{ github.event.inputs.release-type == 'hotfix' && env.DRY_RUN != 'true' }}
         run: |
           cd packages/font-icons
-          npm publish --tag v4
+          npm publish --tag v4-latest
         env:
           GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
 
