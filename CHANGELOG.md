@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.9.1](https://github.com/telerik/kendo-icons/compare/v4.9.1-dev.0...v4.9.1) (2026-05-11)
+
+
+### Bug Fixes
+
+* remove broken v4-dev cleanup step ([346763b](https://github.com/telerik/kendo-icons/commit/346763b4e3aba42e868716a85cde6415fa587c66))
+
+
+
+
+
 ## [4.9.1-dev.0](https://github.com/telerik/kendo-icons/compare/v4.9.0...v4.9.1-dev.0) (2026-05-11)
 
 
