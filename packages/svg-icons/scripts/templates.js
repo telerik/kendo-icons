@@ -33,21 +33,14 @@ ${lines.join(',\n')}
 }
 
 function indexTsTemplate( options, aliasReExports ) {
-    const iconExports = options.map(icon => {
-        const exportLine = `export { ${icon.iconTsName} } from './icons/${icon.iconName}';`;
-        if (icon.deprecated) {
-            const reason = icon.deprecated.replacement
-                ? `Use \`${icon.deprecated.replacement}\` instead.`
-                : 'This icon will be removed without a replacement.';
-            return `/** @deprecated since v4. Will be removed in v5. ${reason} */\n${exportLine}`;
-        }
-        return exportLine;
-    }).join('\n');
+    const iconExports = options.map(icon =>
+        `export { ${icon.iconTsName} } from './icons/${icon.iconName}';`
+    ).join('\n');
 
     let aliasExports = '';
     if (aliasReExports && aliasReExports.length) {
         aliasExports = '\n\n// Alias re-exports: unsuffixed names pointing to -outline icons\n// TODO: remove alias with v5\n' +
-            aliasReExports.map(a => `export { ${a.sourceTsName} as ${a.aliasTsName} } from './icons/${a.sourceIconName}';`).join('\n');
+            aliasReExports.map(a => `export { ${a.aliasTsName} } from './icons/${a.aliasIconName}';`).join('\n');
     }
 
     return `export { SVGIcon, SVGIconVariant } from './svg-icon.interface';
@@ -121,7 +114,19 @@ namespace Telerik.SvgIcons
 }
 
 
+function aliasTsTemplate( options ) {
+    const { aliasTsName, sourceIconName } = options;
+
+    return `import { SVGIcon } from '../svg-icon.interface';
+import { ${_.camelCase( `${sourceIconName}-icon` )} } from './${sourceIconName}';
+
+export const ${aliasTsName}: SVGIcon = ${_.camelCase( `${sourceIconName}-icon` )};
+`;
+}
+
+
 module.exports.svgTsTemplate = svgTsTemplate;
 module.exports.indexTsTemplate = indexTsTemplate;
+module.exports.aliasTsTemplate = aliasTsTemplate;
 module.exports.svgCsTemplate = svgCsTemplate;
 module.exports.indexCsTemplate = indexCsTemplate;
