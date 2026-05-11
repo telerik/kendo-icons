@@ -16,7 +16,6 @@ on:
           - dev
           - stable
           - hotfix
-          - hotfix-font-icons-only
       dry-run:
         description: 'Dry run (skip actual publish and push)'
         required: false
@@ -24,7 +23,7 @@ on:
         type: boolean
 
 env:
-  TARGET_BRANCH: ${{ github.event.inputs.release-type == 'dev' && 'develop' || contains(github.event.inputs.release-type, 'hotfix') && 'release-v4.x' || 'master' }}
+  TARGET_BRANCH: ${{ github.event.inputs.release-type == 'dev' && 'develop' || github.event.inputs.release-type == 'hotfix' && 'release-v4.x' || 'master' }}
   DRY_RUN: ${{ github.event.inputs.dry-run == 'true' }}
 
 jobs:
@@ -126,7 +125,8 @@ jobs:
             --conventional-commits --conventional-graduate \
             --create-release github --force-publish --exact \
             --allow-branch release-v4.x --dist-tag v4 \
-            --no-provenance
+            --no-provenance \
+            --scope @progress/kendo-font-icons
         env:
           GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
 
@@ -142,8 +142,3 @@ jobs:
         if: ${{ github.event.inputs.release-type == 'hotfix' && github.event.inputs.dry-run != 'true' }}
         run: |
           git push origin release-v4.x --tags --quiet > /dev/null 2>&1
-
-      - name: Publish font-icons only
-        if: ${{ github.event.inputs.release-type == 'hotfix-font-icons-only' }}
-        run: npm publish --provenance --tag v4
-        working-directory: packages/font-icons
