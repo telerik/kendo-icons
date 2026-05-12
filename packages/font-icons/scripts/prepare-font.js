@@ -26,6 +26,34 @@ prepareSvg();
 buildHast();
 
 const iconsHast = JSON.parse( fs.readFileSync( paths.icons.hast, 'utf-8' ) );
+const aliasesMap = JSON.parse( fs.readFileSync( paths.icons.aliases, 'utf-8' ) );
+
+// Merge aliases.json entries into each icon's aliases array.
+// This unifies the v5 rename aliases with the pre-existing ones
+// so the font build handles them uniformly.
+const iconNames = new Set( iconsHast.icons.map( i => i.name ) );
+const existingAliases = new Set();
+iconsHast.icons.forEach( iconDef => iconDef.aliases.forEach( a => existingAliases.add( a ) ) );
+
+// Build reverse map: sourceIconName -> [aliasName, ...]
+const reverseAliases = {};
+Object.entries( aliasesMap ).forEach( ([ aliasName, sourceIconName ]) => {
+    // Skip if alias name collides with an existing icon name or pre-existing alias
+    if ( iconNames.has( aliasName ) || existingAliases.has( aliasName ) ) {
+        return;
+    }
+    if ( !reverseAliases[ sourceIconName ] ) {
+        reverseAliases[ sourceIconName ] = [];
+    }
+    reverseAliases[ sourceIconName ].push( aliasName );
+});
+
+iconsHast.icons.forEach( iconDef => {
+    const extra = reverseAliases[ iconDef.name ];
+    if ( extra ) {
+        iconDef.aliases.push( ...extra );
+    }
+});
 const fontJson = {
     fontName: 'WebComponentsIcons',
     glyphs: []
