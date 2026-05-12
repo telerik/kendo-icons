@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.9.2-dev.0](https://github.com/telerik/kendo-icons/compare/v4.9.1...v4.9.2-dev.0) (2026-05-12)
+
+
+### Bug Fixes
+
+* add aliases.json support to font-icons build ([f3c7011](https://github.com/telerik/kendo-icons/commit/f3c7011da4db4eebea31ff8c5dc01f843e7ee6f7))
+
+
+
+
+
 ## [4.9.1](https://github.com/telerik/kendo-icons/compare/v4.9.1-dev.0...v4.9.1) (2026-05-11)
 
 **Note:** Version bump only for package @progress/kendo-font-icons

@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.9.2-dev.0](https://github.com/telerik/kendo-icons/compare/v4.9.1...v4.9.2-dev.0) (2026-05-12)
+
+
+### Bug Fixes
+
+* add --no-provenance to hotfix publish to unblock tlog conflict ([1fbbf99](https://github.com/telerik/kendo-icons/commit/1fbbf9983f27428b28123e182c12ea6b0b2240e5))
+* add aliases.json support to font-icons build ([f3c7011](https://github.com/telerik/kendo-icons/commit/f3c7011da4db4eebea31ff8c5dc01f843e7ee6f7))
+* scope hotfix publish to font-icons only (svg-icons 4.9.1 already published) ([39f61c1](https://github.com/telerik/kendo-icons/commit/39f61c10c6038c56cb23de349fbdb5e37d21b646))
+* use npm publish directly for font-icons (lerna lacks scope/provenance flags) ([cdaa028](https://github.com/telerik/kendo-icons/commit/cdaa028335487342ad698128bd05eff2e100f282))
+* use OIDC provenance for font-icons publish, remove non-existent NPM token ([8f979d5](https://github.com/telerik/kendo-icons/commit/8f979d53a3ea18bf479f4dd97b0aaa5ee2076e2f))
+* use v4-latest dist-tag (v4 is a valid semver range) ([0aafd32](https://github.com/telerik/kendo-icons/commit/0aafd322068f9c552409dfcf24e65002a57c9572))
+
+
+
+
+
 ## [4.9.1](https://github.com/telerik/kendo-icons/compare/v4.9.1-dev.0...v4.9.1) (2026-05-11)
 
 
