@@ -26,4 +26,8 @@ export interface SVGIcon {
      * keyed by variant name.
      */
     variants?: Record<string, SVGIconVariant>;
+    /**
+     * Descriptive tags for search and categorization.
+     */
+    tags?: string[];
 }

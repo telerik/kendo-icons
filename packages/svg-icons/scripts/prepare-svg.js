@@ -37,8 +37,8 @@ function prepareSvgIcons() {
         iconSvgContent = iconDef.svgContent;
         filename = resolve( `src/icons/${iconName}.ts` );
 
-        // Collect tags from categories
-        const tags = iconDef.categories && iconDef.categories.length ? iconDef.categories : undefined;
+        // Collect tags from icons.json
+        const tags = iconDef.tags && iconDef.tags.length ? iconDef.tags : undefined;
 
         // Populate variant SVG content from variantHast when available.
         const variantHast = iconDef.variantHast || {};
