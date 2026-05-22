@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Telerik.SvgIcons
 {
     public class SvgIconBase : ISvgIcon
@@ -7,6 +9,8 @@ namespace Telerik.SvgIcons
         public string Content { get; set; }
 
         public string ViewBox { get; set; }
+
+        public Dictionary<string, string> Variants { get; set; }
 
         public override bool Equals(object obj)
         {

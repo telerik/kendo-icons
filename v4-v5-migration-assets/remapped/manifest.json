@@ -1,0 +1,133 @@
+[
+  {
+    "exportName": "caret-tl",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowLineUpLeft",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "caret-tr",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowLineUpRight",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-radar",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ChartPolar",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "delicious",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Checkerboard",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "div",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Code",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "format-code-block",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "CodeBlock",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "list-ordered",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ListNumbers",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "logout",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "SignOut",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "speed",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Speedometer",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "sticky-note",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Note",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "strikethrough",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextStrikethrough",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "yammer",
+    "bucket": "remapped",
+    "sourceType": "customSvg",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  }
+]
