@@ -20,6 +20,7 @@ prepareSvg();
 buildHast();
 
 const iconsHast = JSON.parse( fs.readFileSync( paths.icons.hast, 'utf-8' ) );
+const aliasesMap = JSON.parse( fs.readFileSync( paths.icons.aliases, 'utf-8' ) );
 
 
 function prepareSvgIcons() {
@@ -33,26 +34,53 @@ function prepareSvgIcons() {
     iconsHast.icons.forEach(iconDef => {
         iconName = iconDef.name;
         iconTsName = _.camelCase( `${iconName}-icon` );
-        iconSvgContent = iconDef.hast[0].properties.d;
+        iconSvgContent = iconDef.svgContent;
         filename = resolve( `src/icons/${iconName}.ts` );
 
+        // Collect tags from icons.json
+        const tags = iconDef.tags && iconDef.tags.length ? iconDef.tags : undefined;
+
+        // Populate variant SVG content from variantHast when available.
+        const variantHast = iconDef.variantHast || {};
+        const variants = {
+            'solid': variantHast.solid ? variantHast.solid.svgContent : '',
+            'outline': variantHast.outline ? variantHast.outline.svgContent : '',
+            'duotone': variantHast.duotone ? variantHast.duotone.svgContent : ''
+        };
+
         iconList.push({
-            iconName: iconName,
-            iconTsName: iconTsName
+            iconName,
+            iconTsName
         });
 
         content = svgTsTemplate({
-            iconName: iconName,
-            iconTsName: iconTsName,
-            iconSvgContent: iconSvgContent
+            iconName,
+            iconTsName,
+            iconSvgContent,
+            tags,
+            variants
         });
 
         fs.writeFileSync( filename, content );
     });
 
+    // Build alias re-exports from aliases.json (newName -> sourceIconName)
+    const iconNames = new Set( iconList.map( i => i.iconName ) );
+    const aliasReExports = Object.entries( aliasesMap )
+        .map( ([ aliasName, sourceIconName ]) => {
+            if ( !iconNames.has( sourceIconName ) ) {
+                throw new Error( `aliases.json: alias "${aliasName}" references unknown icon "${sourceIconName}"` );
+            }
+            return {
+                sourceIconName,
+                sourceTsName: _.camelCase( `${sourceIconName}-icon` ),
+                aliasTsName: _.camelCase( `${aliasName}-icon` )
+            };
+        });
+
     fs.writeFileSync(
         'src/index.ts',
-        indexTsTemplate( iconList )
+        indexTsTemplate( iconList, aliasReExports )
     );
 
     fs.copyFileSync(

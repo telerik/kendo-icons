@@ -1,47 +1,130 @@
+const _ = require('lodash');
+
 function svgTsTemplate( options ) {
-    const { iconName, iconTsName, iconSvgContent } = options;
+    const { iconName, iconTsName, iconSvgContent, variants, tags, deprecated } = options;
+
+    const escapedContent = iconSvgContent ? iconSvgContent.replace(/'/g, "\\'") : '';
+
+    const lines = [
+        `    name: '${iconName}'`,
+        `    content: '${escapedContent}'`,
+        `    viewBox: '0 0 24 24'`
+    ];
+
+    if (variants && Object.keys(variants).length) {
+        const variantEntries = Object.entries(variants).map(([ key, val ]) => {
+            const escapedVal = val ? val.replace(/'/g, "\\'") : '';
+            return `        '${key}': '${escapedVal}'`;
+        }).join(',\n');
+        lines.push(`    variants: {\n${variantEntries}\n    }`);
+    }
+
+    if (tags && tags.length) {
+        const tagsList = tags.map(t => `'${t.replace(/'/g, "\\'")}'`).join(', ');
+        lines.push(`    tags: [${tagsList}]`);
+    }
+
+    let jsdoc = '';
+    if (deprecated) {
+        const reason = deprecated.replacement
+            ? `Use \`${deprecated.replacement}\` instead.`
+            : 'This icon will be removed without a replacement.';
+        jsdoc = `/**\n * @deprecated since v4. Will be removed in v5. ${reason}\n */\n`;
+    }
 
     return `import { SVGIcon } from '../svg-icon.interface';
 
-export const ${iconTsName}: SVGIcon = {
-    name: '${iconName}',
-    content: '<path d="${iconSvgContent}" />',
-    viewBox: '0 0 512 512'
+${jsdoc}export const ${iconTsName}: SVGIcon = {
+${lines.join(',\n')}
 }\n`;
 }
 
-function indexTsTemplate( options ) {
+function indexTsTemplate( options, aliasReExports ) {
+    const iconExports = options.map(icon => {
+        const exportLine = `export { ${icon.iconTsName} } from './icons/${icon.iconName}';`;
+        if (icon.deprecated) {
+            const reason = icon.deprecated.replacement
+                ? `Use \`${icon.deprecated.replacement}\` instead.`
+                : 'This icon will be removed without a replacement.';
+            return `/** @deprecated since v4. Will be removed in v5. ${reason} */\n${exportLine}`;
+        }
+        return exportLine;
+    }).join('\n');
 
-    return `export { SVGIcon } from './svg-icon.interface';
+    let aliasExports = '';
+    if (aliasReExports && aliasReExports.length) {
+        aliasExports = '\n\n// Alias re-exports: unsuffixed names pointing to -outline icons\n// TODO: remove alias with v5\n' +
+            aliasReExports.map(a => `export { ${a.sourceTsName} as ${a.aliasTsName} } from './icons/${a.sourceIconName}';`).join('\n');
+    }
 
-${options.map(icon => `export { ${icon.iconTsName} } from './icons/${icon.iconName}';`).join('\n')}\n`;
+    return `export { SVGIcon, SVGIconVariant } from './svg-icon.interface';
+
+${iconExports}${aliasExports}\n`;
+}
+
+function obsoleteAttribute( deprecated, replacementNameFormatter = replacement => replacement ) {
+    if ( !deprecated ) {
+        return '';
+    }
+
+    const reason = deprecated.replacement
+        ? `Use ${replacementNameFormatter(deprecated.replacement)} instead.`
+        : 'This icon will be removed without a replacement.';
+    const message = `since v4. Will be removed in v5. ${reason}`.replace(/"/g, '\\"');
+
+    return `[System.Obsolete("${message}", false)]`;
 }
 
 function svgCsTemplate( options ) {
-    const { iconName, iconCsName, iconSvgContent } = options;
+    const { iconName, iconCsName, iconSvgContent, variants, deprecated } = options;
+    const obsolete = obsoleteAttribute(deprecated, replacement => _.upperFirst( _.camelCase( replacement ) ));
+
+    const escapedContent = iconSvgContent ? iconSvgContent.replace(/"/g, '\\"') : '';
+
+    const lines = [
+        `            Name = "${iconName}";`,
+        `            Content = "${escapedContent}";`,
+        `            ViewBox = "0 0 24 24";`
+    ];
+
+    if (variants && Object.keys(variants).length) {
+        const variantEntries = Object.entries(variants).map(([ key, val ]) => {
+            const escapedVal = val ? val.replace(/"/g, '\\"') : '';
+            return `                { "${key}", "${escapedVal}" }`;
+        }).join(',\n');
+        lines.push(`            Variants = new System.Collections.Generic.Dictionary<string, string>\n            {\n${variantEntries}\n            };`);
+    }
 
     return `namespace Telerik.SvgIcons
 {
-    public class ${iconCsName} : SvgIconBase
+    ${obsolete ? `${obsolete}\n    ` : ''}public class ${iconCsName} : SvgIconBase
     {
         public ${iconCsName}()
         {
-            Name = "${iconName}";
-            Content = "<path d=\\"${iconSvgContent}\\" />";
-            ViewBox = "0 0 512 512";
+${lines.join('\n')}
         }
     }
 }\n`;
 }
 
-function indexCsTemplate( options ) {
+function indexCsTemplate( options, aliasReExports ) {
+    const iconProps = options.map(icon => {
+        const obsolete = obsoleteAttribute( icon.deprecated, replacement => `SvgIcon.${_.upperFirst( _.camelCase( replacement ) )}` );
+        return `
+        ${obsolete ? `${obsolete}\n        ` : ''}public static ISvgIcon ${icon.iconCsName} => new ${icon.iconCsName}();`;
+    }).join('');
+
+    let aliasProps = '';
+    if (aliasReExports && aliasReExports.length) {
+        aliasProps = '\n\n        // Alias re-exports: unsuffixed names pointing to -outline icons' +
+            aliasReExports.map(a => `\n        public static ISvgIcon ${a.aliasCsName} => ${a.sourceCsName};`).join('');
+    }
 
     return `// This file is auto-generated by the build process.
 namespace Telerik.SvgIcons
 {
     public static class SvgIcon
-    {${options.map(icon => `
-        public static ISvgIcon ${icon.iconCsName} => new ${icon.iconCsName}();`).join('')}
+    {${iconProps}${aliasProps}
     }
 }\n`;
 }
