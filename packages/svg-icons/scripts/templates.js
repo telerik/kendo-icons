@@ -1,7 +1,7 @@
 const _ = require('lodash');
 
 function svgTsTemplate( options ) {
-    const { iconName, iconTsName, iconSvgContent, variants, deprecated } = options;
+    const { iconName, iconTsName, iconSvgContent, variants, tags, deprecated } = options;
 
     const escapedContent = iconSvgContent ? iconSvgContent.replace(/'/g, "\\'") : '';
 
@@ -17,6 +17,11 @@ function svgTsTemplate( options ) {
             return `        '${key}': '${escapedVal}'`;
         }).join(',\n');
         lines.push(`    variants: {\n${variantEntries}\n    }`);
+    }
+
+    if (tags && tags.length) {
+        const tagsList = tags.map(t => `'${t.replace(/'/g, "\\'")}'`).join(', ');
+        lines.push(`    tags: [${tagsList}]`);
     }
 
     let jsdoc = '';
