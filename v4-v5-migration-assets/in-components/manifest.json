@@ -1,0 +1,2297 @@
+[
+  {
+    "exportName": "align-center",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextAlignCenter",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-justify",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextAlignJustify",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-left",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextAlignLeft",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-middle",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextAlignCenter",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "align-right",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextAlignRight",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "apply-format",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "arrow-down",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowDown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "arrow-left",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowLeft",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "arrow-right",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowRight",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "arrow-rotate-ccw",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowCounterClockwise",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "arrow-rotate-cw",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowClockwise",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "arrows-axes",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "VectorTwo",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "arrows-left-right",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsHorizontal",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "arrows-rotate",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsClockwise",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "arrows-swap",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsDownUp",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "arrow-up",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowUp",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "bell",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Bell",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "binoculars",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Binoculars",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "bold",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextB",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-bottom",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-left",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-right",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "borders-all",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "borders-inside",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "borders-inside-horizontal",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "borders-inside-vertical",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "borders-none",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "borders-outside",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "border-top",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "brush",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "PaintBrush",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "calendar",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "CalendarDot",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "cancel",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ProhibitInset",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "caret-alt-down",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretDown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "caret-alt-expand",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretUpDown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "caret-alt-left",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretLeft",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "caret-alt-right",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretRight",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "caret-alt-to-bottom",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretLineDown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "caret-alt-to-top",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretLineUp",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "caret-alt-up",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretUp",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "cart",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ShoppingCart",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "categorize",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "SquaresFour",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "cells-merge",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "cell-split-horizontally",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-bar-clustered",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-bar-stacked",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-bar-stacked100",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-column-clustered",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-column-stacked",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-column-stacked100",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-line",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-line-stacked",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-line-stacked100",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-pie",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ChartPie",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chart-scatter",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ChartScatter",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "check",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Check",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chevron-down",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretDown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chevron-left",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretLeft",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chevron-right",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretRight",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "chevron-up",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretUp",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "clear-css",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "clipboard",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Clipboard",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "clock",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Clock",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "clock-arrow-rotate",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ClockCounterClockwise",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "code",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Code",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "col-resize",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsOutLineHorizontal",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "columns",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Columns",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "comment",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ChatText",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "convert-lowercase",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextAa",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "copy",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Copy",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "crop",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "crosstab",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "custom-format",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "cut",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Scissors",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "decimal-decrease",
+    "bucket": "for-redesign",
+    "sourceType": "customSvg",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "decimal-increase",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "display-inline-flex",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "download",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "DownloadSimple",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "droplet",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Drop",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "droplet-slash",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "DropSlash",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "droplet-slider",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "DropHalf",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "edit-annotations",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "NotePencil",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "edit-tools",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Textbox",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "envelope",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Envelope",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "eraser",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Eraser",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "exclamation-circle",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "WarningCircle",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "export",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Export",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "eye",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Eye",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "eye-slash",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "EyeSlash",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "File",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-add",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FilePlus",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-clock-outline",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-csv",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileCsv",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-error",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileX",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-image",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileImage",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-pdf",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FilePdf",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-psd",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "file-txt",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileText",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "filter",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Funnel",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "filter-add-expression",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "filter-add-group",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "filter-clear",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FunnelX",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "filter-sort-asc",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "SortDescending",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "folder",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Folder",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "folder-add",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FolderPlus",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "folder-open",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FolderOpen",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "font-grow",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "font-shrink",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "foreground-color",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "formula-fx",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Function",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "free-text",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "fullscreen",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsOut",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "gear",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "grid",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "GridFour",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "grid-layout",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "group",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "SelectionAll",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "hand",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Hand",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "handle-drag",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "handle-drag-dots",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "DotsSixVertical",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "heart",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Heart",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "highlight",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Highlighter",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "home",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "House",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "hyperlink-open",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowSquareOut",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "image",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Image",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "image-resize",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsOutSimple",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "inbox",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Tray",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "indent",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextIndent",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "info-circle",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Info",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "insert-bottom",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "italic",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextItalic",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "js",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileJs",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "layout-1-by-4",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "lightbulb-outline",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Lightbulb",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "link",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Link",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "list-ordered",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ListNumbers",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "list-unordered",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ListBullets",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "lock",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Lock",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "map-marker-target",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "MapPin",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "max-width",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "menu",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "List",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "microphone",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Microphone",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "minus",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Minus",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "min-width",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsInLineHorizontal",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "more-horizontal",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "DotsThree",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "more-vertical",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "DotsThreeVertical",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "outdent",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextOutdent",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "palette",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Palette",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "pane-freeze",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "paperclip",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Paperclip",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "pencil",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "PencilSimple",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "pin",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "PushPin",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "pin-outline-bottom",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "pin-outline-top",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "play",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Play",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "plus",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Plus",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "plus-circle",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "PlusCircle",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "pointer",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Cursor",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "print",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Printer",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "question-circle",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Question",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "redo",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowBendUpRight",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "reorder",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "DotsSix",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "row-collapse",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "row-expand",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "rows",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Rows",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "ruler",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Ruler",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "save",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FloppyDisk",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "search",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "MagnifyingGlass",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "set-column-position",
+    "bucket": "for-redesign",
+    "sourceType": "kendo-original",
+    "exportedVariants": [
+      "kendo-original"
+    ]
+  },
+  {
+    "exportName": "shapes",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Shapes",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "sliders",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "sort-asc",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "SortAscending",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "sort-asc-small",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowUp",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "sort-desc-small",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowDown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "sparkles",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Sparkle",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "spell-checker",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "stamp",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Stamp",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "star",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Star",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "stick",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "MagnetStraight",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "sticky-note",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Note",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "strikethrough",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextStrikethrough",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "subscript",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextSubscript",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "sum",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Sigma",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "superscript",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextSuperscript",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table",
+    "bucket": "for-redesign",
+    "sourceType": "customSvg",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-add",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-align-middle-left",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-column-delete",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-column-insert-left",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-column-insert-right",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-delete",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-position-start",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-row-delete",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-row-insert-above",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-row-insert-below",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "table-wizard",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "tell-a-friend",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Megaphone",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "track-changes",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "trash",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Trash",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "truck",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Truck",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "underline",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextUnderline",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "undo",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowCounterClockwise",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "unlink",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "LinkBreak",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "unlock",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "LockOpen",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "unpin",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "PushPinSlash",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "unstick",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "upload",
+    "bucket": "custom-svg-added",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "user",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "User",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "volume-up",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "SpeakerHigh",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "wallet",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Wallet",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "warning-triangle",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Warning",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "window-restore",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "x",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "X",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "x-circle",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "XCircle",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "zoom-in",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "MagnifyingGlassPlus",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "zoom-out",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "MagnifyingGlassMinus",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "zoom-sparkle",
+    "bucket": "for-redesign",
+    "sourceType": "unknown",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  }
+]
