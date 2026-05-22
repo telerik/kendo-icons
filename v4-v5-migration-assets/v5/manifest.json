@@ -1,10 +1,13 @@
 [
   {
     "exportName": "accessibility",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "PersonArmsSpread",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -29,10 +32,13 @@
   },
   {
     "exportName": "aggregate-fields",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "CardsThree",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -47,10 +53,13 @@
   },
   {
     "exportName": "align-center",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextAlignCenter",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -75,26 +84,35 @@
   },
   {
     "exportName": "align-items-center",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "AlignCenterHorizontal",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "align-items-center-alt",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "AlignCenterVertical",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "align-items-end",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "AlignRight",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -110,10 +128,13 @@
   },
   {
     "exportName": "align-items-start",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "AlignLeft",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -149,26 +170,35 @@
   },
   {
     "exportName": "align-justify",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextAlignJustify",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "align-left",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextAlignLeft",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "align-middle",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextAlignCenter",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -183,10 +213,13 @@
   },
   {
     "exportName": "align-right",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextAlignRight",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -301,10 +334,13 @@
   },
   {
     "exportName": "anchor",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Anchor",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -319,66 +355,90 @@
   },
   {
     "exportName": "area",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Selection",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "arrow-down",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowDown",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "arrow-down-left",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowElbowDownLeft",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "arrow-left",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowLeft",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "arrow-overflow-down",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowLineDown",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "arrow-right",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowRight",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "arrow-rotate-ccw",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowCounterClockwise",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "arrow-rotate-cw",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowClockwise",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -443,42 +503,57 @@
   },
   {
     "exportName": "arrows-axes",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "VectorTwo",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "arrow-shape",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowUpRight",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "arrows-left-right",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsHorizontal",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "arrows-move",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsOutCardinal",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "arrows-no-change",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsDownUp",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -493,50 +568,68 @@
   },
   {
     "exportName": "arrows-rotate",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsClockwise",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "arrows-swap",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsDownUp",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "arrows-top-bottom",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsVertical",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "arrow-up",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowUp",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "award-number",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Medal",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "award-trophy",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Medal",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -562,10 +655,13 @@
   },
   {
     "exportName": "barcode",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Barcode",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -580,74 +676,101 @@
   },
   {
     "exportName": "bathtub",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Bathtub",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "bed",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Bed",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "behance",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "BehanceLogo",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "bell",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Bell",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "bicycle",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Bicycle",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "binoculars",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Binoculars",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "blur",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Drop",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "bold",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextB",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "book",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Book",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -702,10 +825,13 @@
   },
   {
     "exportName": "border-color",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "PencilSimpleLine",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -971,10 +1097,13 @@
   },
   {
     "exportName": "brightness-contrast",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Sun",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -1019,42 +1148,57 @@
   },
   {
     "exportName": "brush",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "PaintBrush",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "bug",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Bug",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "building-blocks",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Cube",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "buildings",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Buildings",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "bus",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Bus",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -1070,170 +1214,233 @@
   },
   {
     "exportName": "calculator",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Calculator",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "calendar",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "CalendarDot",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "calendar-date",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Calendar",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "camera",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Camera",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "cancel",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ProhibitInset",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "car",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Car",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "caret-alt-down",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretDown",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "caret-alt-expand",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretUpDown",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "caret-alt-left",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretLeft",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "caret-alt-right",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretRight",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "caret-alt-to-bottom",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretLineDown",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "caret-alt-to-left",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretLineLeft",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "caret-alt-to-right",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretLineRight",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "caret-alt-to-top",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretLineUp",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "caret-alt-up",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretUp",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "caret-bl",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowLineDownLeft",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "caret-br",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowLineDownRight",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "caret-double-alt-down",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretDoubleDown",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "caret-double-alt-left",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretDoubleLeft",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "caret-double-alt-right",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretDoubleRight",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "caret-double-alt-up",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretDoubleUp",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -1260,18 +1467,24 @@
   },
   {
     "exportName": "cart",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ShoppingCart",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "categorize",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "SquaresFour",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -1506,10 +1719,13 @@
   },
   {
     "exportName": "chart-doughnut",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ChartDonut",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -1584,10 +1800,13 @@
   },
   {
     "exportName": "chart-pie",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ChartPie",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -1623,10 +1842,13 @@
   },
   {
     "exportName": "chart-scatter",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ChartScatter",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -1671,10 +1893,13 @@
   },
   {
     "exportName": "check",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Check",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -1690,10 +1915,13 @@
   },
   {
     "exportName": "checkbox-checked",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CheckSquare",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -1719,90 +1947,123 @@
   },
   {
     "exportName": "check-circle",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CheckCircle",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "chevron-double-down",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretDoubleDown",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "chevron-double-left",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretDoubleLeft",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "chevron-double-right",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretDoubleRight",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "chevron-double-up",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretDoubleUp",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "chevron-down",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretDown",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "chevron-left",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretLeft",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "chevron-right",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretRight",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "chevron-up",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CaretUp",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "circle",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Circle",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "circle-shape",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Circle",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -1817,10 +2078,13 @@
   },
   {
     "exportName": "clean",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Broom",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -1835,10 +2099,13 @@
   },
   {
     "exportName": "clipboard",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Clipboard",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -1863,18 +2130,24 @@
   },
   {
     "exportName": "clipboard-markdown",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "MarkdownLogo",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "clipboard-text",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ClipboardText",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -1899,34 +2172,46 @@
   },
   {
     "exportName": "clock",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Clock",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "clock-arrow-rotate",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ClockCounterClockwise",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "closed-captions",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ClosedCaptioning",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "cloud",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Cloud",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -1951,26 +2236,35 @@
   },
   {
     "exportName": "code",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Code",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "code-snippet",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CodeBlock",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "col-resize",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsOutLineHorizontal",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2006,18 +2300,24 @@
   },
   {
     "exportName": "comment",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ChatText",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "comment-remove",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ChatSlash",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2042,18 +2342,24 @@
   },
   {
     "exportName": "concrete-truck",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Truck",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "connector",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "FlowArrow",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2090,10 +2396,13 @@
   },
   {
     "exportName": "copy-format",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "PaintRoller",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2158,10 +2467,13 @@
   },
   {
     "exportName": "cs",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileCSharp",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2176,10 +2488,13 @@
   },
   {
     "exportName": "css",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "BracketsCurly",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2245,14 +2560,17 @@
   },
   {
     "exportName": "cut",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Scissors",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
-    "exportName": "dashboard-outline",
+    "exportName": "dashboard",
     "bucket": "for-redesign",
     "sourceType": "unknown",
     "exportedVariants": [
@@ -2263,10 +2581,13 @@
   },
   {
     "exportName": "data",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Database",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2361,10 +2682,13 @@
   },
   {
     "exportName": "decision",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "GitBranch",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2420,18 +2744,24 @@
   },
   {
     "exportName": "detail-section",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ListMagnifyingGlass",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "devices",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Devices",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2446,18 +2776,24 @@
   },
   {
     "exportName": "dimensions",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Ruler",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "directions",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Signpost",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2472,10 +2808,13 @@
   },
   {
     "exportName": "discount",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Percent",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2520,10 +2859,13 @@
   },
   {
     "exportName": "distance",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "LineSegment",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2539,42 +2881,57 @@
   },
   {
     "exportName": "divide",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Divide",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "doctor",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Stethoscope",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "document-manager",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Files",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "dollar",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CurrencyDollar",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "download",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "DownloadSimple",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2589,18 +2946,24 @@
   },
   {
     "exportName": "draw-free",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Scribble",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "dribbble",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "DribbbleLogo",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2615,58 +2978,79 @@
   },
   {
     "exportName": "droplet",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Drop",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "droplet-slash",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "DropSlash",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "droplet-slider",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "DropHalf",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "edit-annotations",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "NotePencil",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "edit-tools",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Textbox",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "education",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "GraduationCap",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "envelope",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Envelope",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2680,75 +3064,112 @@
     ]
   },
   {
-    "exportName": "equal",
+    "exportName": "envelop-link",
     "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "sourceType": "unknown",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
+    ]
+  },
+  {
+    "exportName": "equal",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Equals",
+    "exportedVariants": [
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "eraser",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Eraser",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "exclamation-circle",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "WarningCircle",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "exe",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "AppWindow",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "export",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Export",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "eye",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Eye",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "eyedropper",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Eyedropper",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "eye-slash",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "EyeSlash",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "facebook",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FacebookLogo",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2773,10 +3194,13 @@
   },
   {
     "exportName": "file",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "File",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2791,34 +3215,46 @@
   },
   {
     "exportName": "file-add",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FilePlus",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "file-ascx",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileText",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "file-audio",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileAudio",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "file-bac",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileArrowUp",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2843,10 +3279,13 @@
   },
   {
     "exportName": "file-csv",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileCsv",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2871,18 +3310,24 @@
   },
   {
     "exportName": "file-error",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileX",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "file-excel",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileXls",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2917,10 +3362,13 @@
   },
   {
     "exportName": "file-image",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileImage",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -2935,18 +3383,24 @@
   },
   {
     "exportName": "file-pdf",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FilePdf",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "file-ppt",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FilePpt",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3012,34 +3466,46 @@
   },
   {
     "exportName": "file-txt",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileText",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "file-typescript",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileTs",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "file-video",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileVideo",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "file-word",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileDoc",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3054,26 +3520,35 @@
   },
   {
     "exportName": "file-zip",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileZip",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "film",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FilmStrip",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "filter",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Funnel",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3098,26 +3573,35 @@
   },
   {
     "exportName": "filter-clear",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FunnelX",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "filter-sort-asc",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "SortDescending",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "filter-sort-desc",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "SortAscending",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3132,50 +3616,68 @@
   },
   {
     "exportName": "flip-horizontal",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FlipHorizontal",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "flip-vertical",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FlipVertical",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "folder",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Folder",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "folder-add",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FolderPlus",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "folder-more",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FolderDashed",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "folder-open",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FolderOpen",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3231,10 +3733,13 @@
   },
   {
     "exportName": "food",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ForkKnife",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3249,10 +3754,13 @@
   },
   {
     "exportName": "form",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ListChecks",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3278,18 +3786,24 @@
   },
   {
     "exportName": "formula-fx",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Function",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "forward",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FastForward",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3304,34 +3818,46 @@
   },
   {
     "exportName": "fullscreen",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsOut",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "fullscreen-exit",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsIn",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "gap-column",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Columns",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "gap-row",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Rows",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3346,10 +3872,13 @@
   },
   {
     "exportName": "gauge-radial",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Gauge",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3374,10 +3903,13 @@
   },
   {
     "exportName": "gears",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "GearSix",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3413,12 +3945,9 @@
   {
     "exportName": "globe",
     "bucket": "remapped",
-    "sourceType": "phosphor",
-    "phosphorSource": "",
+    "sourceType": "kendo-original",
     "exportedVariants": [
-      "outline",
-      "solid",
-      "duotone"
+      "kendo-original"
     ]
   },
   {
@@ -3433,26 +3962,35 @@
   },
   {
     "exportName": "globe-unlink",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "GlobeX",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "google",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "GoogleLogo",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "google-plus",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "GoogleLogo",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3467,26 +4005,35 @@
   },
   {
     "exportName": "grayscale",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CircleHalf",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "greater-or-equal",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "GreaterThanOrEqual",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "grid",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "GridFour",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3501,10 +4048,13 @@
   },
   {
     "exportName": "group",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "SelectionAll",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3559,58 +4109,79 @@
   },
   {
     "exportName": "h1",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextHOne",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "h2",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextHTwo",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "h3",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextHThree",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "h4",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextHFour",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "h5",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextHFive",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "h6",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextHSix",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "hand",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Hand",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3625,26 +4196,35 @@
   },
   {
     "exportName": "handle-drag-dots",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "DotsSixVertical",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "handle-resize",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Notches",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "handle-resize-alt",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Notches",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3669,7 +4249,7 @@
   },
   {
     "exportName": "hd",
-    "bucket": "for-redesign",
+    "bucket": "remapped",
     "sourceType": "customSvg",
     "exportedVariants": [
       "outline",
@@ -3689,50 +4269,68 @@
   },
   {
     "exportName": "headset",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Headset",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "heart",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Heart",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "hexagon-shape",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Hexagon",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "highlight",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Highlighter",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "highlight-free",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "HighlighterCircle",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "home",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "House",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3757,18 +4355,24 @@
   },
   {
     "exportName": "hyperlink-open",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowSquareOut",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "image",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Image",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3823,34 +4427,46 @@
   },
   {
     "exportName": "image-resize",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsOutSimple",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "images",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Images",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "import",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "DownloadSimple",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "inbox",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Tray",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3875,42 +4491,57 @@
   },
   {
     "exportName": "indent",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextIndent",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "industrial-vehicle",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Truck",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "info-circle",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Info",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "inherited",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "TreeStructure",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "inputbox",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Textbox",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3955,10 +4586,13 @@
   },
   {
     "exportName": "instagram",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "InstagramLogo",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -3974,18 +4608,24 @@
   },
   {
     "exportName": "italic",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextItalic",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "js",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FileJs",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4120,26 +4760,35 @@
   },
   {
     "exportName": "lab-technician",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Flask",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "laptop",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Laptop",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "launch",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "RocketLaunch",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4194,10 +4843,13 @@
   },
   {
     "exportName": "less-or-equal",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "LessThanOrEqual",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4232,18 +4884,24 @@
   },
   {
     "exportName": "level-up",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowElbowLeftUp",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "lightbulb",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Lightbulb",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4278,18 +4936,24 @@
   },
   {
     "exportName": "line-shape",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "LineSegment",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "link",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Link",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4304,10 +4968,13 @@
   },
   {
     "exportName": "linkedin",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "LinkedinLogo",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4394,10 +5061,13 @@
   },
   {
     "exportName": "list-unordered",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ListBullets",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4412,26 +5082,35 @@
   },
   {
     "exportName": "locations",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "MapPin",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "lock",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Lock",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "login",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "SignIn",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4447,10 +5126,13 @@
   },
   {
     "exportName": "luggage",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Suitcase",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4535,18 +5217,24 @@
   },
   {
     "exportName": "map-marker",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "MapPin",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "map-marker-target",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "MapPin",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4571,10 +5259,13 @@
   },
   {
     "exportName": "media-manager",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "MonitorPlay",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4589,10 +5280,13 @@
   },
   {
     "exportName": "menu",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "List",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4608,58 +5302,79 @@
   },
   {
     "exportName": "menu-sort-asc",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "SortDescending",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "menu-sort-desc",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "SortAscending",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "microphone",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Microphone",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "min-height",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsInLineVertical",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "minus",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Minus",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "minus-circle",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "MinusCircle",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "min-width",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsInLineHorizontal",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4674,10 +5389,13 @@
   },
   {
     "exportName": "mobile",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "DeviceMobile",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4692,10 +5410,13 @@
   },
   {
     "exportName": "money-exchange",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CurrencyCircleDollar",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4730,18 +5451,24 @@
   },
   {
     "exportName": "more-horizontal",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "DotsThree",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "more-vertical",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "DotsThreeVertical",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4756,10 +5483,13 @@
   },
   {
     "exportName": "music-notes",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "MusicNotes",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4784,26 +5514,35 @@
   },
   {
     "exportName": "non-stop",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Infinity",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "not-equal",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "NotEquals",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "nurse",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FirstAid",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4818,18 +5557,24 @@
   },
   {
     "exportName": "optimization",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "GearFine",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "outdent",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextOutdent",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4944,10 +5689,13 @@
   },
   {
     "exportName": "palette",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Palette",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4962,18 +5710,24 @@
   },
   {
     "exportName": "paperclip",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Paperclip",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "paper-plane",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "PaperPlaneTilt",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -4998,10 +5752,13 @@
   },
   {
     "exportName": "paragraph-mark",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Paragraph",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5016,10 +5773,13 @@
   },
   {
     "exportName": "parameter-date-time",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "CalendarBlank",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5044,10 +5804,13 @@
   },
   {
     "exportName": "parameters",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Sliders",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5082,10 +5845,13 @@
   },
   {
     "exportName": "password",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Key",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5121,50 +5887,68 @@
   },
   {
     "exportName": "patient",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "User",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "pause",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Pause",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "pencil",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "PencilSimple",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "percent",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Percent",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "perimeter",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "BoundingBox",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "photos",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Images",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5179,18 +5963,24 @@
   },
   {
     "exportName": "pills",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Pill",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "pin",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "PushPin",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5215,66 +6005,90 @@
   },
   {
     "exportName": "pinterest",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "PinterestLogo",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "plan",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Notepad",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "plane",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Airplane",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "play",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Play",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "playlist",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Playlist",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "plus",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Plus",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "plus-circle",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "PlusCircle",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "pointer",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Cursor",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5319,26 +6133,35 @@
   },
   {
     "exportName": "print",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Printer",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "puzzle-piece",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "PuzzlePiece",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "qr-code",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "QrCode",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5353,58 +6176,79 @@
   },
   {
     "exportName": "question-circle",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Question",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "radiobutton",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Circle",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "radiobutton-checked",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "RadioButton",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "rectangle-shape",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Rectangle",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "recycle",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Recycle",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "reddit",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "RedditLogo",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "redo",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowBendUpRight",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5440,10 +6284,13 @@
   },
   {
     "exportName": "reorder",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "DotsSix",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5498,26 +6345,35 @@
   },
   {
     "exportName": "report-element",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "TreeView",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "rewind",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Rewind",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "right-double-quotes",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Quotes",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5552,26 +6408,35 @@
   },
   {
     "exportName": "rotate",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsClockwise",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "rotate-left",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowCounterClockwise",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "rotate-right",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowClockwise",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5627,18 +6492,24 @@
   },
   {
     "exportName": "rss",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Rss",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "ruler",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Ruler",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5653,18 +6524,24 @@
   },
   {
     "exportName": "save",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "FloppyDisk",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "scale",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Resize",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5679,26 +6556,35 @@
   },
   {
     "exportName": "search",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "MagnifyingGlass",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "security-check",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ShieldCheck",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "security-lock",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "LockKey",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5733,34 +6619,46 @@
   },
   {
     "exportName": "shape-line",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "LineSegment",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "shapes",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Shapes",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "share",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ShareNetwork",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "sharpen",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Triangle",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5785,10 +6683,13 @@
   },
   {
     "exportName": "signature",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Signature",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5833,10 +6734,13 @@
   },
   {
     "exportName": "sms",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ChatText",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5871,18 +6775,24 @@
   },
   {
     "exportName": "sort-asc",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "SortAscending",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "sort-asc-small",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowUp",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5897,26 +6807,35 @@
   },
   {
     "exportName": "sort-desc",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "SortDescending",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "sort-desc-small",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowDown",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "sparkles",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Sparkle",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -5982,26 +6901,35 @@
   },
   {
     "exportName": "stamp",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Stamp",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "star",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Star",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "stick",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "MagnetStraight",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -6017,10 +6945,13 @@
   },
   {
     "exportName": "stop",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Stop",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -6086,10 +7017,12 @@
   },
   {
     "exportName": "stumble-upon",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "modified-kendo",
+    "sourceType": "customSvg",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -6104,50 +7037,68 @@
   },
   {
     "exportName": "subscript",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextSubscript",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "sum",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Sigma",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "superscript",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextSuperscript",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "sustainability",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Leaf",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "sweeper-vehicle",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Truck",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "symbol",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "At",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -6452,18 +7403,24 @@
   },
   {
     "exportName": "tablet",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "DeviceTablet",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "table-unmerge",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Table",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -6508,10 +7465,13 @@
   },
   {
     "exportName": "tell-a-friend",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Megaphone",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -6597,18 +7557,24 @@
   },
   {
     "exportName": "therapist",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "UserCircle",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "thumb-down",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ThumbsDown",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -6653,10 +7619,13 @@
   },
   {
     "exportName": "thumb-up",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ThumbsUp",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -6681,10 +7650,13 @@
   },
   {
     "exportName": "toggle-full-screen-mode",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsOut",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -6759,26 +7731,35 @@
   },
   {
     "exportName": "transactions",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowsLeftRight",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "transparency",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "Checkerboard",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "trash",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Trash",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -6823,34 +7804,46 @@
   },
   {
     "exportName": "truck",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Truck",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "tumblr",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TumblrLogo",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "underline",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "TextUnderline",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "undo",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowCounterClockwise",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -6866,10 +7859,13 @@
   },
   {
     "exportName": "unlink",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "LinkBreak",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -6884,18 +7880,24 @@
   },
   {
     "exportName": "unlock",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "LockOpen",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "unpin",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "PushPinSlash",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -6910,10 +7912,13 @@
   },
   {
     "exportName": "upgrade",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "ArrowCircleUp",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -6948,10 +7953,13 @@
   },
   {
     "exportName": "user",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "User",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -6976,10 +7984,13 @@
   },
   {
     "exportName": "users",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Users",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -7004,10 +8015,13 @@
   },
   {
     "exportName": "van",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Van",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -7042,10 +8056,13 @@
   },
   {
     "exportName": "video-external",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "VideoCamera",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -7060,66 +8077,90 @@
   },
   {
     "exportName": "volume-down",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "SpeakerLow",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "volume-mute",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "SpeakerX",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "volume-up",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "SpeakerHigh",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "wallet",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Wallet",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "warning-circle",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "WarningCircle",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "warning-triangle",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Warning",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "weight-scale",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Scales",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "whatsapp",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "WhatsappLogo",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -7134,18 +8175,24 @@
   },
   {
     "exportName": "window",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "remapped",
+    "sourceType": "phosphor",
+    "phosphorSource": "AppWindow",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "window-minimize",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "Minus",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -7170,26 +8217,35 @@
   },
   {
     "exportName": "x",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "X",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "x-circle",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "XCircle",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "x-logo",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "XLogo",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -7204,10 +8260,13 @@
   },
   {
     "exportName": "youtube",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "YoutubeLogo",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
@@ -7232,18 +8291,24 @@
   },
   {
     "exportName": "zoom-in",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "MagnifyingGlassPlus",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {
     "exportName": "zoom-out",
-    "bucket": "for-redesign",
-    "sourceType": "kendo-original",
+    "bucket": "original-mapping",
+    "sourceType": "phosphor",
+    "phosphorSource": "MagnifyingGlassMinus",
     "exportedVariants": [
-      "kendo-original"
+      "outline",
+      "solid",
+      "duotone"
     ]
   },
   {

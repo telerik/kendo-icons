@@ -8,8 +8,8 @@ const root = resolve(__dirname, '..');
 
 const paths = {
     icons: {
-        src: resolve( root, 'src/telerik-icons/solid' ),
-        temp: resolve( root, '.tmp/icons/solid' ),
+        src: resolve( root, 'src/telerik-icons/outline' ),
+        temp: resolve( root, '.tmp/icons/outline' ),
         json: resolve( root, 'src/telerik-icons/icons.json' ),
         list: resolve( root, 'src/telerik-icons/icon-list.json' ),
         hast: resolve( root, '.tmp/icons/icons-hast.json' ),
@@ -81,6 +81,44 @@ function prepareSvg() {
 prepareSvg.displayName = 'svg:prepare';
 
 
+/**
+ * Serialize a HAST node to an SVG markup string.
+ * Strips `fill="black"` and `fill="none"` since consumers control fill via CSS.
+ * Preserves all other attributes (opacity, fill-opacity, d, etc.).
+ */
+function hastNodeToSvg( node ) {
+    const tag = node.tagName;
+    const props = node.properties || {};
+
+    const attrs = Object.entries( props )
+        .filter( ([ key, val ]) => {
+            // Strip fill="black"/"none"/"#000"/"#000000" — consumers control fill
+            if ( key === 'fill' && ( val === 'black' || val === 'none' || val === '#000' || val === '#000000' ) ) {
+                return false;
+            }
+            return true;
+        })
+        .map( ([ key, val ]) => `${key}="${val}"` )
+        .join(' ');
+
+    const open = attrs ? `<${tag} ${attrs}` : `<${tag}`;
+
+    if ( !node.children || node.children.length === 0 ) {
+        return `${open}/>`;
+    }
+
+    const inner = node.children.map( hastNodeToSvg ).join('');
+    return `${open}>${inner}</${tag}>`;
+}
+
+/**
+ * Serialize an array of HAST children into a single SVG content string.
+ */
+function hastToSvg( children ) {
+    return children.map( hastNodeToSvg ).join('');
+}
+
+
 function buildHast() {
     const output = { icons: [] };
     const iconsJson = JSON.parse( fs.readFileSync( paths.icons.json, 'utf-8') );
@@ -112,13 +150,14 @@ function buildHast() {
 
             variantHast[ variantName ] = {
                 hast: svgNode.children,
-                viewBox: svgNode.properties.viewBox || '0 0 512 512'
+                svgContent: hastToSvg( svgNode.children )
             };
         });
 
         let iconEntry = {
             ...iconDef,
-            hast: parsed.children[0].children
+            hast: parsed.children[0].children,
+            svgContent: hastToSvg( parsed.children[0].children )
         };
 
         if ( Object.keys( variantHast ).length ) {
@@ -138,3 +177,4 @@ buildHast.displayName = 'build:hast';
 module.exports.paths = paths;
 module.exports.prepareSvg = prepareSvg;
 module.exports.buildHast = buildHast;
+module.exports.hastToSvg = hastToSvg;
