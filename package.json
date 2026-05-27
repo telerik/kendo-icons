@@ -34,6 +34,7 @@
     "lodash": "^4.17.21",
     "sass": "^1.97.1",
     "svg-parser": "^2.0.4",
+    "svg-path-outline": "^1.0.1",
     "svg2ttf": "^6.0.3",
     "svgo": "^4.0.0",
     "svgpath": "^2.5.0"

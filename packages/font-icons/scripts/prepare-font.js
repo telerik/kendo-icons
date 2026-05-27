@@ -2,6 +2,7 @@ const fs = require('fs');
 const { resolve } = require('path');
 const svg2ttf = require('svg2ttf');
 const svgpath = require('svgpath');
+const outline = require('svg-path-outline');
 
 const { paths, prepareSvg, buildHast } = require('../../../scripts/shared');
 const { svgFontTemplate, fontFileTemplate } = require('./templates');
@@ -51,6 +52,60 @@ function collectPaths( nodes ) {
         }
     });
     return result;
+}
+
+
+// --- Stroke-to-fill expansion ---
+
+/**
+ * Detects if a path node is stroke-only (has stroke but no fill).
+ * Font glyphs are always filled — stroke-only paths produce invisible hairlines.
+ */
+function isStrokeOnlyPath(node) {
+    const fill = (node.properties.fill || '').toLowerCase();
+    const stroke = node.properties.stroke;
+    const strokeWidth = parseFloat(node.properties['stroke-width'] || '0');
+    return (fill === 'none' || fill === '') && stroke && stroke !== 'none' && strokeWidth > 0;
+}
+
+/**
+ * Converts a stroke-only path centerline into a filled outline path
+ * using svg-path-outline + makerjs. Arcs are converted to cubic curves
+ * for font-glyph compatibility.
+ */
+function strokeToFill(node) {
+    const d = node.properties.d;
+    const strokeWidth = parseFloat(node.properties['stroke-width'] || '1');
+    const halfW = strokeWidth / 2;
+
+    // Convert to absolute and ensure each point gets its own explicit command
+    // (makerjs doesn't handle implicit L continuations like "L x1 y1 x2 y2")
+    let explicitD = '';
+    svgpath(d).abs().unshort().iterate(function(seg) {
+        const cmd = seg[0];
+        if (cmd === 'M') {
+            explicitD += `M ${seg[1]} ${seg[2]} `;
+        } else if (cmd === 'L') {
+            explicitD += `L ${seg[1]} ${seg[2]} `;
+        } else if (cmd === 'C') {
+            explicitD += `C ${seg[1]} ${seg[2]} ${seg[3]} ${seg[4]} ${seg[5]} ${seg[6]} `;
+        } else if (cmd === 'Q') {
+            explicitD += `Q ${seg[1]} ${seg[2]} ${seg[3]} ${seg[4]} `;
+        } else if (cmd === 'Z') {
+            explicitD += 'Z ';
+        }
+    });
+    explicitD = explicitD.trim();
+
+    // outline(pathData, offsetDistance, options) — joints: 0=miter
+    const expanded = outline(explicitD, halfW, { inside: true, outside: true, joints: 0 });
+
+    if (!expanded) {
+        return d;
+    }
+
+    // Convert arcs to cubic curves (font glyphs only support M, L, C, Q, Z)
+    return svgpath(expanded).unarc().toString();
 }
 
 
@@ -251,7 +306,12 @@ function buildFontJson() {
 
         const mergedD = pathNodes
             .map( node => {
-                let d = svgpath(node.properties.d).abs().toString();
+                let d;
+                if (isStrokeOnlyPath(node)) {
+                    d = strokeToFill(node);
+                } else {
+                    d = svgpath(node.properties.d).abs().toString();
+                }
                 // Convert evenodd paths to non-zero winding for font glyph compatibility
                 if (node.properties['fill-rule'] === 'evenodd') {
                     d = evenoddToNonzero(d);
