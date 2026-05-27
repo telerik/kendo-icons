@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>SVG Icons Playground</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/@progress/kendo-theme-utils/dist/all.css" />
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font: 1rem / 1.5 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+        .toolbar {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background: white;
+            padding: 12px 0;
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .toolbar .spacer { flex: 1; }
+        .btn-export {
+            padding: 6px 14px;
+            background: #0366d6;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 13px;
+            cursor: pointer;
+        }
+        .btn-export:hover { background: #0255b3; }
+        .toolbar input[type="search"] {
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            min-width: 240px;
+        }
+        .toolbar select, .toolbar input[type="range"] {
+            padding: 4px 8px;
+            font-size: 14px;
+        }
+        .toolbar label {
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .icon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 8px;
+        }
+        .icon-cell {
+            padding: 16px 8px;
+            border-radius: 8px;
+            background: #f5f5f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        .icon-cell:hover { background: #e8e8e8; }
+        .icon-cell svg {
+            fill: currentColor;
+        }
+        .icon-name {
+            font-size: 11px;
+            text-align: center;
+            word-break: break-all;
+            color: #555;
+        }
+        .count { font-size: 13px; color: #888; }
+        .icon-cell.test-icon {
+            background: #fffdf5;
+            border: 1px dashed #f0ad4e;
+        }
+    </style>
+</head>
+<body>
+    <div class="toolbar">
+        <input type="search" id="search" placeholder="Filter icons..." autofocus />
+        <label>
+            Variant:
+            <select id="variant">
+                <option value="">default</option>
+                <option value="outline">outline</option>
+                <option value="solid">solid</option>
+                <option value="duotone">duotone</option>
+            </select>
+        </label>
+        <label>
+            Size:
+            <select id="size">
+                <option value="12">12px</option>
+                <option value="14">14px</option>
+                <option value="16" selected>16px</option>
+                <option value="24">24px</option>
+                <option value="32">32px</option>
+            </select>
+        </label>
+        <label>
+            Stroke:
+            <input type="number" id="stroke" value="1.5" min="0.5" max="5" step="0.5" style="width:60px" />
+            <span id="stroke-actual" style="font-size:12px;color:#888"></span>
+        </label>
+        <span class="count" id="count"></span>
+        <span class="spacer"></span>
+        <button class="btn-export" id="export-btn">Export Demo</button>
+    </div>
+    <div class="icon-grid" id="grid"></div>
+
+    <script src="/packages/svg-icons/dist/index.js"></script>
+    <script>
+        const testIcons = [
+            { src: '/docs/test-icons/different-stroke.svg', label: 'different stroke' },
+            { src: '/docs/test-icons/same-stroke-width-and-color.svg', label: 'same stroke width & color' },
+            { src: '/docs/test-icons/same-stroke-width-different-color.svg', label: 'same stroke, diff color' },
+        ];
+
+        const icons = Object.values(KendoSVGIcons).filter(i => i && typeof i === 'object' && i.name && i.content);
+        const grid = document.getElementById('grid');
+        const search = document.getElementById('search');
+        const variant = document.getElementById('variant');
+        const size = document.getElementById('size');
+        const stroke = document.getElementById('stroke');
+        const strokeActual = document.getElementById('stroke-actual');
+        const count = document.getElementById('count');
+
+        let loadedTestIcons = [];
+
+        function getContent(icon, variantName) {
+            if (variantName && icon.variants && icon.variants[variantName]) {
+                return icon.variants[variantName];
+            }
+            return icon.content;
+        }
+
+        function render() {
+            const query = search.value.toLowerCase();
+            const variantName = variant.value;
+            const px = size.value;
+            const sw = stroke.value;
+            const viewBoxSize = 24;
+            const actualStroke = (sw * px / viewBoxSize).toFixed(2);
+            strokeActual.textContent = `(actual: ${actualStroke}px)`;
+
+            // Test icons at the top
+            const testHtml = loadedTestIcons.map(({ svg, label }) => {
+                const sized = svg.replace(/<svg/, `<svg width="${px}" height="${px}" stroke-width="${sw}"`);
+                return `<div class="icon-cell test-icon" title="${label}">
+                    ${sized}
+                    <span class="icon-name">${label}</span>
+                </div>`;
+            }).join('');
+
+            const filtered = icons.filter(icon =>
+                icon.name.includes(query) ||
+                (icon.tags && icon.tags.some(t => t.includes(query)))
+            );
+
+            count.textContent = `${filtered.length} / ${icons.length} icons`;
+
+            const iconsHtml = filtered.map(icon => {
+                const content = getContent(icon, variantName);
+                return `<div class="icon-cell" title="${icon.name}">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="${icon.viewBox}" width="${px}" height="${px}" stroke-width="${sw}">${content}</svg>
+                    <span class="icon-name">${icon.name}</span>
+                </div>`;
+            }).join('');
+
+            grid.innerHTML = testHtml + iconsHtml;
+        }
+
+        // Load test SVGs then render
+        Promise.all(testIcons.map(icon => fetch(icon.src).then(r => r.text()).then(svg => ({ ...icon, svg }))))
+            .then(items => { loadedTestIcons = items; render(); });
+
+        search.addEventListener('input', render);
+        variant.addEventListener('change', render);
+        size.addEventListener('change', render);
+        stroke.addEventListener('input', render);
+
+        // Export full self-contained HTML playground
+        document.getElementById('export-btn').addEventListener('click', () => {
+            const styles = document.querySelector('style').innerHTML;
+            const toolbar = document.querySelector('.toolbar').outerHTML;
+
+            // Inline the test icon SVGs as a JS array
+            const testData = JSON.stringify(loadedTestIcons.map(({ svg, label }) => ({ svg, label })));
+
+            // Inline all icon data from KendoSVGIcons
+            const iconData = JSON.stringify(icons.map(i => ({
+                name: i.name, content: i.content, viewBox: i.viewBox,
+                variants: i.variants || null, tags: i.tags || null
+            })));
+
+            const html = `<!doctype html>
+<html lang="en">
+<head>
+    <title>SVG Icons Playground (Exported)</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>${styles}</style>
+</head>
+<body>
+    ${toolbar.replace(/<button[^>]*id="export-btn"[^>]*>.*?<\/button>/, '')}
+    <div class="icon-grid" id="grid"></div>
+    <script>
+        const icons = ${iconData};
+        const loadedTestIcons = ${testData};
+        const grid = document.getElementById('grid');
+        const search = document.getElementById('search');
+        const variant = document.getElementById('variant');
+        const size = document.getElementById('size');
+        const stroke = document.getElementById('stroke');
+        const strokeActual = document.getElementById('stroke-actual');
+        const count = document.getElementById('count');
+
+        function getContent(icon, variantName) {
+            if (variantName && icon.variants && icon.variants[variantName]) {
+                return icon.variants[variantName];
+            }
+            return icon.content;
+        }
+
+        function render() {
+            const query = search.value.toLowerCase();
+            const variantName = variant.value;
+            const px = size.value;
+            const sw = stroke.value;
+            const actualStroke = (sw * px / 24).toFixed(2);
+            strokeActual.textContent = '(actual: ' + actualStroke + 'px)';
+
+            const testHtml = loadedTestIcons.map(function(item) {
+                const sized = item.svg.replace(/<svg/, '<svg width="' + px + '" height="' + px + '" stroke-width="' + sw + '"');
+                return '<div class="icon-cell test-icon" title="' + item.label + '">' + sized + '<span class="icon-name">' + item.label + '</span></div>';
+            }).join('');
+
+            const filtered = icons.filter(function(icon) {
+                return icon.name.includes(query) || (icon.tags && icon.tags.some(function(t) { return t.includes(query); }));
+            });
+
+            count.textContent = filtered.length + ' / ' + icons.length + ' icons';
+
+            const iconsHtml = filtered.map(function(icon) {
+                const content = getContent(icon, variantName);
+                return '<div class="icon-cell" title="' + icon.name + '"><svg xmlns="http://www.w3.org/2000/svg" viewBox="' + icon.viewBox + '" width="' + px + '" height="' + px + '" stroke-width="' + sw + '">' + content + '</svg><span class="icon-name">' + icon.name + '</span></div>';
+            }).join('');
+
+            grid.innerHTML = testHtml + iconsHtml;
+        }
+
+        render();
+        search.addEventListener('input', render);
+        variant.addEventListener('change', render);
+        size.addEventListener('change', render);
+        stroke.addEventListener('input', render);
+    <\/script>
+</body>
+</html>`;
+            const blob = new Blob([html], { type: 'text/html' });
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = 'svg-icons-demo.html';
+            a.click();
+            URL.revokeObjectURL(a.href);
+        });
+    </script>
+</body>
+</html>
