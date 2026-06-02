@@ -29,7 +29,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "rollup": "^4.60.4",
+    "rollup": "^4.61.0",
     "rollup-plugin-typescript2": "^0.37.0",
     "typescript": "^6.0.3"
   }
