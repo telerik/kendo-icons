@@ -16,7 +16,7 @@ namespace Telerik.SvgIcons
         {
             var other = obj as SvgIconBase;
 
-            if (obj == null)
+            if (other == null)
             {
                 return false;
             }
