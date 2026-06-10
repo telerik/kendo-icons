@@ -16,6 +16,17 @@
         }
     }
 
+    :root {
+        --kendo-icon-size: #{$ki-icon-size};
+        --kendo-icon-size-xs: calc( var(--kendo-icon-size) * .75 );
+        --kendo-icon-size-sm: calc( var(--kendo-icon-size) * .875 );
+        --kendo-icon-size-md: var(--kendo-icon-size);
+        --kendo-icon-size-lg: calc( var(--kendo-icon-size) * 1.25 );
+        --kendo-icon-size-xl: calc( var(--kendo-icon-size) * 1.5 );
+        --kendo-icon-size-xxl: calc( var(--kendo-icon-size) * 2 );
+        --kendo-icon-size-xxxl: calc( var(--kendo-icon-size) * 3 );
+        --kendo-icon-rotation: 0deg;
+    }
 
     // Font icon
     .k-font-icon {
@@ -45,7 +56,7 @@
             text-decoration: none;
         }
 
-        // SVG Icon sizes
+        // Font Icon sizes
         @each $size, $value in $ki-icon-sizes {
             #{if($ki-icon-default-size == $size, "&,", null)}
             &.k-icon-#{$size} {
