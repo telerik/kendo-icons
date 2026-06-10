@@ -10609,6 +10609,230 @@
         ]
     },
     {
+        "name": "cap-circle-end-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e271",
+        "id": 1413
+    },
+    {
+        "name": "cap-circle-start-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e272",
+        "id": 1414
+    },
+    {
+        "name": "cap-diamond-end-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e273",
+        "id": 1415
+    },
+    {
+        "name": "cap-diamond-start-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e274",
+        "id": 1416
+    },
+    {
+        "name": "collate-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e275",
+        "id": 1417
+    },
+    {
+        "name": "data-storage-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e276",
+        "id": 1418
+    },
+    {
+        "name": "database-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e277",
+        "id": 1419
+    },
+    {
+        "name": "decision-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e278",
+        "id": 1420
+    },
+    {
+        "name": "delay-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e279",
+        "id": 1421
+    },
+    {
+        "name": "direct-access-storage-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e27a",
+        "id": 1422
+    },
+    {
+        "name": "display-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e27b",
+        "id": 1423
+    },
+    {
+        "name": "document-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e27c",
+        "id": 1424
+    },
+    {
+        "name": "extract-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e27d",
+        "id": 1425
+    },
+    {
+        "name": "input-output-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e27e",
+        "id": 1426
+    },
+    {
+        "name": "internal-storage-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e27f",
+        "id": 1427
+    },
+    {
+        "name": "logical-or-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e280",
+        "id": 1428
+    },
+    {
+        "name": "manual-input-output-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e281",
+        "id": 1429
+    },
+    {
+        "name": "manual-operation-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e282",
+        "id": 1430
+    },
+    {
+        "name": "merge-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e283",
+        "id": 1431
+    },
+    {
+        "name": "multiple-documents-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e284",
+        "id": 1432
+    },
+    {
+        "name": "off-page-connector-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e285",
+        "id": 1433
+    },
+    {
+        "name": "on-page-connector-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e286",
+        "id": 1434
+    },
+    {
+        "name": "predefined-process-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e287",
+        "id": 1435
+    },
+    {
+        "name": "preparation-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e288",
+        "id": 1436
+    },
+    {
+        "name": "process-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e289",
+        "id": 1437
+    },
+    {
+        "name": "sort-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e28a",
+        "id": 1438
+    },
+    {
+        "name": "summing-junction-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e28b",
+        "id": 1439
+    },
+    {
+        "name": "terminator-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e28c",
+        "id": 1440
+    },
+    {
         "name": "checkbox-null",
         "ligatures": [],
         "aliases": [
