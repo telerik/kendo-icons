@@ -2608,6 +2608,118 @@
   content: "\e270";
 }
 
+.k-i-cap-circle-end-shape::before {
+  content: "\e271";
+}
+
+.k-i-cap-circle-start-shape::before {
+  content: "\e272";
+}
+
+.k-i-cap-diamond-end-shape::before {
+  content: "\e273";
+}
+
+.k-i-cap-diamond-start-shape::before {
+  content: "\e274";
+}
+
+.k-i-collate-shape::before {
+  content: "\e275";
+}
+
+.k-i-data-storage-shape::before {
+  content: "\e276";
+}
+
+.k-i-database-shape::before {
+  content: "\e277";
+}
+
+.k-i-decision-shape::before {
+  content: "\e278";
+}
+
+.k-i-delay-shape::before {
+  content: "\e279";
+}
+
+.k-i-direct-access-storage-shape::before {
+  content: "\e27a";
+}
+
+.k-i-display-shape::before {
+  content: "\e27b";
+}
+
+.k-i-document-shape::before {
+  content: "\e27c";
+}
+
+.k-i-extract-shape::before {
+  content: "\e27d";
+}
+
+.k-i-input-output-shape::before {
+  content: "\e27e";
+}
+
+.k-i-internal-storage-shape::before {
+  content: "\e27f";
+}
+
+.k-i-logical-or-shape::before {
+  content: "\e280";
+}
+
+.k-i-manual-input-output-shape::before {
+  content: "\e281";
+}
+
+.k-i-manual-operation-shape::before {
+  content: "\e282";
+}
+
+.k-i-merge-shape::before {
+  content: "\e283";
+}
+
+.k-i-multiple-documents-shape::before {
+  content: "\e284";
+}
+
+.k-i-off-page-connector-shape::before {
+  content: "\e285";
+}
+
+.k-i-on-page-connector-shape::before {
+  content: "\e286";
+}
+
+.k-i-predefined-process-shape::before {
+  content: "\e287";
+}
+
+.k-i-preparation-shape::before {
+  content: "\e288";
+}
+
+.k-i-process-shape::before {
+  content: "\e289";
+}
+
+.k-i-sort-shape::before {
+  content: "\e28a";
+}
+
+.k-i-summing-junction-shape::before {
+  content: "\e28b";
+}
+
+.k-i-terminator-shape::before {
+  content: "\e28c";
+}
+
 .k-i-checkbox-null::before {
   content: "\e307";
 }
