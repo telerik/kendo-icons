@@ -2,13 +2,13 @@ $ki-icon-default-size: md !default;
 
 $ki-icon-size: 16px !default;
 
-$ki-icon-size-xs: calc( #{$ki-icon-size} * .75 ) !default;
-$ki-icon-size-sm: calc( #{$ki-icon-size} * .875 ) !default;
-$ki-icon-size-md: $ki-icon-size !default;
-$ki-icon-size-lg: calc( #{$ki-icon-size} * 1.25 ) !default;
-$ki-icon-size-xl: calc( #{$ki-icon-size} * 1.5 ) !default;
-$ki-icon-size-xxl: calc( #{$ki-icon-size} * 2 ) !default;
-$ki-icon-size-xxxl: calc( #{$ki-icon-size} * 3 ) !default;
+$ki-icon-size-xs: var(--kendo-icon-size-xs, calc( var(--kendo-icon-size, #{$ki-icon-size}) * .75 )) !default;
+$ki-icon-size-sm: var(--kendo-icon-size-sm, calc( var(--kendo-icon-size, #{$ki-icon-size}) * .875 )) !default;
+$ki-icon-size-md: var(--kendo-icon-size-md, var(--kendo-icon-size, #{$ki-icon-size})) !default;
+$ki-icon-size-lg: var(--kendo-icon-size-lg, calc( var(--kendo-icon-size, #{$ki-icon-size}) * 1.25 )) !default;
+$ki-icon-size-xl: var(--kendo-icon-size-xl, calc( var(--kendo-icon-size, #{$ki-icon-size}) * 1.5 )) !default;
+$ki-icon-size-xxl: var(--kendo-icon-size-xxl, calc( var(--kendo-icon-size, #{$ki-icon-size}) * 2 )) !default;
+$ki-icon-size-xxxl: var(--kendo-icon-size-xxxl, calc( var(--kendo-icon-size, #{$ki-icon-size}) * 3 )) !default;
 
 $ki-icon-sizes: (
     xs: $ki-icon-size-xs,
