@@ -28,6 +28,7 @@
 
         > svg {
             fill: currentColor;
+            transform: rotate(var(--kendo-icon-rotation));
             flex: 1 1 auto;
         }
 
@@ -74,9 +75,7 @@
                 transform: none;
             }
 
-            > svg {
-                transform: rotate( #{$rotate} );
-            }
+            --kendo-icon-rotation: #{$rotate};
         }
     }
 

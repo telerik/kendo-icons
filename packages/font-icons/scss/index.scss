@@ -50,6 +50,7 @@
         position: relative;
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
+        transform: rotate( var(--kendo-icon-rotation) );
 
         &:hover,
         &:focus {
@@ -86,7 +87,8 @@
     // Rotate
     @each $index, $rotate in $ki-rotate-map {
         .k-rotate-#{$index} {
-            transform: rotate( #{$rotate} );
+            --kendo-icon-rotation: #{$rotate};
+            transform: rotate( var(--kendo-icon-rotation) );
         }
     }
 
