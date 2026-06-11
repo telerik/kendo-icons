@@ -689,9 +689,7 @@
     {
         "name": "handle-drag",
         "ligatures": [],
-        "aliases": [
-            "handler-drag"
-        ],
+        "aliases": [],
         "categories": [
             "layout"
         ],
@@ -744,9 +742,7 @@
     {
         "name": "layout-2-by-2",
         "ligatures": [],
-        "aliases": [
-            "page-layout"
-        ],
+        "aliases": [],
         "categories": [
             "layout"
         ],
@@ -10611,9 +10607,7 @@
     {
         "name": "checkbox-null",
         "ligatures": [],
-        "aliases": [
-            "tri-state-null"
-        ],
+        "aliases": [],
         "categories": [
             "toggle"
         ],
@@ -10632,9 +10626,7 @@
     {
         "name": "image-export",
         "ligatures": [],
-        "aliases": [
-            "photo-export"
-        ],
+        "aliases": [],
         "categories": [
             "images"
         ],
@@ -10670,9 +10662,7 @@
     {
         "name": "bring-to-front",
         "ligatures": [],
-        "aliases": [
-            "front-element"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -10689,9 +10679,7 @@
     {
         "name": "bring-to-back",
         "ligatures": [],
-        "aliases": [
-            "back-element"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -10708,9 +10696,7 @@
     {
         "name": "bring-forward",
         "ligatures": [],
-        "aliases": [
-            "forward-element"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -10729,9 +10715,7 @@
     {
         "name": "bring-backward",
         "ligatures": [],
-        "aliases": [
-            "backward-element"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -10750,9 +10734,7 @@
     {
         "name": "align-self-start",
         "ligatures": [],
-        "aliases": [
-            "align-left-element"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -10773,9 +10755,7 @@
     {
         "name": "align-self-center",
         "ligatures": [],
-        "aliases": [
-            "align-center-element"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -10795,9 +10775,7 @@
     {
         "name": "align-self-end",
         "ligatures": [],
-        "aliases": [
-            "align-right-element"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -10818,9 +10796,7 @@
     {
         "name": "align-self-start-alt",
         "ligatures": [],
-        "aliases": [
-            "align-top-element"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -10842,9 +10818,7 @@
     {
         "name": "align-self-center-alt",
         "ligatures": [],
-        "aliases": [
-            "align-middle-element"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -10866,9 +10840,7 @@
     {
         "name": "align-self-end-alt",
         "ligatures": [],
-        "aliases": [
-            "align-bottom-element"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -11072,9 +11044,7 @@
     {
         "name": "align-self-stretch",
         "ligatures": [],
-        "aliases": [
-            "align-stretch-element-horizontal"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -11095,9 +11065,7 @@
     {
         "name": "align-self-stretch-alt",
         "ligatures": [],
-        "aliases": [
-            "align-stretch-element-vertical"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -11119,9 +11087,7 @@
     {
         "name": "align-items-stretch",
         "ligatures": [],
-        "aliases": [
-            "align-stretch-elements-horizontal"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -11142,9 +11108,7 @@
     {
         "name": "align-items-baseline",
         "ligatures": [],
-        "aliases": [
-            "align-baseline-horizontal"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -11164,9 +11128,7 @@
     {
         "name": "align-items-stretch-alt",
         "ligatures": [],
-        "aliases": [
-            "align-stretch-elements-vertical"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -11188,9 +11150,7 @@
     {
         "name": "align-items-baseline-alt",
         "ligatures": [],
-        "aliases": [
-            "align-baseline-vertical"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -11211,9 +11171,7 @@
     {
         "name": "justify-content-start",
         "ligatures": [],
-        "aliases": [
-            "justify-start-horizontal"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -11230,9 +11188,7 @@
     {
         "name": "justify-content-center",
         "ligatures": [],
-        "aliases": [
-            "justify-center-horizontal"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -11249,9 +11205,7 @@
     {
         "name": "justify-content-end",
         "ligatures": [],
-        "aliases": [
-            "justify-end-horizontal"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -11268,9 +11222,7 @@
     {
         "name": "justify-content-between",
         "ligatures": [],
-        "aliases": [
-            "justify-between-horizontal"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -11287,9 +11239,7 @@
     {
         "name": "justify-content-around",
         "ligatures": [],
-        "aliases": [
-            "justify-around-horizontal"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -11306,9 +11256,7 @@
     {
         "name": "justify-content-start-alt",
         "ligatures": [],
-        "aliases": [
-            "justify-start-vertical"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -11326,9 +11274,7 @@
     {
         "name": "justify-content-center-alt",
         "ligatures": [],
-        "aliases": [
-            "justify-center-vertical"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -11346,9 +11292,7 @@
     {
         "name": "justify-content-end-alt",
         "ligatures": [],
-        "aliases": [
-            "justify-end-vertical"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -11366,9 +11310,7 @@
     {
         "name": "justify-content-between-alt",
         "ligatures": [],
-        "aliases": [
-            "justify-between-vertical"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -11386,9 +11328,7 @@
     {
         "name": "justify-content-around-alt",
         "ligatures": [],
-        "aliases": [
-            "justify-around-vertical"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -11406,9 +11346,7 @@
     {
         "name": "file-wrench",
         "ligatures": [],
-        "aliases": [
-            "page-properties"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -11431,9 +11369,7 @@
     {
         "name": "foreground-color",
         "ligatures": [],
-        "aliases": [
-            "text"
-        ],
+        "aliases": [],
         "categories": [
             "text-formatting"
         ],
@@ -11452,9 +11388,7 @@
     {
         "name": "align-remove",
         "ligatures": [],
-        "aliases": [
-            "justify-clear"
-        ],
+        "aliases": [],
         "categories": [
             "text-formatting"
         ],
@@ -11477,10 +11411,7 @@
     {
         "name": "horizontal-rule",
         "ligatures": [],
-        "aliases": [
-            "rule-horizontal",
-            "hr"
-        ],
+        "aliases": [],
         "categories": [
             "text-formatting"
         ],
@@ -11705,9 +11636,7 @@
     {
         "name": "borders-all",
         "ligatures": [],
-        "aliases": [
-            "all-borders"
-        ],
+        "aliases": [],
         "categories": [
             "text-formatting"
         ],
@@ -11722,9 +11651,7 @@
     {
         "name": "borders-outside",
         "ligatures": [],
-        "aliases": [
-            "outside-borders"
-        ],
+        "aliases": [],
         "categories": [
             "text-formatting"
         ],
@@ -11739,9 +11666,7 @@
     {
         "name": "borders-inside",
         "ligatures": [],
-        "aliases": [
-            "inside-borders"
-        ],
+        "aliases": [],
         "categories": [
             "text-formatting"
         ],
@@ -11756,10 +11681,7 @@
     {
         "name": "borders-inside-horizontal",
         "ligatures": [],
-        "aliases": [
-            "border-inside-h",
-            "inside-horizontal-borders"
-        ],
+        "aliases": [],
         "categories": [
             "text-formatting"
         ],
@@ -11777,10 +11699,7 @@
     {
         "name": "borders-inside-vertical",
         "ligatures": [],
-        "aliases": [
-            "borders-inside-v",
-            "inside-vertical-borders"
-        ],
+        "aliases": [],
         "categories": [
             "text-formatting"
         ],
@@ -11797,9 +11716,7 @@
     {
         "name": "border-top",
         "ligatures": [],
-        "aliases": [
-            "top-border"
-        ],
+        "aliases": [],
         "categories": [
             "text-formatting"
         ],
@@ -11814,9 +11731,7 @@
     {
         "name": "border-bottom",
         "ligatures": [],
-        "aliases": [
-            "bottom-border"
-        ],
+        "aliases": [],
         "categories": [
             "text-formatting"
         ],
@@ -11831,9 +11746,7 @@
     {
         "name": "border-left",
         "ligatures": [],
-        "aliases": [
-            "left-border"
-        ],
+        "aliases": [],
         "categories": [
             "text-formatting"
         ],
@@ -11848,9 +11761,7 @@
     {
         "name": "border-right",
         "ligatures": [],
-        "aliases": [
-            "right-border"
-        ],
+        "aliases": [],
         "categories": [
             "text-formatting"
         ],
@@ -11865,10 +11776,7 @@
     {
         "name": "borders-none",
         "ligatures": [],
-        "aliases": [
-            "border-no",
-            "no-borders"
-        ],
+        "aliases": [],
         "categories": [
             "text-formatting"
         ],
@@ -12028,11 +11936,7 @@
     {
         "name": "image-add",
         "ligatures": [],
-        "aliases": [
-            "image-light-dialog",
-            "image-insert",
-            "insert-image"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12099,10 +12003,7 @@
     {
         "name": "link-add",
         "ligatures": [],
-        "aliases": [
-            "hyperlink-light-dialog",
-            "hyperlink-insert"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12126,9 +12027,7 @@
     {
         "name": "globe-link",
         "ligatures": [],
-        "aliases": [
-            "hyperlink-globe"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12150,11 +12049,7 @@
     {
         "name": "table-add",
         "ligatures": [],
-        "aliases": [
-            "table-light-dialog",
-            "table-insert",
-            "create-table"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12251,9 +12146,7 @@
     {
         "name": "table-column-insert-left",
         "ligatures": [],
-        "aliases": [
-            "add-column-left"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12274,9 +12167,7 @@
     {
         "name": "table-column-insert-right",
         "ligatures": [],
-        "aliases": [
-            "add-column-right"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12297,9 +12188,7 @@
     {
         "name": "table-row-insert-above",
         "ligatures": [],
-        "aliases": [
-            "add-row-above"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12320,9 +12209,7 @@
     {
         "name": "table-row-insert-below",
         "ligatures": [],
-        "aliases": [
-            "add-row-below"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12343,9 +12230,7 @@
     {
         "name": "table-column-delete",
         "ligatures": [],
-        "aliases": [
-            "delete-column"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12367,9 +12252,7 @@
     {
         "name": "table-row-delete",
         "ligatures": [],
-        "aliases": [
-            "delete-row"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12413,9 +12296,7 @@
     {
         "name": "cells-merge",
         "ligatures": [],
-        "aliases": [
-            "merge-cells"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12430,10 +12311,7 @@
     {
         "name": "cells-merge-horizontally",
         "ligatures": [],
-        "aliases": [
-            "cells-merge-h",
-            "merge-horizontally"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12450,10 +12328,7 @@
     {
         "name": "cells-merge-vertically",
         "ligatures": [],
-        "aliases": [
-            "cells-merge-v",
-            "merge-vertically"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12470,9 +12345,7 @@
     {
         "name": "cell-split-horizontally",
         "ligatures": [],
-        "aliases": [
-            "cells-split-h"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12490,9 +12363,7 @@
     {
         "name": "cell-split-vertically",
         "ligatures": [],
-        "aliases": [
-            "cells-split-v"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12510,9 +12381,7 @@
     {
         "name": "pane-freeze",
         "ligatures": [],
-        "aliases": [
-            "freeze-pane"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12527,9 +12396,7 @@
     {
         "name": "row-freeze",
         "ligatures": [],
-        "aliases": [
-            "freeze-row"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12544,10 +12411,7 @@
     {
         "name": "column-freeze",
         "ligatures": [],
-        "aliases": [
-            "col-freeze",
-            "freeze-col"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12563,9 +12427,7 @@
     {
         "name": "decimal-increase",
         "ligatures": [],
-        "aliases": [
-            "increace-decimal"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12581,9 +12443,7 @@
     {
         "name": "decimal-decrease",
         "ligatures": [],
-        "aliases": [
-            "decrease-decimal"
-        ],
+        "aliases": [],
         "categories": [
             "editing"
         ],
@@ -12755,9 +12615,7 @@
     {
         "name": "file-mdb",
         "ligatures": [],
-        "aliases": [
-            "mdb"
-        ],
+        "aliases": [],
         "categories": [
             "files-and-folders"
         ],
@@ -12775,9 +12633,7 @@
     {
         "name": "file-psd",
         "ligatures": [],
-        "aliases": [
-            "psd"
-        ],
+        "aliases": [],
         "categories": [
             "files-and-folders"
         ],
@@ -12795,9 +12651,7 @@
     {
         "name": "file-config",
         "ligatures": [],
-        "aliases": [
-            "config"
-        ],
+        "aliases": [],
         "categories": [
             "files-and-folders"
         ],
@@ -12843,10 +12697,7 @@
     {
         "name": "file-horizontal",
         "ligatures": [],
-        "aliases": [
-            "page-landscape",
-            "file-h"
-        ],
+        "aliases": [],
         "categories": [
             "files-and-folders"
         ],
@@ -12866,9 +12717,7 @@
     {
         "name": "file-header",
         "ligatures": [],
-        "aliases": [
-            "report-header-section"
-        ],
+        "aliases": [],
         "categories": [
             "files-and-folders"
         ],
@@ -12888,9 +12737,7 @@
     {
         "name": "file-footer",
         "ligatures": [],
-        "aliases": [
-            "report-footer-section"
-        ],
+        "aliases": [],
         "categories": [
             "files-and-folders"
         ],
@@ -13177,9 +13024,7 @@
     {
         "name": "files-error",
         "ligatures": [],
-        "aliases": [
-            "files-validation"
-        ],
+        "aliases": [],
         "categories": [
             "files-and-folders"
         ],
@@ -13213,9 +13058,7 @@
     {
         "name": "table-position-start",
         "ligatures": [],
-        "aliases": [
-            "table-position-left"
-        ],
+        "aliases": [],
         "categories": [
             "files-and-folders"
         ],
@@ -13254,9 +13097,7 @@
     {
         "name": "table-position-end",
         "ligatures": [],
-        "aliases": [
-            "table-position-right"
-        ],
+        "aliases": [],
         "categories": [
             "files-and-folders"
         ],
