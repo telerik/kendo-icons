@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.9.3-dev.0](https://github.com/telerik/kendo-icons/compare/v4.9.2...v4.9.3-dev.0) (2026-06-24)
+
+
+### Bug Fixes
+
+* check cast result in SvgIconBase.Equals instead of original obj ([9d7ad34](https://github.com/telerik/kendo-icons/commit/9d7ad34a99e33e8e3fd6c843d55300e7054273f4))
+
+
+
+
+
 ## [4.9.2](https://github.com/telerik/kendo-icons/compare/v4.9.2-dev.0...v4.9.2) (2026-05-12)
 
 **Note:** Version bump only for package @progress/kendo-svg-icons
