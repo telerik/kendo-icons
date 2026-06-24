@@ -81,26 +81,42 @@ function prepareSvg() {
 prepareSvg.displayName = 'svg:prepare';
 
 
+// Shape elements that render fill from SVG
+const FILL_SHAPE_TAGS = new Set([ 'path', 'circle', 'rect', 'ellipse', 'polygon', 'polyline', 'line' ]);
+
 /**
  * Serialize a HAST node to an SVG markup string.
- * Strips `fill="black"` and `fill="none"` since consumers control fill via CSS.
- * Preserves all other attributes (opacity, fill-opacity, d, etc.).
+ * - Strips `fill="black"` / `fill="#000"` / `fill="#000000"` so CSS `fill: currentColor` applies.
+ * - Keeps `fill="none"` (explicit transparency is meaningful).
+ * - For stroke-only shapes (has `stroke` but no `fill` attribute): adds `fill="none"` explicitly
+ *   so the shape does not inherit `fill: currentColor` from the CSS rule on the parent `<svg>`.
+ * - Preserves all other attributes (stroke-width, opacity, fill-opacity, d, etc.).
  */
 function hastNodeToSvg( node ) {
     const tag = node.tagName;
     const props = node.properties || {};
 
-    const attrs = Object.entries( props )
+    const attrPairs = Object.entries( props )
         .filter( ([ key, val ]) => {
-            // Strip fill="black"/"none"/"#000"/"#000000" — consumers control fill
-            if ( key === 'fill' && ( val === 'black' || val === 'none' || val === '#000' || val === '#000000' ) ) {
+            // Strip black/default fill colors — CSS currentColor handles these
+            if ( key === 'fill' && ( val === 'black' || val === '#000' || val === '#000000' ) ) {
                 return false;
             }
             return true;
         })
-        .map( ([ key, val ]) => `${key}="${val}"` )
-        .join(' ');
+        .map( ([ key, val ]) => `${key}="${val}"` );
 
+    // Stroke-only shapes (no explicit fill) would otherwise inherit `fill: currentColor`
+    // from the CSS rule on the parent <svg>, making them appear solid.
+    // The source SVGs rely on <svg fill="none"> for this, but we discard the root element.
+    // Adding fill="none" explicitly here preserves the original intent.
+    const hasStroke = 'stroke' in props && props.stroke && props.stroke !== 'none';
+    const hasFill = 'fill' in props;
+    if ( FILL_SHAPE_TAGS.has( tag ) && hasStroke && !hasFill ) {
+        attrPairs.push( 'fill="none"' );
+    }
+
+    const attrs = attrPairs.join( ' ' );
     const open = attrs ? `<${tag} ${attrs}` : `<${tag}`;
 
     if ( !node.children || node.children.length === 0 ) {
