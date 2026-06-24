@@ -35,5 +35,8 @@
     "svg2ttf": "^6.0.3",
     "svgo": "^4.0.0",
     "svgpath": "^2.5.0"
+  },
+  "overrides": {
+    "typescript": "~5.8.0"
   }
 }
