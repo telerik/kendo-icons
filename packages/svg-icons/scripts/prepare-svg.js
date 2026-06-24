@@ -1,5 +1,6 @@
 const fs = require('fs');
 const { resolve } = require('path');
+const pkgRoot = resolve(__dirname, '..');
 
 const _ = require('lodash');
 
@@ -7,11 +8,11 @@ const { paths, prepareSvg, buildHast } = require('../../../scripts/shared');
 const { svgTsTemplate, indexTsTemplate } = require('./templates');
 
 // Prepare clean src/icons and dist dirs
-fs.rmSync( 'src/icons', { recursive: true, force: true } );
-fs.mkdirSync( 'src/icons', { recursive: true } );
+fs.rmSync( resolve( pkgRoot, 'src/icons' ), { recursive: true, force: true } );
+fs.mkdirSync( resolve( pkgRoot, 'src/icons' ), { recursive: true } );
 
-fs.rmSync( 'dist', { recursive: true, force: true } );
-fs.mkdirSync( 'dist' );
+fs.rmSync( resolve( pkgRoot, 'dist' ), { recursive: true, force: true } );
+fs.mkdirSync( resolve( pkgRoot, 'dist' ) );
 
 // Prepare svg
 prepareSvg();
@@ -85,12 +86,12 @@ function prepareSvgIcons() {
 
     fs.copyFileSync(
         paths.icons.list,
-        resolve( 'dist/icon-list.json' )
+        resolve( pkgRoot, 'dist/icon-list.json' )
     );
 
     fs.copyFileSync(
         paths.icons.json,
-        resolve( 'dist/icons.json' )
+        resolve( pkgRoot, 'dist/icons.json' )
     );
 }
 

@@ -1,5 +1,6 @@
 const fs = require('fs');
 const { resolve } = require('path');
+const pkgRoot = resolve(__dirname, '..');
 
 const { paths } = require('../../../scripts/shared');
 const { iconsCsTemplate } = require('./templates');
@@ -16,7 +17,7 @@ function prepareNuget() {
     const telerikIconsCs = iconsCsTemplate( 'Telerik.FontIcons', iconsHast.icons, deprecatedIcons );
 
     fs.writeFileSync(
-        resolve( 'src-cs/Telerik.FontIcons/Icons/FontIcon.cs' ),
+        resolve( pkgRoot, 'src-cs/Telerik.FontIcons/Icons/FontIcon.cs' ),
         telerikIconsCs
     );
 
