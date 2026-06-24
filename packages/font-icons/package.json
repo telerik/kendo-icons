@@ -12,8 +12,7 @@
     "NOTICE.txt"
   ],
   "scripts": {
-    "prebuild": "node scripts/prepare-font.js && node scripts/prepare-nuget.js",
-    "build": "npx sass scss/all.scss dist/index.css",
+    "build": "node scripts/prepare-font.js && node scripts/prepare-nuget.js && npx sass scss/all.scss dist/index.css",
     "prepublishOnly": "npm run build"
   },
   "keywords": [

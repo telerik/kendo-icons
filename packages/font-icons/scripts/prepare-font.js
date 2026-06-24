@@ -1,5 +1,6 @@
 const fs = require('fs');
 const { resolve } = require('path');
+const pkgRoot = resolve(__dirname, '..');
 const svg2ttf = require('svg2ttf');
 const svgpath = require('svgpath');
 
@@ -7,18 +8,18 @@ const { paths, prepareSvg, buildHast } = require('../../../scripts/shared');
 const { svgFontTemplate, fontFileTemplate } = require('./templates');
 
 const fontPaths = {
-    tmpJson: resolve( '.tmp/font.json' ),
-    tmpSvg: resolve( '.tmp/kendo-font-icons.svg' ),
-    tmpTtf: resolve( '.tmp/kendo-font-icons.ttf' ),
-    distTtf: resolve( 'dist/kendo-font-icons.ttf' )
+    tmpJson: resolve( pkgRoot, '.tmp/font.json' ),
+    tmpSvg: resolve( pkgRoot, '.tmp/kendo-font-icons.svg' ),
+    tmpTtf: resolve( pkgRoot, '.tmp/kendo-font-icons.ttf' ),
+    distTtf: resolve( pkgRoot, 'dist/kendo-font-icons.ttf' )
 };
 
 // Prepare clean tmp and dist dirs
-fs.rmSync( '.tmp', { recursive: true, force: true } );
-fs.mkdirSync( '.tmp' );
+fs.rmSync( resolve( pkgRoot, '.tmp' ), { recursive: true, force: true } );
+fs.mkdirSync( resolve( pkgRoot, '.tmp' ) );
 
-fs.rmSync( 'dist', { recursive: true, force: true } );
-fs.mkdirSync( 'dist' );
+fs.rmSync( resolve( pkgRoot, 'dist' ), { recursive: true, force: true } );
+fs.mkdirSync( resolve( pkgRoot, 'dist' ) );
 
 // Prepare svg
 prepareSvg();
@@ -312,7 +313,7 @@ function prepareFontIcons() {
     });
 
     fs.writeFileSync(
-        resolve( 'scss/_icon-list.scss' ),
+        resolve( pkgRoot, 'scss/_icon-list.scss' ),
         `@mixin kendo-icon-list {\n    ${fileContent.join( '\n    ' )}\n}\n`
     );
 
@@ -323,22 +324,22 @@ function prepareFontIcons() {
 
     fs.copyFileSync(
         fontPaths.tmpTtf,
-        resolve( 'scss/kendo-font-icons.ttf' )
+        resolve( pkgRoot, 'scss/kendo-font-icons.ttf' )
     );
 
     fs.writeFileSync(
-        resolve( 'scss/_font.scss' ),
+        resolve( pkgRoot, 'scss/_font.scss' ),
         fontFileTemplate( fontPaths.distTtf )
     );
 
     fs.copyFileSync(
         paths.icons.list,
-        resolve( 'dist/icon-list.json' )
+        resolve( pkgRoot, 'dist/icon-list.json' )
     );
 
     fs.copyFileSync(
         paths.icons.json,
-        resolve( 'dist/icons.json' )
+        resolve( pkgRoot, 'dist/icons.json' )
     );
 
     return Promise.resolve();

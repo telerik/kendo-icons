@@ -1,5 +1,6 @@
 const fs = require('fs');
 const { resolve } = require('path');
+const pkgRoot = resolve(__dirname, '..');
 
 const _ = require('lodash');
 
@@ -7,8 +8,8 @@ const { paths } = require('../../../scripts/shared');
 const { svgCsTemplate, indexCsTemplate } = require('./templates');
 
 // Prepare clean
-fs.rmSync( 'src-cs/Telerik.SvgIcons/Icons', { recursive: true, force: true } );
-fs.mkdirSync( 'src-cs/Telerik.SvgIcons/Icons', { recursive: true } );
+fs.rmSync( resolve( pkgRoot, 'src-cs/Telerik.SvgIcons/Icons' ), { recursive: true, force: true } );
+fs.mkdirSync( resolve( pkgRoot, 'src-cs/Telerik.SvgIcons/Icons' ), { recursive: true } );
 
 const iconsHast = JSON.parse( fs.readFileSync( paths.icons.hast, 'utf-8' ) );
 const aliasesMap = JSON.parse( fs.readFileSync( paths.icons.aliases, 'utf-8' ) );
@@ -26,7 +27,7 @@ function prepareNuget() {
         iconName = iconDef.name;
         iconCsName = _.upperFirst( _.camelCase( iconName ) );
         iconSvgContent = iconDef.svgContent;
-        filename = resolve( `src-cs/Telerik.SvgIcons/Icons/${iconCsName}.cs` );
+        filename = resolve( pkgRoot, `src-cs/Telerik.SvgIcons/Icons/${iconCsName}.cs` );
 
         // Collect tags from categories
         const tags = iconDef.categories && iconDef.categories.length ? iconDef.categories : undefined;
