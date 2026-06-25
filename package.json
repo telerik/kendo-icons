@@ -16,7 +16,7 @@
     "dev": "node scripts/dev.mjs",
     "serve": "npx http-server",
     "update": "npx npm-check-updates --upgrade",
-    "setup": "brew install potrace || sudo apt-get install -y potrace"
+    "setup": "npm install"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.0.1",
@@ -38,7 +38,8 @@
     "svg-parser": "^2.0.4",
     "svg2ttf": "^6.0.3",
     "svgo": "^4.0.0",
-    "svgpath": "^2.5.0"
+    "svgpath": "^2.5.0",
+    "potrace-wasm": "^1.0.4"
   },
   "overrides": {
     "typescript": "~5.8.0"
