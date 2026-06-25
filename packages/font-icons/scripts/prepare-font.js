@@ -1,8 +1,25 @@
 const fs = require('fs');
 const { resolve } = require('path');
+const { spawn, spawnSync } = require('child_process');
 const pkgRoot = resolve(__dirname, '..');
 const svg2ttf = require('svg2ttf');
 const svgpath = require('svgpath');
+const { renderAsync } = require('@resvg/resvg-js');
+
+// Fail fast with a helpful message if potrace is not installed.
+// macOS: brew install potrace  |  Debian/Ubuntu: apt-get install potrace
+if ( spawnSync( 'potrace', [ '--version' ], { stdio: 'ignore' } ).error ) {
+    // eslint-disable-next-line no-console
+    console.error( [
+        '',
+        '  potrace is required to build the font icons but was not found.',
+        '  Install it and re-run:',
+        '    macOS:          brew install potrace',
+        '    Debian/Ubuntu:  sudo apt-get install -y potrace',
+        '',
+    ].join( '\n' ) );
+    process.exit( 1 );
+}
 
 const { paths, prepareSvg, buildHast } = require('../../../scripts/shared');
 const { svgFontTemplate, fontFileTemplate } = require('./templates');
@@ -38,240 +55,109 @@ const ttfOptions = {
     url: 'https://www.telerik.com/',
 };
 
-function collectPaths( nodes ) {
-    const result = [];
-    nodes.forEach( node => {
-        if ( node.tagName === 'path' && node.properties && node.properties.d ) {
-            const fill = (node.properties.fill || '').toLowerCase();
-            if ( fill !== '#fff' && fill !== '#ffffff' && fill !== 'white' ) {
-                result.push( node );
+// Render resolution for the rasterize-then-trace pipeline.
+// Higher = better curve fidelity, slower build. 192 is a good balance.
+const RENDER_SIZE = 192;
+
+
+// --- Render-and-trace icon pipeline (via potrace) ---
+
+/**
+ * Pipe a binary PBM buffer to potrace and return its SVG output.
+ * potrace outputs paths with correct nonzero-compatible winding:
+ * outer boundaries are clockwise (in Y-down SVG) and holes are counter-clockwise.
+ */
+function runPotrace( pbmBuffer ) {
+    return new Promise( ( resolve, reject ) => {
+        const child = spawn( 'potrace', [ '-s', '--flat', '-', '-o', '-' ] );
+        const chunks = [];
+        child.stdout.on( 'data', chunk => chunks.push( chunk ) );
+        child.on( 'close', code => {
+            if ( code !== 0 ) {
+                reject( new Error( 'potrace exited with code ' + code ) );
+            } else {
+                resolve( Buffer.concat( chunks ).toString( 'utf-8' ) );
+            }
+        } );
+        child.on( 'error', reject );
+        child.stdin.write( pbmBuffer );
+        child.stdin.end();
+    } );
+}
+
+/**
+ * Convert an SVG icon to a glyph path d string in SVG coordinate space (0–24).
+ *
+ * 1. Renders the SVG to an RGBA bitmap with @resvg/resvg-js.
+ * 2. Thresholds to a 1-bit PBM bitmap.
+ * 3. Traces with potrace, which produces a single compound path whose subpaths
+ *    already have correct nonzero winding (CW outer, CCW holes).
+ * 4. Transforms the path coordinates from potrace space to the 0–24 SVG unit
+ *    space expected by the font template.
+ */
+async function iconToGlyphPath( svgContent, size = RENDER_SIZE ) {
+    // 1. Render the SVG to an RGBA bitmap (transparent background).
+    const rendered = await renderAsync( svgContent, { fitTo: { mode: 'width', value: size } } );
+    const { pixels, width, height } = rendered;
+
+    // 2. Build a binary PBM (P4) bitmap.
+    //    A pixel is black if, when alpha-composited onto white, its red channel < 128.
+    const header = Buffer.from( 'P4\n' + width + ' ' + height + '\n' );
+    const bytesPerRow = Math.ceil( width / 8 );
+    const data = Buffer.alloc( bytesPerRow * height, 0 );
+    for ( let y = 0; y < height; y++ ) {
+        for ( let x = 0; x < width; x++ ) {
+            const i = ( y * width + x ) * 4;
+            const a = pixels[ i + 3 ] / 255;
+            const r = Math.round( pixels[ i ] * a + 255 * ( 1 - a ) );
+            if ( r < 128 ) {
+                const byte = Math.floor( x / 8 );
+                const bit = 7 - ( x % 8 );
+                data[ y * bytesPerRow + byte ] |= ( 1 << bit );
             }
         }
-        if ( node.tagName === 'g' && node.children ) {
-            result.push( ...collectPaths( node.children ) );
-        }
-    });
-    return result;
-}
-
-
-// --- Evenodd-to-nonzero winding conversion utilities ---
-
-/**
- * Split a path d string into individual subpaths (each starting with M).
- * The d string must already be in absolute coordinates.
- */
-function splitSubpaths( d ) {
-    const parts = [];
-    // Split on M commands, keeping the M
-    const re = /M[^M]*/g;
-    let match;
-    while ( (match = re.exec(d)) !== null ) {
-        parts.push( match[0].trim() );
     }
-    return parts;
-}
+    const pbmBuffer = Buffer.concat( [ header, data ] );
 
-/**
- * Flatten a subpath d string into an array of [x, y] points.
- * Uses svgpath to iterate over all segments and extract endpoints.
- */
-function subpathToPoints( d ) {
-    const points = [];
-    let curX = 0, curY = 0;
-    svgpath(d).abs().unshort().iterate( function( segment ) {
-        const cmd = segment[0];
-        switch (cmd) {
-            case 'M':
-            case 'L':
-                curX = segment[1]; curY = segment[2];
-                points.push([ curX, curY ]);
-                break;
-            case 'H':
-                curX = segment[1];
-                points.push([ curX, curY ]);
-                break;
-            case 'V':
-                curY = segment[1];
-                points.push([ curX, curY ]);
-                break;
-            case 'C':
-                curX = segment[5]; curY = segment[6];
-                points.push([ curX, curY ]);
-                break;
-            case 'S':
-                curX = segment[3]; curY = segment[4];
-                points.push([ curX, curY ]);
-                break;
-            case 'Q':
-                curX = segment[3]; curY = segment[4];
-                points.push([ curX, curY ]);
-                break;
-            case 'T':
-                curX = segment[1]; curY = segment[2];
-                points.push([ curX, curY ]);
-                break;
-            case 'A':
-                curX = segment[6]; curY = segment[7];
-                points.push([ curX, curY ]);
-                break;
-            case 'Z':
-            case 'z':
-                break;
-            default:
-                break;
-        }
-    });
-    return points;
-}
+    // 3. Trace the bitmap with potrace.
+    const potraceSvg = await runPotrace( pbmBuffer );
 
-/**
- * Compute the signed area of a polygon defined by points.
- * Positive = clockwise in SVG coords (Y-down), negative = counter-clockwise.
- */
-function signedArea( points ) {
-    let area = 0;
-    for (let i = 0; i < points.length; i++) {
-        const j = (i + 1) % points.length;
-        area += points[i][0] * points[j][1];
-        area -= points[j][0] * points[i][1];
-    }
-    return area / 2;
-}
+    // 4. Extract the path d attribute.
+    //    potrace outputs a single <path> element (--flat merges disconnected regions).
+    const match = potraceSvg.match( /\bd="([^"]+)"/ );
+    if ( !match ) { return ''; }
 
-/**
- * Get the bounding box of a set of points.
- */
-function getBBox( points ) {
-    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
-    points.forEach( p => {
-        if (p[0] < minX) { minX = p[0]; }
-        if (p[1] < minY) { minY = p[1]; }
-        if (p[0] > maxX) { maxX = p[0]; }
-        if (p[1] > maxY) { maxY = p[1]; }
-    });
-    return { minX, minY, maxX, maxY };
-}
-
-/**
- * Check if bbox A fully contains bbox B.
- */
-function bboxContains( a, b ) {
-    return a.minX <= b.minX && a.minY <= b.minY && a.maxX >= b.maxX && a.maxY >= b.maxY;
-}
-
-/**
- * Reverse a subpath's winding direction using svgpath.
- */
-function reverseSubpath( d ) {
-    const segments = [];
-    svgpath(d).abs().unshort().iterate( function( segment ) {
-        segments.push( segment.slice() );
-    });
-
-    if (segments.length < 2) {
-        return d;
-    }
-
-    // Build the reversed path
-    // Extract all points and reconstruct in reverse order with L commands
-    const pts = subpathToPoints(d);
-    if (pts.length < 2) {
-        return d;
-    }
-
-    const hasClose = segments[segments.length - 1][0] === 'Z' || segments[segments.length - 1][0] === 'z';
-    const reversed = [ 'M' + pts[pts.length - 1][0] + ' ' + pts[pts.length - 1][1] ];
-    for (let i = pts.length - 2; i >= 0; i--) {
-        reversed.push('L' + pts[i][0] + ' ' + pts[i][1]);
-    }
-    if (hasClose) {
-        reversed.push('Z');
-    }
-
-    return reversed.join(' ');
-}
-
-/**
- * Convert an evenodd compound path to work with non-zero winding rule.
- * Determines nesting depth of subpaths and ensures alternating winding directions.
- */
-function evenoddToNonzero( d ) {
-    const subpaths = splitSubpaths(d);
-    if (subpaths.length <= 1) {
-        return d;
-    }
-
-    // Get points, signed areas, and bboxes for each subpath
-    const infos = subpaths.map( sp => {
-        const pts = subpathToPoints(sp);
-        return {
-            d: sp,
-            points: pts,
-            area: signedArea(pts),
-            bbox: getBBox(pts)
-        };
-    });
-
-    // Determine nesting depth of each subpath using bbox containment
-    const depths = infos.map( (info, i) => {
-        let depth = 0;
-        infos.forEach( (other, j) => {
-            if (i !== j && bboxContains(other.bbox, info.bbox)) {
-                depth++;
-            }
-        });
-        return depth;
-    });
-
-    // For non-zero winding: even depth = clockwise (positive area in SVG),
-    // odd depth = counter-clockwise (negative area).
-    const result = infos.map( (info, i) => {
-        const isEvenDepth = depths[i] % 2 === 0;
-        const isClockwise = info.area > 0;
-
-        if (isEvenDepth && !isClockwise) {
-            return reverseSubpath(info.d);
-        } else if (!isEvenDepth && isClockwise) {
-            return reverseSubpath(info.d);
-        }
-        return info.d;
-    });
-
-    return result.join(' ');
+    // 5. Convert potrace coordinates to 0–24 SVG space.
+    //    potrace wraps its path in: translate(0, height) scale(0.1, -0.1)
+    //    Combined with pixel→SVG-unit scale (24/size):
+    //      x_final = x_p * 0.1 * (24/size)  =  x_p * 24/(size*10)
+    //      y_final = (size - y_p*0.1) * (24/size)  =  24 - y_p * 24/(size*10)
+    const scale = 24 / ( size * 10 );
+    return svgpath( match[ 1 ] )
+        .scale( scale, -scale )
+        .translate( 0, 24 )
+        .toString();
 }
 
 
-function buildFontJson() {
-    iconsHast.icons.forEach( iconDef => {
-        // Merge all foreground path d values into a single glyph path.
-        // Skip paths with white/background fill (e.g. #fff, white)
-        // as they represent cutouts that don't translate to font glyphs.
-        // Recurse into <g> elements to find nested paths.
-        const pathNodes = collectPaths( iconDef.hast );
+async function buildFontJson() {
+    // Process all icons in parallel for speed.
+    const glyphs = await Promise.all(
+        iconsHast.icons.map( async iconDef => {
+            const svgFile = resolve( paths.icons.temp, iconDef.name + '.svg' );
+            const svgContent = fs.readFileSync( svgFile, 'utf-8' );
+            const d = await iconToGlyphPath( svgContent );
+            return {
+                name: iconDef.name,
+                ligatures: [],
+                unicode: iconDef.unicode,
+                d
+            };
+        } )
+    );
 
-        const mergedD = pathNodes
-            .map( node => {
-                let d = svgpath(node.properties.d).abs().toString();
-                // Convert evenodd paths to non-zero winding for font glyph compatibility
-                if (node.properties['fill-rule'] === 'evenodd') {
-                    d = evenoddToNonzero(d);
-                }
-                return d;
-            })
-            .join(' ');
-
-        fontJson.glyphs.push({
-            name: iconDef.name,
-            ligatures: [],
-            unicode: iconDef.unicode,
-            d: mergedD
-        });
-    });
-
+    fontJson.glyphs = glyphs;
     fs.writeFileSync( fontPaths.tmpJson, JSON.stringify( fontJson, null, 4 ) );
-
-    return Promise.resolve();
 }
 
 
@@ -290,10 +176,10 @@ function buildTtfFont() {
 }
 
 
-function prepareFontIcons() {
+async function prepareFontIcons() {
 
-    // Build json from hast
-    buildFontJson();
+    // Build glyph json from rendered+traced icons
+    await buildFontJson();
 
     // Build svg font from json
     buildSvgFont();
@@ -341,8 +227,7 @@ function prepareFontIcons() {
         paths.icons.json,
         resolve( pkgRoot, 'dist/icons.json' )
     );
-
-    return Promise.resolve();
 }
+// eslint-disable-next-line no-console
+prepareFontIcons().catch( err => { console.error( err ); process.exit( 1 ); } );
 
-prepareFontIcons();

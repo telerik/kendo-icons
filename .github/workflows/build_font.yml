@@ -27,6 +27,9 @@ jobs:
           cache: 'npm'
           node-version: 24.x
 
+      - name: Install potrace
+        run: sudo apt-get update -qq && sudo apt-get install -y potrace
+
       - name: Install
         run: npm ci --no-audit --no-fund
 

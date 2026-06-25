@@ -15,13 +15,15 @@
     "prepare-packages": "npm run build --workspaces",
     "dev": "node scripts/dev.mjs",
     "serve": "npx http-server",
-    "update": "npx npm-check-updates --upgrade"
+    "update": "npx npm-check-updates --upgrade",
+    "setup": "brew install potrace || sudo apt-get install -y potrace"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.0.1",
     "@commitlint/config-conventional": "^21.0.1",
     "@commitlint/core": "^21.0.1",
     "@eslint/js": "^10.0.1",
+    "@resvg/resvg-js": "^2.6.2",
     "ansi-colors": "^4.1.1",
     "chokidar": "^5.0.0",
     "eslint": "^10.4.0",
