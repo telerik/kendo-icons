@@ -36,6 +36,18 @@ jobs:
       - name: Build assets
         run: npm run build --workspaces
 
+      - name: Upload preview assets
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview-assets
+          retention-days: 1
+          path: |
+            docs/index.html
+            packages/font-icons/dist/
+            packages/svg-icons/dist/
+            src/telerik-icons/icons.json
+            src/telerik-icons/icon-list.json
+
       - name: Compare artifacts
         run: |
           HAS_CHANGES=0
@@ -61,3 +73,102 @@ jobs:
           git commit -m "feat: generate icons metadata"
 
           git push
+
+  deploy-preview:
+    name: Deploy PR Preview
+    needs: build-font
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Resolve PR number
+        id: pr
+        uses: actions/github-script@v6
+        with:
+          result-encoding: string
+          script: |
+            const branch = context.ref.replace('refs/heads/', '');
+            const { data: prs } = await github.rest.pulls.list({
+              owner: context.repo.owner,
+              repo:  context.repo.repo,
+              head:  `${context.repo.owner}:${branch}`,
+              state: 'open',
+            });
+            return prs.length > 0 ? String(prs[0].number) : '';
+
+      - name: Checkout branch
+        if: steps.pr.outputs.result != ''
+        uses: actions/checkout@v6
+
+      - name: Download preview assets
+        if: steps.pr.outputs.result != ''
+        uses: actions/download-artifact@v4
+        with:
+          name: preview-assets
+          path: preview-assets
+
+      - name: Assemble preview
+        if: steps.pr.outputs.result != ''
+        run: |
+          mkdir -p preview
+          cp preview-assets/docs/index.html preview/
+          cp -r preview-assets/packages/font-icons/dist  preview/font-icons
+          cp -r preview-assets/packages/svg-icons/dist   preview/svg-icons
+          mkdir -p preview/telerik-icons
+          cp preview-assets/src/telerik-icons/icons.json      preview/telerik-icons/
+          cp preview-assets/src/telerik-icons/icon-list.json  preview/telerik-icons/
+
+      - name: Deploy to gh-pages branch
+        if: steps.pr.outputs.result != ''
+        env:
+          PR: ${{ steps.pr.outputs.result }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin gh-pages 2>/dev/null || true
+          git worktree add gh-pages-out origin/gh-pages 2>/dev/null || \
+            git worktree add --orphan -B gh-pages gh-pages-out
+
+          DIR="gh-pages-out/pr/${PR}"
+          rm -rf "$DIR"
+          mkdir -p "$DIR"
+          cp -r preview/. "$DIR"
+
+          cd gh-pages-out
+          git add -A
+          git commit -m "chore: preview for PR #${PR}" || echo "Nothing to commit"
+          git push origin HEAD:gh-pages
+
+      - name: Post preview link comment
+        if: steps.pr.outputs.result != ''
+        uses: actions/github-script@v6
+        env:
+          PR_NUMBER: ${{ steps.pr.outputs.result }}
+        with:
+          script: |
+            const pr    = Number(process.env.PR_NUMBER);
+            const owner = context.repo.owner;
+            const repo  = context.repo.repo;
+            const url   = `https://${owner}.github.io/${repo}/pr/${pr}/`;
+            const marker = '<!-- pr-preview -->';
+            const body   = `${marker}\n## Icons preview\n\n[Open preview →](${url})\n\n_Updated on every push to this PR._`;
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner, repo, issue_number: pr,
+            });
+
+            const existing = comments.find(c => c.body.includes(marker));
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner, repo, comment_id: existing.id, body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: pr, body,
+              });
+            }
