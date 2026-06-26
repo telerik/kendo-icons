@@ -5,6 +5,7 @@ const pkgRoot = resolve(__dirname, '..');
 const _ = require('lodash');
 
 const { paths, prepareSvg, buildHast } = require('../../../scripts/shared');
+const svgoConfig = require('../../../svgo.config.js');
 const { svgTsTemplate, indexTsTemplate } = require('./templates');
 
 // Prepare clean src/icons and dist dirs
@@ -14,8 +15,8 @@ fs.mkdirSync( resolve( pkgRoot, 'src/icons' ), { recursive: true } );
 fs.rmSync( resolve( pkgRoot, 'dist' ), { recursive: true, force: true } );
 fs.mkdirSync( resolve( pkgRoot, 'dist' ) );
 
-// Prepare svg
-prepareSvg();
+// Prepare svg — pass the config so stroke attrs are stripped for the JS module
+prepareSvg( svgoConfig );
 
 // Build hast from svg
 buildHast();
