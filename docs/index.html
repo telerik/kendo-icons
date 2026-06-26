@@ -65,13 +65,69 @@
             border-radius: 20px;
             background: #fff;
         }
-        .icon-wrapper { font-size: 48px; }
-        .k-svg-icon { width: 48px; height: 48px; }
-        .k-icon { font-size: 1em; }
         .icon-name {
             margin-top: 20px;
             font-size: .75rem;
         }
+
+        /* ── Configurator ── */
+        .configurator {
+            background: #f0f4ff;
+            border: 1px solid #c5d5f5;
+            border-radius: 12px;
+            padding: 14px 20px;
+            margin-bottom: 24px;
+        }
+        .configurator-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 14px;
+        }
+        .configurator-title {
+            font-weight: 600;
+            font-size: .875rem;
+            color: #1a1a2e;
+        }
+        .cfg-reset {
+            padding: 5px 14px;
+            background: #fff;
+            border: 1px solid #c5d5f5;
+            border-radius: 6px;
+            cursor: pointer;
+            font: inherit;
+            font-size: .8rem;
+            color: #444;
+        }
+        .cfg-reset:hover { border-color: #1b83e2; color: #1b83e2; }
+        .cfg-rows { display: flex; flex-direction: column; gap: 10px; }
+        .cfg-row {
+            display: grid;
+            grid-template-columns: 220px 1fr 70px;
+            align-items: center;
+            gap: 12px;
+        }
+        .cfg-label { display: flex; align-items: center; gap: 8px; }
+        .cfg-var {
+            font-family: ui-monospace, "Cascadia Code", "Fira Code", monospace;
+            font-size: .78rem;
+            color: #1b83e2;
+        }
+        .cfg-badge {
+            font-size: .68rem;
+            background: #e0ecff;
+            color: #1b83e2;
+            padding: 1px 6px;
+            border-radius: 4px;
+            white-space: nowrap;
+        }
+        .cfg-val {
+            font-size: .82rem;
+            font-variant-numeric: tabular-nums;
+            text-align: right;
+            color: #555;
+        }
+        input[type="range"] { width: 100%; cursor: pointer; accent-color: #1b83e2; }
 
         /* ── Error state ── */
         .status-msg {
@@ -87,6 +143,34 @@
     <div class="tab-bar">
         <button class="tab-btn active" data-tab="font">Font Icons</button>
         <button class="tab-btn"        data-tab="svg">SVG Icons</button>
+    </div>
+
+    <!-- ── CSS Variable Configurator ────────────────────────────────── -->
+    <div class="configurator">
+        <div class="configurator-header">
+            <span class="configurator-title">CSS Variable Configurator</span>
+            <button class="cfg-reset" id="cfg-reset">Reset</button>
+        </div>
+        <div class="cfg-rows">
+            <div class="cfg-row">
+                <span class="cfg-label"><code class="cfg-var">--kendo-icon-size</code></span>
+                <input type="range" id="cfg-size" min="8" max="96" step="1" value="48" />
+                <span class="cfg-val" id="cfg-size-val">48px</span>
+            </div>
+            <div class="cfg-row">
+                <span class="cfg-label">
+                    <code class="cfg-var">--kendo-icon-stroke-width</code>
+                    <span class="cfg-badge">SVG only</span>
+                </span>
+                <input type="range" id="cfg-stroke" min="0" max="4" step="0.1" value="0" />
+                <span class="cfg-val" id="cfg-stroke-val">0</span>
+            </div>
+            <div class="cfg-row">
+                <span class="cfg-label"><code class="cfg-var">--kendo-icon-rotation</code></span>
+                <input type="range" id="cfg-rotation" min="0" max="360" step="1" value="0" />
+                <span class="cfg-val" id="cfg-rotation-val">0°</span>
+            </div>
+        </div>
     </div>
 
     <!-- ── Font Icons panel ───────────────────────────────────────────── -->
@@ -272,6 +356,55 @@
                 });
             });
         }
+
+        // ── Configurator ──────────────────────────────────────────────────────
+        const DEFAULTS = { size: 48, stroke: 0, rotation: 0 };
+
+        function applyCssVars({ size, stroke, rotation }) {
+            const root = document.documentElement;
+            root.style.setProperty('--kendo-icon-size',         `${size}px`);
+            root.style.setProperty('--kendo-icon-stroke-width', `${stroke}`);
+            root.style.setProperty('--kendo-icon-rotation',     `${rotation}deg`);
+        }
+
+        function syncLabels({ size, stroke, rotation }) {
+            document.getElementById('cfg-size-val').textContent    = `${size}px`;
+            document.getElementById('cfg-stroke-val').textContent  = stroke;
+            document.getElementById('cfg-rotation-val').textContent = `${rotation}°`;
+        }
+
+        (function initConfigurator() {
+            applyCssVars(DEFAULTS);
+            syncLabels(DEFAULTS);
+
+            const sizeEl    = document.getElementById('cfg-size');
+            const strokeEl  = document.getElementById('cfg-stroke');
+            const rotEl     = document.getElementById('cfg-rotation');
+
+            sizeEl.addEventListener('input',   () => {
+                const val = Number(sizeEl.value);
+                document.documentElement.style.setProperty('--kendo-icon-size', `${val}px`);
+                document.getElementById('cfg-size-val').textContent = `${val}px`;
+            });
+            strokeEl.addEventListener('input',  () => {
+                const val = strokeEl.value;
+                document.documentElement.style.setProperty('--kendo-icon-stroke-width', val);
+                document.getElementById('cfg-stroke-val').textContent = val;
+            });
+            rotEl.addEventListener('input',    () => {
+                const val = Number(rotEl.value);
+                document.documentElement.style.setProperty('--kendo-icon-rotation', `${val}deg`);
+                document.getElementById('cfg-rotation-val').textContent = `${val}°`;
+            });
+
+            document.getElementById('cfg-reset').addEventListener('click', () => {
+                sizeEl.value   = DEFAULTS.size;
+                strokeEl.value = DEFAULTS.stroke;
+                rotEl.value    = DEFAULTS.rotation;
+                applyCssVars(DEFAULTS);
+                syncLabels(DEFAULTS);
+            });
+        })();
 
         // ── Bootstrap ──────────────────────────────────────────────────────────
         try {
