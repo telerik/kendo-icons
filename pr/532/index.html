@@ -120,9 +120,9 @@
         // PR previews (deployed to /pr/{number}/ on gh-pages) use relative paths.
         const isLocal = ['localhost', '127.0.0.1'].includes(location.hostname);
 
-        const fontBase     = isLocal ? '/font-icons'               : 'font-icons';
-        const svgBase      = isLocal ? '/svg-icons'                : 'svg-icons';
-        const iconsJsonUrl = isLocal ? '/telerik-icons/icons.json' : 'telerik-icons/icons.json';
+        const fontBase     = isLocal ? '/font-icons'               : './font-icons';
+        const svgBase      = isLocal ? '/svg-icons'                : './svg-icons';
+        const iconsJsonUrl = isLocal ? '/telerik-icons/icons.json' : './telerik-icons/icons.json';
 
         // ── Inject icon CSS ────────────────────────────────────────────────────
         document.getElementById('font-icons-css').href = `${fontBase}/index.css`;
