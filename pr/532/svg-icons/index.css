@@ -1,0 +1,119 @@
+.k-svg-icon {
+  outline: 0;
+  line-height: 1;
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  position: relative;
+}
+.k-svg-icon > svg {
+  fill: currentColor;
+  flex: 1 1 auto;
+}
+.k-svg-icon.k-icon-xs {
+  width: calc(16px * 0.75);
+  height: calc(16px * 0.75);
+}
+.k-svg-icon.k-icon-sm {
+  width: calc(16px * 0.875);
+  height: calc(16px * 0.875);
+}
+.k-svg-icon, .k-svg-icon.k-icon-md {
+  width: 16px;
+  height: 16px;
+}
+.k-svg-icon.k-icon-lg {
+  width: calc(16px * 1.25);
+  height: calc(16px * 1.25);
+}
+.k-svg-icon.k-icon-xl {
+  width: calc(16px * 1.5);
+  height: calc(16px * 1.5);
+}
+.k-svg-icon.k-icon-xxl {
+  width: calc(16px * 2);
+  height: calc(16px * 2);
+}
+.k-svg-icon.k-icon-xxxl {
+  width: calc(16px * 3);
+  height: calc(16px * 3);
+}
+
+.k-flip-h.k-svg-icon,
+.k-flip-v.k-svg-icon,
+.k-flip-h.k-flip-v.k-svg-icon {
+  transform: none;
+}
+
+.k-flip-h > svg {
+  transform: scaleX(-1);
+}
+
+.k-flip-v > svg {
+  transform: scaleY(-1);
+}
+
+.k-flip-h.k-flip-v > svg,
+.k-flip-both > svg {
+  transform: scale(-1, -1);
+}
+
+.k-rotate-0.k-svg-icon {
+  transform: none;
+}
+.k-rotate-0 > svg {
+  transform: rotate(0deg);
+}
+
+.k-rotate-45.k-svg-icon {
+  transform: none;
+}
+.k-rotate-45 > svg {
+  transform: rotate(45deg);
+}
+
+.k-rotate-90.k-svg-icon {
+  transform: none;
+}
+.k-rotate-90 > svg {
+  transform: rotate(90deg);
+}
+
+.k-rotate-135.k-svg-icon {
+  transform: none;
+}
+.k-rotate-135 > svg {
+  transform: rotate(135deg);
+}
+
+.k-rotate-180.k-svg-icon {
+  transform: none;
+}
+.k-rotate-180 > svg {
+  transform: rotate(180deg);
+}
+
+.k-rotate-225.k-svg-icon {
+  transform: none;
+}
+.k-rotate-225 > svg {
+  transform: rotate(225deg);
+}
+
+.k-rotate-270.k-svg-icon {
+  transform: none;
+}
+.k-rotate-270 > svg {
+  transform: rotate(270deg);
+}
+
+.k-rotate-315.k-svg-icon {
+  transform: none;
+}
+.k-rotate-315 > svg {
+  transform: rotate(315deg);
+}
+
+/*# sourceMappingURL=index.css.map */

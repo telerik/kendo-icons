@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en" class="k-no-animations">
+<head>
+    <title>Icons Preview</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/@progress/kendo-theme-utils/dist/all.css" />
+    <!-- Icon CSS is resolved at runtime (local dist vs CDN) -->
+    <link id="font-icons-css" rel="stylesheet" href="" />
+    <link id="svg-icons-css"  rel="stylesheet" href="" />
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font: 1rem / 1.5 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+        }
+        h2 { margin-top: 0; }
+
+        /* ── Tab bar ── */
+        .tab-bar {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 24px;
+        }
+        .tab-btn {
+            padding: 8px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            background: #e8e8e8;
+            font: inherit;
+            font-size: 1rem;
+        }
+        .tab-btn.active { background: #1b83e2; color: #fff; }
+
+        /* ── Variant bar (SVG tab) ── */
+        .variant-bar {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 24px;
+        }
+        .variant-btn {
+            padding: 6px 16px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            cursor: pointer;
+            background: #fff;
+            font: inherit;
+            font-size: .875rem;
+        }
+        .variant-btn.active { border-color: #1b83e2; color: #1b83e2; font-weight: 600; }
+
+        /* ── Tab panels ── */
+        .tab-panel { display: none; }
+        .tab-panel.active { display: block; }
+
+        /* ── Icon grid ── */
+        .icon-category {
+            padding: 20px;
+            background: #f5f5f5;
+            border-radius: 20px;
+        }
+        .icon-cell {
+            padding: 20px;
+            border-radius: 20px;
+            background: #fff;
+        }
+        .icon-wrapper { font-size: 48px; }
+        .k-svg-icon { width: 48px; height: 48px; }
+        .k-icon { font-size: 1em; }
+        .icon-name {
+            margin-top: 20px;
+            font-size: .75rem;
+        }
+
+        /* ── Error state ── */
+        .status-msg {
+            padding: 40px;
+            color: #666;
+            font-size: .9rem;
+        }
+        .status-msg.error { color: #c0392b; }
+    </style>
+</head>
+<body id="app" class="k-body">
+
+    <div class="tab-bar">
+        <button class="tab-btn active" data-tab="font">Font Icons</button>
+        <button class="tab-btn"        data-tab="svg">SVG Icons</button>
+    </div>
+
+    <!-- ── Font Icons panel ───────────────────────────────────────────── -->
+    <div id="font-panel" class="tab-panel active">
+        <div id="font-area" class="k-d-grid k-grid-cols-1 k-gap-20">
+            <section class="icon-category" id="font-cat-uncategorized">
+                <h2>Uncategorized</h2>
+                <div class="icon-grid k-d-grid k-grid-cols-8 k-gap-2"></div>
+            </section>
+        </div>
+    </div>
+
+    <!-- ── SVG Icons panel ───────────────────────────────────────────── -->
+    <div id="svg-panel" class="tab-panel">
+        <div class="variant-bar">
+            <button class="variant-btn" data-variant="solid">Solid</button>
+            <button class="variant-btn active" data-variant="outline">Outline</button>
+            <button class="variant-btn" data-variant="duotone">Duotone</button>
+        </div>
+        <div id="svg-area" class="k-d-grid k-grid-cols-1 k-gap-20">
+            <section class="icon-category" id="svg-cat-uncategorized">
+                <h2>Uncategorized</h2>
+                <div class="icon-grid k-d-grid k-grid-cols-8 k-gap-2"></div>
+            </section>
+        </div>
+    </div>
+
+    <script type="module">
+        // ── Environment detection ──────────────────────────────────────────────
+        const isLocal = ['localhost', '127.0.0.1'].includes(location.hostname);
+
+        const fontBase = isLocal
+            ? '/font-icons'
+            : 'https://unpkg.com/@progress/kendo-font-icons/dist';
+
+        const svgBase = isLocal
+            ? '/svg-icons'
+            : 'https://unpkg.com/@progress/kendo-svg-icons/dist';
+
+        // Local dev reads icons.json directly from source so it reflects changes
+        // before a build; GH Pages loads from the CDN release.
+        const iconsJsonUrl = isLocal
+            ? '/telerik-icons/icons.json'
+            : `${fontBase}/icons.json`;
+
+        // ── Inject icon CSS ────────────────────────────────────────────────────
+        document.getElementById('font-icons-css').href = `${fontBase}/index.css`;
+        document.getElementById('svg-icons-css').href  = `${svgBase}/index.css`;
+
+        // ── Tab switching ──────────────────────────────────────────────────────
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+                btn.classList.add('active');
+                document.getElementById(`${btn.dataset.tab}-panel`).classList.add('active');
+            });
+        });
+
+        // ── SVG variant switching ──────────────────────────────────────────────
+        let currentVariant = 'outline';
+        let cachedIcons    = null;
+        let cachedSvgMod   = null;
+
+        document.querySelectorAll('.variant-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.variant-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentVariant = btn.dataset.variant;
+                if (cachedIcons && cachedSvgMod) renderSvgIcons(cachedIcons, cachedSvgMod);
+            });
+        });
+
+        // ── Helpers ────────────────────────────────────────────────────────────
+        /** "my-icon-name" → "myIconName" */
+        function toCamelCase(str) {
+            return str.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
+        }
+
+        // ── Font icon rendering ────────────────────────────────────────────────
+        function makeFontIconCell(icon) {
+            const cell = document.createElement('div');
+            cell.className = 'icon-cell k-d-flex k-flex-col k-align-items-center';
+
+            const wrapper = document.createElement('span');
+            wrapper.className = 'icon-wrapper';
+
+            const el = document.createElement('span');
+            el.className = `k-icon k-font-icon k-i-${icon.name}`;
+
+            const label = document.createElement('span');
+            label.className = 'icon-name k-text-center';
+            label.textContent = `k-i-${icon.name}`;
+
+            wrapper.appendChild(el);
+            cell.appendChild(wrapper);
+            cell.appendChild(label);
+            return cell;
+        }
+
+        function renderFontIcons(icons) {
+            const area          = document.getElementById('font-area');
+            const uncategorized = document.getElementById('font-cat-uncategorized');
+
+            icons.forEach(icon => {
+                const cell = makeFontIconCell(icon);
+                const cats = icon.categories ?? [];
+
+                if (cats.length === 0) {
+                    uncategorized.querySelector('.icon-grid').appendChild(cell);
+                    return;
+                }
+
+                cats.forEach(cat => {
+                    const id = `font-cat-${CSS.escape(cat)}`;
+                    let section = document.getElementById(id);
+                    if (!section) {
+                        section = document.createElement('section');
+                        section.id = id;
+                        section.className = 'icon-category';
+                        section.innerHTML = `<h2>${cat}</h2><div class="icon-grid k-d-grid k-grid-cols-8 k-gap-2"></div>`;
+                        area.insertBefore(section, uncategorized);
+                    }
+                    section.querySelector('.icon-grid').appendChild(cell.cloneNode(true));
+                });
+            });
+        }
+
+        // ── SVG icon rendering ─────────────────────────────────────────────────
+        function getSvgContent(iconDef, variant) {
+            if (!variant) {
+                return { content: iconDef.content, viewBox: iconDef.viewBox };
+            }
+            const variantContent = iconDef.variants?.[variant];
+            if (!variantContent) return null;
+            return { content: variantContent, viewBox: iconDef.viewBox };
+        }
+
+        function makeSvgIconCell(icon, svgData) {
+            const cell = document.createElement('div');
+            cell.className = 'icon-cell k-d-flex k-flex-col k-align-items-center';
+
+            const wrapper = document.createElement('span');
+            wrapper.className = 'k-svg-icon';
+            // SVG content originates from the first-party build pipeline
+            wrapper.innerHTML = `<svg viewBox="${svgData.viewBox}" aria-hidden="true">${svgData.content}</svg>`;
+
+            const label = document.createElement('span');
+            label.className = 'icon-name k-text-center';
+            label.textContent = icon.name;
+
+            cell.appendChild(wrapper);
+            cell.appendChild(label);
+            return cell;
+        }
+
+        function renderSvgIcons(icons, mod) {
+            const area          = document.getElementById('svg-area');
+            const uncategorized = document.getElementById('svg-cat-uncategorized');
+
+            // Clear all icon grids; sections stay in DOM and are repopulated
+            area.querySelectorAll('.icon-grid').forEach(g => { g.innerHTML = ''; });
+
+            icons.forEach(icon => {
+                const key     = toCamelCase(icon.name) + 'Icon';
+                const iconDef = mod[key];
+                if (!iconDef) return;
+
+                const svgData = getSvgContent(iconDef, currentVariant);
+                if (!svgData?.content) return; // variant not available for this icon
+
+                const cell = makeSvgIconCell(icon, svgData);
+                const cats = icon.categories ?? [];
+
+                if (cats.length === 0) {
+                    uncategorized.querySelector('.icon-grid').appendChild(cell);
+                    return;
+                }
+
+                cats.forEach(cat => {
+                    const id = `svg-cat-${CSS.escape(cat)}`;
+                    let section = document.getElementById(id);
+                    if (!section) {
+                        section = document.createElement('section');
+                        section.id = id;
+                        section.className = 'icon-category';
+                        section.innerHTML = `<h2>${cat}</h2><div class="icon-grid k-d-grid k-grid-cols-8 k-gap-2"></div>`;
+                        area.insertBefore(section, uncategorized);
+                    }
+                    section.querySelector('.icon-grid').appendChild(cell.cloneNode(true));
+                });
+            });
+        }
+
+        // ── Bootstrap ──────────────────────────────────────────────────────────
+        try {
+            const [icons, svgMod] = await Promise.all([
+                fetch(iconsJsonUrl).then(r => r.json()),
+                import(`${svgBase}/index.es.js`),
+            ]);
+
+            cachedIcons  = icons;
+            cachedSvgMod = svgMod;
+
+            renderFontIcons(icons);
+            renderSvgIcons(icons, svgMod);
+        } catch (err) {
+            console.error('Failed to load icons:', err);
+            const msg = document.createElement('p');
+            msg.className = 'status-msg error';
+            msg.textContent = `Failed to load icons: ${err.message}. `
+                + (isLocal ? 'Make sure packages are built first (npm run build).' : '');
+            document.getElementById('font-area').prepend(msg.cloneNode(true));
+            document.getElementById('svg-area').prepend(msg);
+        }
+    </script>
+
+</body>
+</html>
