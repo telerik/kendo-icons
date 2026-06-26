@@ -72,11 +72,12 @@
 
         /* ── Configurator ── */
         .configurator {
-            background: #f0f4ff;
-            border: 1px solid #c5d5f5;
+            background: #fff;
+            border: 1px solid #e5e7eb;
             border-radius: 12px;
-            padding: 14px 20px;
+            padding: 16px 20px;
             margin-bottom: 24px;
+            box-shadow: 0 1px 6px rgba(0,0,0,.06);
         }
         .configurator-header {
             display: flex;
@@ -86,48 +87,62 @@
         }
         .configurator-title {
             font-weight: 600;
-            font-size: .875rem;
-            color: #1a1a2e;
+            font-size: .75rem;
+            letter-spacing: .07em;
+            text-transform: uppercase;
+            color: #9ca3af;
         }
         .cfg-reset {
-            padding: 5px 14px;
-            background: #fff;
-            border: 1px solid #c5d5f5;
+            padding: 4px 12px;
+            background: #f3f4f6;
+            border: 1px solid #e5e7eb;
             border-radius: 6px;
             cursor: pointer;
             font: inherit;
+            font-size: .78rem;
+            font-weight: 500;
+            color: #6b7280;
+        }
+        .cfg-reset:hover { background: #e5e7eb; color: #1b83e2; border-color: #1b83e2; }
+        .cfg-rows { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 24px; }
+        .cfg-row { display: flex; flex-direction: column; gap: 6px; }
+        .cfg-label { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+        .cfg-name {
             font-size: .8rem;
-            color: #444;
+            font-weight: 600;
+            color: #374151;
         }
-        .cfg-reset:hover { border-color: #1b83e2; color: #1b83e2; }
-        .cfg-rows { display: flex; flex-direction: column; gap: 10px; }
-        .cfg-row {
-            display: grid;
-            grid-template-columns: 220px 1fr 70px;
-            align-items: center;
-            gap: 12px;
-        }
-        .cfg-label { display: flex; align-items: center; gap: 8px; }
         .cfg-var {
             font-family: ui-monospace, "Cascadia Code", "Fira Code", monospace;
-            font-size: .78rem;
-            color: #1b83e2;
+            font-size: .7rem;
+            color: #9ca3af;
         }
         .cfg-badge {
-            font-size: .68rem;
+            font-size: .65rem;
             background: #e0ecff;
             color: #1b83e2;
-            padding: 1px 6px;
+            padding: 1px 5px;
             border-radius: 4px;
             white-space: nowrap;
+            font-weight: 500;
         }
+        .cfg-control { display: flex; align-items: center; gap: 8px; }
+        .cfg-row--svg-only.disabled { opacity: .35; pointer-events: none; }
         .cfg-val {
-            font-size: .82rem;
+            font-family: ui-monospace, "Cascadia Code", "Fira Code", monospace;
+            font-size: .75rem;
             font-variant-numeric: tabular-nums;
-            text-align: right;
-            color: #555;
+            min-width: 42px;
+            text-align: center;
+            color: #1b83e2;
+            background: #eff6ff;
+            padding: 2px 6px;
+            border-radius: 5px;
+            white-space: nowrap;
         }
-        input[type="range"] { width: 100%; cursor: pointer; accent-color: #1b83e2; }
+        input[type="range"] { flex: 1; min-width: 0; cursor: pointer; accent-color: #1b83e2; }
+        input[type="color"] { width: 32px; height: 32px; cursor: pointer; border: 2px solid #e5e7eb; border-radius: 8px; padding: 2px; background: none; flex-shrink: 0; }
+        input[type="color"]:hover { border-color: #1b83e2; }
 
         /* ── Error state ── */
         .status-msg {
@@ -148,27 +163,51 @@
     <!-- ── CSS Variable Configurator ────────────────────────────────── -->
     <div class="configurator">
         <div class="configurator-header">
-            <span class="configurator-title">CSS Variable Configurator</span>
+            <span class="configurator-title">CSS Variables</span>
             <button class="cfg-reset" id="cfg-reset">Reset</button>
         </div>
         <div class="cfg-rows">
             <div class="cfg-row">
-                <span class="cfg-label"><code class="cfg-var">--kendo-icon-size</code></span>
-                <input type="range" id="cfg-size" min="16" max="96" step="1" value="48" />
-                <span class="cfg-val" id="cfg-size-val">48px</span>
+                <div class="cfg-label">
+                    <span class="cfg-name">Size</span>
+                    <code class="cfg-var">--kendo-icon-size</code>
+                </div>
+                <div class="cfg-control">
+                    <input type="range" id="cfg-size" min="16" max="96" step="1" value="48" />
+                    <span class="cfg-val" id="cfg-size-val">48px</span>
+                </div>
             </div>
-            <div class="cfg-row">
-                <span class="cfg-label">
-                    <code class="cfg-var">--kendo-icon-stroke-width</code>
+            <div class="cfg-row cfg-row--svg-only disabled">
+                <div class="cfg-label">
+                    <span class="cfg-name">Stroke Width</span>
                     <span class="cfg-badge">SVG only</span>
-                </span>
-                <input type="range" id="cfg-stroke" min="0.5" max="2" step="0.1" value="1.5" />
-                <span class="cfg-val" id="cfg-stroke-val">1.5</span>
+                    <code class="cfg-var">--kendo-icon-stroke-width</code>
+                </div>
+                <div class="cfg-control">
+                    <input type="range" id="cfg-stroke" min="0.5" max="2" step="0.1" value="1.5" />
+                    <span class="cfg-val" id="cfg-stroke-val">1.5</span>
+                </div>
             </div>
             <div class="cfg-row">
-                <span class="cfg-label"><code class="cfg-var">--kendo-icon-rotation</code></span>
-                <input type="range" id="cfg-rotation" min="0" max="360" step="1" value="0" />
-                <span class="cfg-val" id="cfg-rotation-val">0°</span>
+                <div class="cfg-label">
+                    <span class="cfg-name">Rotation</span>
+                    <code class="cfg-var">--kendo-icon-rotation</code>
+                </div>
+                <div class="cfg-control">
+                    <input type="range" id="cfg-rotation" min="0" max="360" step="1" value="0" />
+                    <span class="cfg-val" id="cfg-rotation-val">0°</span>
+                </div>
+            </div>
+            <div class="cfg-row cfg-row--svg-only disabled">
+                <div class="cfg-label">
+                    <span class="cfg-name">Color</span>
+                    <span class="cfg-badge">SVG only</span>
+                    <code class="cfg-var">--kendo-icon-color</code>
+                </div>
+                <div class="cfg-control">
+                    <input type="color" id="cfg-color" value="#000000" />
+                    <span class="cfg-val" id="cfg-color-val">#000000</span>
+                </div>
             </div>
         </div>
     </div>
@@ -213,12 +252,18 @@
         document.getElementById('svg-icons-css').href  = `${svgBase}/index.css`;
 
         // ── Tab switching ──────────────────────────────────────────────────────
+        const svgOnlyRows = document.querySelectorAll('.cfg-row--svg-only');
+        function setSvgOnlyDisabled(disabled) {
+            svgOnlyRows.forEach(row => row.classList.toggle('disabled', disabled));
+        }
+
         document.querySelectorAll('.tab-btn').forEach(btn => {
             btn.addEventListener('click', () => {
                 document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
                 document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
                 btn.classList.add('active');
                 document.getElementById(`${btn.dataset.tab}-panel`).classList.add('active');
+                setSvgOnlyDisabled(btn.dataset.tab === 'font');
             });
         });
 
@@ -358,19 +403,21 @@
         }
 
         // ── Configurator ──────────────────────────────────────────────────────
-        const DEFAULTS = { size: 48, stroke: 1.5, rotation: 0 };
+        const DEFAULTS = { size: 48, stroke: 1.5, rotation: 0, color: '#000000' };
 
-        function applyCssVars({ size, stroke, rotation }) {
+        function applyCssVars({ size, stroke, rotation, color }) {
             const root = document.documentElement;
             root.style.setProperty('--kendo-icon-size',         `${size}px`);
             root.style.setProperty('--kendo-icon-stroke-width', `${stroke}`);
             root.style.setProperty('--kendo-icon-rotation',     `${rotation}deg`);
+            root.style.setProperty('--kendo-icon-color',        color);
         }
 
-        function syncLabels({ size, stroke, rotation }) {
-            document.getElementById('cfg-size-val').textContent    = `${size}px`;
-            document.getElementById('cfg-stroke-val').textContent  = stroke;
+        function syncLabels({ size, stroke, rotation, color }) {
+            document.getElementById('cfg-size-val').textContent     = `${size}px`;
+            document.getElementById('cfg-stroke-val').textContent   = stroke;
             document.getElementById('cfg-rotation-val').textContent = `${rotation}°`;
+            document.getElementById('cfg-color-val').textContent    = color;
         }
 
         (function initConfigurator() {
@@ -380,6 +427,7 @@
             const sizeEl    = document.getElementById('cfg-size');
             const strokeEl  = document.getElementById('cfg-stroke');
             const rotEl     = document.getElementById('cfg-rotation');
+            const colorEl   = document.getElementById('cfg-color');
 
             sizeEl.addEventListener('input',   () => {
                 const val = Number(sizeEl.value);
@@ -396,11 +444,17 @@
                 document.documentElement.style.setProperty('--kendo-icon-rotation', `${val}deg`);
                 document.getElementById('cfg-rotation-val').textContent = `${val}°`;
             });
+            colorEl.addEventListener('input',   () => {
+                const val = colorEl.value;
+                document.documentElement.style.setProperty('--kendo-icon-color', val);
+                document.getElementById('cfg-color-val').textContent = val;
+            });
 
             document.getElementById('cfg-reset').addEventListener('click', () => {
                 sizeEl.value   = DEFAULTS.size;
                 strokeEl.value = DEFAULTS.stroke;
                 rotEl.value    = DEFAULTS.rotation;
+                colorEl.value  = DEFAULTS.color;
                 applyCssVars(DEFAULTS);
                 syncLabels(DEFAULTS);
             });
