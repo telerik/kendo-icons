@@ -32,7 +32,7 @@ const paths = {
     svgGlob: '**/*.svg'
 };
 
-function prepareSvg() {
+function prepareSvg( svgoConfig ) {
     let files = globSync( resolve( paths.icons.src, paths.svgGlob ), { windowsPathsNoEscape: true } );
 
     fs.rmSync( paths.icons.temp, { force: true, recursive: true } );
@@ -41,7 +41,7 @@ function prepareSvg() {
     files.forEach( file => {
         let svgPath = fs.readFileSync( file, 'utf-8' );
 
-        svgPath = optimize( svgPath ).data;
+        svgPath = optimize( svgPath, svgoConfig ).data;
 
         fs.writeFileSync( resolve( paths.icons.temp, basename( file ) ), svgPath );
     });
@@ -70,7 +70,7 @@ function prepareSvg() {
         variantFiles.forEach( file => {
             let svgContent = fs.readFileSync( file, 'utf-8' );
 
-            svgContent = optimize( svgContent ).data;
+            svgContent = optimize( svgContent, svgoConfig ).data; // eslint-disable-line no-shadow
 
             fs.writeFileSync( resolve( variant.temp, basename( file ) ), svgContent );
         });
