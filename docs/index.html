@@ -154,7 +154,7 @@
         <div class="cfg-rows">
             <div class="cfg-row">
                 <span class="cfg-label"><code class="cfg-var">--kendo-icon-size</code></span>
-                <input type="range" id="cfg-size" min="8" max="96" step="1" value="48" />
+                <input type="range" id="cfg-size" min="16" max="96" step="1" value="48" />
                 <span class="cfg-val" id="cfg-size-val">48px</span>
             </div>
             <div class="cfg-row">
@@ -162,8 +162,8 @@
                     <code class="cfg-var">--kendo-icon-stroke-width</code>
                     <span class="cfg-badge">SVG only</span>
                 </span>
-                <input type="range" id="cfg-stroke" min="0" max="4" step="0.1" value="0" />
-                <span class="cfg-val" id="cfg-stroke-val">0</span>
+                <input type="range" id="cfg-stroke" min="0.5" max="2" step="0.1" value="1.5" />
+                <span class="cfg-val" id="cfg-stroke-val">1.5</span>
             </div>
             <div class="cfg-row">
                 <span class="cfg-label"><code class="cfg-var">--kendo-icon-rotation</code></span>
@@ -358,7 +358,7 @@
         }
 
         // ── Configurator ──────────────────────────────────────────────────────
-        const DEFAULTS = { size: 48, stroke: 0, rotation: 0 };
+        const DEFAULTS = { size: 48, stroke: 1.5, rotation: 0 };
 
         function applyCssVars({ size, stroke, rotation }) {
             const root = document.documentElement;
