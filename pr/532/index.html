@@ -116,21 +116,13 @@
 
     <script type="module">
         // ── Environment detection ──────────────────────────────────────────────
+        // Local dev server (npm run dev) uses absolute paths via the dev proxy.
+        // PR previews (deployed to /pr/{number}/ on gh-pages) use relative paths.
         const isLocal = ['localhost', '127.0.0.1'].includes(location.hostname);
 
-        const fontBase = isLocal
-            ? '/font-icons'
-            : 'https://unpkg.com/@progress/kendo-font-icons/dist';
-
-        const svgBase = isLocal
-            ? '/svg-icons'
-            : 'https://unpkg.com/@progress/kendo-svg-icons/dist';
-
-        // Local dev reads icons.json directly from source so it reflects changes
-        // before a build; GH Pages loads from the CDN release.
-        const iconsJsonUrl = isLocal
-            ? '/telerik-icons/icons.json'
-            : `${fontBase}/icons.json`;
+        const fontBase     = isLocal ? '/font-icons'               : 'font-icons';
+        const svgBase      = isLocal ? '/svg-icons'                : 'svg-icons';
+        const iconsJsonUrl = isLocal ? '/telerik-icons/icons.json' : 'telerik-icons/icons.json';
 
         // ── Inject icon CSS ────────────────────────────────────────────────────
         document.getElementById('font-icons-css').href = `${fontBase}/index.css`;
