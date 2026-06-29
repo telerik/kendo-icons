@@ -73,6 +73,7 @@ jobs:
             --allow-branch develop --force-publish --exact --yes
         env:
           GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
+          NPM_CONFIG_REGISTRY: https://registry.npmjs.org/
 
       - name: Merge develop to master
         if: ${{ github.event.inputs.release-type == 'stable' }}
@@ -89,6 +90,7 @@ jobs:
             --create-release github --force-publish --exact
         env:
           GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
+          NPM_CONFIG_REGISTRY: https://registry.npmjs.org/
 
       - name: Push to GitHub
         if: ${{ github.event.inputs.release-type == 'stable' }}
