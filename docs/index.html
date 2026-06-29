@@ -284,7 +284,7 @@
         // ── Helpers ────────────────────────────────────────────────────────────
         /** "my-icon-name" → "myIconName" */
         function toCamelCase(str) {
-            return str.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
+            return str.replace(/-([a-z0-9])/g, (_, c) => c.toUpperCase());
         }
 
         // ── Font icon rendering ────────────────────────────────────────────────

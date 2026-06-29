@@ -4,8 +4,10 @@ const path = require('path');
 const unicodeStart = parseInt('e000', 16);
 
 function updateIcons() {
-    const iconSrcPath = path.resolve( 'src/telerik-icons/solid/' );
-    const svgIcons = fs.readdirSync(iconSrcPath).filter(file => path.extname(file) === '.svg');
+    const variants = [ 'solid', 'outline', 'duotone' ];
+    const iconSrcPaths = variants.map( v => path.resolve( `src/telerik-icons/${v}/` ) );
+    const svgIconSets = iconSrcPaths.map( p => new Set( fs.readdirSync(p).filter(file => path.extname(file) === '.svg').map(file => path.parse(file).name) ) );
+    const svgIcons = [ ...new Set( svgIconSets.flatMap( s => [ ...s ] ) ) ];
 
     const iconsJsonPath = path.resolve( 'src/telerik-icons/icons.json' );
     const iconListPath = path.resolve( 'src/telerik-icons/icon-list.json' );
@@ -16,9 +18,7 @@ function updateIcons() {
     let dirty = false;
 
     // Add new icons to json
-    svgIcons.forEach( svgIcon => {
-        const svgIconName = path.parse( svgIcon ).name;
-
+    svgIcons.forEach( svgIconName => {
         if ( iconList.indexOf(svgIconName) > - 1 ) {
             return;
         }
@@ -57,9 +57,9 @@ function updateIcons() {
 
     // remove deleted icons from json
     iconsJson = iconsJson.filter( svgIconJson => {
-        let iconPath = path.resolve( iconSrcPath, `${svgIconJson.name}.svg` );
+        const existsInAnyVariant = iconSrcPaths.some( p => fs.existsSync( path.resolve( p, `${svgIconJson.name}.svg` ) ) );
 
-        if ( fs.existsSync(iconPath) ) {
+        if ( existsInAnyVariant ) {
             return true;
         }
 
