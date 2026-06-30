@@ -72,18 +72,20 @@
 
         /* ── Configurator ── */
         .configurator {
-            background: #fff;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255,255,255,.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
             border: 1px solid #e5e7eb;
             border-radius: 12px;
-            padding: 16px 20px;
+            padding: 10px 16px;
             margin-bottom: 24px;
-            box-shadow: 0 1px 6px rgba(0,0,0,.06);
+            box-shadow: 0 2px 12px rgba(0,0,0,.08);
         }
         .configurator-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 14px;
+            display: none;
         }
         .configurator-title {
             font-weight: 600;
@@ -93,55 +95,52 @@
             color: #9ca3af;
         }
         .cfg-reset {
-            padding: 4px 12px;
+            padding: 3px 10px;
             background: #f3f4f6;
             border: 1px solid #e5e7eb;
             border-radius: 6px;
             cursor: pointer;
             font: inherit;
-            font-size: .78rem;
+            font-size: .75rem;
             font-weight: 500;
             color: #6b7280;
+            flex-shrink: 0;
         }
         .cfg-reset:hover { background: #e5e7eb; color: #1b83e2; border-color: #1b83e2; }
-        .cfg-rows { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 24px; }
-        .cfg-row { display: flex; flex-direction: column; gap: 6px; }
-        .cfg-label { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+        .cfg-rows { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+        .cfg-row { display: flex; align-items: center; gap: 6px; min-width: 0; }
+        .cfg-label { display: flex; align-items: center; gap: 4px; flex-shrink: 0; }
         .cfg-name {
-            font-size: .8rem;
+            font-size: .75rem;
             font-weight: 600;
             color: #374151;
         }
-        .cfg-var {
-            font-family: ui-monospace, "Cascadia Code", "Fira Code", monospace;
-            font-size: .7rem;
-            color: #9ca3af;
-        }
+        .cfg-var { display: none; }
         .cfg-badge {
-            font-size: .65rem;
+            font-size: .6rem;
             background: #e0ecff;
             color: #1b83e2;
-            padding: 1px 5px;
+            padding: 1px 4px;
             border-radius: 4px;
             white-space: nowrap;
             font-weight: 500;
         }
-        .cfg-control { display: flex; align-items: center; gap: 8px; }
+        .cfg-control { display: flex; align-items: center; gap: 6px; }
         .cfg-row--svg-only.disabled { opacity: .35; pointer-events: none; }
         .cfg-val {
             font-family: ui-monospace, "Cascadia Code", "Fira Code", monospace;
-            font-size: .75rem;
+            font-size: .7rem;
             font-variant-numeric: tabular-nums;
-            min-width: 42px;
+            min-width: 36px;
             text-align: center;
             color: #1b83e2;
             background: #eff6ff;
-            padding: 2px 6px;
+            padding: 1px 5px;
             border-radius: 5px;
             white-space: nowrap;
         }
-        input[type="range"] { flex: 1; min-width: 0; cursor: pointer; accent-color: #1b83e2; }
-        input[type="color"] { width: 32px; height: 32px; cursor: pointer; border: 2px solid #e5e7eb; border-radius: 8px; padding: 2px; background: none; flex-shrink: 0; }
+        input[type="range"] { width: 80px; cursor: pointer; accent-color: #1b83e2; }
+        input[type="color"] { width: 26px; height: 26px; cursor: pointer; border: 2px solid #e5e7eb; border-radius: 6px; padding: 1px; background: none; flex-shrink: 0; }
         input[type="color"]:hover { border-color: #1b83e2; }
 
         /* ── Error state ── */
@@ -162,10 +161,6 @@
 
     <!-- ── CSS Variable Configurator ────────────────────────────────── -->
     <div class="configurator">
-        <div class="configurator-header">
-            <span class="configurator-title">CSS Variables</span>
-            <button class="cfg-reset" id="cfg-reset">Reset</button>
-        </div>
         <div class="cfg-rows">
             <div class="cfg-row">
                 <div class="cfg-label">
@@ -209,6 +204,7 @@
                     <span class="cfg-val" id="cfg-color-val">#000000</span>
                 </div>
             </div>
+            <button class="cfg-reset" id="cfg-reset">Reset</button>
         </div>
     </div>
 
@@ -346,12 +342,12 @@
             return { content: variantContent, viewBox: iconDef.viewBox };
         }
 
-        function makeSvgIconCell(icon, svgData) {
+        function makeSvgIconCell(icon, svgData, variant) {
             const cell = document.createElement('div');
             cell.className = 'icon-cell k-d-flex k-flex-col k-align-items-center';
 
             const wrapper = document.createElement('span');
-            wrapper.className = 'k-svg-icon';
+            wrapper.className = `k-svg-icon k-svg-icon-${variant}`;
             // SVG content originates from the first-party build pipeline
             wrapper.innerHTML = `<svg viewBox="${svgData.viewBox}" aria-hidden="true">${svgData.content}</svg>`;
 
@@ -379,7 +375,7 @@
                 const svgData = getSvgContent(iconDef, currentVariant);
                 if (!svgData?.content) return; // variant not available for this icon
 
-                const cell = makeSvgIconCell(icon, svgData);
+                const cell = makeSvgIconCell(icon, svgData, currentVariant);
                 const cats = icon.categories ?? [];
 
                 if (cats.length === 0) {
