@@ -42,7 +42,7 @@ jobs:
           export-secrets-to-environment: false
 
       - name: Check out ${{ env.TARGET_BRANCH }}
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           ref: ${{ env.TARGET_BRANCH }}
           fetch-depth: 0 # Fetch all branches
