@@ -14,6 +14,7 @@
         --kendo-icon-size-xxxl: calc( var(--kendo-icon-size) * 3 );
         --kendo-icon-stroke-width: 0;
         --kendo-icon-rotation: 0deg;
+        --kendo-icon-color: currentColor;
     }
 
     .k-svg-icon {
@@ -27,9 +28,13 @@
         position: relative;
 
         > svg {
-            fill: currentColor;
+            fill: var(--kendo-icon-color);
             transform: rotate(var(--kendo-icon-rotation));
             flex: 1 1 auto;
+
+            [fill="none"] {
+                stroke: var(--kendo-icon-color);
+            }
         }
 
         // SVG Icon sizes
