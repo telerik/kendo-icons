@@ -4,18 +4,6 @@
   font-weight: normal;
   src: url("kendo-font-icons.ttf") format("truetype");
 }
-:root {
-  --kendo-icon-size: 16px;
-  --kendo-icon-size-xs: calc( var(--kendo-icon-size) * .75 );
-  --kendo-icon-size-sm: calc( var(--kendo-icon-size) * .875 );
-  --kendo-icon-size-md: var(--kendo-icon-size);
-  --kendo-icon-size-lg: calc( var(--kendo-icon-size) * 1.25 );
-  --kendo-icon-size-xl: calc( var(--kendo-icon-size) * 1.5 );
-  --kendo-icon-size-xxl: calc( var(--kendo-icon-size) * 2 );
-  --kendo-icon-size-xxxl: calc( var(--kendo-icon-size) * 3 );
-  --kendo-icon-rotation: 0deg;
-}
-
 .k-font-icon {
   width: 1em;
   height: 1em;
@@ -37,31 +25,30 @@
   position: relative;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  transform: rotate(var(--kendo-icon-rotation));
 }
 .k-font-icon:hover, .k-font-icon:focus {
   text-decoration: none;
 }
 .k-font-icon.k-icon-xs {
-  font-size: var(--kendo-icon-size-xs, calc(var(--kendo-icon-size, 16px) * 0.75));
+  font-size: calc(16px * 0.75);
 }
 .k-font-icon.k-icon-sm {
-  font-size: var(--kendo-icon-size-sm, calc(var(--kendo-icon-size, 16px) * 0.875));
+  font-size: calc(16px * 0.875);
 }
 .k-font-icon, .k-font-icon.k-icon-md {
-  font-size: var(--kendo-icon-size-md, var(--kendo-icon-size, 16px));
+  font-size: 16px;
 }
 .k-font-icon.k-icon-lg {
-  font-size: var(--kendo-icon-size-lg, calc(var(--kendo-icon-size, 16px) * 1.25));
+  font-size: calc(16px * 1.25);
 }
 .k-font-icon.k-icon-xl {
-  font-size: var(--kendo-icon-size-xl, calc(var(--kendo-icon-size, 16px) * 1.5));
+  font-size: calc(16px * 1.5);
 }
 .k-font-icon.k-icon-xxl {
-  font-size: var(--kendo-icon-size-xxl, calc(var(--kendo-icon-size, 16px) * 2));
+  font-size: calc(16px * 2);
 }
 .k-font-icon.k-icon-xxxl {
-  font-size: var(--kendo-icon-size-xxxl, calc(var(--kendo-icon-size, 16px) * 3));
+  font-size: calc(16px * 3);
 }
 
 .k-i-none::before {
@@ -82,43 +69,35 @@
 }
 
 .k-rotate-0 {
-  --kendo-icon-rotation: 0deg;
-  transform: rotate(var(--kendo-icon-rotation));
+  transform: rotate(0deg);
 }
 
 .k-rotate-45 {
-  --kendo-icon-rotation: 45deg;
-  transform: rotate(var(--kendo-icon-rotation));
+  transform: rotate(45deg);
 }
 
 .k-rotate-90 {
-  --kendo-icon-rotation: 90deg;
-  transform: rotate(var(--kendo-icon-rotation));
+  transform: rotate(90deg);
 }
 
 .k-rotate-135 {
-  --kendo-icon-rotation: 135deg;
-  transform: rotate(var(--kendo-icon-rotation));
+  transform: rotate(135deg);
 }
 
 .k-rotate-180 {
-  --kendo-icon-rotation: 180deg;
-  transform: rotate(var(--kendo-icon-rotation));
+  transform: rotate(180deg);
 }
 
 .k-rotate-225 {
-  --kendo-icon-rotation: 225deg;
-  transform: rotate(var(--kendo-icon-rotation));
+  transform: rotate(225deg);
 }
 
 .k-rotate-270 {
-  --kendo-icon-rotation: 270deg;
-  transform: rotate(var(--kendo-icon-rotation));
+  transform: rotate(270deg);
 }
 
 .k-rotate-315 {
-  --kendo-icon-rotation: 315deg;
-  transform: rotate(var(--kendo-icon-rotation));
+  transform: rotate(315deg);
 }
 
 .k-i-banknote::before {
