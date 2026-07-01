@@ -192,7 +192,6 @@ async function prepareFontIcons() {
 // if native async handles (resvg/potrace-wasm) momentarily drain the loop.
 const keepAlive = setInterval( () => {}, 30000 );
 
-// eslint-disable-next-line no-console
 prepareFontIcons().then( () => {
     clearInterval( keepAlive );
 } ).catch( err => {

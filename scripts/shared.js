@@ -70,7 +70,7 @@ function prepareSvg( svgoConfig ) {
         variantFiles.forEach( file => {
             let svgContent = fs.readFileSync( file, 'utf-8' );
 
-            svgContent = optimize( svgContent, svgoConfig ).data; // eslint-disable-line no-shadow
+            svgContent = optimize( svgContent, svgoConfig ).data;
 
             fs.writeFileSync( resolve( variant.temp, basename( file ) ), svgContent );
         });
