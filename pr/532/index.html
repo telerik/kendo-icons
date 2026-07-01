@@ -16,37 +16,33 @@
         }
         h2 { margin-top: 0; }
 
-        /* ── Tab bar ── */
-        .tab-bar {
-            display: flex;
-            gap: 8px;
-            margin-bottom: 24px;
-        }
+        /* ── Tab buttons ── */
         .tab-btn {
-            padding: 8px 24px;
+            padding: 6px 16px;
             border: none;
-            border-radius: 8px;
+            border-radius: 6px;
             cursor: pointer;
             background: #e8e8e8;
             font: inherit;
-            font-size: 1rem;
+            font-size: .8rem;
+            font-weight: 500;
         }
         .tab-btn.active { background: #1b83e2; color: #fff; }
 
-        /* ── Variant bar (SVG tab) ── */
+        /* ── Variant buttons ── */
         .variant-bar {
             display: flex;
-            gap: 8px;
-            margin-bottom: 24px;
+            gap: 4px;
         }
+        .variant-bar.disabled { opacity: .35; pointer-events: none; }
         .variant-btn {
-            padding: 6px 16px;
+            padding: 4px 12px;
             border: 1px solid #ccc;
             border-radius: 6px;
             cursor: pointer;
             background: #fff;
             font: inherit;
-            font-size: .875rem;
+            font-size: .75rem;
         }
         .variant-btn.active { border-color: #1b83e2; color: #1b83e2; font-weight: 600; }
 
@@ -107,7 +103,8 @@
             flex-shrink: 0;
         }
         .cfg-reset:hover { background: #e5e7eb; color: #1b83e2; border-color: #1b83e2; }
-        .cfg-rows { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+        .cfg-rows { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+        .cfg-separator { width: 1px; height: 20px; background: #e5e7eb; flex-shrink: 0; }
         .cfg-row { display: flex; align-items: center; gap: 6px; min-width: 0; }
         .cfg-label { display: flex; align-items: center; gap: 4px; flex-shrink: 0; }
         .cfg-name {
@@ -154,14 +151,19 @@
 </head>
 <body id="app" class="k-body">
 
-    <div class="tab-bar">
-        <button class="tab-btn active" data-tab="font">Font Icons</button>
-        <button class="tab-btn"        data-tab="svg">SVG Icons</button>
-    </div>
-
     <!-- ── CSS Variable Configurator ────────────────────────────────── -->
     <div class="configurator">
         <div class="cfg-rows">
+            <div class="cfg-row">
+                <button class="tab-btn active" data-tab="font">Font Icons</button>
+                <button class="tab-btn"        data-tab="svg">SVG Icons</button>
+            </div>
+            <div class="cfg-separator"></div>
+            <div class="cfg-row variant-bar disabled">
+                <button class="variant-btn" data-variant="solid">Solid</button>
+                <button class="variant-btn active" data-variant="outline">Outline</button>
+                <button class="variant-btn" data-variant="duotone">Duotone</button>
+            </div>
             <div class="cfg-row">
                 <div class="cfg-label">
                     <span class="cfg-name">Size</span>
@@ -220,11 +222,6 @@
 
     <!-- ── SVG Icons panel ───────────────────────────────────────────── -->
     <div id="svg-panel" class="tab-panel">
-        <div class="variant-bar">
-            <button class="variant-btn" data-variant="solid">Solid</button>
-            <button class="variant-btn active" data-variant="outline">Outline</button>
-            <button class="variant-btn" data-variant="duotone">Duotone</button>
-        </div>
         <div id="svg-area" class="k-d-grid k-grid-cols-1 k-gap-20">
             <section class="icon-category" id="svg-cat-uncategorized">
                 <h2>Uncategorized</h2>
@@ -249,8 +246,10 @@
 
         // ── Tab switching ──────────────────────────────────────────────────────
         const svgOnlyRows = document.querySelectorAll('.cfg-row--svg-only');
+        const variantBar  = document.querySelector('.variant-bar');
         function setSvgOnlyDisabled(disabled) {
             svgOnlyRows.forEach(row => row.classList.toggle('disabled', disabled));
+            variantBar.classList.toggle('disabled', disabled);
         }
 
         document.querySelectorAll('.tab-btn').forEach(btn => {
