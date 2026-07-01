@@ -24,13 +24,13 @@
 }
 .k-svg-icon > svg {
   fill: var(--kendo-icon-color);
-  stroke: currentColor;
-  stroke-width: var(--kendo-icon-stroke-width);
   transform: rotate(var(--kendo-icon-rotation));
   flex: 1 1 auto;
 }
 .k-svg-icon > svg [fill=none] {
   stroke: var(--kendo-icon-color);
+}
+.k-svg-icon.k-svg-icon-outline > svg [fill=none], .k-svg-icon.k-svg-icon-duotone > svg [fill=none] {
   stroke-width: var(--kendo-icon-stroke-width);
 }
 .k-svg-icon.k-icon-xs {
