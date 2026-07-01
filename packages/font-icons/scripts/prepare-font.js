@@ -92,20 +92,29 @@ async function iconToGlyphPath( svgContent, size = RENDER_SIZE ) {
 
 
 async function buildFontJson() {
-    // Process all icons in parallel for speed.
-    const glyphs = await Promise.all(
-        iconsHast.icons.map( async iconDef => {
-            const svgFile = resolve( paths.icons.temp, iconDef.name + '.svg' );
-            const svgContent = fs.readFileSync( svgFile, 'utf-8' );
-            const d = await iconToGlyphPath( svgContent );
-            return {
-                name: iconDef.name,
-                ligatures: [],
-                unicode: iconDef.unicode,
-                d
-            };
-        } )
-    );
+    // Process icons in batches to avoid overwhelming native threads and memory.
+    // Each renderAsync + loadFromCanvas allocates a 192×192 RGBA buffer in native code;
+    // spawning 800+ at once can crash the process or drain the event loop.
+    const CONCURRENCY = 32;
+    const glyphs = [];
+
+    for ( let i = 0; i < iconsHast.icons.length; i += CONCURRENCY ) {
+        const batch = iconsHast.icons.slice( i, i + CONCURRENCY );
+        const results = await Promise.all(
+            batch.map( async iconDef => {
+                const svgFile = resolve( paths.icons.temp, iconDef.name + '.svg' );
+                const svgContent = fs.readFileSync( svgFile, 'utf-8' );
+                const d = await iconToGlyphPath( svgContent );
+                return {
+                    name: iconDef.name,
+                    ligatures: [],
+                    unicode: iconDef.unicode,
+                    d
+                };
+            } )
+        );
+        glyphs.push( ...results );
+    }
 
     fontJson.glyphs = glyphs;
     fs.writeFileSync( fontPaths.tmpJson, JSON.stringify( fontJson, null, 4 ) );
@@ -179,6 +188,17 @@ async function prepareFontIcons() {
         resolve( pkgRoot, 'dist/icons.json' )
     );
 }
+// Keep the event loop alive while async work runs — prevents premature exit
+// if native async handles (resvg/potrace-wasm) momentarily drain the loop.
+const keepAlive = setInterval( () => {}, 30000 );
+
 // eslint-disable-next-line no-console
-prepareFontIcons().catch( err => { console.error( err ); process.exit( 1 ); } );
+prepareFontIcons().then( () => {
+    clearInterval( keepAlive );
+} ).catch( err => {
+    clearInterval( keepAlive );
+    // eslint-disable-next-line no-console
+    console.error( err );
+    process.exit( 1 );
+} );
 
