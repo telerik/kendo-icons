@@ -10,6 +10,8 @@ $ki-icon-size-xl: var(--kendo-icon-size-xl, calc( var(--kendo-icon-size, #{$ki-i
 $ki-icon-size-xxl: var(--kendo-icon-size-xxl, calc( var(--kendo-icon-size, #{$ki-icon-size}) * 2 )) !default;
 $ki-icon-size-xxxl: var(--kendo-icon-size-xxxl, calc( var(--kendo-icon-size, #{$ki-icon-size}) * 3 )) !default;
 
+$ki-icon-stroke-width: 1.5 !default;
+
 $ki-icon-sizes: (
     xs: $ki-icon-size-xs,
     sm: $ki-icon-size-sm,
