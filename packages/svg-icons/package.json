@@ -18,6 +18,7 @@
   "scripts": {
     "prebuild": "node scripts/prepare-svg.js && node scripts/prepare-nuget.js",
     "build": "rollup -c --bundleConfigAsCjs && npx sass scss/all.scss dist/index.css",
+    "dev": "rollup -c --bundleConfigAsCjs --watch & browser-sync start --server ../.. --startPath docs/svg-icons.html --files '../../docs/**/*,dist/**/*' --no-open --no-notify & wait",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
