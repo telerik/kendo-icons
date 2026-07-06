@@ -5,13 +5,13 @@ namespace Telerik.SvgIcons
         public CaretAltRight()
         {
             Name = "caret-alt-right";
-            Content = "<path d=\"m17.29 12.43-8.1 8.1a.607.607 0 0 1-.86-.858L16 12.001l-7.67-7.67a.607.607 0 0 1 .858-.859l8.1 8.1a.607.607 0 0 1 0 .859z\"/>";
+            Content = "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9 4.5 7.5 7.5L9 19.5\" fill=\"none\"/>";
             ViewBox = "0 0 24 24";
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
-                { "solid", "<path d=\"m17.434 12.574-8.1 8.1A.81.81 0 0 1 7.95 20.1V3.9a.81.81 0 0 1 1.384-.574l8.1 8.1a.81.81 0 0 1 0 1.146z\"/>" },
-                { "outline", "<path d=\"m17.29 12.43-8.1 8.1a.607.607 0 0 1-.86-.858L16 12.001l-7.67-7.67a.607.607 0 0 1 .858-.859l8.1 8.1a.607.607 0 0 1 0 .859z\"/>" },
-                { "duotone", "<path d=\"m16.86 12-8.1 8.1V3.9z\" opacity=\"0.2\"/><path d=\"m17.434 11.426-8.1-8.1A.81.81 0 0 0 7.95 3.9v16.2a.81.81 0 0 0 1.384.574l8.1-8.1a.81.81 0 0 0 0-1.146zM9.57 18.144V5.855L15.715 12z\"/>" }
+                { "solid", "<path d=\"m17.0295 11.4728-7.5-7.5a.75.75 0 0 0-1.2805.5307v14.9999a.75.75 0 0 0 .4629.6935.75.75 0 0 0 .8177-.1629l7.4999-7.4999a.75.75 0 0 0 .22-.5306.75.75 0 0 0-.0572-.2872.75.75 0 0 0-.1628-.2435\"/>" },
+                { "outline", "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9 4.5 7.5 7.5L9 19.5\" fill=\"none\"/>" },
+                { "duotone", "<path fill-opacity=\"0.2\" d=\"m9 4.5 7.5 7.5L9 19.5z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9 4.5 7.5 7.5L9 19.5z\" fill=\"none\"/>" }
             };
         }
     }
