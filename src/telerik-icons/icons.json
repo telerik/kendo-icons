@@ -4179,6 +4179,14 @@
         "id": 843
     },
     {
+        "name": "repeat",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e184",
+        "id": 844
+    },
+    {
         "name": "play",
         "ligatures": [],
         "aliases": [],
