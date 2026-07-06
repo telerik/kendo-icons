@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const dragAndDropIcon: SVGIcon = {
     name: 'drag-and-drop',
-    content: '<path d="M20.911 11.4a.6.6 0 0 1 0 1.2H10.38a.6.6 0 0 1 0-1.2zM2.861 7.396a.6.6 0 0 1 .653.13l4.05 4.05a.6.6 0 0 1 0 .848l-4.05 4.05a.599.599 0 0 1-1.024-.424v-8.1c0-.243.146-.461.371-.554m.829 7.206L6.292 12 3.69 9.398z"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M10.4999 12h9.7499M3.75 8.25 7.5 12l-3.75 3.7499z" fill="none"/>',
     viewBox: '0 0 24 24',
     variants: {
-        'solid': '<path d="M20.91 11.19a.81.81 0 1 1 0 1.619H10.38a.81.81 0 1 1 0-1.619zM3.09 7.95 7.14 12l-4.05 4.05"/><path d="M2.78 7.201a.81.81 0 0 1 .883.175l4.05 4.051a.81.81 0 0 1 0 1.146l-4.05 4.05a.81.81 0 0 1-1.383-.573v-8.1a.81.81 0 0 1 .5-.749m1.12 6.893L5.994 12 3.9 9.905z"/>',
-        'outline': '<path d="M20.911 11.4a.6.6 0 0 1 0 1.2H10.38a.6.6 0 0 1 0-1.2zM2.861 7.396a.6.6 0 0 1 .653.13l4.05 4.05a.6.6 0 0 1 0 .848l-4.05 4.05a.599.599 0 0 1-1.024-.424v-8.1c0-.243.146-.461.371-.554m.829 7.206L6.292 12 3.69 9.398z"/>',
-        'duotone': '<path fill-opacity="0.2" fill-rule="evenodd" d="M6.292 12 3.69 14.602V9.398z" clip-rule="evenodd"/><path d="M20.911 11.4a.6.6 0 0 1 0 1.2H10.38a.6.6 0 0 1 0-1.2zM2.861 7.396a.6.6 0 0 1 .653.13l4.05 4.05a.6.6 0 0 1 0 .848l-4.05 4.05a.599.599 0 0 1-1.024-.424v-8.1c0-.243.146-.461.371-.554m.829 7.206L6.292 12 3.69 9.398z"/>'
+        'solid': '<path d="M3.75 8.25 7.5 12l-3.75 3.7499"/><path stroke-linecap="round" stroke-linejoin="round" d="M10.4999 12h9.7499M3.75 8.25 7.5 12l-3.75 3.7499z" fill="none"/>',
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M10.4999 12h9.7499M3.75 8.25 7.5 12l-3.75 3.7499z" fill="none"/>',
+        'duotone': '<path fill-opacity="0.2" d="M3.75 8.25 7.5 12l-3.75 3.7499"/><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 11.9995h9.7499m-16.4998-3.75 3.75 3.75-3.75 3.7499z" fill="none"/>'
     },
     tags: ['drag', 'and', 'drop', 'navigation', 'move', 'reorder', 'handle', 'release', 'place']
 }

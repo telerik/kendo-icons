@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const chartBarClusteredIcon: SVGIcon = {
     name: 'chart-bar-clustered',
-    content: '<path fill-rule="evenodd" d="M14.22 15.03h7.5a.6.6 0 0 0 .6-.6V9.57a.6.6 0 0 0-.6-.6h-4.26V4.71a.6.6 0 0 0-.6-.6H4.5V3.09a.6.6 0 0 0-1.2 0v17.82a.6.6 0 0 0 1.2 0v-1.02h9.12a.6.6 0 0 0 .6-.6zm-1.2 3.66H4.5v-3.66h8.52zm.6-4.86H4.5v-3.66h16.62v3.66zM4.5 5.31v3.66h11.76V5.31z" clip-rule="evenodd"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 20.25V3.75m0 1.5h12v4.5m-12 0H21v4.5H4.5m9 0v4.5h-9m8.3964-13.3538 3.5274 3.5274m-8.0914-3.591 4.1994 4.1993M4.5413 6.0632l3.6232 3.6105" fill="none"/>',
     viewBox: '0 0 24 24',
     variants: {
-        'solid': '<path fill-rule="evenodd" d="M21.72 15.24h-7.29v4.05a.81.81 0 0 1-.81.809H4.71v.811a.81.81 0 0 1-.81.811.81.81 0 0 1-.81-.811V3.09a.81.81 0 0 1 1.62 0v.81h12.15a.81.81 0 0 1 .81.81v4.05h4.05a.81.81 0 0 1 .81.81v4.86a.81.81 0 0 1-.81.81m-8.91 0h-8.1v3.24h8.1zm4.05-4.861 4.05.001v3.24H4.71v-3.24z" clip-rule="evenodd"/>',
-        'outline': '<path fill-rule="evenodd" d="M14.22 15.03h7.5a.6.6 0 0 0 .6-.6V9.57a.6.6 0 0 0-.6-.6h-4.26V4.71a.6.6 0 0 0-.6-.6H4.5V3.09a.6.6 0 0 0-1.2 0v17.82a.6.6 0 0 0 1.2 0v-1.02h9.12a.6.6 0 0 0 .6-.6zm-1.2 3.66H4.5v-3.66h8.52zm.6-4.86H4.5v-3.66h16.62v3.66zM4.5 5.31v3.66h11.76V5.31z" clip-rule="evenodd"/>',
-        'duotone': '<path fill-rule="evenodd" d="M16.26 5.31v3.66H4.5V5.31z" clip-rule="evenodd" opacity="0.2"/><path fill-rule="evenodd" d="M13.62 19.89H4.5v1.02a.6.6 0 0 1-1.2 0V3.09a.6.6 0 0 1 1.2 0v1.02h12.36a.6.6 0 0 1 .6.6v4.26h4.26a.6.6 0 0 1 .6.6v4.86a.6.6 0 0 1-.6.6h-7.5v4.26a.6.6 0 0 1-.6.6M4.5 15.03v3.66h8.52v-3.66zm11.76-9.72v3.66H4.5V5.31zm.6 4.86H4.5v3.66h16.62v-3.66z" clip-rule="evenodd"/>'
+        'solid': '<path d="M3.75 20.25V3.75a.75.75 0 0 1 1.5 0v.75H16.5a.75.75 0 0 1 .75.75V9H21a.75.75 0 0 1 .75.75v4.5A.75.75 0 0 1 21 15h-6.75v3.75a.75.75 0 0 1-.75.75H5.25v.75a.75.75 0 0 1-1.5 0m1.5-6.75h15v-3h-15zm0 4.5h7.5v-3h-7.5z"/>',
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 20.25V3.75m0 1.5h12v4.5m-12 0H21v4.5H4.5m9 0v4.5h-9m8.3964-13.3538 3.5274 3.5274m-8.0914-3.591 4.1994 4.1993M4.5413 6.0632l3.6232 3.6105" fill="none"/>',
+        'duotone': '<path fill-opacity="0.2" d="M15 5.25H6c-.8284 0-1.5.6716-1.5 1.5v1.5c0 .8284.6716 1.5 1.5 1.5h9c.8284 0 1.5-.6716 1.5-1.5v-1.5c0-.8284-.6716-1.5-1.5-1.5"/><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 20.25V3.75m0 1.5h12v4.5m-12 0H21v4.5H4.5m9 0v4.5h-9" fill="none"/>'
     },
     tags: ['chart', 'bar', 'clustered', 'charts', 'graph', 'analytics', 'statistics', 'column']
 }

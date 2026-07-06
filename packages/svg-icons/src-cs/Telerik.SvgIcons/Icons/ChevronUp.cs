@@ -5,13 +5,13 @@ namespace Telerik.SvgIcons
         public ChevronUp()
         {
             Name = "chevron-up";
-            Content = "<path d=\"M20.53 15.67a.607.607 0 0 1-.858 0L12.001 8l-7.67 7.67a.607.607 0 0 1-.859-.86l8.1-8.1a.607.607 0 0 1 .859 0l8.1 8.1a.607.607 0 0 1 0 .86z\"/>";
+            Content = "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4.5 15 12 7.5l7.5 7.5\" fill=\"none\"/>";
             ViewBox = "0 0 24 24";
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
-                { "solid", "<path d=\"M20.849 15.55a.81.81 0 0 1-.749.5H3.9a.81.81 0 0 1-.574-1.384l8.1-8.1a.81.81 0 0 1 1.146 0l8.1 8.1a.81.81 0 0 1 .176.884z\"/>" },
-                { "outline", "<path d=\"M20.53 15.67a.607.607 0 0 1-.858 0L12.001 8l-7.67 7.67a.607.607 0 0 1-.859-.86l8.1-8.1a.607.607 0 0 1 .859 0l8.1 8.1a.607.607 0 0 1 0 .86z\"/>" },
-                { "duotone", "<path d=\"M20.1 15.24H3.9l8.1-8.1z\" opacity=\"0.2\"/><path d=\"m20.674 14.666-8.1-8.1a.81.81 0 0 0-1.146 0l-8.1 8.1a.81.81 0 0 0 .573 1.384h16.2a.81.81 0 0 0 .574-1.384zM5.856 14.43l6.145-6.145 6.145 6.145z\"/>" }
+                { "solid", "<path d=\"m20.0296 14.4731-7.5-7.5a.75.75 0 0 0-.5306-.22.75.75 0 0 0-.5306.22l-7.5 7.5a.7502.7502 0 0 0 .1137 1.1544.75.75 0 0 0 .417.1262h14.9998a.7499.7499 0 0 0 .5307-1.2806\"/>" },
+                { "outline", "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4.5 15 12 7.5l7.5 7.5\" fill=\"none\"/>" },
+                { "duotone", "<path fill-opacity=\"0.2\" d=\"M4.5 15 12 7.5l7.5 7.5z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4.5 15 12 7.5l7.5 7.5z\" fill=\"none\"/>" }
             };
         }
     }

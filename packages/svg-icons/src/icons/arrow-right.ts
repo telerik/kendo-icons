@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const arrowRightIcon: SVGIcon = {
     name: 'arrow-right',
-    content: '<path d="m21.34 12.43-7.29 7.29a.607.607 0 0 1-.86-.858l6.252-6.254H3.09a.608.608 0 0 1 0-1.215h16.352L13.19 5.14a.607.607 0 0 1 .86-.86l7.29 7.29a.607.607 0 0 1 0 .86"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 12h16.5m-6.75 6.75L20.25 12 13.5 5.25" fill="none"/>',
     viewBox: '0 0 24 24',
     variants: {
-        'solid': '<path d="m21.484 12.574-7.29 7.29a.81.81 0 0 1-1.384-.574v-6.48H3.09a.81.81 0 0 1 0-1.62h9.72V4.71a.81.81 0 0 1 1.384-.574l7.29 7.29a.81.81 0 0 1 0 1.146z"/>',
-        'outline': '<path d="m21.34 12.43-7.29 7.29a.607.607 0 0 1-.86-.858l6.252-6.254H3.09a.608.608 0 0 1 0-1.215h16.352L13.19 5.14a.607.607 0 0 1 .86-.86l7.29 7.29a.607.607 0 0 1 0 .86"/>',
-        'duotone': '<path d="m20.91 12-7.29 7.29V4.71z" opacity="0.2"/><path d="m21.484 11.426-7.29-7.29a.81.81 0 0 0-1.384.574v6.48H3.09a.81.81 0 0 0 0 1.62h9.72v6.48a.81.81 0 0 0 1.384.574l7.29-7.29a.81.81 0 0 0 0-1.146zm-7.054 5.908V6.665L19.765 12z"/>'
+        'solid': '<path d="m20.7795 12.527-6.7499 6.75a.7502.7502 0 0 1-1.2807-.5307v-5.9999H3.749a.7498.7498 0 0 1-.5303-1.2803.75.75 0 0 1 .5303-.2197h8.9999v-6a.7502.7502 0 0 1 1.2807-.5306l6.7499 6.75a.749.749 0 0 1 .22.5306.75.75 0 0 1-.22.5306"/>',
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 12h16.5m-6.75 6.75L20.25 12 13.5 5.25" fill="none"/>',
+        'duotone': '<path fill-opacity="0.2" d="M13.5 5.25 20.25 12l-6.75 6.75z"/><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 12h9.75m0-6.75L20.25 12l-6.75 6.75z" fill="none"/>'
     },
     tags: ['directional', 'pointer', 'pointing', 'arrowhead']
 }
