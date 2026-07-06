@@ -11,6 +11,10 @@ jobs:
     name: Build Font
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+      actions: read
+
     steps:
       - name: Checkout branch
         uses: actions/checkout@v6
