@@ -1,4 +1,4 @@
-name: Build Font
+name: Build Icons
 
 on:
   push:
@@ -7,8 +7,8 @@ on:
       - 'develop'
 
 jobs:
-  build-font:
-    name: Build Font
+  build-icons:
+    name: Build Icons
     runs-on: ubuntu-latest
 
     permissions:
@@ -73,7 +73,7 @@ jobs:
 
   deploy-preview:
     name: Deploy PR Preview
-    needs: build-font
+    needs: build-icons
     runs-on: ubuntu-latest
 
     permissions:
