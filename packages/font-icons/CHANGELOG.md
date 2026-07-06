@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.10.0-dev.0](https://github.com/telerik/kendo-icons/compare/v4.9.3...v4.10.0-dev.0) (2026-07-06)
+
+
+### Features
+
+* add support for runtime icon size customization ([20839fb](https://github.com/telerik/kendo-icons/commit/20839fb5dcc434a41739fe47c58db42f4839f2ef))
+* add support for runtime rotation customization ([aee94c4](https://github.com/telerik/kendo-icons/commit/aee94c40002a8fc0dc65a33c5bebdec8ce62f4f6))
+
+
+
+
+
 ## [4.9.3](https://github.com/telerik/kendo-icons/compare/v4.9.3-dev.0...v4.9.3) (2026-06-24)
 
 **Note:** Version bump only for package @progress/kendo-font-icons
