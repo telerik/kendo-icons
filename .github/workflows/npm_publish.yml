@@ -60,6 +60,13 @@ jobs:
           node-version: 24.x
           registry-url: 'https://registry.npmjs.org'
 
+      - name: Merge develop to master
+        if: ${{ github.event.inputs.release-type == 'stable' }}
+        run: |
+          git fetch --quiet
+          git reset --hard origin/master
+          git merge --ff-only --quiet origin/develop
+
       - name: Install
         run: |
           npm ci
@@ -74,13 +81,6 @@ jobs:
         env:
           GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
           NPM_CONFIG_REGISTRY: https://registry.npmjs.org/
-
-      - name: Merge develop to master
-        if: ${{ github.event.inputs.release-type == 'stable' }}
-        run: |
-          git fetch --quiet
-          git reset --hard origin/master
-          git merge --ff-only --quiet origin/develop
 
       - name: Publish stable release
         if: ${{ github.event.inputs.release-type == 'stable' }}
