@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.10.0-dev.1](https://github.com/telerik/kendo-icons/compare/v4.10.0-dev.0...v4.10.0-dev.1) (2026-07-07)
+
+
+### Bug Fixes
+
+* update arrows-no-repeat icon ([dfaa2f4](https://github.com/telerik/kendo-icons/commit/dfaa2f4d0cfaf780adcd9cae991e508337137d78))
+
+
+### Features
+
+* add repeat icon ([c601ed0](https://github.com/telerik/kendo-icons/commit/c601ed05f43f8437d1813d32ec98c0cfeb02a491))
+* generate icons metadata ([0dc8c28](https://github.com/telerik/kendo-icons/commit/0dc8c2834dd2cecba6eac8d5ff08a655cb766976))
+
+
+
+
+
 # [4.10.0-dev.0](https://github.com/telerik/kendo-icons/compare/v4.9.3...v4.10.0-dev.0) (2026-07-06)
 
 
