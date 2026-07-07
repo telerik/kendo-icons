@@ -516,6 +516,7 @@ namespace Telerik.FontIcons
         [System.Obsolete("since v4. Will be removed in v5. Use XCircle instead.", false)]
         XMarkSmOutline = 842,
         ZoomSparkle = 843,
+        Repeat = 844,
         Play = 205,
         Pause = 206,
         Stop = 207,

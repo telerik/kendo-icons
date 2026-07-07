@@ -516,6 +516,7 @@ namespace Telerik.SvgIcons
         [System.Obsolete("since v4. Will be removed in v5. Use SvgIcon.XCircle instead.", false)]
         public static ISvgIcon XMarkSmOutline => new XMarkSmOutline();
         public static ISvgIcon ZoomSparkle => new ZoomSparkle();
+        public static ISvgIcon Repeat => new Repeat();
         public static ISvgIcon Play => new Play();
         public static ISvgIcon Pause => new Pause();
         public static ISvgIcon Stop => new Stop();
