@@ -388,6 +388,7 @@ export { paperclipOutlineIcon } from './icons/paperclip-outline';
 export { xMarkOutlineIcon } from './icons/x-mark-outline';
 export { xMarkSmOutlineIcon } from './icons/x-mark-sm-outline';
 export { zoomSparkleIcon } from './icons/zoom-sparkle';
+export { repeatIcon } from './icons/repeat';
 export { playIcon } from './icons/play';
 export { pauseIcon } from './icons/pause';
 export { stopIcon } from './icons/stop';
