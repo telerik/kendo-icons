@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.10.1-dev.0](https://github.com/telerik/kendo-icons/compare/v4.10.0...v4.10.1-dev.0) (2026-07-08)
+
+
+### Bug Fixes
+
+* revert runtime customization CSS variables support ([f2d0dd2](https://github.com/telerik/kendo-icons/commit/f2d0dd291dc1739733f90e9d6e15c09930df7bdf))
+
+
+
+
+
 # [4.10.0](https://github.com/telerik/kendo-icons/compare/v4.10.0-dev.1...v4.10.0) (2026-07-07)
 
 **Note:** Version bump only for package @progress/kendo-svg-icons
