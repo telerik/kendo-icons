@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.3.0-dev.0](https://github.com/telerik/kendo-icons/compare/v5.2.0...v5.3.0-dev.0) (2026-07-08)
+
+
+### Bug Fixes
+
+* revert runtime customization and stroke-based icon changes from v5.2.0 ([21fe125](https://github.com/telerik/kendo-icons/commit/21fe1259940b4bfc9baec056c976ccbc68cea984))
+
+
+### Features
+
+* generate icons metadata ([1f8b77b](https://github.com/telerik/kendo-icons/commit/1f8b77b63f4aa843243b7e930e3af68c90340f16))
+
+
+
+
+
 # [5.2.0](https://github.com/telerik/kendo-icons/compare/v5.2.0-dev.0...v5.2.0) (2026-07-07)
 
 **Note:** Version bump only for package @progress/kendo-font-icons
