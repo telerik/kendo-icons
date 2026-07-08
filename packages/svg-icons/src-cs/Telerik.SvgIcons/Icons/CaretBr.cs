@@ -5,13 +5,13 @@ namespace Telerik.SvgIcons
         public CaretBr()
         {
             Name = "caret-br";
-            Content = "<g clip-path=\"url(#a)\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7.2899 19.4966h10.6066V8.89\" fill=\"none\"/></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h24v24H0z\"/></clipPath></defs>";
+            Content = "<path d=\"M21.517 3.09a.607.607 0 0 1-.607.607H3.09a.608.608 0 0 1 0-1.215h17.82a.607.607 0 0 1 .607.607zM18.48 8.963a.607.607 0 0 0-.607.607v8.254L7.57 7.52a.607.607 0 0 0-.86.86l10.304 10.303H8.76a.607.607 0 0 0 0 1.214h9.72a.607.607 0 0 0 .607-.607V9.57a.607.607 0 0 0-.607-.607\"/>";
             ViewBox = "0 0 24 24";
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
-                { "solid", "<g clip-path=\"url(#a)\"><path d=\"M7.29 19.4982h10.6066V8.8916\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7.29 19.4982h10.6066V8.8916z\" fill=\"none\"/></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h23.9998v23.9998H0z\"/></clipPath></defs>" },
-                { "outline", "<g clip-path=\"url(#a)\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7.2899 19.4966h10.6066V8.89\" fill=\"none\"/></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h24v24H0z\"/></clipPath></defs>" },
-                { "duotone", "<g clip-path=\"url(#a)\"><path fill-opacity=\"0.2\" d=\"M8.1493 19.4962h10.6066V8.8896\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7.29 19.4962h10.6066V8.8896\" fill=\"none\"/></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h24v24H0z\"/></clipPath></defs>" }
+                { "solid", "<path d=\"M21.72 3.09a.81.81 0 0 1-.81.81H3.09a.81.81 0 0 1 0-1.62h17.82a.81.81 0 0 1 .81.81m-2.93 5.731a.81.81 0 0 0-.884.175l-4.286 4.288-5.906-5.908a.81.81 0 0 0-1.146 1.146l5.907 5.907-4.287 4.286a.81.81 0 0 0 .573 1.384h9.72a.81.81 0 0 0 .81-.81v-9.72a.81.81 0 0 0-.5-.749z\"/>" },
+                { "outline", "<path d=\"M21.517 3.09a.607.607 0 0 1-.607.607H3.09a.608.608 0 0 1 0-1.215h17.82a.607.607 0 0 1 .607.607zM18.48 8.963a.607.607 0 0 0-.607.607v8.254L7.57 7.52a.607.607 0 0 0-.86.86l10.304 10.303H8.76a.607.607 0 0 0 0 1.214h9.72a.607.607 0 0 0 .607-.607V9.57a.607.607 0 0 0-.607-.607\"/>" },
+                { "duotone", "<path d=\"M18.48 9.57v9.72H8.76z\" opacity=\"0.2\"/><path d=\"M21.72 3.09a.81.81 0 0 1-.81.81H3.09a.81.81 0 0 1 0-1.62h17.82a.81.81 0 0 1 .81.81m-2.43 6.48v9.72a.81.81 0 0 1-.81.81H8.76a.81.81 0 0 1-.574-1.384l4.288-4.286-5.908-5.906a.81.81 0 0 1 1.146-1.146l5.907 5.907 4.286-4.287a.81.81 0 0 1 1.384.573zm-1.62 1.955-3.476 3.477-3.478 3.477h6.955z\"/>" }
             };
         }
     }
