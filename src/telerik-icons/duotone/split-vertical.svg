@@ -1,5 +1,1 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M9 5.25L12 2.25L15 5.25H9Z" fill="black" fill-opacity="0.2"/>
-<path d="M15 18.75L12 21.75L9 18.75H15Z" fill="black" fill-opacity="0.2"/>
-<path d="M4.5 14.25H19.5M4.5 9.75H19.5M12 9.75V5.25M12 18.75V14.25M9 5.25L12 2.25L15 5.25H9ZM15 18.75L12 21.75L9 18.75H15Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M15.24 4.71H8.76l3.24-3.24zM12 22.53l3.24-3.24H8.76z" opacity=".2"/><path d="M20.1 13.62H3.9a0.81 0.81 0 0 0 0 1.62h7.29v3.24H8.76a0.81 0.81 0 0 0-0.574 1.384l3.24 3.24a0.81 0.81 0 0 0 1.146 0l3.24-3.24a0.81 0.81 0 0 0-0.573-1.384h-2.43v-3.24h7.29a0.81 0.81 0 0 0 0-1.62zM12 21.385l-1.285-1.285h2.569zM3.9 10.38h16.2a0.81 0.81 0 0 0 0-1.62h-7.29V5.52H15.24a0.81 0.81 0 0 0 0.574-1.384l-3.24-3.24a0.81 0.81 0 0 0-1.146 0l-3.24 3.24A0.81 0.81 0 0 0 8.761 5.52h2.43v3.24H3.901a0.81 0.81 0 0 0 0 1.62zM12 2.615l1.285 1.285H10.716z"/></svg>
