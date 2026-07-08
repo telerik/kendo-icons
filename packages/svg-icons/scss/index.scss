@@ -3,20 +3,6 @@
 
 @mixin kendo-svg-icon-styles() {
 
-    :root {
-        --kendo-icon-size: #{$ki-icon-size};
-        --kendo-icon-size-xs: calc( var(--kendo-icon-size) * .75 );
-        --kendo-icon-size-sm: calc( var(--kendo-icon-size) * .875 );
-        --kendo-icon-size-md: var(--kendo-icon-size);
-        --kendo-icon-size-lg: calc( var(--kendo-icon-size) * 1.25 );
-        --kendo-icon-size-xl: calc( var(--kendo-icon-size) * 1.5 );
-        --kendo-icon-size-xxl: calc( var(--kendo-icon-size) * 2 );
-        --kendo-icon-size-xxxl: calc( var(--kendo-icon-size) * 3 );
-        --kendo-icon-stroke-width: #{$ki-icon-stroke-width};
-        --kendo-icon-rotation: 0deg;
-        --kendo-icon-color: currentColor;
-    }
-
     .k-svg-icon {
         outline: 0;
         line-height: 1;
@@ -28,20 +14,8 @@
         position: relative;
 
         > svg {
-            fill: var(--kendo-icon-color);
-            transform: rotate(var(--kendo-icon-rotation));
+            fill: currentColor;
             flex: 1 1 auto;
-
-            [fill="none"] {
-                stroke: var(--kendo-icon-color);
-            }
-        }
-
-        &.k-svg-icon-outline,
-        &.k-svg-icon-duotone {
-            > svg [fill="none"] {
-                stroke-width: var(--kendo-icon-stroke-width);
-            }
         }
 
         // SVG Icon sizes
@@ -87,7 +61,9 @@
                 transform: none;
             }
 
-            --kendo-icon-rotation: #{$rotate};
+            > svg {
+                transform: rotate( #{$rotate} );
+            }
         }
     }
 
