@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const bedIcon: SVGIcon = {
     name: 'bed',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M10.5 15.75V7.5m0 0h9.75a3 3 0 0 1 3 3v5.25M10.5 7.5H2.25m21 8.25h-21m21 0v3.75m-21 0v-15" fill="none"/>',
+    content: '<path d="M20.91 6.533H2.077V3.9a.608.608 0 0 0-1.215 0v16.2a.608.608 0 0 0 1.215 0v-3.443h21.466V20.1a.607.607 0 0 0 1.214 0v-9.72a3.847 3.847 0 0 0-3.847-3.847M2.077 7.748h7.696v7.696H2.077zm8.91 7.696V7.748h9.923a2.633 2.633 0 0 1 2.633 2.633v5.063z"/>',
     viewBox: '0 0 24 24',
     variants: {
-        'solid': '<g clip-path="url(#a)"><path d="M20.2489 6.751H2.999v-2.25a.75.75 0 0 0-1.5 0v14.9999a.75.75 0 0 0 1.5 0v-3H22.499v3a.75.75 0 0 0 .75.75.7503.7503 0 0 0 .75-.75v-9a3.75 3.75 0 0 0-3.75-3.75M2.999 8.251h6.75v6.7499h-6.75z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h23.9998v23.9998H0z"/></clipPath></defs>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M10.5 15.75V7.5m0 0h9.75a3 3 0 0 1 3 3v5.25M10.5 7.5H2.25m21 8.25h-21m21 0v3.75m-21 0v-15" fill="none"/>',
-        'duotone': '<path fill-opacity="0.2" d="M10.5 7.5h9.75a3 3 0 0 1 3 3v5.25H10.5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 15.75V7.5m0 0h9.75a3 3 0 0 1 3 3v5.25M10.5 7.5H2.25m21 8.25h-21m21 0v3.75m-21 0v-15" fill="none"/>'
+        'solid': '<path d="M20.91 6.33H2.28V3.9a.81.81 0 0 0-1.62 0v16.2a.81.81 0 0 0 1.62 0v-3.24h21.06v3.24a.81.81 0 0 0 1.62 0v-9.72a4.05 4.05 0 0 0-4.05-4.05M2.28 7.95h7.29v7.29H2.28z"/>',
+        'outline': '<path d="M20.91 6.533H2.077V3.9a.608.608 0 0 0-1.215 0v16.2a.608.608 0 0 0 1.215 0v-3.443h21.466V20.1a.607.607 0 0 0 1.214 0v-9.72a3.847 3.847 0 0 0-3.847-3.847M2.077 7.748h7.696v7.696H2.077zm8.91 7.696V7.748h9.923a2.633 2.633 0 0 1 2.633 2.633v5.063z"/>',
+        'duotone': '<path d="M24.15 10.38v5.67H10.38V7.14h10.53a3.24 3.24 0 0 1 3.24 3.24" opacity="0.2"/><path d="M20.91 6.33H2.28V3.9a.81.81 0 0 0-1.62 0v16.2a.81.81 0 0 0 1.62 0v-3.24h21.06v3.24a.81.81 0 0 0 1.62 0v-9.72a4.05 4.05 0 0 0-4.05-4.05M2.28 7.95h7.29v7.29H2.28zm8.91 7.29V7.95h9.72a2.43 2.43 0 0 1 2.43 2.43v4.86z"/>'
     },
     tags: ['hotels', 'accommodations', 'sleeping', 'places', 'locations', 'medical', 'hospital']
 }
