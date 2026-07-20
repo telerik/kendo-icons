@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const circleShapeIcon: SVGIcon = {
     name: 'circle-shape',
-    content: '<path d="M12 1.673A10.327 10.327 0 1 0 22.327 12 10.339 10.339 0 0 0 12 1.673m0 19.44A9.113 9.113 0 1 1 21.113 12 9.12 9.12 0 0 1 12 21.113"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9" fill="none"/>',
     viewBox: '0 0 24 24',
     variants: {
-        'solid': '<path d="M22.53 12A10.53 10.53 0 1 1 12 1.47 10.543 10.543 0 0 1 22.53 12"/>',
-        'outline': '<path d="M12 1.673A10.327 10.327 0 1 0 22.327 12 10.339 10.339 0 0 0 12 1.673m0 19.44A9.113 9.113 0 1 1 21.113 12 9.12 9.12 0 0 1 12 21.113"/>',
-        'duotone': '<path d="M21.72 12A9.72 9.72 0 1 1 12 2.28 9.72 9.72 0 0 1 21.72 12" opacity="0.2"/><path d="M12 1.47A10.53 10.53 0 1 0 22.53 12 10.541 10.541 0 0 0 12 1.47m0 19.44A8.91 8.91 0 1 1 20.91 12 8.92 8.92 0 0 1 12 20.91"/>'
+        'solid': '<path d="M11.9997 21.7501c5.3847 0 9.7499-4.3652 9.7499-9.7499s-4.3652-9.75-9.7499-9.75-9.75 4.3652-9.75 9.75c0 5.3847 4.3653 9.7499 9.75 9.7499"/>',
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9" fill="none"/>',
+        'duotone': '<path fill-opacity="0.2" d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9" fill="none"/>'
     },
     tags: ['circle', 'shape', 'editing', 'form', 'polygon', 'geometry']
 }

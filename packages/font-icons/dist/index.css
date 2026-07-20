@@ -4,6 +4,18 @@
   font-weight: normal;
   src: url("kendo-font-icons.ttf") format("truetype");
 }
+:root {
+  --kendo-icon-size: 16px;
+  --kendo-icon-size-xs: calc( var(--kendo-icon-size) * .75 );
+  --kendo-icon-size-sm: calc( var(--kendo-icon-size) * .875 );
+  --kendo-icon-size-md: var(--kendo-icon-size);
+  --kendo-icon-size-lg: calc( var(--kendo-icon-size) * 1.25 );
+  --kendo-icon-size-xl: calc( var(--kendo-icon-size) * 1.5 );
+  --kendo-icon-size-xxl: calc( var(--kendo-icon-size) * 2 );
+  --kendo-icon-size-xxxl: calc( var(--kendo-icon-size) * 3 );
+  --kendo-icon-rotation: 0deg;
+}
+
 .k-font-icon {
   width: 1em;
   height: 1em;
@@ -25,30 +37,31 @@
   position: relative;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  transform: rotate(var(--kendo-icon-rotation));
 }
 .k-font-icon:hover, .k-font-icon:focus {
   text-decoration: none;
 }
 .k-font-icon.k-icon-xs {
-  font-size: calc(16px * 0.75);
+  font-size: var(--kendo-icon-size-xs, calc(var(--kendo-icon-size, 16px) * 0.75));
 }
 .k-font-icon.k-icon-sm {
-  font-size: calc(16px * 0.875);
+  font-size: var(--kendo-icon-size-sm, calc(var(--kendo-icon-size, 16px) * 0.875));
 }
 .k-font-icon, .k-font-icon.k-icon-md {
-  font-size: 16px;
+  font-size: var(--kendo-icon-size-md, var(--kendo-icon-size, 16px));
 }
 .k-font-icon.k-icon-lg {
-  font-size: calc(16px * 1.25);
+  font-size: var(--kendo-icon-size-lg, calc(var(--kendo-icon-size, 16px) * 1.25));
 }
 .k-font-icon.k-icon-xl {
-  font-size: calc(16px * 1.5);
+  font-size: var(--kendo-icon-size-xl, calc(var(--kendo-icon-size, 16px) * 1.5));
 }
 .k-font-icon.k-icon-xxl {
-  font-size: calc(16px * 2);
+  font-size: var(--kendo-icon-size-xxl, calc(var(--kendo-icon-size, 16px) * 2));
 }
 .k-font-icon.k-icon-xxxl {
-  font-size: calc(16px * 3);
+  font-size: var(--kendo-icon-size-xxxl, calc(var(--kendo-icon-size, 16px) * 3));
 }
 
 .k-i-none::before {
@@ -69,35 +82,43 @@
 }
 
 .k-rotate-0 {
-  transform: rotate(0deg);
+  --kendo-icon-rotation: 0deg;
+  transform: rotate(var(--kendo-icon-rotation));
 }
 
 .k-rotate-45 {
-  transform: rotate(45deg);
+  --kendo-icon-rotation: 45deg;
+  transform: rotate(var(--kendo-icon-rotation));
 }
 
 .k-rotate-90 {
-  transform: rotate(90deg);
+  --kendo-icon-rotation: 90deg;
+  transform: rotate(var(--kendo-icon-rotation));
 }
 
 .k-rotate-135 {
-  transform: rotate(135deg);
+  --kendo-icon-rotation: 135deg;
+  transform: rotate(var(--kendo-icon-rotation));
 }
 
 .k-rotate-180 {
-  transform: rotate(180deg);
+  --kendo-icon-rotation: 180deg;
+  transform: rotate(var(--kendo-icon-rotation));
 }
 
 .k-rotate-225 {
-  transform: rotate(225deg);
+  --kendo-icon-rotation: 225deg;
+  transform: rotate(var(--kendo-icon-rotation));
 }
 
 .k-rotate-270 {
-  transform: rotate(270deg);
+  --kendo-icon-rotation: 270deg;
+  transform: rotate(var(--kendo-icon-rotation));
 }
 
 .k-rotate-315 {
-  transform: rotate(315deg);
+  --kendo-icon-rotation: 315deg;
+  transform: rotate(var(--kendo-icon-rotation));
 }
 
 .k-i-banknote::before {
@@ -2606,6 +2627,90 @@
 
 .k-i-zoom-sparkle::before {
   content: "\e270";
+}
+
+.k-i-chevron-bottom-left::before {
+  content: "\e271";
+}
+
+.k-i-chevron-bottom-right::before {
+  content: "\e272";
+}
+
+.k-i-chevron-expand::before {
+  content: "\e273";
+}
+
+.k-i-chevron-to-bottom::before {
+  content: "\e274";
+}
+
+.k-i-chevron-to-left::before {
+  content: "\e275";
+}
+
+.k-i-chevron-to-right::before {
+  content: "\e276";
+}
+
+.k-i-chevron-to-top::before {
+  content: "\e277";
+}
+
+.k-i-chevron-top-left::before {
+  content: "\e278";
+}
+
+.k-i-chevron-top-right::before {
+  content: "\e279";
+}
+
+.k-i-file-text::before {
+  content: "\e27a";
+}
+
+.k-i-margin-bottom::before {
+  content: "\e27b";
+}
+
+.k-i-margin-left::before {
+  content: "\e27c";
+}
+
+.k-i-margin-right::before {
+  content: "\e27d";
+}
+
+.k-i-margin-top::before {
+  content: "\e27e";
+}
+
+.k-i-margin::before {
+  content: "\e27f";
+}
+
+.k-i-mouse-left-click::before {
+  content: "\e280";
+}
+
+.k-i-mouse-right-click::before {
+  content: "\e281";
+}
+
+.k-i-mouse::before {
+  content: "\e282";
+}
+
+.k-i-notification::before {
+  content: "\e283";
+}
+
+.k-i-text-align-left::before {
+  content: "\e284";
+}
+
+.k-i-text-align-right::before {
+  content: "\e285";
 }
 
 .k-i-checkbox-null::before {

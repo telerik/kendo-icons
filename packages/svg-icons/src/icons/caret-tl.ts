@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const caretTlIcon: SVGIcon = {
     name: 'caret-tl',
-    content: '<path d="M22.327 20.1a.607.607 0 0 1-.607.607H3.9a.607.607 0 0 1 0-1.214h17.82a.607.607 0 0 1 .607.607M6.33 14.227a.607.607 0 0 0 .607-.607V5.368L17.24 15.67a.607.607 0 0 0 .86-.86L7.798 4.507h8.252a.608.608 0 0 0 0-1.215H6.33a.607.607 0 0 0-.607.607v9.72a.607.607 0 0 0 .607.607z"/>',
+    content: '<g clip-path="url(#a)"><path stroke-linecap="round" stroke-linejoin="round" d="M16.7099 4.4998H6.1033v10.6066" fill="none"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs>',
     viewBox: '0 0 24 24',
     variants: {
-        'solid': '<path d="M5.52 13.62V3.9a.81.81 0 0 1 .81-.81h9.72a.81.81 0 0 1 .574 1.384L12.336 8.76l5.908 5.906a.81.81 0 0 1-1.146 1.146l-5.907-5.907-4.286 4.287a.81.81 0 0 1-1.384-.573zm16.2 5.67H3.9a.81.81 0 0 0 0 1.62h17.82a.81.81 0 0 0 0-1.62"/>',
-        'outline': '<path d="M22.327 20.1a.607.607 0 0 1-.607.607H3.9a.607.607 0 0 1 0-1.214h17.82a.607.607 0 0 1 .607.607M6.33 14.227a.607.607 0 0 0 .607-.607V5.368L17.24 15.67a.607.607 0 0 0 .86-.86L7.798 4.507h8.252a.608.608 0 0 0 0-1.215H6.33a.607.607 0 0 0-.607.607v9.72a.607.607 0 0 0 .607.607z"/>',
-        'duotone': '<path d="m16.05 3.9-9.72 9.72V3.9z" opacity="0.2"/><path d="M22.53 20.1a.81.81 0 0 1-.81.81H3.9a.81.81 0 0 1 0-1.62h17.82a.81.81 0 0 1 .81.81M5.52 13.62V3.9a.81.81 0 0 1 .81-.81h9.72a.81.81 0 0 1 .574 1.384L12.336 8.76l5.908 5.906a.81.81 0 0 1-1.146 1.146l-5.907-5.907-4.286 4.287a.81.81 0 0 1-1.384-.573zm1.62-1.955 3.476-3.477 3.478-3.477H7.139z"/>'
+        'solid': '<g clip-path="url(#a)"><path d="M6.1024 15.11V4.5034H16.709"/><path stroke-linecap="round" stroke-linejoin="round" d="M6.1024 15.11V4.5034H16.709z" fill="none"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h23.9998v23.9998H0z"/></clipPath></defs>',
+        'outline': '<g clip-path="url(#a)"><path stroke-linecap="round" stroke-linejoin="round" d="M16.7099 4.4998H6.1033v10.6066" fill="none"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs>',
+        'duotone': '<g clip-path="url(#a)"><path fill-opacity="0.2" d="M5.9989 14.3341V3.7275h10.6066"/><path stroke-linecap="round" stroke-linejoin="round" d="M6.1024 15.11V4.5034H16.709" fill="none"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs>'
     },
     tags: ['caret', 'tl', 'navigation', 'arrow', 'dropdown', 'expand']
 }
