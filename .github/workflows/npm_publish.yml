@@ -81,6 +81,7 @@ jobs:
             --allow-branch develop --force-publish --exact --yes
         env:
           GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
+          NPM_CONFIG_REGISTRY: https://registry.npmjs.org/
 
       - name: Dry run dev release
         if: ${{ github.event.inputs.release-type == 'dev' && env.DRY_RUN == 'true' }}
@@ -105,6 +106,7 @@ jobs:
             --create-release github --force-publish --exact
         env:
           GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
+          NPM_CONFIG_REGISTRY: https://registry.npmjs.org/
 
       - name: Dry run stable release
         if: ${{ github.event.inputs.release-type == 'stable' && env.DRY_RUN == 'true' }}
@@ -128,6 +130,7 @@ jobs:
             --allow-branch release-v4.x --dist-tag v4-latest
         env:
           GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
+          NPM_CONFIG_REGISTRY: https://registry.npmjs.org/
 
       - name: Dry run hotfix release
         if: ${{ github.event.inputs.release-type == 'hotfix' && env.DRY_RUN == 'true' }}
@@ -151,6 +154,7 @@ jobs:
             --allow-branch release-v4.x --force-publish --exact --yes
         env:
           GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
+          NPM_CONFIG_REGISTRY: https://registry.npmjs.org/
 
       - name: Dry run hotfix-dev release
         if: ${{ github.event.inputs.release-type == 'hotfix-dev' && env.DRY_RUN == 'true' }}
