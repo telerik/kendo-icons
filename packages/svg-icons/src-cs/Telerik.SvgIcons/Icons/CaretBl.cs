@@ -5,13 +5,13 @@ namespace Telerik.SvgIcons
         public CaretBl()
         {
             Name = "caret-bl";
-            Content = "<path d=\"M22.327 3.9a.607.607 0 0 1-.607.607H3.9a.608.608 0 0 1 0-1.215h17.82a.607.607 0 0 1 .607.607zM17.24 8.33 6.937 18.634V10.38a.608.608 0 0 0-1.215 0v9.72a.607.607 0 0 0 .607.607h9.72a.607.607 0 0 0 0-1.214H7.795L18.098 9.19a.607.607 0 0 0-.859-.86z\"/>";
+            Content = "<g clip-path=\"url(#a)\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16.7099 19.5002H6.1033V8.8936\" fill=\"none\"/></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h24v24H0z\"/></clipPath></defs>";
             ViewBox = "0 0 24 24";
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
-                { "solid", "<path d=\"M18.244 8.186a.81.81 0 0 1 0 1.146l-5.908 5.907 4.288 4.286a.81.81 0 0 1-.574 1.384H6.33a.81.81 0 0 1-.81-.81v-9.72a.81.81 0 0 1 1.384-.574l4.286 4.288 5.906-5.908a.81.81 0 0 1 1.146 0zM21.72 3.09H3.9a.81.81 0 0 0 0 1.62h17.82a.81.81 0 0 0 0-1.62\"/>" },
-                { "outline", "<path d=\"M22.327 3.9a.607.607 0 0 1-.607.607H3.9a.608.608 0 0 1 0-1.215h17.82a.607.607 0 0 1 .607.607zM17.24 8.33 6.937 18.634V10.38a.608.608 0 0 0-1.215 0v9.72a.607.607 0 0 0 .607.607h9.72a.607.607 0 0 0 0-1.214H7.795L18.098 9.19a.607.607 0 0 0-.859-.86z\"/>" },
-                { "duotone", "<path d=\"M16.05 20.1H6.33v-9.72z\" opacity=\"0.2\"/><path d=\"M22.53 3.9a.81.81 0 0 1-.81.81H3.9a.81.81 0 0 1 0-1.62h17.82a.81.81 0 0 1 .81.81m-4.286 4.286a.81.81 0 0 1 0 1.146l-5.908 5.907 4.288 4.286a.81.81 0 0 1-.574 1.384H6.33a.81.81 0 0 1-.81-.81v-9.72a.81.81 0 0 1 1.384-.574l4.286 4.288 5.906-5.908a.81.81 0 0 1 1.146 0zM14.095 19.29l-3.476-3.476-3.478-3.478v6.955z\"/>" }
+                { "solid", "<g clip-path=\"url(#a)\"><path d=\"M16.7099 19.4982H6.1033V8.8916\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16.7099 19.4982H6.1033V8.8916z\" fill=\"none\"/></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h23.9998v23.9998H0z\"/></clipPath></defs>" },
+                { "outline", "<g clip-path=\"url(#a)\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16.7099 19.5002H6.1033V8.8936\" fill=\"none\"/></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h24v24H0z\"/></clipPath></defs>" },
+                { "duotone", "<g clip-path=\"url(#a)\"><path fill-opacity=\"0.2\" d=\"M17.3527 19.5002H6.7461V8.8936\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16.7099 19.5002H6.1033V8.8936\" fill=\"none\"/></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h24v24H0z\"/></clipPath></defs>" }
             };
         }
     }
