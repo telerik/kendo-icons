@@ -10780,113 +10780,248 @@
         "name": "circle-half-tilted",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "images"
+        ],
         "unicode": "e286",
-        "id": 1434
+        "id": 1434,
+        "tags": [
+            "brightness",
+            "contrast",
+            "tone",
+            "adjust",
+            "hue",
+            "circle"
+        ]
     },
     {
         "name": "circles-three-intersecting",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "images"
+        ],
         "unicode": "e287",
-        "id": 1435
+        "id": 1435,
+        "tags": [
+            "blend",
+            "venn",
+            "intersect",
+            "overlap",
+            "circles",
+            "merge"
+        ]
     },
     {
         "name": "drop-half-pixelated",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "images"
+        ],
         "unicode": "e288",
-        "id": 1436
+        "id": 1436,
+        "tags": [
+            "droplet",
+            "pixelate",
+            "pixel",
+            "brush",
+            "effect"
+        ]
     },
     {
         "name": "frame-corners",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "images"
+        ],
         "unicode": "e289",
-        "id": 1437
+        "id": 1437,
+        "tags": [
+            "crop",
+            "frame",
+            "corners",
+            "resize",
+            "selection"
+        ]
     },
     {
         "name": "line-point-angular",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "editing"
+        ],
         "unicode": "e28a",
-        "id": 1438
+        "id": 1438,
+        "tags": [
+            "line",
+            "point",
+            "angular",
+            "node",
+            "handle"
+        ]
     },
     {
         "name": "line-point-circle",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "editing"
+        ],
         "unicode": "e28b",
-        "id": 1439
+        "id": 1439,
+        "tags": [
+            "line",
+            "point",
+            "circle",
+            "node",
+            "handle"
+        ]
     },
     {
         "name": "line-point-rhombus",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "editing"
+        ],
         "unicode": "e28c",
-        "id": 1440
+        "id": 1440,
+        "tags": [
+            "line",
+            "point",
+            "rhombus",
+            "diamond",
+            "node",
+            "handle"
+        ]
     },
     {
         "name": "line-point-rounded",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "editing"
+        ],
         "unicode": "e28d",
-        "id": 1441
+        "id": 1441,
+        "tags": [
+            "line",
+            "point",
+            "rounded",
+            "node",
+            "handle"
+        ]
     },
     {
         "name": "line-point-square",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "editing"
+        ],
         "unicode": "e28e",
-        "id": 1442
+        "id": 1442,
+        "tags": [
+            "line",
+            "point",
+            "square",
+            "node",
+            "handle"
+        ]
     },
     {
         "name": "oval-shape",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "editing"
+        ],
         "unicode": "e28f",
-        "id": 1443
+        "id": 1443,
+        "tags": [
+            "oval",
+            "ellipse",
+            "shape",
+            "editing",
+            "form",
+            "polygon",
+            "geometry"
+        ]
     },
     {
         "name": "pentagon-shape",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "editing"
+        ],
         "unicode": "e290",
-        "id": 1444
+        "id": 1444,
+        "tags": [
+            "pentagon",
+            "shape",
+            "editing",
+            "form",
+            "polygon",
+            "geometry"
+        ]
     },
     {
         "name": "square-dotted",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "editing"
+        ],
         "unicode": "e291",
-        "id": 1445
+        "id": 1445,
+        "tags": [
+            "square",
+            "dotted",
+            "selection",
+            "marquee",
+            "select",
+            "dashed"
+        ]
     },
     {
         "name": "squares-overlapping-plus",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "editing"
+        ],
         "unicode": "e292",
-        "id": 1446
+        "id": 1446,
+        "tags": [
+            "squares",
+            "overlapping",
+            "plus",
+            "union",
+            "merge",
+            "combine"
+        ]
     },
     {
         "name": "squares-pixelated",
         "ligatures": [],
         "aliases": [],
-        "categories": [],
+        "categories": [
+            "images"
+        ],
         "unicode": "e293",
-        "id": 1447
+        "id": 1447,
+        "tags": [
+            "squares",
+            "pixelated",
+            "pixel",
+            "effect",
+            "mosaic",
+            "grid"
+        ]
     },
     {
         "name": "checkbox-null",
