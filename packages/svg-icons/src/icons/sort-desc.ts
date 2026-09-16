@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const sortDescIcon: SVGIcon = {
     name: 'sort-desc',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h6.75M4.5 6h5.25M4.5 18h12.75M21 8.25 17.25 4.5 13.5 8.25m3.75-3.75v9" fill="none"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h6.75M4.5 6h5.25M4.5 18h12.75M21 8.25 17.25 4.5 13.5 8.25m3.75-3.75v9" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path d="M19.4989 2.9976H4.499a1.5 1.5 0 0 0-1.5 1.5v14.9998a1.5 1.5 0 0 0 1.5 1.5H19.499a1.5 1.5 0 0 0 1.5-1.5V4.4976a1.4999 1.4999 0 0 0-1.5-1.5m-12.75 3.75h3.7501a.75.75 0 0 1 0 1.5h-3.75a.75.75 0 0 1 0-1.5m0 4.4999h4.5001a.7499.7499 0 0 1 .5303 1.2803.75.75 0 0 1-.5303.2197h-4.5a.75.75 0 0 1-.75-.75.75.75 0 0 1 .75-.75m9 5.9999h-9a.75.75 0 0 1-.7499-.7499.75.75 0 0 1 .75-.75h8.9999c.1989 0 .3897.079.5304.2196a.75.75 0 0 1 0 1.0607.75.75 0 0 1-.5304.2196m2.7806-7.7193a.75.75 0 0 1-.5306.22.75.75 0 0 1-.5306-.22l-.9694-.9703v4.1897a.75.75 0 1 1-1.5 0V8.5578l-.9693.9703a.7506.7506 0 0 1-1.2811-.5306c0-.199.0791-.3899.2198-.5306l2.25-2.25a.75.75 0 0 1 .5306-.22.75.75 0 0 1 .5306.22l2.25 2.25a.749.749 0 0 1 .1628.8178.75.75 0 0 1-.1628.2434"/>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h6.75M4.5 6h5.25M4.5 18h12.75M21 8.25 17.25 4.5 13.5 8.25m3.75-3.75v9" fill="none"/>',
-        'duotone': '<path fill-opacity="0.2" d="M4.5 6v12h15a1.5 1.5 0 0 0 1.5-1.5V8.25L18.75 6z"/><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h6.75M4.5 6h5.25M4.5 18h12.75M21 8.25 17.25 4.5 13.5 8.25m3.75-3.75v9" fill="none"/>'
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h6.75M4.5 6h5.25M4.5 18h12.75M21 8.25 17.25 4.5 13.5 8.25m3.75-3.75v9" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<path fill-opacity="0.2" d="M4.5 6v12h15a1.5 1.5 0 0 0 1.5-1.5V8.25L18.75 6z"/><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h6.75M4.5 6h5.25M4.5 18h12.75M21 8.25 17.25 4.5 13.5 8.25m3.75-3.75v9" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['sort', 'desc', 'actions', 'order', 'arrange']
 }

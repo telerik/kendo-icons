@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const dropletIcon: SVGIcon = {
     name: 'droplet',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M12.75 18c1.875-.3159 3.4322-1.875 3.75-3.75m3-.75c0-6.75-7.5-12-7.5-12s-7.5 5.25-7.5 12a7.5 7.5 0 0 0 15 0" fill="none"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M12.75 18c1.875-.3159 3.4322-1.875 3.75-3.75m3-.75c0-6.75-7.5-12-7.5-12s-7.5 5.25-7.5 12a7.5 7.5 0 0 0 15 0" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path d="M16.3122 4.477A23.83 23.83 0 0 0 12.4263.8866a.75.75 0 0 0-.8607 0A23.83 23.83 0 0 0 7.6872 4.477c-2.5771 2.9596-3.9374 6.0796-3.9374 9.0233a8.25 8.25 0 0 0 16.4998 0c0-2.9437-1.3603-6.0637-3.9374-9.0233m.9234 9.899a5.4005 5.4005 0 0 1-4.365 4.3641.8.8 0 0 1-.1209.0103.7498.7498 0 0 1-.5919-1.2104.75.75 0 0 1 .4681-.2793c1.5535-.2616 2.8716-1.5797 3.135-3.1359a.7501.7501 0 1 1 1.4794.2512z"/>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M12.75 18c1.875-.3159 3.4322-1.875 3.75-3.75m3-.75c0-6.75-7.5-12-7.5-12s-7.5 5.25-7.5 12a7.5 7.5 0 0 0 15 0" fill="none"/>',
-        'duotone': '<path fill-opacity="0.2" d="M19.5 13.5c0-6.75-7.5-12-7.5-12s-7.5 5.25-7.5 12a7.5 7.5 0 0 0 15 0"/><path stroke-linecap="round" stroke-linejoin="round" d="M12.75 18c1.875-.3159 3.4322-1.875 3.75-3.75m3-.75c0-6.75-7.5-12-7.5-12s-7.5 5.25-7.5 12a7.5 7.5 0 0 0 15 0" fill="none"/>'
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M12.75 18c1.875-.3159 3.4322-1.875 3.75-3.75m3-.75c0-6.75-7.5-12-7.5-12s-7.5 5.25-7.5 12a7.5 7.5 0 0 0 15 0" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<path fill-opacity="0.2" d="M19.5 13.5c0-6.75-7.5-12-7.5-12s-7.5 5.25-7.5 12a7.5 7.5 0 0 0 15 0"/><path stroke-linecap="round" stroke-linejoin="round" d="M12.75 18c1.875-.3159 3.4322-1.875 3.75-3.75m3-.75c0-6.75-7.5-12-7.5-12s-7.5 5.25-7.5 12a7.5 7.5 0 0 0 15 0" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['droplet', 'images']
 }

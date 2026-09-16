@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const allIcon: SVGIcon = {
     name: 'all',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="m9.1835 16.2781-2.7796-5.9788-2.7796 5.9788m4.7418-1.7585H4.4417m10.1842 1.6966H11.689v-5.8738m8.6869 5.8939H17.439v-5.8739M2.25 6.5498h19.5" fill="none"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="m9.1835 16.2781-2.7796-5.9788-2.7796 5.9788m4.7418-1.7585H4.4417m10.1842 1.6966H11.689v-5.8738m8.6869 5.8939H17.439v-5.8739M2.25 6.5498h19.5" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path d="m7.8389 13.5361.2832.6094h-.5655z"/><path fill-rule="evenodd" d="M3 4.5C3 3.6716 3.6716 3 4.5 3h15c.8284 0 1.5.6716 1.5 1.5v15c0 .8284-.6716 1.5-1.5 1.5h-15c-.8284 0-1.5-.6716-1.5-1.5zm1.5 4.25a.75.75 0 0 0 .75.75h13.4541a.75.75 0 0 0 0-1.5H5.25a.75.75 0 0 0-.75.75m10.7949 7.4229c.0005.4138.3361.7499.75.75h2.1836c.4137-.0003.7496-.3364.75-.75a.7503.7503 0 0 0-.75-.75h-1.4336v-3.6182a.75.75 0 0 0-1.5 0zm-4.2754-.0157c.0003.414.336.75.75.75h2.1836a.7507.7507 0 0 0 .75-.75.7507.7507 0 0 0-.75-.75h-1.4336V11.79c0-.4139-.3361-.7496-.75-.75a.75.75 0 0 0-.75.75zm-5.9267-.2695c-.1744.3755-.0122.8215.3632.9961a.7506.7506 0 0 0 .9961-.3643l.4063-.874h1.962l.4062.874c.1748.3753.6206.5388.9961.3643.3751-.1747.5373-.6208.3632-.9961l-2.0664-4.4463a.7502.7502 0 0 0-1.3076-.0947l-.0527.0947z" clip-rule="evenodd"/>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="m9.1835 16.2781-2.7796-5.9788-2.7796 5.9788m4.7418-1.7585H4.4417m10.1842 1.6966H11.689v-5.8738m8.6869 5.8939H17.439v-5.8739M2.25 6.5498h19.5" fill="none"/>',
-        'duotone': '<rect width="19.5" height="9.728" x="2.25" y="6.5503" fill-opacity="0.2" rx="0.75"/><path stroke-linecap="round" stroke-linejoin="round" d="m9.1835 16.2781-2.7796-5.9788-2.7796 5.9788m4.7418-1.7585H4.4417m10.1842 1.6966H11.689v-5.8738m8.6869 5.8939H17.439v-5.8739M2.25 6.5498h19.5" fill="none"/>'
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="m9.1835 16.2781-2.7796-5.9788-2.7796 5.9788m4.7418-1.7585H4.4417m10.1842 1.6966H11.689v-5.8738m8.6869 5.8939H17.439v-5.8739M2.25 6.5498h19.5" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<rect width="19.5" height="9.728" x="2.25" y="6.5503" fill-opacity="0.2" rx="0.75"/><path stroke-linecap="round" stroke-linejoin="round" d="m9.1835 16.2781-2.7796-5.9788-2.7796 5.9788m4.7418-1.7585H4.4417m10.1842 1.6966H11.689v-5.8738m8.6869 5.8939H17.439v-5.8739M2.25 6.5498h19.5" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['all', 'text-formatting']
 }

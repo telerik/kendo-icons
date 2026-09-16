@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const makeHorizontalSpacingEqualIcon: SVGIcon = {
     name: 'make-horizontal-spacing-equal',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M11.9985 3.75v16.5M3.75 6.75v10.5m16.5-10.5v10.5m-11.261-4H6.7386m2.2593-2.5H6.7476m8.2634.0005h2.2504m-2.2593 2.5h2.2503" fill="none"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M11.9985 3.75v16.5M3.75 6.75v10.5m16.5-10.5v10.5m-11.261-4H6.7386m2.2593-2.5H6.7476m8.2634.0005h2.2504m-2.2593 2.5h2.2503" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path fill-rule="evenodd" d="M20.75 1.5c.4641 0 .9091.1845 1.2373.5127S22.5 2.7859 22.5 3.25v17.5c0 .4641-.1845.9091-.5127 1.2373A1.75 1.75 0 0 1 20.75 22.5H3.25a1.75 1.75 0 0 1-1.2373-.5127A1.75 1.75 0 0 1 1.5 20.75V3.25c0-.4641.1845-.9091.5127-1.2373A1.75 1.75 0 0 1 3.25 1.5zM11.999 3a.75.75 0 0 0-.75.75l-.001 16.5a.75.75 0 1 0 1.5 0l.001-16.5c0-.414-.336-.7497-.75-.75M3.75 6a.75.75 0 0 0-.75.75v10.5a.75.75 0 0 0 1.5 0V6.75A.75.75 0 0 0 3.75 6m16.5 0a.75.75 0 0 0-.75.75v10.5a.75.75 0 0 0 1.5 0V6.75a.75.75 0 0 0-.75-.75m-5.248 6.501a.75.75 0 0 0 0 1.5h2.25a.75.75 0 0 0 0-1.5zM6.7383 12.5a.7503.7503 0 0 0-.75.75.7507.7507 0 0 0 .75.75h2.251a.7507.7507 0 0 0 .75-.75.7503.7503 0 0 0-.75-.75zm8.2724-2.499a.7503.7503 0 0 0-.75.75.751.751 0 0 0 .75.75h2.251a.7507.7507 0 0 0 .75-.75.75.75 0 0 0-.75-.75zM6.7481 10a.75.75 0 0 0 0 1.5h2.25a.7506.7506 0 0 0 .75-.75.75.75 0 0 0-.75-.75z" clip-rule="evenodd"/>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M11.9985 3.75v16.5M3.75 6.75v10.5m16.5-10.5v10.5m-11.261-4H6.7386m2.2593-2.5H6.7476m8.2634.0005h2.2504m-2.2593 2.5h2.2503" fill="none"/>',
-        'duotone': '<path fill-opacity="0.2" d="M3.75 6.75h16.5v10.5H3.75z"/><path stroke-linecap="round" stroke-linejoin="round" d="M11.9985 3.75v16.5M3.75 6.75v10.5m16.5-10.5v10.5m-11.261-4H6.7386m2.2593-2.5H6.7476m8.2634.0005h2.2504m-2.2593 2.5h2.2503" fill="none"/>'
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M11.9985 3.75v16.5M3.75 6.75v10.5m16.5-10.5v10.5m-11.261-4H6.7386m2.2593-2.5H6.7476m8.2634.0005h2.2504m-2.2593 2.5h2.2503" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<path fill-opacity="0.2" d="M3.75 6.75h16.5v10.5H3.75z"/><path stroke-linecap="round" stroke-linejoin="round" d="M11.9985 3.75v16.5M3.75 6.75v10.5m16.5-10.5v10.5m-11.261-4H6.7386m2.2593-2.5H6.7476m8.2634.0005h2.2504m-2.2593 2.5h2.2503" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['make', 'horizontal', 'spacing', 'equal', 'editing', 'same', 'match', 'balance']
 }

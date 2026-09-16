@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const insertFreeTextIcon: SVGIcon = {
     name: 'insert-free-text',
-    content: '<path d="m18.8454 13.8505 2.45 2.45-2.45 2.45"/><path stroke-linecap="round" stroke-linejoin="round" d="M11.9998 5.2505v13.5m-6.75-10.5v-3h13.5v3m-9.75 10.5h6m3.8456-4.9 2.45 2.45-2.45 2.45z" fill="none"/>',
+    content: '<path d="m18.8454 13.8505 2.45 2.45-2.45 2.45"/><path stroke-linecap="round" stroke-linejoin="round" d="M11.9998 5.2505v13.5m-6.75-10.5v-3h13.5v3m-9.75 10.5h6m3.8456-4.9 2.45 2.45-2.45 2.45z" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path d="m17.8682 15.1943.0214.0215-.0214.0215z"/><path fill-rule="evenodd" d="M4.5 21a1.5 1.5 0 0 1-1.0606-.4395A1.5 1.5 0 0 1 3 19.5v-15A1.4999 1.4999 0 0 1 4.5 3h15c.3978 0 .7792.1582 1.0605.4394.2814.2814.4395.6628.4395 1.0606v15c0 .3978-.1581.7792-.4395 1.0605A1.5 1.5 0 0 1 19.5 21zm9.7422-3.2012c.4137-.0002.7496-.3362.75-.75 0-.414-.336-.7497-.75-.75H12.748V7.7022h3.5489v1.4931a.75.75 0 0 0 .75.75.751.751 0 0 0 .75-.75V6.9522c0-.414-.3361-.7497-.75-.75H6.9502a.75.75 0 0 0-.75.75v2.2431a.75.75 0 0 0 .75.75.7504.7504 0 0 0 .75-.75V7.7022h3.5478v8.5966H9.7549a.75.75 0 0 0-.75.75c.0004.4139.336.75.75.75zm2.5889-.0576a.7505.7505 0 0 0 .8173-.1621l1.8321-1.833a.7504.7504 0 0 0 0-1.0606l-1.8321-1.832a.751.751 0 0 0-.8173-.1631.7505.7505 0 0 0-.4629.6934v3.665a.75.75 0 0 0 .4629.6924" clip-rule="evenodd"/>',
-        'outline': '<path d="m18.8454 13.8505 2.45 2.45-2.45 2.45"/><path stroke-linecap="round" stroke-linejoin="round" d="M11.9998 5.2505v13.5m-6.75-10.5v-3h13.5v3m-9.75 10.5h6m3.8456-4.9 2.45 2.45-2.45 2.45z" fill="none"/>',
-        'duotone': '<rect width="13.4983" height="13.5" x="5.2508" y="5.2539" fill-opacity="0.2" rx="0.75"/><path d="m18.8454 13.8505 2.45 2.45-2.45 2.45"/><path stroke-linecap="round" stroke-linejoin="round" d="M11.9998 5.2505v13.5m-6.75-10.5v-3h13.5v3m-9.75 10.5h6m3.8456-4.9 2.45 2.45-2.45 2.45z" fill="none"/>'
+        'outline': '<path d="m18.8454 13.8505 2.45 2.45-2.45 2.45"/><path stroke-linecap="round" stroke-linejoin="round" d="M11.9998 5.2505v13.5m-6.75-10.5v-3h13.5v3m-9.75 10.5h6m3.8456-4.9 2.45 2.45-2.45 2.45z" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<rect width="13.4983" height="13.5" x="5.2508" y="5.2539" fill-opacity="0.2" rx="0.75"/><path d="m18.8454 13.8505 2.45 2.45-2.45 2.45"/><path stroke-linecap="round" stroke-linejoin="round" d="M11.9998 5.2505v13.5m-6.75-10.5v-3h13.5v3m-9.75 10.5h6m3.8456-4.9 2.45 2.45-2.45 2.45z" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['insert', 'free', 'text', 'editing', 'typography', 'font', 'writing']
 }

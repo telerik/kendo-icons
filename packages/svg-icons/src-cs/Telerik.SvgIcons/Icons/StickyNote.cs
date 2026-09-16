@@ -5,13 +5,13 @@ namespace Telerik.SvgIcons
         public StickyNote()
         {
             Name = "sticky-note";
-            Content = "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 9h6m-6 3h6m-6 3h3m8.1825-.0009H15v5.1825m-.3103.0684H4.5a.75.75 0 0 1-.75-.75v-15a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 .75.75v10.1897a.75.75 0 0 1-.2194.5297l-4.8112 4.8112a.75.75 0 0 1-.5297.2194\" fill=\"none\"/>";
+            Content = "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 9h6m-6 3h6m-6 3h3m8.1825-.0009H15v5.1825m-.3103.0684H4.5a.75.75 0 0 1-.75-.75v-15a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 .75.75v10.1897a.75.75 0 0 1-.2194.5297l-4.8112 4.8112a.75.75 0 0 1-.5297.2194\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>";
             ViewBox = "0 0 24 24";
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "<path d=\"M19.4989 3.0037H4.499a1.5 1.5 0 0 0-1.5 1.5v14.9998a1.5 1.5 0 0 0 1.5 1.5h10.1896a1.492 1.492 0 0 0 1.0603-.4397l4.8103-4.8102a1.49 1.49 0 0 0 .3259-.4862 1.49 1.49 0 0 0 .1138-.5741V4.5037a1.5 1.5 0 0 0-1.5-1.5m-10.5 5.25h6a.7503.7503 0 0 1 .75.75.75.75 0 0 1-.75.75h-6a.75.75 0 0 1 0-1.5m3.0001 7.4999h-3a.75.75 0 0 1-.75-.75.7503.7503 0 0 1 .75-.75h3a.75.75 0 0 1 .7499.75.75.75 0 0 1-.7499.75m-3-3a.7498.7498 0 0 1-.5304-1.2803.75.75 0 0 1 .5304-.2197h5.9999a.7501.7501 0 1 1 0 1.5zm5.9999 6.4396v-4.1896h4.1906z\"/>" },
-                { "outline", "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 9h6m-6 3h6m-6 3h3m8.1825-.0009H15v5.1825m-.3103.0684H4.5a.75.75 0 0 1-.75-.75v-15a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 .75.75v10.1897a.75.75 0 0 1-.2194.5297l-4.8112 4.8112a.75.75 0 0 1-.5297.2194\" fill=\"none\"/>" },
-                { "duotone", "<path fill-opacity=\"0.2\" d=\"M20.25 15H15v5.25z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 9h6m-6 3h6m-6 3h3m8.1825-.0007H15v5.1834m-.3103.0673H4.5a.75.75 0 0 1-.75-.75v-15a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 .75.75v10.1897a.75.75 0 0 1-.2194.5297l-4.8112 4.8112a.75.75 0 0 1-.5297.2194\" fill=\"none\"/>" }
+                { "outline", "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 9h6m-6 3h6m-6 3h3m8.1825-.0009H15v5.1825m-.3103.0684H4.5a.75.75 0 0 1-.75-.75v-15a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 .75.75v10.1897a.75.75 0 0 1-.2194.5297l-4.8112 4.8112a.75.75 0 0 1-.5297.2194\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" },
+                { "duotone", "<path fill-opacity=\"0.2\" d=\"M20.25 15H15v5.25z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 9h6m-6 3h6m-6 3h3m8.1825-.0007H15v5.1834m-.3103.0673H4.5a.75.75 0 0 1-.75-.75v-15a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 .75.75v10.1897a.75.75 0 0 1-.2194.5297l-4.8112 4.8112a.75.75 0 0 1-.5297.2194\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" }
             };
         }
     }

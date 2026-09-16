@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const arrowsClockwiseIcon: SVGIcon = {
     name: 'arrows-clockwise',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M20.25 4.501v4.5h-4.5m4.5 0-2.6512-2.6511A8.2503 8.2503 0 0 0 6 6.2824M3.75 19.501v-4.5h4.5m-4.5 0 2.6513 2.6512a8.25 8.25 0 0 0 5.7855 2.4161A8.25 8.25 0 0 0 18 17.7197" fill="none"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M20.25 4.501v4.5h-4.5m4.5 0-2.6512-2.6511A8.2503 8.2503 0 0 0 6 6.2824M3.75 19.501v-4.5h4.5m-4.5 0 2.6513 2.6512a8.25 8.25 0 0 0 5.7855 2.4161A8.25 8.25 0 0 0 18 17.7197" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path d="M20.9996 4.4967v4.5a.75.75 0 0 1-.75.75h-4.5a.75.75 0 0 1-.6934-.463.75.75 0 0 1 .1628-.8177l1.7166-1.7193a7.451 7.451 0 0 0-5.13-2.071h-.0422a7.455 7.455 0 0 0-5.2396 2.1375.75.75 0 0 1-1.0482-1.0724 9 9 0 0 1 12.524-.0535l1.7212-1.7212a.7503.7503 0 0 1 1.1522.1149.75.75 0 0 1 .1266.4157M17.4756 17.18a7.5 7.5 0 0 1-10.4118.0666l1.7165-1.7165a.7502.7502 0 0 0-.5306-1.2835h-4.5a.75.75 0 0 0-.75.75v4.5a.75.75 0 0 0 .463.6934.7501.7501 0 0 0 .8177-.1628l1.7193-1.7212a8.946 8.946 0 0 0 6.1875 2.5087h.0496a8.94 8.94 0 0 0 6.2878-2.5622.7497.7497 0 0 0 .0001-1.0484.75.75 0 0 0-.5192-.2256.752.752 0 0 0-.5299.2015"/>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M20.25 4.501v4.5h-4.5m4.5 0-2.6512-2.6511A8.2503 8.2503 0 0 0 6 6.2824M3.75 19.501v-4.5h4.5m-4.5 0 2.6513 2.6512a8.25 8.25 0 0 0 5.7855 2.4161A8.25 8.25 0 0 0 18 17.7197" fill="none"/>',
-        'duotone': '<path fill-opacity="0.2" d="M12 20.25c4.5563 0 8.25-3.6937 8.25-8.25S16.5563 3.75 12 3.75 3.75 7.4437 3.75 12s3.6937 8.25 8.25 8.25"/><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 4.5002v4.5h-4.5m4.5 0L17.5988 6.349A8.25 8.25 0 0 0 6 6.2814M3.75 19.5002v-4.5h4.5m-4.5 0 2.6513 2.6513A8.25 8.25 0 0 0 18 17.719" fill="none"/>'
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M20.25 4.501v4.5h-4.5m4.5 0-2.6512-2.6511A8.2503 8.2503 0 0 0 6 6.2824M3.75 19.501v-4.5h4.5m-4.5 0 2.6513 2.6512a8.25 8.25 0 0 0 5.7855 2.4161A8.25 8.25 0 0 0 18 17.7197" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<path fill-opacity="0.2" d="M12 20.25c4.5563 0 8.25-3.6937 8.25-8.25S16.5563 3.75 12 3.75 3.75 7.4437 3.75 12s3.6937 8.25 8.25 8.25"/><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 4.5002v4.5h-4.5m4.5 0L17.5988 6.349A8.25 8.25 0 0 0 6 6.2814M3.75 19.5002v-4.5h4.5m-4.5 0 2.6513 2.6513A8.25 8.25 0 0 0 18 17.719" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['directional', 'pointer', 'pointing', 'arrowhead', 'redo', 'refreshing', 'sync', 'synchronize', 'rotate', 'spin', 'flip']
 }

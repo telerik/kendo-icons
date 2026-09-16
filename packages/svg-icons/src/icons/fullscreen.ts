@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const fullscreenIcon: SVGIcon = {
     name: 'fullscreen',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 9V4.5H15m4.5 0-5.25 5.25M4.5 15v4.5H9m-4.5 0 5.25-5.25M15 19.5h4.5V15m0 4.5-5.25-5.25M9 4.5H4.5V9m0-4.5 5.25 5.25" fill="none"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 9V4.5H15m4.5 0-5.25 5.25M4.5 15v4.5H9m-4.5 0 5.25-5.25M15 19.5h4.5V15m0 4.5-5.25-5.25M9 4.5H4.5V9m0-4.5 5.25 5.25" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path d="M20.2489 4.4973v4.5a.7502.7502 0 0 1-.8965.7361.75.75 0 0 1-.3841-.2055l-1.7194-1.7203-2.4693 2.4703a.7507.7507 0 0 1-1.0613 0 .7505.7505 0 0 1 0-1.0613l2.4703-2.4693-1.7203-1.7194a.7501.7501 0 0 1 .5306-1.2806h4.5a.75.75 0 0 1 .75.75M9.2184 13.7166 6.749 16.1869l-1.7194-1.7203a.7501.7501 0 0 0-1.2806.5306v4.5a.75.75 0 0 0 .75.75h4.5a.7502.7502 0 0 0 .7361-.8965.75.75 0 0 0-.2055-.3841l-1.7203-1.7194 2.4703-2.4693a.7507.7507 0 0 0 0-1.0613.7505.7505 0 0 0-1.0612 0m10.5674.5878a.75.75 0 0 0-.8175.1622l-1.7194 1.7203-2.4693-2.4703a.7507.7507 0 0 0-1.0613 0 .7505.7505 0 0 0 0 1.0613l2.4703 2.4693-1.7203 1.7194a.75.75 0 0 0-.1628.8177.75.75 0 0 0 .6934.4629h4.5a.7497.7497 0 0 0 .75-.75v-4.5a.7506.7506 0 0 0-.4631-.6928M7.8093 6.7473l1.7203-1.7194a.75.75 0 0 0-.5306-1.2806h-4.5a.75.75 0 0 0-.75.75v4.5a.75.75 0 0 0 1.2806.5306L6.749 7.8076l2.4694 2.4703a.7505.7505 0 0 0 1.281-.5306.75.75 0 0 0-.2198-.5306z"/>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 9V4.5H15m4.5 0-5.25 5.25M4.5 15v4.5H9m-4.5 0 5.25-5.25M15 19.5h4.5V15m0 4.5-5.25-5.25M9 4.5H4.5V9m0-4.5 5.25 5.25" fill="none"/>',
-        'duotone': '<path fill-opacity="0.2" d="M19.5 4.5h-15v15h15z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 9V4.5H15m4.5 0-5.25 5.25M4.5 15v4.5H9m-4.5 0 5.25-5.25M15 19.5h4.5V15m0 4.5-5.25-5.25M9 4.5H4.5V9m0-4.5 5.25 5.25" fill="none"/>'
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 9V4.5H15m4.5 0-5.25 5.25M4.5 15v4.5H9m-4.5 0 5.25-5.25M15 19.5h4.5V15m0 4.5-5.25-5.25M9 4.5H4.5V9m0-4.5 5.25 5.25" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<path fill-opacity="0.2" d="M19.5 4.5h-15v15h15z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 9V4.5H15m4.5 0-5.25 5.25M4.5 15v4.5H9m-4.5 0 5.25-5.25M15 19.5h4.5V15m0 4.5-5.25-5.25M9 4.5H4.5V9m0-4.5 5.25 5.25" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['fullscreen', 'media']
 }

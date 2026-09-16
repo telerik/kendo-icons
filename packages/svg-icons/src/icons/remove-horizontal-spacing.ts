@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const removeHorizontalSpacingIcon: SVGIcon = {
     name: 'remove-horizontal-spacing',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M11.9985 3.75v16.5M3.75 6.75v10.5m16.5-10.5v10.5M8.9888 10.875l-2.25 2.25m2.25 0-2.25-2.25m10.5114 0-2.25 2.25m2.25 0-2.25-2.25" fill="none"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M11.9985 3.75v16.5M3.75 6.75v10.5m16.5-10.5v10.5M8.9888 10.875l-2.25 2.25m2.25 0-2.25-2.25m10.5114 0-2.25 2.25m2.25 0-2.25-2.25" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path fill-rule="evenodd" d="M20.75 1.5c.4641 0 .9091.1845 1.2373.5127S22.5 2.7859 22.5 3.25v17.5c0 .4641-.1845.9091-.5127 1.2373A1.75 1.75 0 0 1 20.75 22.5H3.25a1.75 1.75 0 0 1-1.2373-.5127A1.75 1.75 0 0 1 1.5 20.75V3.25c0-.4641.1845-.9091.5127-1.2373A1.75 1.75 0 0 1 3.25 1.5zM11.999 3a.75.75 0 0 0-.75.75l-.001 16.5a.75.75 0 1 0 1.5 0l.001-16.5c0-.414-.336-.7497-.75-.75M3.75 6a.75.75 0 0 0-.75.75v10.5a.75.75 0 0 0 1.5 0V6.75A.75.75 0 0 0 3.75 6m16.5 0a.75.75 0 0 0-.75.75v10.5a.75.75 0 0 0 1.5 0V6.75a.75.75 0 0 0-.75-.75M9.5195 10.3447a.751.751 0 0 0-1.0615 0l-.5947.5938-.5938-.5938a.751.751 0 0 0-1.0615 0 .7505.7505 0 0 0 0 1.0606L6.8027 12l-.5947.5947a.7505.7505 0 0 0 0 1.0606.751.751 0 0 0 1.0615 0l.5938-.5948.5947.5948a.751.751 0 0 0 1.0615 0 .7505.7505 0 0 0 0-1.0606L8.9248 12l.5947-.5947a.7505.7505 0 0 0 0-1.0606m8.2608 0a.75.75 0 0 0-1.0606 0l-.5947.5948-.5947-.5948a.75.75 0 0 0-1.0606 0 .7503.7503 0 0 0 0 1.0606l.5948.5947-.5948.5947a.7503.7503 0 0 0 0 1.0606.75.75 0 0 0 1.0606 0l.5947-.5948.5947.5948a.75.75 0 1 0 1.0606-1.0606L17.1855 12l.5948-.5947a.75.75 0 0 0 0-1.0606" clip-rule="evenodd"/>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M11.9985 3.75v16.5M3.75 6.75v10.5m16.5-10.5v10.5M8.9888 10.875l-2.25 2.25m2.25 0-2.25-2.25m10.5114 0-2.25 2.25m2.25 0-2.25-2.25" fill="none"/>',
-        'duotone': '<path fill-opacity="0.2" d="M3.75 6.75h16.5v10.5H3.75z"/><path stroke-linecap="round" stroke-linejoin="round" d="M11.9985 3.75v16.5M3.75 6.75v10.5m16.5-10.5v10.5M8.9888 10.875l-2.25 2.25m2.25 0-2.25-2.25m10.5114 0-2.25 2.25m2.25 0-2.25-2.25" fill="none"/>'
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M11.9985 3.75v16.5M3.75 6.75v10.5m16.5-10.5v10.5M8.9888 10.875l-2.25 2.25m2.25 0-2.25-2.25m10.5114 0-2.25 2.25m2.25 0-2.25-2.25" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<path fill-opacity="0.2" d="M3.75 6.75h16.5v10.5H3.75z"/><path stroke-linecap="round" stroke-linejoin="round" d="M11.9985 3.75v16.5M3.75 6.75v10.5m16.5-10.5v10.5M8.9888 10.875l-2.25 2.25m2.25 0-2.25-2.25m10.5114 0-2.25 2.25m2.25 0-2.25-2.25" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['remove', 'horizontal', 'spacing', 'editing', 'delete', 'minus', 'subtract']
 }

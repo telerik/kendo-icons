@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const crosshairSimpleIcon: SVGIcon = {
     name: 'crosshair-simple',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M21 12c0 4.9706-4.0294 9-9 9m9-9c0-4.9706-4.0294-9-9-9m9 9h-3.75M12 21c-4.9706 0-9-4.0294-9-9m9 9v-3.75M3 12c0-4.9706 4.0294-9 9-9m-9 9h3.75M12 3v3.75" fill="none"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M21 12c0 4.9706-4.0294 9-9 9m9-9c0-4.9706-4.0294-9-9-9m9 9h-3.75M12 21c-4.9706 0-9-4.0294-9-9m9 9v-3.75M3 12c0-4.9706 4.0294-9 9-9m-9 9h3.75M12 3v3.75" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path d="M11.999 2.251a9.75 9.75 0 1 0 9.7499 9.7499 9.7604 9.7604 0 0 0-9.7499-9.75m0 17.9998a8.25 8.25 0 0 1-7.622-5.0928 8.2499 8.2499 0 1 1 15.8719-3.1571 8.2593 8.2593 0 0 1-8.2499 8.2499m4.4999-7.4999h2.2069a6.761 6.761 0 0 1-5.9569 5.9568v-2.2068a.7502.7502 0 0 0-1.4999 0v2.2068a6.76 6.76 0 0 1-5.9569-5.9568H7.499a.75.75 0 0 0 .75-.75.75.75 0 0 0-.75-.75H5.292a6.76 6.76 0 0 1 5.9569-5.9568v2.2068a.75.75 0 0 0 .75.75.75.75 0 0 0 .7499-.75V5.2941a6.7604 6.7604 0 0 1 5.9569 5.9568h-2.2069a.7497.7497 0 0 0-.75.75.7497.7497 0 0 0 .75.75"/>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M21 12c0 4.9706-4.0294 9-9 9m9-9c0-4.9706-4.0294-9-9-9m9 9h-3.75M12 21c-4.9706 0-9-4.0294-9-9m9 9v-3.75M3 12c0-4.9706 4.0294-9 9-9m-9 9h3.75M12 3v3.75" fill="none"/>',
-        'duotone': '<path fill-opacity="0.2" d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9"/><path stroke-linecap="round" stroke-linejoin="round" d="M21 12c0 4.9706-4.0294 9-9 9m9-9c0-4.9706-4.0294-9-9-9m9 9h-3.75M12 21c-4.9706 0-9-4.0294-9-9m9 9v-3.75M3 12c0-4.9706 4.0294-9 9-9m-9 9h3.75M12 3v3.75" fill="none"/>'
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M21 12c0 4.9706-4.0294 9-9 9m9-9c0-4.9706-4.0294-9-9-9m9 9h-3.75M12 21c-4.9706 0-9-4.0294-9-9m9 9v-3.75M3 12c0-4.9706 4.0294-9 9-9m-9 9h3.75M12 3v3.75" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<path fill-opacity="0.2" d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9"/><path stroke-linecap="round" stroke-linejoin="round" d="M21 12c0 4.9706-4.0294 9-9 9m9-9c0-4.9706-4.0294-9-9-9m9 9h-3.75M12 21c-4.9706 0-9-4.0294-9-9m9 9v-3.75M3 12c0-4.9706 4.0294-9 9-9m-9 9h3.75M12 3v3.75" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['geolocation', 'gps', 'aiming', 'targeting']
 }

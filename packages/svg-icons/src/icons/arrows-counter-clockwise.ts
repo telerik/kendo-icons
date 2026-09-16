@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const arrowsCounterClockwiseIcon: SVGIcon = {
     name: 'arrows-counter-clockwise',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 4.5V9h4.5m-4.5 0 2.6513-2.6521A8.25 8.25 0 0 1 18 6.2804M20.25 19.5V15h-4.5m4.5 0-2.6512 2.6512A8.2504 8.2504 0 0 1 6 17.7188" fill="none"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 4.5V9h4.5m-4.5 0 2.6513-2.6521A8.25 8.25 0 0 1 18 6.2804M20.25 19.5V15h-4.5m4.5 0-2.6512 2.6512A8.2504 8.2504 0 0 1 6 17.7188" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path d="M8.249 9.7463h-4.5a.75.75 0 0 1-.75-.75v-4.5a.7501.7501 0 0 1 1.2806-.5305L5.999 5.687a8.946 8.946 0 0 1 6.1874-2.5088h.0497a8.94 8.94 0 0 1 6.2878 2.5622.7502.7502 0 0 1-.5192 1.274.75.75 0 0 1-.5289-.2015 7.455 7.455 0 0 0-5.2397-2.1347h-.0422A7.45 7.45 0 0 0 7.063 6.7463l1.7166 1.7194a.75.75 0 0 1-.5306 1.2806m11.9999 4.5h-4.5a.75.75 0 0 0-.6935.4629.75.75 0 0 0 .1629.8177l1.7165 1.7194a7.45 7.45 0 0 1-5.1299 2.0709h-.0422a7.455 7.455 0 0 1-5.2397-2.1347.7495.7495 0 0 0-.8273-.167.7502.7502 0 0 0-.2208 1.2395 8.94 8.94 0 0 0 6.2878 2.5622h.0487a8.946 8.946 0 0 0 6.1875-2.5088l1.7212 1.7213a.75.75 0 0 0 1.2788-.5334v-4.5a.75.75 0 0 0-.75-.75"/>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 4.5V9h4.5m-4.5 0 2.6513-2.6521A8.25 8.25 0 0 1 18 6.2804M20.25 19.5V15h-4.5m4.5 0-2.6512 2.6512A8.2504 8.2504 0 0 1 6 17.7188" fill="none"/>',
-        'duotone': '<path fill-opacity="0.2" d="M12 20.25c4.5563 0 8.25-3.6937 8.25-8.25S16.5563 3.75 12 3.75 3.75 7.4437 3.75 12s3.6937 8.25 8.25 8.25"/><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 4.5002v4.5h4.5m-4.5 0L6.4013 6.349A8.25 8.25 0 0 1 18 6.2814m2.25 13.2188v-4.5h-4.5m4.5 0-2.6512 2.6513A8.2503 8.2503 0 0 1 6 17.719" fill="none"/>'
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 4.5V9h4.5m-4.5 0 2.6513-2.6521A8.25 8.25 0 0 1 18 6.2804M20.25 19.5V15h-4.5m4.5 0-2.6512 2.6512A8.2504 8.2504 0 0 1 6 17.7188" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<path fill-opacity="0.2" d="M12 20.25c4.5563 0 8.25-3.6937 8.25-8.25S16.5563 3.75 12 3.75 3.75 7.4437 3.75 12s3.6937 8.25 8.25 8.25"/><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 4.5002v4.5h4.5m-4.5 0L6.4013 6.349A8.25 8.25 0 0 1 18 6.2814m2.25 13.2188v-4.5h-4.5m4.5 0-2.6512 2.6513A8.2503 8.2503 0 0 1 6 17.719" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['directional', 'pointer', 'pointing', 'arrowhead', 'undo', 'refreshing', 'rotate', 'spin', 'flip']
 }

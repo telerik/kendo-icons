@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const arrowsMoveIcon: SVGIcon = {
     name: 'arrows-move',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M12 15v6.75m3-3-3 3-3-3M12 9V2.25m3 3-3-3-3 3M9 12H2.25m3 3-3-3 3-3M15 12h6.75m-3 3 3-3-3-3" fill="none"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M12 15v6.75m3-3-3 3-3-3M12 9V2.25m3 3-3-3-3 3M9 12H2.25m3 3-3-3 3-3M15 12h6.75m-3 3 3-3-3-3" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path d="M8.3063 5.5399a.75.75 0 0 1 .1622-.8175l2.9999-3a.75.75 0 0 1 .5306-.22.75.75 0 0 1 .5307.22l2.9999 3a.7495.7495 0 0 1 .1629.8177.75.75 0 0 1-.6935.4629h-2.25v3a.75.75 0 0 1-.75.75.75.75 0 0 1-.7499-.75v-3h-2.25a.75.75 0 0 1-.6928-.4631m6.6927 12.463h-2.25v-3a.75.75 0 0 0-.75-.75.7503.7503 0 0 0-.7499.75v3h-2.25a.7501.7501 0 0 0-.5306 1.2806l2.9999 3a.7512.7512 0 0 0 .8178.1628.75.75 0 0 0 .2435-.1628l2.9999-3a.7497.7497 0 0 0-.1136-1.1544.75.75 0 0 0-.417-.1262m7.2806-6.5306-3-3a.7502.7502 0 0 0-1.1544.1137.75.75 0 0 0-.1262.417v2.25h-3a.75.75 0 1 0 0 1.4999h3v2.25a.75.75 0 0 0 .8965.7362.75.75 0 0 0 .3841-.2056l3-2.9999a.7512.7512 0 0 0 .1628-.8179.75.75 0 0 0-.1628-.2434M8.9991 12.7529a.75.75 0 0 0 .75-.7499.75.75 0 0 0-.75-.75h-3v-2.25a.75.75 0 0 0-1.2806-.5306l-3 2.9999a.75.75 0 0 0-.22.5307.75.75 0 0 0 .22.5306l3 2.9999a.7495.7495 0 0 0 .8177.1629.75.75 0 0 0 .4629-.6935v-2.25z"/>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M12 15v6.75m3-3-3 3-3-3M12 9V2.25m3 3-3-3-3 3M9 12H2.25m3 3-3-3 3-3M15 12h6.75m-3 3 3-3-3-3" fill="none"/>',
-        'duotone': '<path fill-opacity="0.2" d="M11.9999 2.2499 2.2498 12l9.7501 9.7501L21.75 12z"/><path stroke-linecap="round" stroke-linejoin="round" d="M11.9995 15v6.75m3-3-3 3-3-3m3-9.75V2.25m3 3-3-3-3 3m0 6.75h-6.75m3 3-3-3 3-3m9.75 3h6.75m-3 3 3-3-3-3" fill="none"/>'
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M12 15v6.75m3-3-3 3-3-3M12 9V2.25m3 3-3-3-3 3M9 12H2.25m3 3-3-3 3-3M15 12h6.75m-3 3 3-3-3-3" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<path fill-opacity="0.2" d="M11.9999 2.2499 2.2498 12l9.7501 9.7501L21.75 12z"/><path stroke-linecap="round" stroke-linejoin="round" d="M11.9995 15v6.75m3-3-3 3-3-3m3-9.75V2.25m3 3-3-3-3 3m0 6.75h-6.75m3 3-3-3 3-3m9.75 3h6.75m-3 3 3-3-3-3" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['arrows', 'move', 'actions']
 }

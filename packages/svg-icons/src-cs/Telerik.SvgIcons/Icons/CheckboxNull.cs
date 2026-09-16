@@ -5,13 +5,13 @@ namespace Telerik.SvgIcons
         public CheckboxNull()
         {
             Name = "checkbox-null";
-            Content = "<path stroke-dasharray=\"2.7 3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 3.75h-15a.75.75 0 0 0-.75.75v15a.75.75 0 0 0 .75.75h15a.75.75 0 0 0 .75-.75v-15a.75.75 0 0 0-.75-.75\" fill=\"none\"/>";
+            Content = "<path stroke-dasharray=\"2.7 3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 3.75h-15a.75.75 0 0 0-.75.75v15a.75.75 0 0 0 .75.75h15a.75.75 0 0 0 .75-.75v-15a.75.75 0 0 0-.75-.75\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>";
             ViewBox = "0 0 24 24";
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "<path fill-rule=\"evenodd\" d=\"M19.5 3c.3978 0 .7792.1582 1.0605.4394.2814.2814.4395.6628.4395 1.0606v15c0 .3978-.1581.7792-.4395 1.0605A1.5 1.5 0 0 1 19.5 21h-15a1.5 1.5 0 0 1-1.0606-.4395A1.5 1.5 0 0 1 3 19.5v-15A1.4999 1.4999 0 0 1 4.5 3zM6 15.4131a.75.75 0 0 0-.75.75v1.291c0 .7155.5804 1.2959 1.2959 1.2959h1.291a.75.75 0 0 0 0-1.5H6.75v-1.0869a.75.75 0 0 0-.75-.75m4.708 1.8369a.75.75 0 0 0-.75.75c0 .4142.3359.7499.75.75h2.584a.75.75 0 0 0 .75-.75.75.75 0 0 0-.75-.75zM18 15.4131a.75.75 0 0 0-.75.75V17.25h-1.0869a.75.75 0 0 0 0 1.5h1.291c.7155 0 1.2959-.5804 1.2959-1.2959v-1.291a.75.75 0 0 0-.75-.75M6 9.9581a.75.75 0 0 0-.75.7499v2.584c0 .4141.3358.75.75.75s.75-.3359.75-.75v-2.584a.75.75 0 0 0-.75-.75m12 0a.75.75 0 0 0-.75.7499v2.584a.75.75 0 0 0 .75.75.75.75 0 0 0 .75-.75v-2.584a.75.75 0 0 0-.75-.75M6.5459 5.25c-.7155 0-1.2959.5804-1.2959 1.2959v1.291a.75.75 0 1 0 1.5 0V6.75h1.087a.75.75 0 1 0 0-1.5zm9.6172 0a.75.75 0 0 0 0 1.5H17.25v1.087a.75.75 0 0 0 1.5 0V6.5458c0-.7155-.5804-1.2959-1.2959-1.2959zm-5.4551 0a.75.75 0 0 0-.75.75c0 .4142.3359.75.75.75h2.584c.4141 0 .75-.3358.75-.75a.75.75 0 0 0-.75-.75z\" clip-rule=\"evenodd\"/>" },
-                { "outline", "<path stroke-dasharray=\"2.7 3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 3.75h-15a.75.75 0 0 0-.75.75v15a.75.75 0 0 0 .75.75h15a.75.75 0 0 0 .75-.75v-15a.75.75 0 0 0-.75-.75\" fill=\"none\"/>" },
-                { "duotone", "<path fill-opacity=\"0.2\" d=\"M19.5 3.75h-15a.75.75 0 0 0-.75.75v15a.75.75 0 0 0 .75.75h15a.75.75 0 0 0 .75-.75v-15a.75.75 0 0 0-.75-.75\"/><path stroke-dasharray=\"2.7 3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 3.75h-15a.75.75 0 0 0-.75.75v15a.75.75 0 0 0 .75.75h15a.75.75 0 0 0 .75-.75v-15a.75.75 0 0 0-.75-.75\" fill=\"none\"/>" }
+                { "outline", "<path stroke-dasharray=\"2.7 3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 3.75h-15a.75.75 0 0 0-.75.75v15a.75.75 0 0 0 .75.75h15a.75.75 0 0 0 .75-.75v-15a.75.75 0 0 0-.75-.75\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" },
+                { "duotone", "<path fill-opacity=\"0.2\" d=\"M19.5 3.75h-15a.75.75 0 0 0-.75.75v15a.75.75 0 0 0 .75.75h15a.75.75 0 0 0 .75-.75v-15a.75.75 0 0 0-.75-.75\"/><path stroke-dasharray=\"2.7 3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 3.75h-15a.75.75 0 0 0-.75.75v15a.75.75 0 0 0 .75.75h15a.75.75 0 0 0 .75-.75v-15a.75.75 0 0 0-.75-.75\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" }
             };
         }
     }

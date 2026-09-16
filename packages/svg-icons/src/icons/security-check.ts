@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const securityCheckIcon: SVGIcon = {
     name: 'security-check',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 12.75 10.5 15l5.25-5.25m4.5.75V5.25a.75.75 0 0 0-.75-.75h-15a.75.75 0 0 0-.75.75v5.25c0 9 8.25 11.25 8.25 11.25s8.25-2.25 8.25-11.25" fill="none"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 12.75 10.5 15l5.25-5.25m4.5.75V5.25a.75.75 0 0 0-.75-.75h-15a.75.75 0 0 0-.75.75v5.25c0 9 8.25 11.25 8.25 11.25s8.25-2.25 8.25-11.25" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path d="M19.4989 3.7522H4.499a1.5 1.5 0 0 0-1.5 1.5v5.2499c0 4.9425 2.3925 7.9378 4.3997 9.5803 2.1618 1.7681 4.3124 2.3681 4.4062 2.3934a.75.75 0 0 0 .3937 0c.0938-.0253 2.2416-.6253 4.4063-2.3934 2.0015-1.6425 4.394-4.6378 4.394-9.5803v-5.25a1.5 1.5 0 0 0-1.5-1.5m-3.2175 6.5306-5.2499 5.2499a.75.75 0 0 1-.2435.1628.749.749 0 0 1-.5744 0 .75.75 0 0 1-.2434-.1628l-2.25-2.2499a.751.751 0 0 1 0-1.0613.7505.7505 0 0 1 1.0613 0l1.7175 1.7203 4.7193-4.7203a.75.75 0 0 1 1.0612 0 .75.75 0 0 1 0 1.0613z"/>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 12.75 10.5 15l5.25-5.25m4.5.75V5.25a.75.75 0 0 0-.75-.75h-15a.75.75 0 0 0-.75.75v5.25c0 9 8.25 11.25 8.25 11.25s8.25-2.25 8.25-11.25" fill="none"/>',
-        'duotone': '<path fill-opacity="0.2" d="M20.25 10.5V5.25a.75.75 0 0 0-.75-.75h-15a.75.75 0 0 0-.75.75v5.25c0 9 8.25 11.25 8.25 11.25s8.25-2.25 8.25-11.25"/><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 12.75 10.5 15l5.25-5.25m4.5.75V5.25a.75.75 0 0 0-.75-.75h-15a.75.75 0 0 0-.75.75v5.25c0 9 8.25 11.25 8.25 11.25s8.25-2.25 8.25-11.25" fill="none"/>'
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 12.75 10.5 15l5.25-5.25m4.5.75V5.25a.75.75 0 0 0-.75-.75h-15a.75.75 0 0 0-.75.75v5.25c0 9 8.25 11.25 8.25 11.25s8.25-2.25 8.25-11.25" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<path fill-opacity="0.2" d="M20.25 10.5V5.25a.75.75 0 0 0-.75-.75h-15a.75.75 0 0 0-.75.75v5.25c0 9 8.25 11.25 8.25 11.25s8.25-2.25 8.25-11.25"/><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 12.75 10.5 15l5.25-5.25m4.5.75V5.25a.75.75 0 0 0-.75-.75h-15a.75.75 0 0 0-.75.75v5.25c0 9 8.25 11.25 8.25 11.25s8.25-2.25 8.25-11.25" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['security', 'check', 'misc', 'tick', 'done', 'confirm']
 }

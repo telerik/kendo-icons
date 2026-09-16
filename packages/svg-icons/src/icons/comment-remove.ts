@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const commentRemoveIcon: SVGIcon = {
     name: 'comment-remove',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 3.75 15 16.5m-1.3641-1.5H7.5l-3.2672 2.8228a.75.75 0 0 1-.7988.1062A.75.75 0 0 1 3 21V6a.75.75 0 0 1 .75-.75h2.114m4.054 0h10.3322a.75.75 0 0 1 .75.75v11.4375" fill="none"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 3.75 15 16.5m-1.3641-1.5H7.5l-3.2672 2.8228a.75.75 0 0 1-.7988.1062A.75.75 0 0 1 3 21V6a.75.75 0 0 1 .75-.75h2.114m4.054 0h10.3322a.75.75 0 0 1 .75.75v11.4375" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path d="M20.0539 19.741a.7497.7497 0 0 1-.2974 1.2176.75.75 0 0 1-.8126-.2089l-1.14-1.2534H7.7803l-3.0563 2.64-.0075.0065a1.495 1.495 0 0 1-.9675.3535 1.51 1.51 0 0 1-.6375-.1425 1.486 1.486 0 0 1-.8624-1.3575v-15a1.5 1.5 0 0 1 1.5-1.5h.418l-.223-.2455a.75.75 0 1 1 1.11-1.0088zm.195-15.2446H9.0693a.375.375 0 0 0-.2812.6272l12.3046 13.5346a.3746.3746 0 0 0 .5915-.0374.375.375 0 0 0 .0647-.2148V5.9964a1.5 1.5 0 0 0-1.5-1.5"/>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 3.75 15 16.5m-1.3641-1.5H7.5l-3.2672 2.8228a.75.75 0 0 1-.7988.1062A.75.75 0 0 1 3 21V6a.75.75 0 0 1 .75-.75h2.114m4.054 0h10.3322a.75.75 0 0 1 .75.75v11.4375" fill="none"/>',
-        'duotone': '<path fill-opacity="0.2" d="M4.2328 21.5728a.75.75 0 0 1-.7988.1063A.75.75 0 0 1 3 21V6a.75.75 0 0 1 .75-.75h16.5A.75.75 0 0 1 21 6v12a.7497.7497 0 0 1-.75.75H7.5z"/><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 3.75 15 16.5m-1.3641-1.5H7.5l-3.2672 2.8228a.75.75 0 0 1-.7988.1063A.75.75 0 0 1 3 21V6a.75.75 0 0 1 .75-.75h2.114m4.0537 0H20.25a.75.75 0 0 1 .75.75v11.4375" fill="none"/>'
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 3.75 15 16.5m-1.3641-1.5H7.5l-3.2672 2.8228a.75.75 0 0 1-.7988.1062A.75.75 0 0 1 3 21V6a.75.75 0 0 1 .75-.75h2.114m4.054 0h10.3322a.75.75 0 0 1 .75.75v11.4375" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<path fill-opacity="0.2" d="M4.2328 21.5728a.75.75 0 0 1-.7988.1063A.75.75 0 0 1 3 21V6a.75.75 0 0 1 .75-.75h16.5A.75.75 0 0 1 21 6v12a.7497.7497 0 0 1-.75.75H7.5z"/><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 3.75 15 16.5m-1.3641-1.5H7.5l-3.2672 2.8228a.75.75 0 0 1-.7988.1063A.75.75 0 0 1 3 21V6a.75.75 0 0 1 .75-.75h2.114m4.0537 0H20.25a.75.75 0 0 1 .75.75v11.4375" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['comment', 'remove', 'editing', 'delete', 'minus', 'subtract']
 }

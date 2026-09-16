@@ -5,13 +5,13 @@ namespace Telerik.SvgIcons
         public Plan()
         {
             Name = "plan";
-            Content = "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 12h6m-6 3h6M7.5 2.25v3m4.5-3v3m4.5-3v3m-12-1.5h15v15A2.2504 2.2504 0 0 1 17.25 21H6.75a2.25 2.25 0 0 1-2.25-2.25z\" fill=\"none\"/>";
+            Content = "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 12h6m-6 3h6M7.5 2.25v3m4.5-3v3m4.5-3v3m-12-1.5h15v15A2.2504 2.2504 0 0 1 17.25 21H6.75a2.25 2.25 0 0 1-2.25-2.25z\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>";
             ViewBox = "0 0 24 24";
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "<path d=\"M19.4989 3.001h-2.25v-.75a.75.75 0 0 0-.75-.75.75.75 0 0 0-.75.75v.75H12.749v-.75a.7503.7503 0 0 0-.75-.75.75.75 0 0 0-.75.75v.75h-3v-.75a.75.75 0 0 0-1.5 0v.75h-2.25a.75.75 0 0 0-.75.75v14.9998a3 3 0 0 0 3 3h10.4999a3 3 0 0 0 3-3V3.751a.75.75 0 0 0-.75-.75m-8.2499 2.25a.75.75 0 0 1 .75-.75.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-.75.75.75.75 0 0 1-.75-.75zm-3.75 1.5a.75.75 0 0 1-.75-.75v-.75a.75.75 0 0 1 1.5 0v.75a.75.75 0 0 1-.75.75m7.4999 8.9999h-6a.75.75 0 0 1-.75-.75.7503.7503 0 0 1 .75-.75h6c.1989 0 .3897.079.5304.2196a.7504.7504 0 0 1 0 1.0607.75.75 0 0 1-.5304.2197m0-3h-6a.75.75 0 0 1-.75-.75.75.75 0 0 1 .75-.75h6a.7501.7501 0 1 1 0 1.5m2.25-6.75a.75.75 0 0 1-.75.75.75.75 0 0 1-.75-.75v-.75a.75.75 0 0 1 .75-.75.7503.7503 0 0 1 .75.75z\"/>" },
-                { "outline", "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 12h6m-6 3h6M7.5 2.25v3m4.5-3v3m4.5-3v3m-12-1.5h15v15A2.2504 2.2504 0 0 1 17.25 21H6.75a2.25 2.25 0 0 1-2.25-2.25z\" fill=\"none\"/>" },
-                { "duotone", "<path fill-opacity=\"0.2\" d=\"M4.5 3.75h15v15A2.2504 2.2504 0 0 1 17.25 21H6.75a2.25 2.25 0 0 1-2.25-2.25z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 12h6m-6 3h6M7.5 2.25v3m4.5-3v3m4.5-3v3m-12-1.5h15v15A2.2504 2.2504 0 0 1 17.25 21H6.75a2.25 2.25 0 0 1-2.25-2.25z\" fill=\"none\"/>" }
+                { "outline", "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 12h6m-6 3h6M7.5 2.25v3m4.5-3v3m4.5-3v3m-12-1.5h15v15A2.2504 2.2504 0 0 1 17.25 21H6.75a2.25 2.25 0 0 1-2.25-2.25z\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" },
+                { "duotone", "<path fill-opacity=\"0.2\" d=\"M4.5 3.75h15v15A2.2504 2.2504 0 0 1 17.25 21H6.75a2.25 2.25 0 0 1-2.25-2.25z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 12h6m-6 3h6M7.5 2.25v3m4.5-3v3m4.5-3v3m-12-1.5h15v15A2.2504 2.2504 0 0 1 17.25 21H6.75a2.25 2.25 0 0 1-2.25-2.25z\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" }
             };
         }
     }

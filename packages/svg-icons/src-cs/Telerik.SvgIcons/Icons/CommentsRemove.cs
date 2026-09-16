@@ -5,13 +5,13 @@ namespace Telerik.SvgIcons
         public CommentsRemove()
         {
             Name = "comments-remove";
-            Content = "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16.5536 13.5h.7358L21 16.5v-12a.75.75 0 0 0-.75-.75h-12a.75.75 0 0 0-.75.75v.3166m9 9.91V9a.75.75 0 0 0-.75-.75h-5.1001m-4.144 0H3.75A.75.75 0 0 0 3 9v12l3.7106-3h8.6005M3.2538 4.604l15 16.5\" fill=\"none\"/>";
+            Content = "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16.5536 13.5h.7358L21 16.5v-12a.75.75 0 0 0-.75-.75h-12a.75.75 0 0 0-.75.75v.3166m9 9.91V9a.75.75 0 0 0-.75-.75h-5.1001m-4.144 0H3.75A.75.75 0 0 0 3 9v12l3.7106-3h8.6005M3.2538 4.604l15 16.5\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>";
             ViewBox = "0 0 24 24";
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "<path d=\"M2.749 4.0488a.75.75 0 0 1 1.0596.0508l15 16.5a.7496.7496 0 1 1-1.1094 1.0088L15.1006 18.75h-8.125l-3.504 2.833A.75.75 0 0 1 2.25 21V9c.0001-.3978.1583-.7792.4396-1.0606A1.5 1.5 0 0 1 3.75 7.5h1.123L2.6993 5.1084c-.2786-.3065-.2566-.781.0498-1.0596\"/><path fill-rule=\"evenodd\" d=\"M17.25 12.75h.0391a.75.75 0 0 1 .4716.167l2.4893 2.0117V4.5h-12v.3164a.75.75 0 0 1-1.5 0V4.5A1.4999 1.4999 0 0 1 8.25 3h12c.3978 0 .7792.1582 1.0605.4394.2814.2814.4395.6628.4395 1.0606v12a.75.75 0 0 1-1.2217.583L17.25 14.4326v.294a.75.75 0 0 1-.4805.7002.7505.7505 0 0 1-.8261-.1973l-5.8496-6.4766a.751.751 0 0 1-.129-.8076.751.751 0 0 1 .6856-.4453H15.75c.3978 0 .7792.1582 1.0605.4394A1.5 1.5 0 0 1 17.25 9z\" clip-rule=\"evenodd\"/>" },
-                { "outline", "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16.5536 13.5h.7358L21 16.5v-12a.75.75 0 0 0-.75-.75h-12a.75.75 0 0 0-.75.75v.3166m9 9.91V9a.75.75 0 0 0-.75-.75h-5.1001m-4.144 0H3.75A.75.75 0 0 0 3 9v12l3.7106-3h8.6005M3.2538 4.604l15 16.5\" fill=\"none\"/>" },
-                { "duotone", "<path fill-opacity=\"0.2\" fill-rule=\"evenodd\" d=\"m3 21 3.7128-3.0017h9.795V8.9931a.7506.7506 0 0 0-.7505-.7504H3.7504A.7504.7504 0 0 0 3 8.993z\" clip-rule=\"evenodd\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16.5536 13.5h.7358L21 16.5v-12a.75.75 0 0 0-.75-.75h-12a.75.75 0 0 0-.75.75v.3166m9 9.91V9a.75.75 0 0 0-.75-.75h-5.1001m-4.144 0H3.75A.75.75 0 0 0 3 9v12l3.7106-3h8.6005M3.2538 4.604l15 16.5\" fill=\"none\"/>" }
+                { "outline", "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16.5536 13.5h.7358L21 16.5v-12a.75.75 0 0 0-.75-.75h-12a.75.75 0 0 0-.75.75v.3166m9 9.91V9a.75.75 0 0 0-.75-.75h-5.1001m-4.144 0H3.75A.75.75 0 0 0 3 9v12l3.7106-3h8.6005M3.2538 4.604l15 16.5\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" },
+                { "duotone", "<path fill-opacity=\"0.2\" fill-rule=\"evenodd\" d=\"m3 21 3.7128-3.0017h9.795V8.9931a.7506.7506 0 0 0-.7505-.7504H3.7504A.7504.7504 0 0 0 3 8.993z\" clip-rule=\"evenodd\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16.5536 13.5h.7358L21 16.5v-12a.75.75 0 0 0-.75-.75h-12a.75.75 0 0 0-.75.75v.3166m9 9.91V9a.75.75 0 0 0-.75-.75h-5.1001m-4.144 0H3.75A.75.75 0 0 0 3 9v12l3.7106-3h8.6005M3.2538 4.604l15 16.5\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" }
             };
         }
     }

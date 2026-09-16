@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const fadersIcon: SVGIcon = {
     name: 'faders',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M12 11.25v9m0-16.5v4.5m6.75 10.5v1.5m0-16.5v12m2.25 0h-4.5m-11.25 0v4.5m0-16.5v9m-2.25 0h4.5m6.75-4.5h-4.5" fill="none"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M12 11.25v9m0-16.5v4.5m6.75 10.5v1.5m0-16.5v12m2.25 0h-4.5m-11.25 0v4.5m0-16.5v9m-2.25 0h4.5m6.75-4.5h-4.5" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path d="M12.7489 11.2477v9a.75.75 0 0 1-.75.75.7503.7503 0 0 1-.7499-.75v-9a.75.75 0 0 1 .7499-.75.7503.7503 0 0 1 .75.75m6 6.75a.7497.7497 0 0 0-.75.75v1.5a.7499.7499 0 0 0 1.2803.5303.75.75 0 0 0 .2197-.5303v-1.5a.7497.7497 0 0 0-.75-.75m2.25-4.5h-1.5V3.7478a.7498.7498 0 0 0-1.2803-.5303.75.75 0 0 0-.2197.5303v9.7499h-1.5a.7497.7497 0 0 0-.75.75v1.5a.7497.7497 0 0 0 .75.75h4.5a.7497.7497 0 0 0 .75-.75v-1.5a.7497.7497 0 0 0-.75-.75m-15.7499 1.5a.75.75 0 0 0-.75.75v4.5a.75.75 0 0 0 1.5 0v-4.5a.75.75 0 0 0-.75-.75m2.25-4.5h-1.5V3.7478a.75.75 0 1 0-1.5 0v6.7499h-1.5a.75.75 0 0 0-.75.75v1.5a.7503.7503 0 0 0 .75.75h4.5a.75.75 0 0 0 .75-.75v-1.5a.75.75 0 0 0-.75-.75m6.7499-4.5h-1.5V3.7479a.75.75 0 0 0-.75-.75.75.75 0 0 0-.7499.75v2.25h-1.5a.75.75 0 0 0-.75.75v1.5a.75.75 0 0 0 .75.75h4.4999a.7503.7503 0 0 0 .75-.75v-1.5a.75.75 0 0 0-.75-.75"/>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M12 11.25v9m0-16.5v4.5m6.75 10.5v1.5m0-16.5v12m2.25 0h-4.5m-11.25 0v4.5m0-16.5v9m-2.25 0h4.5m6.75-4.5h-4.5" fill="none"/>',
-        'duotone': '<path fill-opacity="0.2" d="M18.75 3.75H5.25v16.5h13.5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 11.25v9m0-16.5v4.5m6.75 10.5v1.5m0-16.5v12m2.25 0h-4.5m-11.25 0v4.5m0-16.5v9m-2.25 0h4.5m6.75-4.5h-4.5" fill="none"/>'
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M12 11.25v9m0-16.5v4.5m6.75 10.5v1.5m0-16.5v12m2.25 0h-4.5m-11.25 0v4.5m0-16.5v9m-2.25 0h4.5m6.75-4.5h-4.5" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<path fill-opacity="0.2" d="M18.75 3.75H5.25v16.5h13.5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 11.25v9m0-16.5v4.5m6.75 10.5v1.5m0-16.5v12m2.25 0h-4.5m-11.25 0v4.5m0-16.5v9m-2.25 0h4.5m6.75-4.5h-4.5" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['music', 'audio', 'sliders', 'filters', 'equalizer', 'volume', 'settings', 'preferences']
 }

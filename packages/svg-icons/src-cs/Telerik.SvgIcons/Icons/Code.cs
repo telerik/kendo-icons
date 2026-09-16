@@ -5,13 +5,13 @@ namespace Telerik.SvgIcons
         public Code()
         {
             Name = "code";
-            Content = "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 8.25 1.5 12 6 15.75m12-7.5L22.5 12 18 15.75m-3-12-6 16.5\" fill=\"none\"/>";
+            Content = "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 8.25 1.5 12 6 15.75m12-7.5L22.5 12 18 15.75m-3-12-6 16.5\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>";
             ViewBox = "0 0 24 24";
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "<path d=\"M20.2489 3.7473H3.749a1.5 1.5 0 0 0-1.5 1.5v13.4999a1.5003 1.5003 0 0 0 1.5 1.5H20.249a1.5 1.5 0 0 0 1.5-1.5V5.2473a1.5 1.5 0 0 0-1.5-1.5m-11.55 9.8999a.7503.7503 0 0 1 .15 1.05.7496.7496 0 0 1-1.05.15l-2.9999-2.25a.7496.7496 0 0 1-.2208-.9354.75.75 0 0 1 .2208-.2645l3-2.25a.75.75 0 0 1 .9 1.2l-2.2003 1.65zm5.521-6.6937-3 10.5a.75.75 0 0 1-.3546.4598.749.749 0 0 1-.8397-.0672.75.75 0 0 1-.277-.5104.75.75 0 0 1 .0294-.2947l3-10.5a.7503.7503 0 0 1 .9232-.5008.7502.7502 0 0 1 .5187.9134m4.979 5.6437-3 2.25a.7497.7497 0 0 1-1.05-.15.7502.7502 0 0 1 .15-1.05l2.2003-1.6499-2.2003-1.65a.751.751 0 0 1-.2765-.7862.75.75 0 0 1 .3444-.4592.75.75 0 0 1 .5683-.0812.75.75 0 0 1 .2638.1266l3 2.25a.75.75 0 0 1 .2208.9354.75.75 0 0 1-.2208.2645\"/>" },
-                { "outline", "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 8.25 1.5 12 6 15.75m12-7.5L22.5 12 18 15.75m-3-12-6 16.5\" fill=\"none\"/>" },
-                { "duotone", "<path fill-opacity=\"0.2\" d=\"M18 15.75 22.5 12 18 8.25H6L1.5 12 6 15.75z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 8.25 1.5 12 6 15.75m12-7.5L22.5 12 18 15.75m-3-12-6 16.5\" fill=\"none\"/>" }
+                { "outline", "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 8.25 1.5 12 6 15.75m12-7.5L22.5 12 18 15.75m-3-12-6 16.5\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" },
+                { "duotone", "<path fill-opacity=\"0.2\" d=\"M18 15.75 22.5 12 18 8.25H6L1.5 12 6 15.75z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 8.25 1.5 12 6 15.75m12-7.5L22.5 12 18 15.75m-3-12-6 16.5\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" }
             };
         }
     }
