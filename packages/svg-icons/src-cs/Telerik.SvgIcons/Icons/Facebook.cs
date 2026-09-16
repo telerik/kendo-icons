@@ -5,13 +5,13 @@ namespace Telerik.SvgIcons
         public Facebook()
         {
             Name = "facebook";
-            Content = "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9m0 0V10.5a2.25 2.25 0 0 1 2.25-2.25h1.5M9 13.5h6\" fill=\"none\"/>";
+            Content = "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9m0 0V10.5a2.25 2.25 0 0 1 2.25-2.25h1.5M9 13.5h6\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>";
             ViewBox = "0 0 24 24";
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "<path d=\"M21.7488 12.0037a9.764 9.764 0 0 1-2.4582 6.4655 9.764 9.764 0 0 1-6.1245 3.215.375.375 0 0 1-.2929-.0937.374.374 0 0 1-.1243-.2813v-7.0555h2.25a.75.75 0 0 0 .75-.7997.766.766 0 0 0-.7735-.7003h-2.2265v-2.25a1.5 1.5 0 0 1 1.5-1.5h1.5a.75.75 0 0 0 .5487-.237.75.75 0 0 0 .2013-.5627.7664.7664 0 0 0-.7753-.7003h-1.4747a3 3 0 0 0-3 3v2.25h-2.25a.7506.7506 0 0 0-.7078.4974.75.75 0 0 0-.0422.3023.766.766 0 0 0 .7753.7003h2.2247v7.0574a.3748.3748 0 0 1-.4162.375 9.7643 9.7643 0 0 1-8.5772-10.049c.1875-5.0624 4.2881-9.178 9.3543-9.3749a9.761 9.761 0 0 1 10.139 9.7415\"/>" },
-                { "outline", "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9m0 0V10.5a2.25 2.25 0 0 1 2.25-2.25h1.5M9 13.5h6\" fill=\"none\"/>" },
-                { "duotone", "<path fill-opacity=\"0.2\" d=\"M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9m0 0V10.5a2.25 2.25 0 0 1 2.25-2.25h1.5M9 13.5h6\" fill=\"none\"/>" }
+                { "outline", "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9m0 0V10.5a2.25 2.25 0 0 1 2.25-2.25h1.5M9 13.5h6\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" },
+                { "duotone", "<path fill-opacity=\"0.2\" d=\"M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9m0 0V10.5a2.25 2.25 0 0 1 2.25-2.25h1.5M9 13.5h6\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" }
             };
         }
     }

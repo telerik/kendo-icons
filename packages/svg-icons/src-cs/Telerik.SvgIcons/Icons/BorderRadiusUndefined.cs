@@ -5,13 +5,13 @@ namespace Telerik.SvgIcons
         public BorderRadiusUndefined()
         {
             Name = "border-radius-undefined";
-            Content = "<path stroke-dasharray=\"0.01 4.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 6c3.1826 0 6.2351 1.264 8.4856 3.5144A12 12 0 0 1 18 18\" fill=\"none\"/>";
+            Content = "<path stroke-dasharray=\"0.01 4.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 6c3.1826 0 6.2351 1.264 8.4856 3.5144A12 12 0 0 1 18 18\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>";
             ViewBox = "0 0 24 24";
             Variants = new System.Collections.Generic.Dictionary<string, string>
             {
                 { "solid", "<path d=\"M21 19.5c0 .3978-.1582.7793-.4395 1.0605A1.5 1.5 0 0 1 19.5 21h-15a1.5 1.5 0 0 1-1.0606-.4395A1.5 1.5 0 0 1 3 19.5v-15A1.5 1.5 0 0 1 4.5 3h15c.3978 0 .7792.1582 1.0605.4394.2814.2814.4395.6628.4395 1.0606zM8.6328 7.501c.0005-.6212-.5029-1.1253-1.124-1.126H7.5c-.6213 0-1.125.5037-1.125 1.125S6.8787 8.625 7.5 8.625h.0068c.6212.0003 1.1255-.5029 1.126-1.124m6.0313 3.4365c.4395-.4388.4405-1.151.0019-1.5908-.002-.002-.0039-.0049-.0058-.0069-.002-.002-.0049-.0038-.0069-.0058-.4397-.4386-1.152-.4376-1.5908.002-.4387.4397-.4377 1.1519.002 1.5908.0014.0014.0024.0034.0039.0048.0014.0015.0034.0025.0048.0039.4389.4397 1.1511.4407 1.5909.002m2.9609 5.5537c-.0007-.6211-.5048-1.1245-1.126-1.124s-1.1243.5048-1.124 1.126V16.5c0 .6213.5037 1.125 1.125 1.125s1.125-.5037 1.125-1.125z\"/>" },
-                { "outline", "<path stroke-dasharray=\"0.01 4.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 6c3.1826 0 6.2351 1.264 8.4856 3.5144A12 12 0 0 1 18 18\" fill=\"none\"/>" },
-                { "duotone", "<path fill-opacity=\"0.2\" d=\"M14.4856 9.5144a12 12 0 0 0-6.9894-3.4208C6.6742 5.9903 6 6.6716 6 7.5v9c0 .8284.6716 1.5 1.5 1.5h9c.8284 0 1.5097-.6742 1.4064-1.4962a12 12 0 0 0-3.4208-6.9894\"/><path stroke-dasharray=\"0.01 4.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 6c3.1826 0 6.2351 1.264 8.4856 3.5144A12 12 0 0 1 18 18\" fill=\"none\"/>" }
+                { "outline", "<path stroke-dasharray=\"0.01 4.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 6c3.1826 0 6.2351 1.264 8.4856 3.5144A12 12 0 0 1 18 18\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" },
+                { "duotone", "<path fill-opacity=\"0.2\" d=\"M14.4856 9.5144a12 12 0 0 0-6.9894-3.4208C6.6742 5.9903 6 6.6716 6 7.5v9c0 .8284.6716 1.5 1.5 1.5h9c.8284 0 1.5097-.6742 1.4064-1.4962a12 12 0 0 0-3.4208-6.9894\"/><path stroke-dasharray=\"0.01 4.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 6c3.1826 0 6.2351 1.264 8.4856 3.5144A12 12 0 0 1 18 18\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" }
             };
         }
     }

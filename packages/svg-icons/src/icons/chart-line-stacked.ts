@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const chartLineStackedIcon: SVGIcon = {
     name: 'chart-line-stacked',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="m21 6.7222-6 5.25-6-4.5-6 5.25m18.0018-1.5723L15 17.248l-6-3.2593-6 3.8025M21 19.5H3v-15" fill="none"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="m21 6.7222-6 5.25-6-4.5-6 5.25m18.0018-1.5723L15 17.248l-6-3.2593-6 3.8025M21 19.5H3v-15" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path fill-rule="evenodd" d="M20.25 3.75a1.5 1.5 0 0 1 1.0605.4394c.2814.2814.4395.6628.4395 1.0606v13.5c0 .3978-.1581.7792-.4395 1.0605a1.5 1.5 0 0 1-1.0605.4395H3.75a1.5 1.5 0 0 1-1.0606-.4395A1.5 1.5 0 0 1 2.25 18.75V5.25a1.5 1.5 0 0 1 1.5-1.5zm-15 1.499a.75.75 0 0 0-.75.75v11.249c.0002.4141.336.75.75.75h13.499a.7507.7507 0 0 0 .75-.75c0-.414-.3359-.7497-.75-.75H6v-.1406l3.7783-2.3945 4.1123 2.2344a.751.751 0 0 0 .8926-.1328l4.501-4.5733c.2904-.2951.2871-.77-.0078-1.0605a.75.75 0 0 0-1.0606.0088l-4.1054 4.1689-4.003-2.1738a.75.75 0 0 0-.6709-.0225l-.0888.0488L6 14.582v-2.0771l3.7852-3.3125 4.0136 3.0097a.751.751 0 0 0 .9444-.0351l4.499-3.9375a.75.75 0 0 0 .0713-1.0576c-.2727-.3117-.7469-.3438-1.0586-.0713l-4.043 3.5371-4.0127-3.0098a.75.75 0 0 0-.8379-.042l-.1054.0772L6 10.5117V5.999a.75.75 0 0 0-.75-.75" clip-rule="evenodd"/>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="m21 6.7222-6 5.25-6-4.5-6 5.25m18.0018-1.5723L15 17.248l-6-3.2593-6 3.8025M21 19.5H3v-15" fill="none"/>',
-        'duotone': '<path fill-opacity="0.2" d="M3 19.5v-15h16.5A1.5 1.5 0 0 1 21 6v13.5z"/><path stroke-linecap="round" stroke-linejoin="round" d="m21 6.726-6 5.2501-6-4.5-6 5.25m18.0018-1.5722L15 17.252l-6-3.2593-6 3.8025m18 1.7087H3v-15" fill="none"/>'
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="m21 6.7222-6 5.25-6-4.5-6 5.25m18.0018-1.5723L15 17.248l-6-3.2593-6 3.8025M21 19.5H3v-15" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<path fill-opacity="0.2" d="M3 19.5v-15h16.5A1.5 1.5 0 0 1 21 6v13.5z"/><path stroke-linecap="round" stroke-linejoin="round" d="m21 6.726-6 5.2501-6-4.5-6 5.25m18.0018-1.5722L15 17.252l-6-3.2593-6 3.8025m18 1.7087H3v-15" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['chart', 'line', 'stacked', 'charts', 'graph', 'analytics', 'statistics', 'trend']
 }

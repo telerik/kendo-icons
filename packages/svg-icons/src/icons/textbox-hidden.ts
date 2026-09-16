@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const textboxHiddenIcon: SVGIcon = {
     name: 'textbox-hidden',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M17.4569 17.25H2.25a.75.75 0 0 1-.75-.75v-9a.75.75 0 0 1 .75-.75h5.7937m-1.5006 10.5h10.8995m-5.2389-10.5H21.75a.7503.7503 0 0 1 .75.75v9.75m-18-6.75h3m-1.5 0v3m-.55-9.75 15 16.5" fill="none"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M17.4569 17.25H2.25a.75.75 0 0 1-.75-.75v-9a.75.75 0 0 1 .75-.75h5.7937m-1.5006 10.5h10.8995m-5.2389-10.5H21.75a.7503.7503 0 0 1 .75.75v9.75m-18-6.75h3m-1.5 0v3m-.55-9.75 15 16.5" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path fill-rule="evenodd" d="M4.9453 3.1954c.3064-.2786.781-.2565 1.0596.0498l15 16.5a.75.75 0 0 1-.0508 1.0595c-.3065.2786-.781.2567-1.0596-.0498l-2.5009-2.7509L2.25 18.0001a1.5001 1.5001 0 0 1-1.5-1.5v-9A1.5 1.5 0 0 1 2.25 6l4.2324.002-1.5879-1.7472c-.2785-.3064-.2554-.7809.0508-1.0595M4.5 9.75a.75.75 0 1 0 0 1.5h.75v2.25a.7501.7501 0 0 0 1.5 0v-2.25h.75a.7501.7501 0 0 0 0-1.5z" clip-rule="evenodd"/><path d="M21.75 6c.3978 0 .7792.1582 1.0605.4395a1.5 1.5 0 0 1 .4395 1.0606v9.75a.75.75 0 0 1-.75.75h-.8516a.751.751 0 0 1-.5576-.2481l-9.4443-10.5a.751.751 0 0 1-.1279-.8076A.751.751 0 0 1 12.2041 6z"/>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M17.4569 17.25H2.25a.75.75 0 0 1-.75-.75v-9a.75.75 0 0 1 .75-.75h5.7937m-1.5006 10.5h10.8995m-5.2389-10.5H21.75a.7503.7503 0 0 1 .75.75v9.75m-18-6.75h3m-1.5 0v3m-.55-9.75 15 16.5" fill="none"/>',
-        'duotone': '<path fill-opacity="0.2" d="M21.75 6.75H2.25a.75.75 0 0 0-.75.75v9a.75.75 0 0 0 .75.75h19.5a.75.75 0 0 0 .75-.75v-9a.75.75 0 0 0-.75-.75"/><path stroke-linecap="round" stroke-linejoin="round" d="M17.4569 17.25H2.25a.75.75 0 0 1-.75-.75v-9a.75.75 0 0 1 .75-.75h5.7937m4.16 0H21.75a.75.75 0 0 1 .75.75v9.75m-18-6.75h3m-1.5 0v3m-.55-9.75 15 16.5" fill="none"/>'
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M17.4569 17.25H2.25a.75.75 0 0 1-.75-.75v-9a.75.75 0 0 1 .75-.75h5.7937m-1.5006 10.5h10.8995m-5.2389-10.5H21.75a.7503.7503 0 0 1 .75.75v9.75m-18-6.75h3m-1.5 0v3m-.55-9.75 15 16.5" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<path fill-opacity="0.2" d="M21.75 6.75H2.25a.75.75 0 0 0-.75.75v9a.75.75 0 0 0 .75.75h19.5a.75.75 0 0 0 .75-.75v-9a.75.75 0 0 0-.75-.75"/><path stroke-linecap="round" stroke-linejoin="round" d="M17.4569 17.25H2.25a.75.75 0 0 1-.75-.75v-9a.75.75 0 0 1 .75-.75h5.7937m4.16 0H21.75a.75.75 0 0 1 .75.75v9.75m-18-6.75h3m-1.5 0v3m-.55-9.75 15 16.5" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['textbox', 'hidden', 'editing']
 }

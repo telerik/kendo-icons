@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const shapesIcon: SVGIcon = {
     name: 'shapes',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M6 6 2.25 17.25h7.5zM14.625 11.25c2.2782 0 4.125-1.8468 4.125-4.125S16.9032 3 14.625 3 10.5 4.8468 10.5 7.125s1.8468 4.125 4.125 4.125M21 14.25h-8.25v5.25H21z" fill="none"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M6 6 2.25 17.25h7.5zM14.625 11.25c2.2782 0 4.125-1.8468 4.125-4.125S16.9032 3 14.625 3 10.5 4.8468 10.5 7.125s1.8468 4.125 4.125 4.125M21 14.25h-8.25v5.25H21z" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path d="M10.4613 17.0144a.7502.7502 0 0 1-.7115.9872h-7.5a.75.75 0 0 1-.6085-.3115.75.75 0 0 1-.103-.6757l3.75-11.2499a.75.75 0 0 1 1.423 0zm9.0384-9.8877a4.8747 4.8747 0 0 0-5.826-4.7813 4.875 4.875 0 0 0 .951 9.6562 4.88 4.88 0 0 0 4.875-4.875m1.5 6.3749h-8.25a.75.75 0 0 0-.75.75v5.25a.7497.7497 0 0 0 .75.75h8.25a.75.75 0 0 0 .75-.75v-5.25a.75.75 0 0 0-.75-.75"/>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M6 6 2.25 17.25h7.5zM14.625 11.25c2.2782 0 4.125-1.8468 4.125-4.125S16.9032 3 14.625 3 10.5 4.8468 10.5 7.125s1.8468 4.125 4.125 4.125M21 14.25h-8.25v5.25H21z" fill="none"/>',
-        'duotone': '<path fill-opacity="0.2" d="M6 6 2.25 17.25h7.5zM14.625 11.25c2.2782 0 4.125-1.8468 4.125-4.125S16.9032 3 14.625 3 10.5 4.8468 10.5 7.125s1.8468 4.125 4.125 4.125M21 14.25h-8.25v5.25H21z"/><path stroke-linecap="round" stroke-linejoin="round" d="M6 6 2.25 17.25h7.5zM14.625 11.25c2.2782 0 4.125-1.8468 4.125-4.125S16.9032 3 14.625 3 10.5 4.8468 10.5 7.125s1.8468 4.125 4.125 4.125M21 14.25h-8.25v5.25H21z" fill="none"/>'
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M6 6 2.25 17.25h7.5zM14.625 11.25c2.2782 0 4.125-1.8468 4.125-4.125S16.9032 3 14.625 3 10.5 4.8468 10.5 7.125s1.8468 4.125 4.125 4.125M21 14.25h-8.25v5.25H21z" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<path fill-opacity="0.2" d="M6 6 2.25 17.25h7.5zM14.625 11.25c2.2782 0 4.125-1.8468 4.125-4.125S16.9032 3 14.625 3 10.5 4.8468 10.5 7.125s1.8468 4.125 4.125 4.125M21 14.25h-8.25v5.25H21z"/><path stroke-linecap="round" stroke-linejoin="round" d="M6 6 2.25 17.25h7.5zM14.625 11.25c2.2782 0 4.125-1.8468 4.125-4.125S16.9032 3 14.625 3 10.5 4.8468 10.5 7.125s1.8468 4.125 4.125 4.125M21 14.25h-8.25v5.25H21z" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['geometry', 'square', 'circle', 'triangle']
 }

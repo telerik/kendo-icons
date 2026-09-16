@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const repeatIcon: SVGIcon = {
     name: 'repeat',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M18.75 3.75 21 6l-2.25 2.25M21 6H9a6 6 0 0 0-6 6m2.25 8.25L3 18l2.25-2.25M3 18h12a6 6 0 0 0 4.2426-1.7574A6 6 0 0 0 21 12" fill="none"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M18.75 3.75 21 6l-2.25 2.25M21 6H9a6 6 0 0 0-6 6m2.25 8.25L3 18l2.25-2.25M3 18h12a6 6 0 0 0 4.2426-1.7574A6 6 0 0 0 21 12" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path d="M2.2501 12.0001a6.7575 6.7575 0 0 1 6.75-6.75h9v-1.5a.7501.7501 0 0 1 1.2806-.5306l2.25 2.25a.749.749 0 0 1 .1628.8178.75.75 0 0 1-.1628.2434l-2.25 2.25a.7502.7502 0 0 1-1.1544-.1136.75.75 0 0 1-.1262-.417v-1.5h-9a5.2556 5.2556 0 0 0-5.25 5.25.7499.7499 0 0 1-1.2803.5303.75.75 0 0 1-.2197-.5303m18.75-.75a.7497.7497 0 0 0-.75.75 5.256 5.256 0 0 1-1.5393 3.7107 5.256 5.256 0 0 1-3.7107 1.5393h-9v-1.5a.7501.7501 0 0 0-1.2806-.5306l-2.25 2.25a.7497.7497 0 0 0 0 1.0612l2.25 2.25A.75.75 0 0 0 6 20.2501v-1.5h9a6.758 6.758 0 0 0 4.7708-1.9792 6.758 6.758 0 0 0 1.9792-4.7708.7497.7497 0 0 0-.75-.75"/>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M18.75 3.75 21 6l-2.25 2.25M21 6H9a6 6 0 0 0-6 6m2.25 8.25L3 18l2.25-2.25M3 18h12a6 6 0 0 0 4.2426-1.7574A6 6 0 0 0 21 12" fill="none"/>',
-        'duotone': '<path fill-opacity="0.2" d="M3 12a6 6 0 0 1 6-6h12v6a6 6 0 0 1-1.7574 4.2426A6 6 0 0 1 15 18H3z"/><path stroke-linecap="round" stroke-linejoin="round" d="M18.75 3.75 21 6l-2.25 2.25M21 6H9a6 6 0 0 0-6 6m2.25 8.25L3 18l2.25-2.25M3 18h12a6 6 0 0 0 4.2426-1.7574A6 6 0 0 0 21 12" fill="none"/>'
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M18.75 3.75 21 6l-2.25 2.25M21 6H9a6 6 0 0 0-6 6m2.25 8.25L3 18l2.25-2.25M3 18h12a6 6 0 0 0 4.2426-1.7574A6 6 0 0 0 21 12" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<path fill-opacity="0.2" d="M3 12a6 6 0 0 1 6-6h12v6a6 6 0 0 1-1.7574 4.2426A6 6 0 0 1 15 18H3z"/><path stroke-linecap="round" stroke-linejoin="round" d="M18.75 3.75 21 6l-2.25 2.25M21 6H9a6 6 0 0 0-6 6m2.25 8.25L3 18l2.25-2.25M3 18h12a6 6 0 0 0 4.2426-1.7574A6 6 0 0 0 21 12" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['music', 'audio', 'recycle']
 }

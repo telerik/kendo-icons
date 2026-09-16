@@ -2,12 +2,12 @@ import { SVGIcon } from '../svg-icon.interface';
 
 export const globeIcon: SVGIcon = {
     name: 'globe',
-    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9m0 18c-4.9706 0-9-4.0294-9-9s4.0294-9 9-9m0 18s3.75-3 3.75-9S12 3 12 3m0 18s-3.75-3-3.75-9S12 3 12 3M3.5117 9H20.488M3.5117 15H20.488" fill="none"/>',
+    content: '<path stroke-linecap="round" stroke-linejoin="round" d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9m0 18c-4.9706 0-9-4.0294-9-9s4.0294-9 9-9m0 18s3.75-3 3.75-9S12 3 12 3m0 18s-3.75-3-3.75-9S12 3 12 3M3.5117 9H20.488M3.5117 15H20.488" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
     viewBox: '0 0 24 24',
     variants: {
         'solid': '<path d="M11.999 2.2463a9.75 9.75 0 1 0 9.7499 9.75 9.7614 9.7614 0 0 0-9.7499-9.75m7.3461 6H16.003a12.68 12.68 0 0 0-2.0906-4.275 8.278 8.278 0 0 1 5.4337 4.275zm.9038 3.75a8.21 8.21 0 0 1-.3122 2.2499h-3.6103c.23-1.4911.23-3.0087 0-4.5h3.6103a8.21 8.21 0 0 1 .3122 2.2501M11.999 4.0276a10.81 10.81 0 0 1 2.4374 4.2187h-4.875a10.79 10.79 0 0 1 2.4376-4.2187M9.5615 15.7462h4.8749a10.79 10.79 0 0 1-2.4374 4.2188 10.806 10.806 0 0 1-2.4375-4.2188m-.3657-1.5a13.2 13.2 0 0 1 0-4.5h5.6138a13.21 13.21 0 0 1 0 4.5zm4.7203 5.775a12.68 12.68 0 0 0 2.0906-4.275h3.3431a8.277 8.277 0 0 1-5.4374 4.275z"/>',
-        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9m0 18c-4.9706 0-9-4.0294-9-9s4.0294-9 9-9m0 18s3.75-3 3.75-9S12 3 12 3m0 18s-3.75-3-3.75-9S12 3 12 3M3.5117 9H20.488M3.5117 15H20.488" fill="none"/>',
-        'duotone': '<path fill-opacity="0.2" d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9"/><path stroke-linecap="round" stroke-linejoin="round" d="M11.9995 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9m0 18c-4.9705 0-9-4.0294-9-9s4.0295-9 9-9m0 18s3.75-3 3.75-9-3.75-9-3.75-9m0 18s-3.75-3-3.75-9 3.75-9 3.75-9m-8.488 6h16.9762M3.5115 15h16.9762" fill="none"/>'
+        'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9m0 18c-4.9706 0-9-4.0294-9-9s4.0294-9 9-9m0 18s3.75-3 3.75-9S12 3 12 3m0 18s-3.75-3-3.75-9S12 3 12 3M3.5117 9H20.488M3.5117 15H20.488" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'duotone': '<path fill-opacity="0.2" d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9"/><path stroke-linecap="round" stroke-linejoin="round" d="M11.9995 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9m0 18c-4.9705 0-9-4.0294-9-9s4.0295-9 9-9m0 18s3.75-3 3.75-9-3.75-9-3.75-9m0 18s-3.75-3-3.75-9 3.75-9 3.75-9m-8.488 6h16.9762M3.5115 15h16.9762" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
     },
     tags: ['world', 'earth', 'global', 'planet', 'circle', 'round', 'internationalization', 'i18n', 'languages', 'country', 'countries', 'geography', 'internet']
 }
