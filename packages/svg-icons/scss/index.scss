@@ -37,13 +37,6 @@
             }
         }
 
-        &.k-svg-icon-outline,
-        &.k-svg-icon-duotone {
-            > svg [fill="none"] {
-                stroke-width: var(--kendo-icon-stroke-width);
-            }
-        }
-
         // SVG Icon sizes
         @each $size, $value in $ki-icon-sizes {
             #{if($ki-icon-default-size == $size, "&,", null)}
