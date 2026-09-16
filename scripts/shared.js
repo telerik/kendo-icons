@@ -84,15 +84,23 @@ prepareSvg.displayName = 'svg:prepare';
 // Shape elements that render fill from SVG
 const FILL_SHAPE_TAGS = new Set([ 'path', 'circle', 'rect', 'ellipse', 'polygon', 'polyline', 'line' ]);
 
+// Matches $ki-icon-stroke-width default in packages/svg-icons/scss/_variables.scss
+const DEFAULT_STROKE_WIDTH = 1.5;
+
 /**
  * Serialize a HAST node to an SVG markup string.
  * - Strips `fill="black"` / `fill="#000"` / `fill="#000000"` so CSS `fill: currentColor` applies.
  * - Keeps `fill="none"` (explicit transparency is meaningful).
  * - For stroke-only shapes (has `stroke` but no `fill` attribute): adds `fill="none"` explicitly
  *   so the shape does not inherit `fill: currentColor` from the CSS rule on the parent `<svg>`.
- * - Preserves all other attributes (stroke-width, opacity, fill-opacity, d, etc.).
+ * - When `options.scalableStroke` is set, those stroke-only shapes also get
+ *   `stroke-width="var(--kendo-icon-stroke-width)"` baked in, so runtime customization works
+ *   without the consumer having to apply any variant-specific wrapper class. This must only be
+ *   set for outline/duotone content — some "solid" icons (e.g. decision, dashboard) also contain
+ *   stroke-only connector paths that are meant to keep a fixed weight.
+ * - Preserves all other attributes (opacity, fill-opacity, d, etc.).
  */
-function hastNodeToSvg( node ) {
+function hastNodeToSvg( node, options = {} ) {
     const tag = node.tagName;
     const props = node.properties || {};
 
@@ -110,10 +118,20 @@ function hastNodeToSvg( node ) {
     // from the CSS rule on the parent <svg>, making them appear solid.
     // The source SVGs rely on <svg fill="none"> for this, but we discard the root element.
     // Adding fill="none" explicitly here preserves the original intent.
-    const hasStroke = 'stroke' in props && props.stroke && props.stroke !== 'none';
+    // Note: the `stroke` attribute itself is stripped by svgo for this build target, so
+    // `fill="none"` (either authored directly or inferred here) is the only reliable signal.
     const hasFill = 'fill' in props;
-    if ( FILL_SHAPE_TAGS.has( tag ) && hasStroke && !hasFill ) {
-        attrPairs.push( 'fill="none"' );
+    const isStrokeOnly = FILL_SHAPE_TAGS.has( tag )
+        && ( props.fill === 'none' || ( !hasFill && 'stroke' in props && props.stroke !== 'none' ) );
+
+    if ( isStrokeOnly ) {
+        if ( !hasFill ) {
+            attrPairs.push( 'fill="none"' );
+        }
+
+        if ( options.scalableStroke && !( 'stroke-width' in props ) ) {
+            attrPairs.push( `stroke-width="var(--kendo-icon-stroke-width, ${DEFAULT_STROKE_WIDTH})"` );
+        }
     }
 
     const attrs = attrPairs.join( ' ' );
@@ -123,15 +141,15 @@ function hastNodeToSvg( node ) {
         return `${open}/>`;
     }
 
-    const inner = node.children.map( hastNodeToSvg ).join('');
+    const inner = node.children.map( child => hastNodeToSvg( child, options ) ).join('');
     return `${open}>${inner}</${tag}>`;
 }
 
 /**
  * Serialize an array of HAST children into a single SVG content string.
  */
-function hastToSvg( children ) {
-    return children.map( hastNodeToSvg ).join('');
+function hastToSvg( children, options = {} ) {
+    return children.map( child => hastNodeToSvg( child, options ) ).join('');
 }
 
 
@@ -164,16 +182,21 @@ function buildHast() {
             let variantParsed = svgParser.parse( variantContent );
             let svgNode = variantParsed.children[0];
 
+            // Solid icons can contain incidental stroke-only connector paths
+            // (e.g. decision, dashboard) that must keep a fixed, non-customizable weight.
+            let scalableStroke = variantName !== 'solid';
+
             variantHast[ variantName ] = {
                 hast: svgNode.children,
-                svgContent: hastToSvg( svgNode.children )
+                svgContent: hastToSvg( svgNode.children, { scalableStroke } )
             };
         });
 
+        // Base/default content is sourced from the outline temp dir (see paths.icons above)
         let iconEntry = {
             ...iconDef,
             hast: parsed.children[0].children,
-            svgContent: hastToSvg( parsed.children[0].children )
+            svgContent: hastToSvg( parsed.children[0].children, { scalableStroke: true } )
         };
 
         if ( Object.keys( variantHast ).length ) {
