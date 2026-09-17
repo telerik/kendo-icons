@@ -10780,9 +10780,7 @@
         "name": "circle-half-tilted",
         "ligatures": [],
         "aliases": [],
-        "categories": [
-            "images"
-        ],
+        "categories": [],
         "unicode": "e286",
         "id": 1434,
         "tags": [
@@ -10798,9 +10796,7 @@
         "name": "circles-three-intersecting",
         "ligatures": [],
         "aliases": [],
-        "categories": [
-            "images"
-        ],
+        "categories": [],
         "unicode": "e287",
         "id": 1435,
         "tags": [
@@ -10816,9 +10812,7 @@
         "name": "drop-half-pixelated",
         "ligatures": [],
         "aliases": [],
-        "categories": [
-            "images"
-        ],
+        "categories": [],
         "unicode": "e288",
         "id": 1436,
         "tags": [
@@ -10833,9 +10827,7 @@
         "name": "frame-corners",
         "ligatures": [],
         "aliases": [],
-        "categories": [
-            "images"
-        ],
+        "categories": [],
         "unicode": "e289",
         "id": 1437,
         "tags": [
@@ -10850,9 +10842,7 @@
         "name": "line-point-angular",
         "ligatures": [],
         "aliases": [],
-        "categories": [
-            "editing"
-        ],
+        "categories": [],
         "unicode": "e28a",
         "id": 1438,
         "tags": [
@@ -10867,9 +10857,7 @@
         "name": "line-point-circle",
         "ligatures": [],
         "aliases": [],
-        "categories": [
-            "editing"
-        ],
+        "categories": [],
         "unicode": "e28b",
         "id": 1439,
         "tags": [
@@ -10884,9 +10872,7 @@
         "name": "line-point-rhombus",
         "ligatures": [],
         "aliases": [],
-        "categories": [
-            "editing"
-        ],
+        "categories": [],
         "unicode": "e28c",
         "id": 1440,
         "tags": [
@@ -10902,9 +10888,7 @@
         "name": "line-point-rounded",
         "ligatures": [],
         "aliases": [],
-        "categories": [
-            "editing"
-        ],
+        "categories": [],
         "unicode": "e28d",
         "id": 1441,
         "tags": [
@@ -10919,9 +10903,7 @@
         "name": "line-point-square",
         "ligatures": [],
         "aliases": [],
-        "categories": [
-            "editing"
-        ],
+        "categories": [],
         "unicode": "e28e",
         "id": 1442,
         "tags": [
@@ -10936,9 +10918,7 @@
         "name": "oval-shape",
         "ligatures": [],
         "aliases": [],
-        "categories": [
-            "editing"
-        ],
+        "categories": [],
         "unicode": "e28f",
         "id": 1443,
         "tags": [
@@ -10955,9 +10935,7 @@
         "name": "pentagon-shape",
         "ligatures": [],
         "aliases": [],
-        "categories": [
-            "editing"
-        ],
+        "categories": [],
         "unicode": "e290",
         "id": 1444,
         "tags": [
@@ -10973,9 +10951,7 @@
         "name": "square-dotted",
         "ligatures": [],
         "aliases": [],
-        "categories": [
-            "editing"
-        ],
+        "categories": [],
         "unicode": "e291",
         "id": 1445,
         "tags": [
@@ -10991,9 +10967,7 @@
         "name": "squares-overlapping-plus",
         "ligatures": [],
         "aliases": [],
-        "categories": [
-            "editing"
-        ],
+        "categories": [],
         "unicode": "e292",
         "id": 1446,
         "tags": [
@@ -11009,9 +10983,7 @@
         "name": "squares-pixelated",
         "ligatures": [],
         "aliases": [],
-        "categories": [
-            "images"
-        ],
+        "categories": [],
         "unicode": "e293",
         "id": 1447,
         "tags": [
