@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.5.0-dev.0](https://github.com/telerik/kendo-icons/compare/v5.4.0...v5.5.0-dev.0) (2026-09-17)
+
+### Features
+
+* generate icons metadata ([e2f77d0](https://github.com/telerik/kendo-icons/commit/e2f77d0e67cc671b3ecae45f8bcadaebabae6dda))
+* generate icons metadata ([9eb8342](https://github.com/telerik/kendo-icons/commit/9eb8342bcd3590becebb0446e8335e73f084aec0))
+* generate icons metadata ([8925ac5](https://github.com/telerik/kendo-icons/commit/8925ac521f45ed30aae0829b02d35ada4320f2e3))
+* **svg-icons:** support stroke-width customization without variant classes ([74ddd7e](https://github.com/telerik/kendo-icons/commit/74ddd7e97e3127dfa225f6eed94049a0fbd59fdb))
+
+
 # [5.4.0](https://github.com/telerik/kendo-icons/compare/v5.4.0-dev.0...v5.4.0) (2026-07-21)
 
 **Note:** Version bump only for package @progress/kendo-svg-icons
