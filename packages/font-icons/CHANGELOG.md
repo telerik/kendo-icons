@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.12.0-dev.0](https://github.com/telerik/kendo-icons/compare/v4.11.0...v4.12.0-dev.0) (2026-09-28)
+
+
+### Features
+
+* generate icons metadata ([c264f50](https://github.com/telerik/kendo-icons/commit/c264f50a9151336256541d3185915c7a39e9c6aa))
+
+
+
+
+
 # [4.11.0](https://github.com/telerik/kendo-icons/compare/v4.11.0-dev.1...v4.11.0) (2026-07-21)
 
 **Note:** Version bump only for package @progress/kendo-font-icons
