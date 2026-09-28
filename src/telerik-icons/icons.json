@@ -4187,6 +4187,126 @@
         "id": 844
     },
     {
+        "name": "circle-half-tilted",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e185",
+        "id": 845
+    },
+    {
+        "name": "circles-three-intersecting",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e186",
+        "id": 846
+    },
+    {
+        "name": "drop-half-pixelated",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e187",
+        "id": 847
+    },
+    {
+        "name": "frame-corners",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e188",
+        "id": 848
+    },
+    {
+        "name": "line-point-angular",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e189",
+        "id": 849
+    },
+    {
+        "name": "line-point-circle",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e18a",
+        "id": 850
+    },
+    {
+        "name": "line-point-rhombus",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e18b",
+        "id": 851
+    },
+    {
+        "name": "line-point-rounded",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e18c",
+        "id": 852
+    },
+    {
+        "name": "line-point-square",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e18d",
+        "id": 853
+    },
+    {
+        "name": "oval-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e18e",
+        "id": 854
+    },
+    {
+        "name": "pentagon-shape",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e18f",
+        "id": 855
+    },
+    {
+        "name": "square-dotted",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e190",
+        "id": 856
+    },
+    {
+        "name": "squares-overlapping-plus",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e191",
+        "id": 857
+    },
+    {
+        "name": "squares-pixelated",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e192",
+        "id": 858
+    },
+    {
+        "name": "sliders-horizontal",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [],
+        "unicode": "e193",
+        "id": 859
+    },
+    {
         "name": "play",
         "ligatures": [],
         "aliases": [],
