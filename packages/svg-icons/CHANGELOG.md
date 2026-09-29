@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.5.0](https://github.com/telerik/kendo-icons/compare/v5.5.0-dev.0...v5.5.0) (2026-09-29)
+
+**Note:** Version bump only for package @progress/kendo-svg-icons
+
+
+
+
+
 # [5.5.0-dev.0](https://github.com/telerik/kendo-icons/compare/v5.4.0...v5.5.0-dev.0) (2026-09-17)
 
 ### Features
