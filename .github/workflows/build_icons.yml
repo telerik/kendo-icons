@@ -76,6 +76,11 @@ jobs:
     needs: build-icons
     runs-on: ubuntu-latest
 
+    # Serialize writes to the gh-pages branch (shared with deploy_docs.yml)
+    concurrency:
+      group: gh-pages
+      cancel-in-progress: false
+
     permissions:
       contents: write
       pull-requests: write
