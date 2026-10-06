@@ -1,41 +1,72 @@
-# Simple workflow for deploying static content to GitHub Pages
+# Publishes the docs for the current state of develop to the root of the gh-pages branch.
+# PR previews live under /pr/<number>/ on the same branch (see build_icons.yml) and are preserved.
 name: Deploy docs content to Pages
 
 on:
+  push:
+    branches:
+      - develop
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow one concurrent deployment
+# Serialize all writes to the gh-pages branch (shared with PR previews)
 concurrency:
-  group: "pages"
-  cancel-in-progress: true
+  group: gh-pages
+  cancel-in-progress: false
 
 jobs:
 
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
+    # Separate from the built-in "github-pages" environment, which restricts deployment branches
+    environment:
+      name: docs
+      url: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+
+    permissions:
+      contents: write
+
     steps:
 
       - name: Checkout
         uses: actions/checkout@v7
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v6
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v5
+      - name: Setup node
+        uses: actions/setup-node@v7
         with:
-          path: 'docs/'
+          cache: 'npm'
+          node-version: 24.x
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5
+      - name: Install
+        run: npm ci --no-audit --no-fund
+
+      - name: Build assets
+        run: npm run build --workspaces
+
+      - name: Assemble site
+        run: |
+          mkdir -p site/telerik-icons
+          cp docs/index.html site/
+          cp -r packages/font-icons/dist site/font-icons
+          cp -r packages/svg-icons/dist  site/svg-icons
+          cp src/telerik-icons/icons.json     site/telerik-icons/
+          cp src/telerik-icons/icon-list.json site/telerik-icons/
+
+      - name: Deploy to gh-pages branch
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin gh-pages 2>/dev/null || true
+          git worktree add gh-pages-out origin/gh-pages 2>/dev/null || \
+            git worktree add --orphan -B gh-pages gh-pages-out
+
+          # Replace everything except PR previews
+          find gh-pages-out -mindepth 1 -maxdepth 1 ! -name '.git' ! -name 'pr' -exec rm -rf {} +
+          cp -r site/. gh-pages-out/
+
+          cd gh-pages-out
+          git add -A
+          git commit -m "chore: deploy docs from ${GITHUB_SHA::7}" || echo "Nothing to commit"
+          git push origin HEAD:gh-pages
