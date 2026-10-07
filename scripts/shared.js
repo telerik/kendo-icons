@@ -27,6 +27,10 @@ const paths = {
         duotone: {
             src: resolve( root, 'src/telerik-icons/duotone' ),
             temp: resolve( root, '.tmp/icons/duotone' )
+        },
+        legacy: {
+            src: resolve( root, 'src/telerik-icons/legacy' ),
+            temp: resolve( root, '.tmp/icons/legacy' )
         }
     },
     svgGlob: '**/*.svg'
@@ -184,7 +188,8 @@ function buildHast() {
 
             // Solid icons can contain incidental stroke-only connector paths
             // (e.g. decision, dashboard) that must keep a fixed, non-customizable weight.
-            let scalableStroke = variantName !== 'solid';
+            // Legacy (v4) icons are pure fills.
+            let scalableStroke = variantName !== 'solid' && variantName !== 'legacy';
 
             variantHast[ variantName ] = {
                 hast: svgNode.children,

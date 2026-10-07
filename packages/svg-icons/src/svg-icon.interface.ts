@@ -1,5 +1,5 @@
 /**
- * Defines a variant of an SVG Icon (e.g. outline, duotone).
+ * Defines a variant of an SVG Icon (e.g. outline, duotone, legacy).
  * An empty string means the variant exists but has no SVG yet.
  */
 export type SVGIconVariant = string;
