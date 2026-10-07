@@ -7,7 +7,8 @@ export const chevronUpIcon: SVGIcon = {
     variants: {
         'solid': '<path d="m20.0296 14.4731-7.5-7.5a.75.75 0 0 0-.5306-.22.75.75 0 0 0-.5306.22l-7.5 7.5a.7502.7502 0 0 0 .1137 1.1544.75.75 0 0 0 .417.1262h14.9998a.7499.7499 0 0 0 .5307-1.2806"/>',
         'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15 12 7.5l7.5 7.5" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
-        'duotone': '<path fill-opacity="0.2" d="M4.5 15 12 7.5l7.5 7.5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15 12 7.5l7.5 7.5z" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
+        'duotone': '<path fill-opacity="0.2" d="M4.5 15 12 7.5l7.5 7.5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15 12 7.5l7.5 7.5z" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'legacy': '<path d="M6.091 16.591 12 10.6819l5.9092 5.9091L19.5 15 12 7.5 4.5 15z"/>'
     },
     tags: ['chevron', 'up', 'navigation', 'arrows', 'arrow', 'direction', 'caret']
 }

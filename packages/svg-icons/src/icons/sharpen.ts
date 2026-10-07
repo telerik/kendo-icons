@@ -7,7 +7,8 @@ export const sharpenIcon: SVGIcon = {
     variants: {
         'solid': '<path stroke-linecap="round" stroke-linejoin="round" d="M12 3 6.25 20.25h11.5z"/>',
         'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M12 3 6.25 20.25h11.5z" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
-        'duotone': '<path fill-opacity="0.2" d="M12 3 6.25 20.25h11.5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 3 6.25 20.25h11.5z" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
+        'duotone': '<path fill-opacity="0.2" d="M12 3 6.25 20.25h11.5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 3 6.25 20.25h11.5z" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'legacy': '<path d="m12 1.5-6 21h12zm0 5.4609L16.0125 21h-8.025z"/>'
     },
     tags: ['sharpen', 'images']
 }
