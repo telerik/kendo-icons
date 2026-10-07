@@ -11,7 +11,8 @@ namespace Telerik.SvgIcons
             {
                 { "solid", "<path d=\"M20.2489 2.9993V17.999a.75.75 0 0 1-.75.75H6.749a1.5 1.5 0 0 0-1.5 1.5H17.999a.7497.7497 0 0 1 .75.75.75.75 0 0 1-.75.75H4.499a.75.75 0 0 1-.75-.75V5.2492a3 3 0 0 1 3-3h12.7499a.75.75 0 0 1 .75.75\"/>" },
                 { "outline", "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4.5 20.25A2.25 2.25 0 0 1 6.75 18H19.5V3H6.75A2.25 2.25 0 0 0 4.5 5.25zm0 0V21H18\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" },
-                { "duotone", "<path fill-opacity=\"0.2\" d=\"M4.5 20.25A2.25 2.25 0 0 1 6.75 18H19.5V3H6.75A2.25 2.25 0 0 0 4.5 5.25z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4.5 20.25A2.25 2.25 0 0 1 6.75 18H19.5V3H6.75A2.25 2.25 0 0 0 4.5 5.25zm0 0V21H18\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" }
+                { "duotone", "<path fill-opacity=\"0.2\" d=\"M4.5 20.25A2.25 2.25 0 0 1 6.75 18H19.5V3H6.75A2.25 2.25 0 0 0 4.5 5.25z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4.5 20.25A2.25 2.25 0 0 1 6.75 18H19.5V3H6.75A2.25 2.25 0 0 0 4.5 5.25zm0 0V21H18\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" },
+                { "legacy", "<path d=\"M21 22.5v-18h-1.5V21H6c-.825 0-1.5-.675-1.5-1.5S5.175 18 6 18h12V1.5H6c-1.65 0-3 1.35-3 3v15c0 1.1063.6047 2.0719 1.5 2.5922A2.97 2.97 0 0 0 6 22.5zM6 3h10.5v13.5H6zm9 3H7.5V4.5H15zm0 6H7.5v-1.5H15zm-1.5-3h-6V7.5h6z\"/>" }
             };
         }
     }

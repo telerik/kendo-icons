@@ -47,7 +47,8 @@ function prepareSvgIcons() {
         const variants = {
             'solid': variantHast.solid ? variantHast.solid.svgContent : '',
             'outline': variantHast.outline ? variantHast.outline.svgContent : '',
-            'duotone': variantHast.duotone ? variantHast.duotone.svgContent : ''
+            'duotone': variantHast.duotone ? variantHast.duotone.svgContent : '',
+            'legacy': variantHast.legacy ? variantHast.legacy.svgContent : ''
         };
 
         iconList.push({

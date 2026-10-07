@@ -7,7 +7,8 @@ export const chevronLeftIcon: SVGIcon = {
     variants: {
         'solid': '<path d="M15.2858 3.8104a.75.75 0 0 0-.8175.1622l-7.5 7.5a.75.75 0 0 0-.2199.5306.75.75 0 0 0 .22.5306l7.4999 7.4999a.75.75 0 0 0 .8177.1629.75.75 0 0 0 .4629-.6935V4.5032a.75.75 0 0 0-.4631-.6928"/>',
         'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M15 19.5 7.5 12 15 4.5" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
-        'duotone': '<path fill-opacity="0.2" d="M15 19.5 7.5 12 15 4.5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.5 7.5 12 15 4.5z" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
+        'duotone': '<path fill-opacity="0.2" d="M15 19.5 7.5 12 15 4.5z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.5 7.5 12 15 4.5z" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'legacy': '<path d="M16.591 17.909 10.6819 12l5.9091-5.9092L15 4.5 7.5 12l7.5 7.5z"/>'
     },
     tags: ['chevron', 'left', 'navigation', 'arrows', 'arrow', 'direction', 'caret']
 }

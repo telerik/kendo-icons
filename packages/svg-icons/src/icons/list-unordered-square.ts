@@ -7,7 +7,8 @@ export const listUnorderedSquareIcon: SVGIcon = {
     variants: {
         'solid': '<path fill-rule="evenodd" d="M19.5 3A1.5005 1.5005 0 0 1 21 4.5v15a1.5003 1.5003 0 0 1-1.5 1.5h-15a1.5 1.5 0 0 1-1.0606-.4395A1.5 1.5 0 0 1 3 19.5v-15A1.5007 1.5007 0 0 1 4.5 3zM5.75 16.125a.75.75 0 0 0-.75.75v.75a.75.75 0 0 0 .75.75h.75a.75.75 0 0 0 .75-.75v-.75a.75.75 0 0 0-.75-.75zm3.7451.375a.7501.7501 0 0 0 0 1.5h8.75a.75.75 0 0 0 0-1.5zM5.75 10.875a.75.75 0 0 0-.75.75v.75a.75.75 0 0 0 .75.75h.75a.75.75 0 0 0 .75-.75v-.75a.75.75 0 0 0-.75-.75zm3.7451.375a.7501.7501 0 0 0 0 1.5h8.75a.75.75 0 0 0 0-1.5zM5.75 5.625a.75.75 0 0 0-.75.75v.75a.75.75 0 0 0 .75.75h.75a.75.75 0 0 0 .75-.75v-.75a.75.75 0 0 0-.75-.75zM9.4951 6a.7501.7501 0 0 0 0 1.5h8.75a.75.75 0 0 0 0-1.5z" clip-rule="evenodd"/>',
         'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6h12m-12 6h12m-12 6h12M3.75 5.625h.75v.75h-.75zm0 6h.75v.75h-.75zm0 6h.75v.75h-.75z" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
-        'duotone': '<path fill-opacity="0.2" d="M20.25 6h-12v12h12z"/><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6h12m-12 6h12m-12 6h12M3.75 5.625h.75v.75h-.75zm0 6h.75v.75h-.75zm0 6h.75v.75h-.75z" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
+        'duotone': '<path fill-opacity="0.2" d="M20.25 6h-12v12h12z"/><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6h12m-12 6h12m-12 6h12M3.75 5.625h.75v.75h-.75zm0 6h.75v.75h-.75zm0 6h.75v.75h-.75z" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'legacy': '<path d="M6 7.5H1.5V3H6zm0 3H1.5V15H6zM6 18H1.5v4.5H6zM9 6h13.5V4.5H9zm0 7.5h13.5V12H9zM9 21h13.5v-1.5H9z"/>'
     },
     tags: ['list', 'unordered', 'square', 'css', 'bullet', 'items', 'menu']
 }

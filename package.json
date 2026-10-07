@@ -12,6 +12,7 @@
     "eslint": "eslint \"**/*.js\"",
     "migrate": "node scripts/migrate-icons.js",
     "update-icons": "node scripts/update-icons.js",
+    "import-legacy": "node scripts/import-legacy-icons.js",
     "prepare-packages": "npm run build --workspaces",
     "dev": "node scripts/dev.mjs",
     "serve": "npx http-server",

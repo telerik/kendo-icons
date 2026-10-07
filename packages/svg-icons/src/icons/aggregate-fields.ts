@@ -7,7 +7,8 @@ export const aggregateFieldsIcon: SVGIcon = {
     variants: {
         'solid': '<path d="M20.9989 9.7514v8.9999a1.4996 1.4996 0 0 1-1.5 1.5H4.499a1.5 1.5 0 0 1-1.5-1.5V9.7514a1.5 1.5 0 0 1 1.5-1.5H19.499a1.5 1.5 0 0 1 1.5 1.5m-15.7499-3H18.749a.7499.7499 0 1 0 0-1.5H5.249a.75.75 0 0 0 0 1.5m1.5-3h10.4999a.7499.7499 0 0 0 .5303-1.2803.75.75 0 0 0-.5303-.2196h-10.5a.75.75 0 0 0 0 1.5"/>',
         'outline': '<path stroke-linecap="round" stroke-linejoin="round" d="M5.25 6h13.5m-12-3h10.5M4.5 9h15a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-.75.75h-15a.75.75 0 0 1-.75-.75v-9A.75.75 0 0 1 4.5 9" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
-        'duotone': '<path fill-opacity="0.2" d="M19.5 9h-15a.75.75 0 0 0-.75.75v9a.75.75 0 0 0 .75.75h15a.75.75 0 0 0 .75-.75v-9A.75.75 0 0 0 19.5 9"/><path stroke-linecap="round" stroke-linejoin="round" d="M5.25 6h13.5m-12-3h10.5M4.5 9h15a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-.75.75h-15a.75.75 0 0 1-.75-.75v-9A.75.75 0 0 1 4.5 9" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>'
+        'duotone': '<path fill-opacity="0.2" d="M19.5 9h-15a.75.75 0 0 0-.75.75v9a.75.75 0 0 0 .75.75h15a.75.75 0 0 0 .75-.75v-9A.75.75 0 0 0 19.5 9"/><path stroke-linecap="round" stroke-linejoin="round" d="M5.25 6h13.5m-12-3h10.5M4.5 9h15a.75.75 0 0 1 .75.75v9a.75.75 0 0 1-.75.75h-15a.75.75 0 0 1-.75-.75v-9A.75.75 0 0 1 4.5 9" fill="none" stroke-width="var(--kendo-icon-stroke-width, 1.5)"/>',
+        'legacy': '<path d="M6 6c-.8297 0-1.5.6703-1.5 1.5V15c0 .8297.6703 1.5 1.5 1.5h12c1.5 0 1.5-1.5 1.5-1.5H6zM3 9c-.8297 0-1.5.6703-1.5 1.5V18c0 .8297.6703 1.5 1.5 1.5h12c1.5 0 1.5-1.5 1.5-1.5H3zm18-6H9c-.825 0-1.5.675-1.5 1.5V12c0 .825.675 1.5 1.5 1.5h12c.825 0 1.5-.675 1.5-1.5V4.5c0-.825-.675-1.5-1.5-1.5m.0469 9s0 .0047 0 0l-12.0422.0047L9 12V4.5047L9.0047 4.5H21V12z"/>'
     },
     tags: ['aggregate', 'fields', 'files-and-folders']
 }

@@ -11,7 +11,8 @@ namespace Telerik.SvgIcons
             {
                 { "solid", "<path d=\"M19.5 12v7.5H12\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 12v7.5H12z\" fill=\"none\"/>" },
                 { "outline", "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 12v7.5H12\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" },
-                { "duotone", "<path fill-opacity=\"0.2\" d=\"M19.5 12v7.5H12\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 12v7.5H12\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" }
+                { "duotone", "<path fill-opacity=\"0.2\" d=\"M19.5 12v7.5H12\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19.5 12v7.5H12\" fill=\"none\" stroke-width=\"var(--kendo-icon-stroke-width, 1.5)\"/>" },
+                { "legacy", "<path d=\"M22.5 10.5v12h-12v-3h9v-9z\"/>" }
             };
         }
     }
