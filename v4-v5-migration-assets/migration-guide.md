@@ -190,3 +190,259 @@ These icons are removed entirely in v5. Remove usage or find a custom alternativ
 - `silverlight`
 - `stumble-upon`
 - `stumble-upon-box`
+
+## Deprecated Font Icon Aliases
+
+The following font icon aliases were removed in v5. Each alias previously pointed to its canonical icon name.
+
+| Deprecated Alias(es) | Canonical Icon (v5) |
+|---|---|
+| `justify-center` | `align-center` |
+| `align-baseline-horizontal` | `align-items-baseline` |
+| `align-baseline-vertical` | `align-items-baseline-alt` |
+| `align-center-elements` | `align-items-center` |
+| `align-middle-elements` | `align-items-center-alt` |
+| `align-right-elements` | `align-items-end` |
+| `align-bottom-elements` | `align-items-end-alt` |
+| `align-left-elements` | `align-items-start` |
+| `align-top-elements` | `align-items-start-alt` |
+| `align-stretch-elements-horizontal` | `align-items-stretch` |
+| `align-stretch-elements-vertical` | `align-items-stretch-alt` |
+| `justify-full` | `align-justify` |
+| `justify-left` | `align-left` |
+| `justify-clear` | `align-remove` |
+| `justify-left` | `align-right` |
+| `align-center-element` | `align-self-center` |
+| `align-middle-element` | `align-self-center-alt` |
+| `align-right-element` | `align-self-end` |
+| `align-bottom-element` | `align-self-end-alt` |
+| `align-left-element` | `align-self-start` |
+| `align-top-element` | `align-self-start-alt` |
+| `align-stretch-element-horizontal` | `align-self-stretch` |
+| `align-stretch-element-vertical` | `align-self-stretch-alt` |
+| `return-key` | `arrow-down-left` |
+| `reset` | `arrow-rotate-ccw` |
+| `reset-sm` | `arrow-rotate-ccw-small` |
+| `arrows-repeat`, `recurrence`, `refresh`, `reload` | `arrow-rotate-cw` |
+| `arrows-repeat-sm`, `recurrence-sm`, `refresh-sm`, `reload-sm` | `arrow-rotate-cw-small` |
+| `arrows-dimensions`, `dimension` | `arrows-axes` |
+| `move`, `pan` | `arrows-move` |
+| `non-recurrence`, `refresh-clear` | `arrows-no-repeat` |
+| `notification` | `bell` |
+| `find`, `find-and-replace` | `binoculars` |
+| `dictionary-add` | `book` |
+| `bottom-border` | `border-bottom` |
+| `left-border` | `border-left` |
+| `right-border` | `border-right` |
+| `top-border` | `border-top` |
+| `all-borders` | `borders-all` |
+| `inside-borders` | `borders-inside` |
+| `border-inside-h`, `inside-horizontal-borders` | `borders-inside-horizontal` |
+| `borders-inside-v`, `inside-vertical-borders` | `borders-inside-vertical` |
+| `border-no`, `no-borders` | `borders-none` |
+| `outside-borders` | `borders-outside` |
+| `backward-element` | `bring-backward` |
+| `forward-element` | `bring-forward` |
+| `back-element` | `bring-to-back` |
+| `front-element` | `bring-to-front` |
+| `style-builder` | `building-blocks` |
+| `photo-camera` | `camera` |
+| `deny` | `cancel-outline` |
+| `arrow-60-down`, `arrow-s`, `collapse`, `expand-s`, `kpi-trend-decrease`, `sarrow-s` | `caret-alt-down` |
+| `arrows-kpi`, `caret-alt-sort`, `kpi` | `caret-alt-expand` |
+| `arrow-60-left`, `arrow-w`, `expand-w`, `sarrow-w` | `caret-alt-left` |
+| `arrow-60-right`, `arrow-e`, `expand`, `expand-e`, `sarrow-e` | `caret-alt-right` |
+| `arrow-end-down`, `seek-s` | `caret-alt-to-bottom` |
+| `arrow-end-left`, `seek-w` | `caret-alt-to-left` |
+| `arrow-end-right`, `seek-e` | `caret-alt-to-right` |
+| `arrow-end-up`, `seek-n` | `caret-alt-to-top` |
+| `arrow-60-up`, `arrow-n`, `expand-n`, `kpi-trend-increase`, `sarrow-n` | `caret-alt-up` |
+| `arrow-45-down-left`, `collapse-sw`, `resize-sw` | `caret-bl` |
+| `arrow-45-down-right`, `collapse-se`, `resize-se` | `caret-br` |
+| `arrow-double-60-down`, `arrow-seek-down` | `caret-double-alt-down` |
+| `arrow-double-60-left`, `arrow-seek-left`, `rewind-sm` | `caret-double-alt-left` |
+| `arrow-double-60-right`, `arrow-seek-right`, `forward-sm` | `caret-double-alt-right` |
+| `arrow-double-60-up`, `arrow-seek-up` | `caret-double-alt-up` |
+| `arrow-45-up-left`, `collapse-nw`, `resize-nw` | `caret-tl` |
+| `arrow-45-up-right`, `collapse-ne`, `resize-ne` | `caret-tr` |
+| `shopping-cart` | `cart` |
+| `cells-split-h` | `cell-split-horizontally` |
+| `cells-split-v` | `cell-split-vertically` |
+| `merge-cells` | `cells-merge` |
+| `cells-merge-h`, `merge-horizontally` | `cells-merge-horizontally` |
+| `cells-merge-v`, `merge-vertically` | `cells-merge-vertically` |
+| `checkmark`, `tick` | `check` |
+| `checkmark-circle` | `check-circle` |
+| `checkmark-outline`, `success` | `check-outline` |
+| `shape-rect` | `checkbox` |
+| `tri-state-indeterminate` | `checkbox-indeterminate` |
+| `tri-state-null` | `checkbox-null` |
+| `arrow-chevron-down`, `arrowhead-s` | `chevron-down` |
+| `arrow-chevron-left`, `arrowhead-w` | `chevron-left` |
+| `arrow-chevron-right`, `arrowhead-e` | `chevron-right` |
+| `arrow-chevron-up`, `arrowhead-n` | `chevron-up` |
+| `clearformat` | `clear-css` |
+| `paste` | `clipboard` |
+| `paste-as-html` | `clipboard-code` |
+| `paste-html` | `clipboard-html` |
+| `paste-markdown` | `clipboard-markdown` |
+| `paste-plain-text` | `clipboard-text` |
+| `paste-from-word` | `clipboard-word` |
+| `paste-from-word-strip-file` | `clipboard-word-alt` |
+| `subtitles` | `closed-captions` |
+| `html`, `source-code`, `view-source` | `code` |
+| `arrows-resizing` | `col-resize` |
+| `col-freeze`, `freeze-col` | `column-freeze` |
+| `comments-remove-all` | `comments-remove` |
+| `files` | `copy` |
+| `format-number` | `custom-format` |
+| `decrease-decimal` | `decimal-decrease` |
+| `increace-decimal` | `decimal-increase` |
+| `currency` | `dollar` |
+| `background`, `paint` | `droplet` |
+| `background-remove`, `paint-remove`, `reset-color` | `droplet-slash` |
+| `color-canvas` | `droplet-slider` |
+| `email`, `letter` | `envelop` |
+| `email-box`, `letter-box` | `envelop-box` |
+| `hyperlink-email` | `envelop-link` |
+| `exception`, `warning` | `exclamation-circle` |
+| `preview` | `eye` |
+| `preview-off` | `eye-slash` |
+| `file-v`, `file-vertical`, `page-portrait` | `file` |
+| `insert-file` | `file-add` |
+| `ascx` | `file-ascx` |
+| `bac` | `file-bac` |
+| `config` | `file-config` |
+| `csv` | `file-csv` |
+| `file-validation` | `file-error` |
+| `excel`, `file-xls`, `xls`, `xlsa` | `file-excel` |
+| `flash` | `file-flash` |
+| `report-footer-section` | `file-footer` |
+| `report-header-section` | `file-header` |
+| `file-h`, `page-landscape` | `file-horizontal` |
+| `mdb` | `file-mdb` |
+| `pdf`, `pdfa` | `file-pdf` |
+| `ppt` | `file-ppt` |
+| `psd` | `file-psd` |
+| `txt` | `file-txt` |
+| `doc`, `file-doc`, `word` | `file-word` |
+| `page-properties` | `file-wrench` |
+| `zip` | `file-zip` |
+| `files-validation` | `files-error` |
+| `filter-sm` | `filter-small` |
+| `filter-sort-asc-sm` | `filter-sort-asc-small` |
+| `filter-sort-desc-sm` | `filter-sort-desc-small` |
+| `flip-h` | `flip-horizontal` |
+| `flip-v` | `flip-vertical` |
+| `fields-more` | `folder-more` |
+| `text` | `foreground-color` |
+| `border` | `form` |
+| `fx` | `formula-fx` |
+| `full-screen`, `fullscreen-enter` | `fullscreen` |
+| `full-screen-exit` | `fullscreen-exit` |
+| `cog`, `custom` | `gear` |
+| `cogs` | `gears` |
+| `hyperlink-globe` | `globe-link` |
+| `hyperlink-globe-remove` | `globe-unlink` |
+| `handler-drag` | `handle-drag` |
+| `six-dice`, `six-dots-vertical` | `handle-drag-dots` |
+| `fav`, `favorite` | `heart` |
+| `fav-outline`, `favorite-outline` | `heart-outline` |
+| `root` | `home` |
+| `hr`, `rule-horizontal` | `horizontal-rule` |
+| `photo` | `image` |
+| `image-insert`, `image-light-dialog`, `insert-image` | `image-add` |
+| `photo-export` | `image-export` |
+| `indent-increase` | `indent` |
+| `info`, `information`, `note` | `info-circle` |
+| `insert-down`, `insert-s` | `insert-bottom` |
+| `insert-m` | `insert-middle` |
+| `insert-n`, `insert-up` | `insert-top` |
+| `justify-around-horizontal` | `justify-content-around` |
+| `justify-around-vertical` | `justify-content-around-alt` |
+| `justify-between-horizontal` | `justify-content-between` |
+| `justify-between-vertical` | `justify-content-between-alt` |
+| `justify-center-horizontal` | `justify-content-center` |
+| `justify-center-vertical` | `justify-content-center-alt` |
+| `justify-end-horizontal` | `justify-content-end` |
+| `justify-end-vertical` | `justify-content-end-alt` |
+| `justify-start-horizontal` | `justify-content-start` |
+| `justify-start-vertical` | `justify-content-start-alt` |
+| `page-layout` | `layout-2-by-2` |
+| `arrow-drill` | `level-down` |
+| `arrow-root`, `level-root` | `level-to-top` |
+| `arrow-parent` | `level-up` |
+| `hyperlink`, `link-h`, `link-horizontal` | `link` |
+| `hyperlink-insert`, `hyperlink-light-dialog` | `link-add` |
+| `link-v` | `link-vertical` |
+| `insert-ordered-list`, `list-numbered` | `list-ordered` |
+| `insert-unordered-list`, `list-bulleted` | `list-unordered` |
+| `sign-in` | `login` |
+| `sign-out` | `logout` |
+| `marker-pin` | `map-marker` |
+| `marker-pin-target` | `map-marker-target` |
+| `hamburger` | `menu` |
+| `kpi-trend-equal` | `minus` |
+| `sminus` | `minus-sm` |
+| `hbars`, `more-h` | `more-horizontal` |
+| `more-v`, `vbars` | `more-vertical` |
+| `audio` | `music-notes` |
+| `indent-decrease` | `outdent` |
+| `freeze-pane` | `pane-freeze` |
+| `attachment`, `clip` | `paperclip` |
+| `attachment-45`, `clip-45` | `paperclip-alt` |
+| `pilcrow` | `paragraph-mark` |
+| `edit` | `pencil` |
+| `gallery`, `images` | `photos` |
+| `add` | `plus` |
+| `add-circle` | `plus-circle` |
+| `add-outline` | `plus-outline` |
+| `splus` | `plus-sm` |
+| `cursor` | `pointer` |
+| `printer` | `print` |
+| `module-manager`, `puzzle` | `puzzle-piece` |
+| `help`, `question` | `question-circle` |
+| `shape-circle` | `radiobutton` |
+| `redo-large` | `redo` |
+| `blockquote` | `right-double-quotes` |
+| `rotate-ccw` | `rotate-left` |
+| `rotate-cw` | `rotate-right` |
+| `freeze-row` | `row-freeze` |
+| `floppy` | `save` |
+| `zoom` | `search` |
+| `line` | `shape-line` |
+| `shape` | `shapes` |
+| `saturation` | `sliders` |
+| `sort-asc-sm` | `sort-asc-small` |
+| `unsort` | `sort-clear` |
+| `sort-desc-sm` | `sort-desc-small` |
+| `bookmark` | `star` |
+| `bookmark-outline` | `star-outline` |
+| `strike-through` | `strikethrough` |
+| `sub-script` | `subscript` |
+| `sup-script`, `superscript` | `supscript` |
+| `create-table`, `table-insert`, `table-light-dialog` | `table-add` |
+| `delete-column` | `table-column-delete` |
+| `add-column-left` | `table-column-insert-left` |
+| `add-column-right` | `table-column-insert-right` |
+| `table-position-right` | `table-position-end` |
+| `table-position-left` | `table-position-start` |
+| `delete-row` | `table-row-delete` |
+| `add-row-above` | `table-row-insert-above` |
+| `add-row-below` | `table-row-insert-below` |
+| `normal-layout` | `table-unmerge` |
+| `opacity` | `transparency` |
+| `delete` | `trash` |
+| `undo-large` | `undo` |
+| `hyperlink-remove`, `unlink-h`, `unlink-horizontal` | `unlink` |
+| `unlink-v` | `unlink-vertical` |
+| `volume-low` | `volume-down` |
+| `volume-off` | `volume-mute` |
+| `volume-high` | `volume-up` |
+| `maximize`, `window-maximize` | `window` |
+| `minimize` | `window-minimize` |
+| `restore`, `tiles`, `windows` | `window-restore` |
+| `settings` | `wrench` |
+| `clear`, `close`, `group-delete`, `times` | `x` |
+| `clear-circle`, `close-circle`, `times-circle` | `x-circle` |
+| `clear-outline`, `close-outline`, `error`, `times-outline` | `x-outline` |
