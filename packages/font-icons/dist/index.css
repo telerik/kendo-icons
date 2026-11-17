@@ -2769,6 +2769,10 @@
   content: "\e293";
 }
 
+.k-i-data-slash::before {
+  content: "\e294";
+}
+
 .k-i-checkbox-null::before {
   content: "\e307";
 }
