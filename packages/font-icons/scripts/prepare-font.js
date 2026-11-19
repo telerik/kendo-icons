@@ -187,10 +187,7 @@ function buildSecondaryMappings(font) {
             }
         });
     });
-    fs.writeFileSync(
-        resolve(pkgRoot, 'scss/_secondary-icon-list.scss'),
-        `@mixin kendo-secondary-icon-list {\n    ${rules.join('\n    ')}\n}\n`
-    );
+    return rules;
 }
 
 function buildSvgFont() {
@@ -230,11 +227,6 @@ async function prepareFontIcons() {
         aliases.forEach( alias => fileContent.push(`.k-i-${alias}::before { content: "\\${unicode}"; } `) );
     });
 
-    fs.writeFileSync(
-        resolve( pkgRoot, 'scss/_icon-list.scss' ),
-        `@mixin kendo-icon-list {\n    ${fileContent.join( '\n    ' )}\n}\n`
-    );
-
     fs.copyFileSync(
         fontPaths.tmpTtf,
         fontPaths.distTtf
@@ -262,7 +254,11 @@ async function prepareFontIcons() {
 
     await buildVariantFont('solid');
     const duotone = await buildVariantFont('duotone');
-    buildSecondaryMappings(duotone);
+    fileContent.push(...buildSecondaryMappings(duotone));
+    fs.writeFileSync(
+        resolve( pkgRoot, 'scss/_icon-list.scss' ),
+        `@mixin kendo-icon-list {\n    ${fileContent.join( '\n    ' )}\n}\n`
+    );
 }
 // Keep the event loop alive while async work runs — prevents premature exit
 // if native async handles (resvg/potrace-wasm) momentarily drain the loop.

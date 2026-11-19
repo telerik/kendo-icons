@@ -3,7 +3,6 @@
 @use "_font.scss" as *;
 @use "_variables.scss" as *;
 @use "_icon-list.scss" as *;
-@use "_secondary-icon-list.scss" as *;
 
 @mixin kendo-font-icon-styles() {
 
@@ -109,6 +108,5 @@
 
 
     @include kendo-icon-list();
-    @include kendo-secondary-icon-list();
 
 }
