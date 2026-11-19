@@ -124,6 +124,7 @@
         }
         .cfg-control { display: flex; align-items: center; gap: 6px; }
         .cfg-row--svg-only.disabled { opacity: .35; pointer-events: none; }
+        .k-font-icon { color: var(--kendo-icon-color, currentColor); }
         .cfg-val {
             font-family: ui-monospace, "Cascadia Code", "Fira Code", monospace;
             font-size: .7rem;
@@ -159,10 +160,10 @@
                 <button class="tab-btn"        data-tab="svg">SVG Icons</button>
             </div>
             <div class="cfg-separator"></div>
-            <div class="cfg-row variant-bar disabled">
-                <button class="variant-btn" data-variant="solid">Solid</button>
-                <button class="variant-btn active" data-variant="outline">Outline</button>
-                <button class="variant-btn" data-variant="duotone">Duotone</button>
+            <div class="cfg-row variant-bar">
+                <button class="variant-btn" data-variant="solid" disabled>Solid</button>
+                <button class="variant-btn active" data-variant="outline" disabled>Outline</button>
+                <button class="variant-btn" data-variant="duotone" disabled>Duotone</button>
             </div>
             <div class="cfg-row">
                 <div class="cfg-label">
@@ -181,7 +182,7 @@
                     <code class="cfg-var">--kendo-icon-stroke-width</code>
                 </div>
                 <div class="cfg-control">
-                    <input type="range" id="cfg-stroke" min="0.5" max="2" step="0.1" value="1.5" />
+                    <input type="range" id="cfg-stroke" aria-label="SVG stroke width" min="0.5" max="2" step="0.1" value="1.5" disabled />
                     <span class="cfg-val" id="cfg-stroke-val">1.5</span>
                 </div>
             </div>
@@ -195,14 +196,13 @@
                     <span class="cfg-val" id="cfg-rotation-val">0°</span>
                 </div>
             </div>
-            <div class="cfg-row cfg-row--svg-only disabled">
+            <div class="cfg-row">
                 <div class="cfg-label">
                     <span class="cfg-name">Color</span>
-                    <span class="cfg-badge">SVG only</span>
                     <code class="cfg-var">--kendo-icon-color</code>
                 </div>
                 <div class="cfg-control">
-                    <input type="color" id="cfg-color" value="#000000" />
+                    <input type="color" id="cfg-color" aria-label="Icon color" value="#000000" />
                     <span class="cfg-val" id="cfg-color-val">#000000</span>
                 </div>
             </div>
@@ -241,15 +241,21 @@
         const iconsJsonUrl = isLocal ? '/telerik-icons/icons.json' : './telerik-icons/icons.json';
 
         // ── Inject icon CSS ────────────────────────────────────────────────────
-        document.getElementById('font-icons-css').href = `${fontBase}/index.css`;
+        const fontLink = document.getElementById('font-icons-css');
+        const fontStyles = new Promise((resolve, reject) => {
+            fontLink.addEventListener('load', () => resolve(fontLink.sheet), { once: true });
+            fontLink.addEventListener('error', () => reject(new Error('Failed to load font icon styles')), { once: true });
+            fontLink.href = `${fontBase}/index.css`;
+        });
         document.getElementById('svg-icons-css').href  = `${svgBase}/index.css`;
 
         // ── Tab switching ──────────────────────────────────────────────────────
         const svgOnlyRows = document.querySelectorAll('.cfg-row--svg-only');
-        const variantBar  = document.querySelector('.variant-bar');
         function setSvgOnlyDisabled(disabled) {
-            svgOnlyRows.forEach(row => row.classList.toggle('disabled', disabled));
-            variantBar.classList.toggle('disabled', disabled);
+            svgOnlyRows.forEach(row => {
+                row.classList.toggle('disabled', disabled);
+                row.querySelectorAll('input').forEach(input => { input.disabled = disabled; });
+            });
         }
 
         document.querySelectorAll('.tab-btn').forEach(btn => {
@@ -262,17 +268,49 @@
             });
         });
 
-        // ── SVG variant switching ──────────────────────────────────────────────
+        // ── Global font and SVG variant switching ──────────────────────────────
         let currentVariant = 'outline';
         let cachedIcons    = null;
         let cachedSvgMod   = null;
+        let fontSheet;
+        let fontFaceIndex;
+        let fontFaceDescriptors;
+        let fontRequest = 0;
 
         document.querySelectorAll('.variant-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                document.querySelectorAll('.variant-btn').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                currentVariant = btn.dataset.variant;
-                if (cachedIcons && cachedSvgMod) renderSvgIcons(cachedIcons, cachedSvgMod);
+            btn.addEventListener('click', async () => {
+                const request = ++fontRequest;
+                const variant = btn.dataset.variant;
+                const suffix = variant === 'outline' ? '' : `-${variant}`;
+                const source = `url("${fontBase}/kendo-font-icons${suffix}.ttf")`;
+                const panel = document.getElementById('font-panel');
+                panel.setAttribute('aria-busy', 'true');
+                try {
+                    await new FontFace('IconPreview', source).load();
+                    if (request !== fontRequest) return;
+                    // Firefox does not allow assigning font-face descriptors through CSSStyleDeclaration.
+                    fontSheet.insertRule(`@font-face { ${fontFaceDescriptors} src: ${source} format("truetype"); }`, fontFaceIndex);
+                    fontSheet.deleteRule(fontFaceIndex + 1);
+                    document.querySelectorAll('.variant-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    currentVariant = variant;
+                    document.getElementById('font-variant-error')?.remove();
+                    if (cachedIcons && cachedSvgMod) renderSvgIcons(cachedIcons, cachedSvgMod);
+                } catch (error) {
+                    if (request !== fontRequest) return;
+                    console.error(`Failed to load ${variant} font:`, error);
+                    let message = document.getElementById('font-variant-error');
+                    if (!message) {
+                        message = document.createElement('p');
+                        message.id = 'font-variant-error';
+                        message.className = 'status-msg error';
+                        message.setAttribute('role', 'alert');
+                        document.getElementById('font-area').prepend(message);
+                    }
+                    message.textContent = `Failed to load ${variant} font. Keeping the ${currentVariant} font.`;
+                } finally {
+                    if (request === fontRequest) panel.setAttribute('aria-busy', 'false');
+                }
             });
         });
 
@@ -292,6 +330,7 @@
 
             const el = document.createElement('span');
             el.className = `k-icon k-font-icon k-i-${icon.name}`;
+            el.setAttribute('aria-hidden', 'true');
 
             const label = document.createElement('span');
             label.className = 'icon-name k-text-center';
@@ -306,6 +345,7 @@
         function renderFontIcons(icons) {
             const area          = document.getElementById('font-area');
             const uncategorized = document.getElementById('font-cat-uncategorized');
+            area.querySelectorAll('.icon-grid').forEach(grid => { grid.innerHTML = ''; });
 
             icons.forEach(icon => {
                 const cell = makeFontIconCell(icon);
@@ -457,16 +497,26 @@
 
         // ── Bootstrap ──────────────────────────────────────────────────────────
         try {
-            const [icons, svgMod] = await Promise.all([
+            const [icons, svgMod, loadedFontSheet] = await Promise.all([
                 fetch(iconsJsonUrl).then(r => r.json()),
                 import(`${svgBase}/index.es.js`),
+                fontStyles,
             ]);
 
+            fontSheet = loadedFontSheet;
+            fontFaceIndex = [...fontSheet.cssRules].findIndex(rule => rule.type === CSSRule.FONT_FACE_RULE);
+            if (fontFaceIndex < 0) throw new Error('Font icon stylesheet does not declare a font face');
+            const fontFace = fontSheet.cssRules[fontFaceIndex].style;
+            fontFaceDescriptors = [...fontFace]
+                .filter(name => name !== 'src')
+                .map(name => `${name}: ${fontFace.getPropertyValue(name)};`)
+                .join(' ');
             cachedIcons  = icons;
             cachedSvgMod = svgMod;
 
             renderFontIcons(icons);
             renderSvgIcons(icons, svgMod);
+            document.querySelectorAll('.variant-btn').forEach(btn => { btn.disabled = false; });
         } catch (err) {
             console.error('Failed to load icons:', err);
             const msg = document.createElement('p');

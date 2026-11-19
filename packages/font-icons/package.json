@@ -13,6 +13,7 @@
   ],
   "scripts": {
     "build": "node scripts/prepare-font.js && node scripts/prepare-nuget.js && npx sass scss/all.scss dist/index.css",
+    "test": "node --test scripts/duotone.test.js",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
