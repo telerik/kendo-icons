@@ -48,9 +48,22 @@
         justify-content: center;
         vertical-align: middle;
         position: relative;
+        isolation: isolate;
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
         transform: rotate( var(--kendo-icon-rotation) );
+
+        &::after {
+            // Auto insets share the primary glyph's flex/grid alignment, including padding.
+            position: absolute;
+            z-index: 0;
+            opacity: .2;
+        }
+
+        :where(&)::before {
+            position: relative;
+            z-index: 1;
+        }
 
         &:hover,
         &:focus {
@@ -67,7 +80,8 @@
     }
 
     // Empty icon
-    .k-i-none::before {
+    .k-i-none::before,
+    .k-i-none::after {
         display: none !important; // stylelint-disable-line
     }
 
