@@ -282,7 +282,9 @@
                 const request = ++fontRequest;
                 const variant = btn.dataset.variant;
                 const suffix = variant === 'outline' ? '' : `-${variant}`;
-                const source = `url("${fontBase}/kendo-font-icons${suffix}.ttf")`;
+                // FontFace and stylesheet rules resolve relative URLs against different bases.
+                const fontUrl = new URL(`${fontBase}/kendo-font-icons${suffix}.ttf`, document.baseURI);
+                const source = `url("${fontUrl.href}")`;
                 const panel = document.getElementById('font-panel');
                 panel.setAttribute('aria-busy', 'true');
                 try {
