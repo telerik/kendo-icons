@@ -115,5 +115,4 @@ production compatibility certification for other operating systems or
 component-library integrations.
 
 From the repository root, build with
-`npm run build --workspace=@progress/kendo-font-icons` and run the focused
-regressions with `npm test --workspace=@progress/kendo-font-icons`.
+`npm run build --workspace=@progress/kendo-font-icons`.
