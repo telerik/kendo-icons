@@ -12,8 +12,13 @@ const { splitDuotone, secondaryUnicode, secondaryOpacity, withEmptySecondaryGlyp
 const svg = content => `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">${content}</svg>`;
 const render = (content, size = 24) => new Resvg(content, { fitTo: { mode: 'width', value: size } }).render().pixels;
 
-test('monochrome fonts map secondary characters to blank glyphs instead of font fallback', () => {
-    const glyphs = withEmptySecondaryGlyphs([ { name: 'sample', unicode: 'e000', d: 'M4 4h16v16H4z' } ]);
+test('monochrome fonts map secondary characters to one shared blank glyph with unchanged advance width', () => {
+    const primaryGlyphs = [
+        { name: 'sample', unicode: 'e000', d: 'M4 4h16v16H4z' },
+        { name: 'adjacent', unicode: 'e001', d: 'M0 0h24L12 24z' },
+        { name: 'sparse', unicode: 'ea21', d: 'M12 0l12 12-12 12L0 12z' }
+    ];
+    const glyphs = withEmptySecondaryGlyphs(primaryGlyphs);
     const ttf = Buffer.from(svg2ttf(svgFontTemplate({ fontName: 'SampleIcons', glyphs })).buffer);
     const tables = {};
     for (let i = 0; i < ttf.readUInt16BE(4); i++) {
@@ -38,12 +43,20 @@ test('monochrome fonts map secondary characters to blank glyphs instead of font 
     const location = index => (shortLoca
         ? ttf.readUInt16BE(tables.loca + index * 2) * 2
         : ttf.readUInt32BE(tables.loca + index * 4));
-    const primary = mappedGlyphs.get(0xe000);
-    const secondary = mappedGlyphs.get(0xf0000);
-    assert.ok(primary > 0);
+    const advance = index => ttf.readUInt16BE(tables.hmtx + 4 * Math.min(index, ttf.readUInt16BE(tables.hhea + 34) - 1));
+    const secondaryGlyphs = primaryGlyphs.map(glyph =>
+        mappedGlyphs.get(Number.parseInt(secondaryUnicode(glyph.unicode), 16)));
+    assert.equal(new Set(secondaryGlyphs).size, 1);
+    const secondary = secondaryGlyphs[0];
     assert.ok(secondary > 0);
-    assert.notEqual(location(primary), location(primary + 1));
     assert.equal(location(secondary), location(secondary + 1));
+    assert.equal(ttf.readUInt16BE(tables.maxp + 4), primaryGlyphs.length + 3);
+    for (const glyph of primaryGlyphs) {
+        const primary = mappedGlyphs.get(Number.parseInt(glyph.unicode, 16));
+        assert.ok(primary > 0);
+        assert.notEqual(location(primary), location(primary + 1));
+        assert.equal(advance(secondary), advance(primary));
+    }
 });
 
 test('separates secondary fill and primary stroke on the same shape', () => {

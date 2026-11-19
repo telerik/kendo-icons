@@ -80,9 +80,11 @@ is unchanged from the outline-only stylesheet.
   for shared sizing and color; `::before`-only overrides affect the foreground,
   not the secondary layer.
 - All three fonts include secondary codepoints. Outline and solid map them to
-  blank glyphs, while duotone provides the secondary artwork. Upgrade the CSS
-  and font together; older fonts lack these blanks and may display fallback
-  characters with the new CSS (confirmed in Firefox). Version or cache-bust
+  one shared blank glyph per font, while duotone provides the secondary artwork.
+  Sharing the blank preserves every mapping and its advance width without
+  duplicating glyph metadata. Upgrade the CSS and font together; older fonts
+  lack these mappings and may display fallback characters with the new CSS
+  (confirmed in Firefox). Version or cache-bust
   font URLs alongside CSS to prevent stale cached fonts. Custom fonts also
   need the secondary mappings, including blanks for monochrome artwork.
 - Secondary glyphs use supplementary private-use codepoints derived from the
