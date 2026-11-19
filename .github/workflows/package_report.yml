@@ -1,0 +1,265 @@
+name: Package Report
+
+on:
+  pull_request:
+    branches:
+      - develop
+
+env:
+  COMMENT_TITLE: "## Packages Report"
+  UPDATING_MESSAGE: "Generating... ⚠️"
+
+permissions:
+  contents: read
+  actions: write
+  pull-requests: write
+
+jobs:
+  post-status-comment:
+    if: github.actor != 'dependabot[bot]' && github.actor != 'kendo-bot'
+    name: Post Status Comment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post status PR comment
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9
+        with:
+          script: |
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+            });
+
+            const botComment = comments.find(comment =>
+              comment.user.login === 'github-actions[bot]' &&
+              comment.body.startsWith(process.env.COMMENT_TITLE)
+            );
+
+            const body = `${process.env.COMMENT_TITLE}\n\n${process.env.UPDATING_MESSAGE}`;
+
+            if (botComment) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                body,
+              });
+            }
+
+  extract-data:
+    name: Extract Data
+    runs-on: ubuntu-latest
+    needs: post-status-comment
+    strategy:
+      matrix:
+        package: [font-icons, svg-icons]
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 0
+
+      - name: Checkout develop worktree
+        run: |
+          git fetch origin develop
+          git worktree add develop-worktree origin/develop
+
+      - name: Setup node
+        id: setup-node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: 24.x
+
+      - name: Use cache for PR node_modules
+        id: cache-root-node_modules
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            node_modules
+            packages/*/node_modules
+          key: root-node_modules-${{ steps.setup-node.outputs.node-version }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Install PR dependencies
+        if: steps.cache-root-node_modules.outputs.cache-hit != 'true'
+        run: npm ci --no-audit --no-fund
+
+      - name: Use cache for develop node_modules
+        id: cache-develop-node_modules
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            develop-worktree/node_modules
+            develop-worktree/packages/*/node_modules
+          key: develop-node_modules-${{ steps.setup-node.outputs.node-version }}-${{ hashFiles('develop-worktree/package-lock.json') }}
+
+      - name: Install develop dependencies
+        if: steps.cache-develop-node_modules.outputs.cache-hit != 'true'
+        run: npm ci --no-audit --no-fund --prefix develop-worktree
+
+      - name: Measure time and size
+        env:
+          PKG: ${{ matrix.package }}
+        run: |
+          # Builds PR and develop on the same runner, interleaved, so runner noise affects both equally.
+          run_build() {
+            local root=$1
+            local start_time end_time
+            start_time=$(date +%s.%N)
+            npm run build --prefix "$root/packages/$PKG" > /dev/null
+            end_time=$(date +%s.%N)
+            LAST_TIME=$(awk "BEGIN {printf \"%.1f\", $end_time - $start_time}")
+          }
+
+          measure_size() {
+            local pkg_dir="$1/packages/$PKG"
+            tar -czf "$RUNNER_TEMP/dist.tar.gz" -C "$pkg_dir" dist
+            echo "$(du -sb "$pkg_dir/dist" | awk '{printf "%.2f", $1/1024}'):$(du -b "$RUNNER_TEMP/dist.tar.gz" | awk '{printf "%.2f", $1/1024}')"
+            rm "$RUNNER_TEMP/dist.tar.gz"
+          }
+
+          median() {
+            local sorted
+            IFS=$'\n' sorted=($(sort -n <<<"$*"))
+            echo "${sorted[1]}"
+          }
+
+          # Untimed warm-up for each side
+          run_build "."
+          run_build "develop-worktree"
+
+          pr_times=()
+          develop_times=()
+          for i in {1..3}; do
+            run_build "."
+            pr_times+=("$LAST_TIME")
+            run_build "develop-worktree"
+            develop_times+=("$LAST_TIME")
+          done
+
+          # Size is deterministic, so it is measured once from the last build output
+          echo "pr:$(measure_size "."):$(median "${pr_times[@]}")" >> data.txt
+          echo "develop:$(measure_size "develop-worktree"):$(median "${develop_times[@]}")" >> data.txt
+
+      - name: Upload data
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: data-${{ matrix.package }}
+          path: data.txt
+
+  generate-report:
+    name: Generate Report
+    runs-on: ubuntu-latest
+    needs:
+      - extract-data
+    steps:
+      - name: Download Artifacts
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8
+
+      - name: Generate Comparison Table
+        run: |
+          packages=(font-icons svg-icons)
+
+          header="|                  "
+          separator="|------------------"
+          for package in "${packages[@]}"; do
+            header+="| $package "
+            separator+="|---------------"
+          done
+          echo "$header|" >> size-comparison.md
+          echo "$separator|" >> size-comparison.md
+
+          size_row="| **Size**         "
+          gzip_row="| **Gzip Size**    "
+          time_row="| **Build Time**   "
+
+          for package in "${packages[@]}"; do
+            data_file="data-$package/data.txt"
+
+            if [[ ! -f "$data_file" ]]; then
+              size_row+="| N/A "
+              gzip_row+="| N/A "
+              time_row+="| N/A "
+              continue
+            fi
+
+            pr_data=$(grep '^pr:' "$data_file")
+            develop_data=$(grep '^develop:' "$data_file")
+
+            pr_size=$(echo "$pr_data" | cut -d':' -f2)
+            pr_gzip_size=$(echo "$pr_data" | cut -d':' -f3)
+            pr_time=$(echo "$pr_data" | cut -d':' -f4)
+
+            develop_size=$(echo "$develop_data" | cut -d':' -f2)
+            develop_gzip_size=$(echo "$develop_data" | cut -d':' -f3)
+            develop_time=$(echo "$develop_data" | cut -d':' -f4)
+
+            size_diff=$(awk "BEGIN {print $pr_size - $develop_size}")
+            size_diff_percent=$(awk "BEGIN {if ($develop_size > 0) print sprintf(\"%.1f\", (($pr_size - $develop_size) / $develop_size) * 100); else print 0}")
+
+            gzip_diff=$(awk "BEGIN {print $pr_gzip_size - $develop_gzip_size}")
+            gzip_diff_percent=$(awk "BEGIN {if ($develop_gzip_size > 0) print sprintf(\"%.1f\", (($pr_gzip_size - $develop_gzip_size) / $develop_gzip_size) * 100); else print 0}")
+
+            time_diff=$(awk "BEGIN {print $pr_time - $develop_time}")
+            time_diff_abs=$(awk "BEGIN {x = $time_diff; print (x < 0 ? -x : x)}")
+            time_diff_percent=$(awk "BEGIN {if ($develop_time > 0) print sprintf(\"%.1f\", ($time_diff / $develop_time) * 100); else print 0}")
+            time_diff_percent_abs=$(awk "BEGIN {x = $time_diff_percent; print (x < 0 ? -x : x)}")
+
+            # Hide the time indicator when the difference is both < 1s and < 15% (runner noise)
+            if (( $(awk "BEGIN {print ($time_diff_abs < 1 && $time_diff_percent_abs < 15)}") )); then
+              time_diff_percent="0.0"
+            fi
+
+            size_arrow=$(awk "BEGIN {if ($size_diff > 0) print \"🔼\"; else if ($size_diff < 0) print \"🔽\"; else print \"\"}")
+            gzip_arrow=$(awk "BEGIN {if ($gzip_diff > 0) print \"🔼\"; else if ($gzip_diff < 0) print \"🔽\"; else print \"\"}")
+            time_arrow=$(awk "BEGIN {if ($time_diff_percent > 0) print \"🔼\"; else if ($time_diff_percent < 0) print \"🔽\"; else print \"\"}")
+
+            size_row+="| $pr_size KB (${size_diff_percent}%$size_arrow)"
+            gzip_row+="| $pr_gzip_size KB (${gzip_diff_percent}%$gzip_arrow)"
+            time_row+="| $(awk "BEGIN {printf \"%.1f\", $pr_time}") s (${time_diff_percent}%$time_arrow)"
+          done
+
+          echo "$size_row|" >> size-comparison.md
+          echo "$gzip_row|" >> size-comparison.md
+          echo "$time_row|" >> size-comparison.md
+
+      - name: Update PR comment
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9
+        with:
+          script: |
+            const fs = require('fs');
+            const table = fs.readFileSync('size-comparison.md', 'utf8');
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+            });
+
+            const botComment = comments.find(comment =>
+              comment.user.login === 'github-actions[bot]' &&
+              comment.body.startsWith(process.env.COMMENT_TITLE)
+            );
+
+            const body = `${process.env.COMMENT_TITLE}\n\n${table}`;
+
+            if (botComment) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                body,
+              });
+            }
