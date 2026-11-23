@@ -8,6 +8,7 @@ const { loadFromCanvas } = require('potrace-wasm');
 
 const { paths, prepareSvg, buildHast } = require('../../../scripts/shared');
 const { svgFontTemplate, fontFileTemplate } = require('./templates');
+const { splitDuotone, secondaryUnicode, secondaryOpacity, withEmptySecondaryGlyphs } = require('./duotone');
 
 const fontPaths = {
     tmpJson: resolve( pkgRoot, '.tmp/font.json' ),
@@ -30,6 +31,13 @@ prepareSvg();
 buildHast();
 
 const iconsHast = JSON.parse( fs.readFileSync( paths.icons.hast, 'utf-8' ) );
+const sourceIcons = JSON.parse(fs.readFileSync(paths.icons.json, 'utf8'));
+const preparedNames = new Set(iconsHast.icons.map(icon => icon.name));
+sourceIcons.forEach(icon => {
+    if (!preparedNames.has(icon.name)) {
+        throw new Error(`Missing outline source for icon "${icon.name}"`);
+    }
+});
 const fontJson = {
     fontName: 'WebComponentsIcons',
     glyphs: []
@@ -59,6 +67,10 @@ const RENDER_SIZE = 192;
 async function iconToGlyphPath( svgContent, size = RENDER_SIZE ) {
     // 1. Render the SVG to an RGBA bitmap (transparent background).
     const rendered = await renderAsync( svgContent, { fitTo: { mode: 'width', value: size } } );
+    return bitmapToGlyphPath(rendered, size);
+}
+
+async function bitmapToGlyphPath(rendered, size = RENDER_SIZE) {
     const { pixels, width, height } = rendered;
 
     // 2. Trace the RGBA bitmap using potrace-wasm.
@@ -116,10 +128,67 @@ async function buildFontJson() {
         glyphs.push( ...results );
     }
 
-    fontJson.glyphs = glyphs;
+    fontJson.glyphs = withEmptySecondaryGlyphs(glyphs);
     fs.writeFileSync( fontPaths.tmpJson, JSON.stringify( fontJson, null, 4 ) );
 }
 
+async function buildVariantFont(variant) {
+    const glyphs = [];
+    for (let i = 0; i < iconsHast.icons.length; i += 32) {
+        const batch = await Promise.all(iconsHast.icons.slice(i, i + 32).map(async icon => {
+            const svg = fs.readFileSync(resolve(paths.variants[variant].temp, `${icon.name}.svg`), 'utf8');
+            const primary = { name: icon.name, unicode: icon.unicode, ligatures: [] };
+            if (variant === 'solid') {
+                return [ { ...primary, d: await iconToGlyphPath(svg) } ];
+            }
+            const layers = splitDuotone(svg, icon.name);
+            const [ source, foreground, background ] = await Promise.all(
+                [ svg, layers.primary, layers.secondary ].map(content =>
+                    renderAsync(content, { fitTo: { mode: 'width', value: RENDER_SIZE } }))
+            );
+            const opacity = secondaryOpacity(source.pixels, foreground.pixels, background.pixels, icon.name);
+            return [
+                { ...primary, d: await bitmapToGlyphPath(foreground), secondaryOpacity: opacity },
+                {
+                    name: `${icon.name}-secondary`,
+                    unicode: secondaryUnicode(icon.unicode),
+                    ligatures: [],
+                    d: await bitmapToGlyphPath(background)
+                }
+            ];
+        }));
+        glyphs.push(...batch.flat());
+    }
+    const unicode = glyphs.map(glyph => glyph.unicode);
+    if (new Set(unicode).size !== unicode.length) {
+        throw new Error(`Duplicate codepoints in ${variant} font`);
+    }
+    const font = {
+        fontName: `WebComponentsIcons-${variant}`,
+        glyphs: variant === 'solid' ? withEmptySecondaryGlyphs(glyphs) : glyphs
+    };
+    const filename = `kendo-font-icons-${variant}.ttf`;
+    const ttf = svg2ttf(svgFontTemplate(font), ttfOptions);
+    fs.writeFileSync(resolve(pkgRoot, '.tmp', `${variant}.json`), JSON.stringify(font, null, 4));
+    fs.writeFileSync(resolve(pkgRoot, 'dist', filename), Buffer.from(ttf.buffer));
+    fs.copyFileSync(resolve(pkgRoot, 'dist', filename), resolve(pkgRoot, 'scss', filename));
+    return font;
+}
+
+function buildSecondaryMappings(font) {
+    const rules = [];
+    const opacityByName = new Map(font.glyphs.map(glyph => [ glyph.name, glyph.secondaryOpacity ]));
+    iconsHast.icons.forEach(icon => {
+        [ icon.name, ...icon.aliases ].forEach(name => {
+            rules.push(`.k-i-${name}::after { content: "\\${secondaryUnicode(icon.unicode)}"; }`);
+            const opacity = opacityByName.get(icon.name);
+            if (opacity !== 0.2) {
+                rules.push(`.k-i-${name}::after { opacity: ${opacity}; }`);
+            }
+        });
+    });
+    return rules;
+}
 
 function buildSvgFont() {
     fs.writeFileSync( fontPaths.tmpSvg, svgFontTemplate( fontJson ) );
@@ -158,11 +227,6 @@ async function prepareFontIcons() {
         aliases.forEach( alias => fileContent.push(`.k-i-${alias}::before { content: "\\${unicode}"; } `) );
     });
 
-    fs.writeFileSync(
-        resolve( pkgRoot, 'scss/_icon-list.scss' ),
-        `@mixin kendo-icon-list {\n    ${fileContent.join( '\n    ' )}\n}\n`
-    );
-
     fs.copyFileSync(
         fontPaths.tmpTtf,
         fontPaths.distTtf
@@ -186,6 +250,14 @@ async function prepareFontIcons() {
     fs.copyFileSync(
         paths.icons.json,
         resolve( pkgRoot, 'dist/icons.json' )
+    );
+
+    await buildVariantFont('solid');
+    const duotone = await buildVariantFont('duotone');
+    fileContent.push(...buildSecondaryMappings(duotone));
+    fs.writeFileSync(
+        resolve( pkgRoot, 'scss/_icon-list.scss' ),
+        `@mixin kendo-icon-list {\n    ${fileContent.join( '\n    ' )}\n}\n`
     );
 }
 // Keep the event loop alive while async work runs — prevents premature exit

@@ -7,6 +7,7 @@ function svgFontTemplate(options) {
     const fontName = options.fontName;
     const glyphs = options.glyphs;
 
+    // Explicit advances let svg2ttf share one blank glyph across codepoints.
     return `<?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg">
@@ -16,7 +17,7 @@ function svgFontTemplate(options) {
             <missing-glyph />
             <glyph unicode="&#x20;" d="" />
 ${glyphs.map(glyph => `
-            <glyph unicode="&#x${glyph.unicode};" glyph-name="${glyph.name}" d="${glyph.d ? svgpath(glyph.d).translate(0, -22.5).scale(128 / 3, -128 / 3).toString() : ''}" />`).join('')}
+            <glyph unicode="&#x${glyph.unicode};" glyph-name="${glyph.name}"${glyph.d ? '' : ' horiz-adv-x="1024"'} d="${glyph.d ? svgpath(glyph.d).translate(0, -22.5).scale(128 / 3, -128 / 3).toString() : ''}" />`).join('')}
         </font>
     </defs>
 </svg>`;
