@@ -99,21 +99,42 @@ jobs:
               head:  `${context.repo.owner}:${branch}`,
               state: 'open',
             });
+            if (prs.length > 0) {
+              core.setOutput('base_sha', prs[0].base.sha);
+            }
             return prs.length > 0 ? String(prs[0].number) : '';
 
       - name: Checkout branch
         if: steps.pr.outputs.result != ''
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 0
+
+      - name: Check for icon changes
+        if: steps.pr.outputs.result != ''
+        id: icons
+        env:
+          BASE_SHA: ${{ steps.pr.outputs.base_sha }}
+        run: |
+          git fetch --no-tags origin "$BASE_SHA"
+          changes=$(git diff --name-only --no-renames "$BASE_SHA...$GITHUB_SHA" -- \
+            ':(glob)src/telerik-icons/**/*.svg' \
+            src/telerik-icons/icons.json \
+            src/telerik-icons/icon-list.json \
+            src/telerik-icons/aliases.json)
+          if [[ -n "$changes" ]]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Download preview assets
-        if: steps.pr.outputs.result != ''
+        if: steps.icons.outputs.changed == 'true'
         uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8
         with:
           name: preview-assets
           path: preview-assets
 
       - name: Assemble preview
-        if: steps.pr.outputs.result != ''
+        if: steps.icons.outputs.changed == 'true'
         run: |
           mkdir -p preview
           cp preview-assets/docs/index.html preview/
@@ -124,7 +145,7 @@ jobs:
           cp preview-assets/src/telerik-icons/icon-list.json  preview/telerik-icons/
 
       - name: Deploy to gh-pages branch
-        if: steps.pr.outputs.result != ''
+        if: steps.icons.outputs.changed == 'true'
         env:
           PR: ${{ steps.pr.outputs.result }}
         run: |
@@ -146,7 +167,7 @@ jobs:
           git push origin HEAD:gh-pages
 
       - name: Post preview link comment
-        if: steps.pr.outputs.result != ''
+        if: steps.icons.outputs.changed == 'true'
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9
         env:
           PR_NUMBER: ${{ steps.pr.outputs.result }}
