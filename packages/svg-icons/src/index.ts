@@ -660,6 +660,7 @@ export { pentagonShapeIcon } from './icons/pentagon-shape';
 export { squareDottedIcon } from './icons/square-dotted';
 export { squaresOverlappingPlusIcon } from './icons/squares-overlapping-plus';
 export { squaresPixelatedIcon } from './icons/squares-pixelated';
+export { dataSlashIcon } from './icons/data-slash';
 export { checkboxNullIcon } from './icons/checkbox-null';
 export { imageExportIcon } from './icons/image-export';
 export { roundCornersIcon } from './icons/round-corners';
