@@ -10996,6 +10996,23 @@
         ]
     },
     {
+        "name": "data-slash",
+        "ligatures": [],
+        "aliases": [],
+        "categories": [
+            "files-and-folders"
+        ],
+        "unicode": "e294",
+        "id": 1448,
+        "tags": [
+            "data",
+            "slash",
+            "database",
+            "disabled",
+            "files-and-folders"
+        ]
+    },
+    {
         "name": "checkbox-null",
         "ligatures": [],
         "aliases": [

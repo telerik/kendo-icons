@@ -663,6 +663,7 @@ namespace Telerik.FontIcons
         SquareDotted = 1445,
         SquaresOverlappingPlus = 1446,
         SquaresPixelated = 1447,
+        DataSlash = 1448,
         CheckboxNull = 227,
         ImageExport = 237,
         RoundCorners = 260,

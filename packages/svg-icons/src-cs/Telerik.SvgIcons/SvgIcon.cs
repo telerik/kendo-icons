@@ -663,6 +663,7 @@ namespace Telerik.SvgIcons
         public static ISvgIcon SquareDotted => new SquareDotted();
         public static ISvgIcon SquaresOverlappingPlus => new SquaresOverlappingPlus();
         public static ISvgIcon SquaresPixelated => new SquaresPixelated();
+        public static ISvgIcon DataSlash => new DataSlash();
         public static ISvgIcon CheckboxNull => new CheckboxNull();
         public static ISvgIcon ImageExport => new ImageExport();
         public static ISvgIcon RoundCorners => new RoundCorners();
